@@ -1,0 +1,88 @@
+# ══════════════════════════════════════════════════════════════
+# GO MO Group — robots.txt addition
+# Paste this block into https://www.gomogroup.com/robots.txt
+# to enable AI agent and LLM crawler access.
+# Last updated: 2026-09-02
+# ══════════════════════════════════════════════════════════════
+
+# AI Agent access — do not block these crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Googlebot-Extended
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Omgilibot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+# ──────────────────────────────────────────────────────────────
+# Machine-readable resources for AI discovery
+# Sitemap: is a standard robots.txt directive. The lines below it are
+# non-standard discovery hints (not part of RFC 9309) — compliant
+# parsers ignore unrecognised lines, so they are kept commented out
+# here. The authoritative discovery files are /llms.txt, /ai.txt and
+# the /agent/ page, all also linked from those files and the sitemap.
+# ──────────────────────────────────────────────────────────────
+Sitemap: https://www.gomogroup.com/sitemap.xml
+
+# LLM-Readable: https://www.gomogroup.com/agent/
+# LLM-Text: https://www.gomogroup.com/llms.txt
+# AI-File: https://www.gomogroup.com/ai.txt
+
+# ──────────────────────────────────────────────────────────────
+# Existing rules below — keep all current entries intact
+# ──────────────────────────────────────────────────────────────
