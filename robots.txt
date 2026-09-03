@@ -1,0 +1,42 @@
+# Training data scrapers - fully blocked
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: DataForSeoBot
+User-agent: FacebookBot
+User-agent: AwarioRssBot
+User-agent: AwarioSmartBot
+User-agent: ImagesiftBot
+User-agent: Magpie-crawler
+User-agent: Omgili
+User-agent: Omgilibot
+User-agent: Peer39_crawler
+User-agent: Peer39_crawler/1.0
+Disallow: /
+
+# AI discovery / GEO tools - allowed to crawl for answers/recommendations
+User-agent: Anthropic-ai
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: Google-Extended
+User-agent: PerplexityBot
+User-agent: YouBot
+User-agent: Cohere-ai
+Allow: /
+
+# All other crawlers
+User-agent: *
+Crawl-delay: 10
+Allow: /wp-admin/admin-ajax.php
+Disallow: /?s=
+Disallow: /?post_type=
+
+Sitemap: https://www.gomogroup.com/sitemap_index.xml
+
+# AI Agent Layer
+# Machine-readable layer: https://www.gomogroup.com/agent/
+# LLMs.txt:              https://www.gomogroup.com/llms.txt
+# AI permissions:        https://www.gomogroup.com/ai.txt
+
+Content-Signal: ai-train=no, search=yes, ai-input=no
