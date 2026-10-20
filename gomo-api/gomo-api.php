@@ -342,7 +342,7 @@ final class GOMO_Agent_API
                 'llms_txt'    => 'https://www.gomogroup.com/llms.txt',
                 'ai_txt'      => 'https://www.gomogroup.com/ai.txt',
                 'api_catalog' => 'https://www.gomogroup.com/api-catalog.json',
-                'mcp_server'  => 'https://www.gomogroup.com/mcp',
+                'mcp_server'  => 'https://agent-mcp.gomogroup.com/mcp',
                 'sitemap'     => 'https://www.gomogroup.com/sitemap_index.xml',
             ],
             '_meta' => $this->meta('index'),

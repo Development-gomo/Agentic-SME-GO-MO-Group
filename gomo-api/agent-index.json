@@ -1011,7 +1011,7 @@
     "restApiIndex": "https://www.gomogroup.com/agent/v1/index.json",
     "openapi": "https://www.gomogroup.com/openapi.json",
     "apiCatalog": "https://www.gomogroup.com/api-catalog.json",
-    "mcpServer": "https://www.gomogroup.com/mcp"
+    "mcpServer": "https://agent-mcp.gomogroup.com/mcp"
   },
   "faq": [
     {

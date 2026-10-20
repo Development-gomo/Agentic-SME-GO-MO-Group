@@ -1,3 +1,8 @@
 .DS_Store
-Original/
-Sept/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+gomo-api/snapshots/
+gomo-api/.sync.lock

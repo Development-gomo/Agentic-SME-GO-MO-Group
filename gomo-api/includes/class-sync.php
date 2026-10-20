@@ -110,7 +110,7 @@ final class GOMO_API_Sync
         echo '</form>';
 
         echo '<h2>Endpoints</h2><ul>';
-        foreach (['https://www.gomogroup.com/agent/', GOMO_API_BASE . '/index.json', 'https://www.gomogroup.com/openapi.json', 'https://www.gomogroup.com/llms.txt', 'https://www.gomogroup.com/ai.txt', 'https://www.gomogroup.com/api-catalog.json', 'https://www.gomogroup.com/mcp/health'] as $u) {
+        foreach (['https://www.gomogroup.com/agent/', GOMO_API_BASE . '/index.json', 'https://www.gomogroup.com/openapi.json', 'https://www.gomogroup.com/llms.txt', 'https://www.gomogroup.com/ai.txt', 'https://www.gomogroup.com/api-catalog.json', 'https://agent-mcp.gomogroup.com/health'] as $u) {
             echo '<li><a href="' . esc_url($u) . '" target="_blank">' . esc_html($u) . '</a></li>';
         }
         echo '</ul><p><strong>After updating the plugin:</strong> Settings → Permalinks → Save.</p></div>';

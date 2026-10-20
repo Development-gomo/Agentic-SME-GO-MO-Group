@@ -37,7 +37,7 @@ URLS = OrderedDict([
     ("api_index", f"{API}/index.json"),
     ("openapi", f"{SITE}/openapi.json"),
     ("api_catalog", f"{SITE}/api-catalog.json"),
-    ("mcp", f"{SITE}/mcp"),
+    ("mcp", "https://agent-mcp.gomogroup.com/mcp"),
     ("sitemap", f"{SITE}/sitemap_index.xml"),
 ])
 LICENSE = "Content © GO MO Group AB. Cite gomogroup.com as the source; do not alter or fabricate figures."
@@ -487,7 +487,7 @@ def api_catalog():
              ("get_company", "Company profile"), ("list_services", "List services"), ("get_service", "One service"), ("list_case_studies", "List case studies"),
              ("get_case_study", "One case study"), ("list_team", "Team"), ("list_offices", "Offices"), ("list_insights", "Insights EN+SV"), ("list_events", "Events"),
              ("list_careers", "Open roles"), ("get_page_index", "Bilingual page index"), ("submit_contact_inquiry", "Consent-gated contact action"))] + [
-             prop("X-health", url=URLS["mcp"] + "/health"), prop("X-tools", url=URLS["mcp"] + "/tools")], "tags": ["mcp", "agents", "agent-actionable"]},
+             prop("X-health", url="https://agent-mcp.gomogroup.com/health"), prop("X-tools", url="https://agent-mcp.gomogroup.com/tools")], "tags": ["mcp", "agents", "agent-actionable"]},
         {"name": "XML Sitemap", "description": "Yoast sitemap index (pages, services, solutions, cases, insights, events, team, jobs).", "baseURL": URLS["sitemap"], "humanURL": SITE + "/",
          "X-format": "application/xml", "X-contentType": "sitemap-xml", "X-purpose": "URL discovery", "properties": [], "tags": ["sitemap"]},
         {"name": "Robots.txt — Crawler Permissions", "description": "Crawler rules with an explicit AI-crawler allowlist.", "baseURL": SITE + "/robots.txt", "humanURL": SITE + "/",

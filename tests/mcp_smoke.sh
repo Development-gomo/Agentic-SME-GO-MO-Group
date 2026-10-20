@@ -11,6 +11,8 @@ rpc() { curl -s -X POST "localhost:$MCP_PORT/mcp" -H 'Content-Type: application/
 check() { if [ "$2" = "0" ]; then echo "PASS $1"; else echo "FAIL $1"; fail=1; fi; }
 curl -s "localhost:$MCP_PORT/mcp/health" | grep -q '"status":"ok"'; check "health ok" $?
 [ "$(curl -s localhost:$MCP_PORT/mcp/tools | python3 -c 'import json,sys;print(len(json.load(sys.stdin)["tools"]))')" = "12" ]; check "discovery lists 12 tools" $?
+curl -fsS "localhost:$MCP_PORT/tools" | python3 -c 'import json,sys; d=json.load(sys.stdin); assert d["endpoint"]=="https://agent-mcp.gomogroup.com/mcp" and len(d["tools"])==12'; check "root tools advertises new MCP hostname" $?
+curl -fsS "localhost:$MCP_PORT/health" | grep -q '"status":"ok"'; check "root health alias works" $?
 [ "$(rpc '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | python3 -c 'import json,sys;print(len(json.load(sys.stdin)["result"]["tools"]))')" = "12" ]; check "tools/list returns 12" $?
 rpc '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"get_company","arguments":{}}}' | python3 -c 'import json,sys;r=json.load(sys.stdin);d=json.loads(r["result"]["content"][0]["text"]);assert d["data"]["name"]=="GO MO Group"'; check "get_company returns data" $?
 rpc '{"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"list_insights","arguments":{}}}' | python3 -c 'import json,sys;r=json.load(sys.stdin);d=json.loads(r["result"]["content"][0]["text"]);assert len(d["data"])>100'; check "list_insights returns data" $?

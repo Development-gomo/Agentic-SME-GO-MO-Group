@@ -216,7 +216,7 @@
       "api_index": "https://www.gomogroup.com/agent/v1/index.json",
       "openapi": "https://www.gomogroup.com/openapi.json",
       "api_catalog": "https://www.gomogroup.com/api-catalog.json",
-      "mcp": "https://www.gomogroup.com/mcp",
+      "mcp": "https://agent-mcp.gomogroup.com/mcp",
       "sitemap": "https://www.gomogroup.com/sitemap_index.xml"
     }
   },

@@ -213,7 +213,7 @@
     {
       "name": "MCP Server — Agent-Actionable Tool Interface",
       "description": "Model Context Protocol server exposing the REST API as 12 tools.",
-      "baseURL": "https://www.gomogroup.com/mcp",
+      "baseURL": "https://agent-mcp.gomogroup.com/mcp",
       "humanURL": "https://www.gomogroup.com/agent/",
       "X-format": "application/json",
       "X-contentType": "mcp-server",
@@ -282,11 +282,11 @@
         },
         {
           "type": "X-health",
-          "url": "https://www.gomogroup.com/mcp/health"
+          "url": "https://agent-mcp.gomogroup.com/health"
         },
         {
           "type": "X-tools",
-          "url": "https://www.gomogroup.com/mcp/tools"
+          "url": "https://agent-mcp.gomogroup.com/tools"
         }
       ],
       "tags": [
@@ -386,7 +386,7 @@
     "api_index": "https://www.gomogroup.com/agent/v1/index.json",
     "openapi": "https://www.gomogroup.com/openapi.json",
     "api_catalog": "https://www.gomogroup.com/api-catalog.json",
-    "mcp": "https://www.gomogroup.com/mcp",
+    "mcp": "https://agent-mcp.gomogroup.com/mcp",
     "sitemap": "https://www.gomogroup.com/sitemap_index.xml"
   },
   "X-version": "1.3.0"

@@ -3,7 +3,7 @@
   "info": {
     "title": "GO MO Group Public API",
     "version": "1.3.0",
-    "description": "Public, read-only JSON API for GO MO Group (gomogroup.com) — the B2B digital marketing, GEO and Generative AI agency — plus one consent-gated contact action. Bilingual (English + Swedish). No authentication. Companion resources: agent page https://www.gomogroup.com/agent/, llms.txt https://www.gomogroup.com/llms.txt, MCP server https://www.gomogroup.com/mcp.",
+    "description": "Public, read-only JSON API for GO MO Group (gomogroup.com) — the B2B digital marketing, GEO and Generative AI agency — plus one consent-gated contact action. Bilingual (English + Swedish). No authentication. Companion resources: agent page https://www.gomogroup.com/agent/, llms.txt https://www.gomogroup.com/llms.txt, MCP server https://agent-mcp.gomogroup.com/mcp.",
     "contact": {
       "name": "GO MO Group",
       "email": "hello@gomogroup.com",

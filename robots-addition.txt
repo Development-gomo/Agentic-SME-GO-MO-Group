@@ -1,88 +1,40 @@
-# ══════════════════════════════════════════════════════════════
-# GO MO Group — robots.txt addition
-# Paste this block into https://www.gomogroup.com/robots.txt
-# to enable AI agent and LLM crawler access.
-# Last updated: 2026-09-02
-# ══════════════════════════════════════════════════════════════
+# ── GO MO Group: AI crawler allowlist (v1.3) ─────────────────────────
+# Replace the existing AI block in https://www.gomogroup.com/robots.txt with this.
+# Grouped user-agents share one rule set (RFC 9309).
 
-# AI Agent access — do not block these crawlers
 User-agent: GPTBot
-Allow: /
-
 User-agent: ChatGPT-User
-Allow: /
-
 User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Perplexity-User
-Allow: /
-
 User-agent: ClaudeBot
-Allow: /
-
 User-agent: Claude-User
-Allow: /
-
+User-agent: Claude-SearchBot
 User-agent: anthropic-ai
-Allow: /
-
-User-agent: Googlebot-Extended
-Allow: /
-
+User-agent: PerplexityBot
+User-agent: Perplexity-User
 User-agent: Google-Extended
-Allow: /
-
 User-agent: GoogleOther
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
 User-agent: Applebot-Extended
-Allow: /
-
+User-agent: CCBot
 User-agent: cohere-ai
-Allow: /
-
-User-agent: Omgilibot
-Allow: /
-
-User-agent: FacebookBot
-Allow: /
-
 User-agent: Meta-ExternalAgent
-Allow: /
-
+User-agent: FacebookBot
+User-agent: Amazonbot
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
 User-agent: Diffbot
-Allow: /
-
+User-agent: Omgilibot
 User-agent: Bytespider
 Allow: /
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
 
-User-agent: Amazonbot
-Allow: /
-
-User-agent: DuckAssistBot
-Allow: /
-
-# ──────────────────────────────────────────────────────────────
-# Machine-readable resources for AI discovery
-# Sitemap: is a standard robots.txt directive. The lines below it are
-# non-standard discovery hints (not part of RFC 9309) — compliant
-# parsers ignore unrecognised lines, so they are kept commented out
-# here. The authoritative discovery files are /llms.txt, /ai.txt and
-# the /agent/ page, all also linked from those files and the sitemap.
-# ──────────────────────────────────────────────────────────────
-Sitemap: https://www.gomogroup.com/sitemap.xml
-
+# Machine-readable discovery. Only 'Sitemap' is a standard directive; the
+# other lines are non-standard hints that compliant parsers ignore.
+Sitemap: https://www.gomogroup.com/sitemap_index.xml
 # LLM-Readable: https://www.gomogroup.com/agent/
 # LLM-Text: https://www.gomogroup.com/llms.txt
 # AI-File: https://www.gomogroup.com/ai.txt
 
-# ──────────────────────────────────────────────────────────────
-# Existing rules below — keep all current entries intact
-# ──────────────────────────────────────────────────────────────
+# Content-Signal must agree with ai.txt (Allow-Training: yes). Pick ONE policy:
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+# Content-Signal: search=yes, ai-input=yes, ai-train=no   ← if training should be refused (then set Allow-Training: no in ai.txt)

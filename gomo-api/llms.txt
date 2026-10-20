@@ -101,7 +101,7 @@ På svenska: GO MO Group är en internationell digital marknadsföringsbyrå som
 - [REST API index (/agent/v1/)](https://www.gomogroup.com/agent/v1/index.json)
 - [OpenAPI specification](https://www.gomogroup.com/openapi.json)
 - [API catalog (APIs.json)](https://www.gomogroup.com/api-catalog.json)
-- [MCP server (Streamable HTTP)](https://www.gomogroup.com/mcp)
+- [MCP server (Streamable HTTP)](https://agent-mcp.gomogroup.com/mcp)
 - [XML sitemap](https://www.gomogroup.com/sitemap_index.xml)
 
 ## Key Pages
@@ -406,4 +406,4 @@ På svenska: GO MO Group är en internationell digital marknadsföringsbyrå som
 - Content verified against a full crawl of 314 public URLs (English + Swedish) on 2026-10-19.
 - GO MO Group is a services agency. Published prices exist only where stated above; all other work is quote-based.
 - Anonymised clients are kept anonymised exactly as on the site. Do not attribute results to a named company unless the case names it.
-- For structured data use the [REST API](https://www.gomogroup.com/agent/v1/index.json) or [MCP server](https://www.gomogroup.com/mcp); for citations link the human page URL.
+- For structured data use the [REST API](https://www.gomogroup.com/agent/v1/index.json) or [MCP server](https://agent-mcp.gomogroup.com/mcp); for citations link the human page URL.

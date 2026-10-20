@@ -13,7 +13,7 @@ Refresh and extension of the live v1.2 package. It was built from a full crawl o
 | `api-catalog.json` | `/api-catalog.json` | APIs.json 0.16 |
 | `robots-addition.txt` | paste into live `robots.txt` | Fixes the `Content-Signal` contradiction (see below) |
 | `gomo-api/` | `wp-content/plugins/gomo-api/` | WordPress plugin v1.3.0. Serves `/agent/v1/*`, `/openapi.json`, and optionally `/agent/`, `/llms.txt`, `/ai.txt`, `/api-catalog.json` |
-| `gomo-mcp/` | Node server behind `/mcp` | 12 tools (8 existing + `list_insights`, `list_events`, `list_careers`, `get_page_index`) |
+| `gomo-mcp/` | Render service at `https://agent-mcp.gomogroup.com/mcp` | 12 tools (8 existing + `list_insights`, `list_events`, `list_careers`, `get_page_index`) |
 | `tests/`, `run-tests.sh` | not deployed | Plugin router/contact (71 cases), sync merge, snapshot publication, generated outputs, MCP protocol. Run `./run-tests.sh` before every deploy |
 | `_source/` | not deployed | Crawl data, curated JSON and `build.py` (regenerates every file above) |
 
@@ -108,12 +108,27 @@ Two settings matter for the per-client limit:
 
 Watch the ha@ inbox during the first weeks. If spam gets through, lower the limits or switch the endpoint off. The rest of the API is unaffected.
 
-### 2. MCP server (**not live today**: `/mcp` currently returns 301 and `/mcp/health` returns 404)
-- [ ] Copy `gomo-mcp/` to the Node host and run `npm install && npm run build`, then start it with `GOMO_MCP_SHARED_SECRET=<same value as wp-config> npm start`.
-- [ ] Nginx:
+### 2. MCP server — dedicated Render custom domain
+
+Release tag: `october-2026.1` in both GitHub repositories. The full-build repository contains this package's contents at its root; the MCP repository contains the contents of `gomo-mcp/` at its root.
+
+- [ ] Render service source: `Development-gomo/Agentic-MCP-SME-GO-MO-Group`, branch `main`, root directory blank (repository root).
+- [ ] Build with `npm ci && npm run build`; start with `npm start`. Render supplies `PORT`.
+- [ ] Set `GOMO_API_BASE=https://www.gomogroup.com/agent/v1` (no trailing slash), `API_TIMEOUT_MS=10000`, and `GOMO_MCP_SHARED_SECRET` to the same secret configured in WordPress when enabling contact forwarding.
+- [ ] Add `agent-mcp.gomogroup.com` under Render's custom domains. Create a DNS CNAME named `agent-mcp` pointing to `gomo-mcp-layer.onrender.com`; verify the domain and TLS certificate in Render. Do not modify the existing `mcp.gomogroup.com` service or its DNS records.
+- [ ] Test the default Render hostname first, then the custom hostname:
+
+```bash
+curl -fsS https://agent-mcp.gomogroup.com/health
+curl -fsS https://agent-mcp.gomogroup.com/tools
+```
+
+The health response should identify `gomo-group`, version `1.3.0`; the tool directory should list 12 tools and advertise `https://agent-mcp.gomogroup.com/mcp`. MCP clients connect to that `/mcp` endpoint. `/mcp/health` and `/mcp/tools` remain supported aliases.
+
+If hosting yourself instead of using Render, route the entire dedicated hostname to the Node process:
 
 ```nginx
-location /mcp {
+location / {
   proxy_pass http://localhost:3000;
   proxy_set_header Host $host;
   proxy_set_header X-Forwarded-For $remote_addr;   # the MCP server rate-limits and forwards per client IP
@@ -121,7 +136,9 @@ location /mcp {
 }
 ```
 
-- [ ] Check that `curl https://www.gomogroup.com/mcp/health` returns `{"status":"ok",...}` and that `/mcp/tools` lists 12 tools.
+**Existing WordPress snapshot migration:** back up the entire plugin directory and remove the active `snapshots/current.json` pointer during deployment so the updated bundled discovery files become the baseline. Then run Sync now to publish a new snapshot with the new MCP hostname. Otherwise a previously published snapshot will continue advertising the old endpoint. Purge external caches.
+
+The `_source/live-v1.2-snapshot/` directory is historical crawl evidence, not deployable content; its original URLs are deliberately preserved.
 
 ### 3. robots.txt
 - [ ] Replace the AI block with `robots-addition.txt`. The live file has two problems:

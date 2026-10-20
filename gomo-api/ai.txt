@@ -49,7 +49,7 @@ Sitemap:     https://www.gomogroup.com/sitemap_index.xml
 REST-API:    https://www.gomogroup.com/agent/v1/index.json
 OpenAPI:     https://www.gomogroup.com/openapi.json
 API-Catalog: https://www.gomogroup.com/api-catalog.json
-MCP-Server:  https://www.gomogroup.com/mcp
+MCP-Server:  https://agent-mcp.gomogroup.com/mcp
 
 
 # ──────────────────────────────────────────────────────────────
@@ -80,7 +80,7 @@ Figures: quote exactly as published; keep anonymised clients anonymised
 # ──────────────────────────────────────────────────────────────
 
 Contact-Endpoint: POST https://www.gomogroup.com/agent/v1/contact.json
-Contact-MCP-Tool: submit_contact_inquiry (https://www.gomogroup.com/mcp)
+Contact-MCP-Tool: submit_contact_inquiry (https://agent-mcp.gomogroup.com/mcp)
 Consent-Required: yes — agent_context.user_authorized_submission must be true
 Consent-Rule: only submit when the human explicitly asked to contact GO MO Group and approved the details
 Human-Contact-Page: https://www.gomogroup.com/en/contact-us/

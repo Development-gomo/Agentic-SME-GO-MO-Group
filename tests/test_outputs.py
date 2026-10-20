@@ -42,5 +42,23 @@ m = re.search(r"(\d+) Markdown links", dep)
 check("DEPLOYMENT.md llms link count matches", m and int(m.group(1)) == len(links), f"doc {m and m.group(1)} vs actual {len(links)}")
 m = re.search(r"(\d+)-URL page index", dep)
 check("DEPLOYMENT.md page-index count matches", m and int(m.group(1)) == len(pg), f"doc {m and m.group(1)} vs actual {len(pg)}")
+endpoint = "https://agent-mcp.gomogroup.com/mcp"
+check("discovery advertises dedicated MCP domain", all(endpoint in (R / f).read_text() for f in (
+    "agent-page.html", "agent-index.json", "llms.txt", "ai.txt", "api-catalog.json",
+    "gomo-api/openapi.json", "gomo-api/data/company.json", "gomo-api/gomo-api.php")))
+catalog = json.loads((R / "api-catalog.json").read_text())
+mcp = next(api for api in catalog["apis"] if api["name"].startswith("MCP Server"))
+check("catalog MCP routes match dedicated host", mcp["baseURL"] == endpoint
+      and {p.get("url") for p in mcp["properties"] if p["type"] in ("X-health", "X-tools")}
+      == {"https://agent-mcp.gomogroup.com/health", "https://agent-mcp.gomogroup.com/tools"})
+active = list((R / "gomo-api").rglob("*")) + [R / name for name in (
+    "agent-page.html", "agent-index.json", "llms.txt", "ai.txt", "api-catalog.json")]
+check("deployable artifacts contain no retired MCP endpoints", not [
+    str(p.relative_to(R)) for p in active if p.is_file() and any(old in p.read_text(errors="ignore")
+    for old in ("https://www.gomogroup.com/mcp", "https://mcp.gomogroup.com"))])
+import runpy
+build = runpy.run_path(str(R / "_source/build.py"))
+check("generator retains the new MCP endpoint", build["URLS"]["mcp"] == endpoint
+      and endpoint in build["openapi"]()["info"]["description"])
 print(f"\n{'FAILED: ' + ', '.join(fails) if fails else 'all output checks passed'}")
 sys.exit(1 if fails else 0)
