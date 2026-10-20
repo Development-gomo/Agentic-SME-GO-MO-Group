@@ -26,6 +26,8 @@ API_DIR = OUT / "gomo-api"
 CUR = HERE / "curated"
 
 VERSION = "1.3.0"
+PAGE_PUBLISHED = "2026-05-26"
+SITE_CRAWLED = "2026-10-19"
 TODAY = date.today().isoformat()
 SITE = "https://www.gomogroup.com"
 API = f"{SITE}/agent/v1"
@@ -635,7 +637,7 @@ def agent_page():
     w('<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta name="color-scheme" content="dark">\n<meta name="theme-color" content="#0d1117">')
     w(f"<title>GO MO Group — Agent Page</title>")
     w(f'<meta name="description" content="Machine-readable representation of gomogroup.com for AI agents and LLMs: services, case studies, insights, team, offices, events and every page URL, in English and Swedish.">')
-    w(f'<meta name="last-crawled" content="{TODAY}">\n<meta name="version" content="{VERSION}">\n<meta name="robots" content="index, follow">')
+    w(f'<meta name="last-crawled" content="{SITE_CRAWLED}">\n<meta name="version" content="{VERSION}">\n<meta name="robots" content="index, follow">')
     w(f'<link rel="canonical" href="{URLS["agent_page"]}">')
     w(f'<link rel="alternate" type="text/plain" title="llms.txt" href="{URLS["llms_txt"]}">\n<link rel="alternate" type="text/plain" title="ai.txt" href="{URLS["ai_txt"]}">')
     w(f'<link rel="service-desc" type="application/json" href="{URLS["openapi"]}">\n<link rel="api-catalog" href="{URLS["api_catalog"]}">')
@@ -643,13 +645,19 @@ def agent_page():
     w(f"<style>{CSS}</style>")
     w('<script type="application/ld+json">' + json.dumps(jsonld(), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") + "</script>")
     w("</head>\n<body>\n<main>")
-    w(f'<header><p class="dim">gomogroup.com/agent · v{VERSION} · crawled <time datetime="{TODAY}">{TODAY}</time> · {len(PAGES)} URLs (en + sv)</p>')
-    w(f"<h1>GO MO Group — machine-readable site</h1><p>{e(co['tagline'])}</p></header>")
+    w(f'<header><p class="dim">gomogroup.com/agent · v{VERSION} · crawled <time datetime="{SITE_CRAWLED}">{SITE_CRAWLED}</time> · {len(PAGES)} URLs (en + sv)</p>')
+    w(f"<h1>GO MO Group — machine-readable site</h1><p>{e(co['tagline'])}</p>")
+    w(f'<p>Machine-readable representation of {a(SITE, "gomogroup.com")} for AI agents, LLMs, and automated retrieval systems. '
+      f'Page published <time datetime="{PAGE_PUBLISHED}">{PAGE_PUBLISHED}</time>; '
+      f'site crawled <time datetime="{SITE_CRAWLED}">{SITE_CRAWLED}</time>; '
+      f'this page last updated <time data-page-updated datetime="{TODAY}">{TODAY}</time>.</p></header>')
 
     # metadata
     w('<section id="metadata"><h2>Metadata</h2>' + dl([
         ("Organization", e(co["name"]) + f" ({e(co['legalName'])})"), ("Website", a(SITE + "/en/") + " (en) · " + a(SITE + "/") + " (sv)"),
-        ("Last crawled", f'<time datetime="{TODAY}">{TODAY}</time>'), ("Version", VERSION),
+        ("Page published", f'<time datetime="{PAGE_PUBLISHED}">{PAGE_PUBLISHED}</time>'),
+        ("Site crawled", f'<time datetime="{SITE_CRAWLED}">{SITE_CRAWLED}</time>'),
+        ("Page last updated", f'<time data-page-updated datetime="{TODAY}">{TODAY}</time>'), ("Version", VERSION),
         ("Coverage", f"{len(PAGES)} public URLs · {len(SERVICES)} services · {len(CASES)} case studies · {len(INSIGHTS)} insights ({len(EN_INSIGHTS)} en / {len(SV_INSIGHTS)} sv) · {len(TEAM)} team profiles"),
         ("REST API", a(URLS["api_index"])), ("OpenAPI", a(URLS["openapi"])), ("MCP server", a(URLS["mcp"])), ("API catalog", a(URLS["api_catalog"])),
     ]) + "</section>")
@@ -895,6 +903,10 @@ def agent_index_json():
 
 def main():
     counts = write_data()
+    mcp_data = OUT / "gomo-mcp" / "data"
+    mcp_data.mkdir(parents=True, exist_ok=True)
+    for source in (API_DIR / "data").glob("*.json"):
+        shutil.copyfile(source, mcp_data / source.name)
     (API_DIR / "openapi.json").write_text(json.dumps(openapi(), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     outputs = {
         "agent-page.html": agent_page(),

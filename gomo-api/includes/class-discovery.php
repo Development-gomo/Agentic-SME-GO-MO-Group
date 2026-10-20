@@ -158,6 +158,9 @@ final class GOMO_API_Discovery
             . count($read('data/team.json')['data']) . ' team profiles';
         $html = preg_replace('#(<dt>Coverage</dt><dd>).*?</dd>#s', '${1}' . $coverage . '</dd>', $html);
         $html = preg_replace('#\d+ URLs \(en \+ sv\)#', count($pages) . ' URLs (en + sv)', $html);
+        // Sync updates the page, not the original publication or source crawl date.
+        $html = preg_replace_callback('#<time data-page-updated datetime="[^"]*">.*?</time>#s',
+            static fn() => '<time data-page-updated datetime="' . $date . '">' . substr($date, 0, 10) . '</time>', $html);
         $html = preg_replace('#<dt>Last synced</dt><dd>.*?</dd>#s', '', $html);
         $html = str_replace('<dt>Coverage</dt>', '<dt>Last synced</dt><dd>' . $date . '</dd><dt>Coverage</dt>', $html);
         $html = preg_replace('#· generated \d{4}-\d{2}-\d{2}(?:T[^ <]+)?#', '· generated ' . $date, $html);

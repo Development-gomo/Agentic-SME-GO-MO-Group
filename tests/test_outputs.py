@@ -43,6 +43,9 @@ check("DEPLOYMENT.md llms link count matches", m and int(m.group(1)) == len(link
 m = re.search(r"(\d+)-URL page index", dep)
 check("DEPLOYMENT.md page-index count matches", m and int(m.group(1)) == len(pg), f"doc {m and m.group(1)} vs actual {len(pg)}")
 endpoint = "https://agent-mcp.gomogroup.com/mcp"
+check("MCP bundled snapshots match plugin data", all(
+    filecmp.cmp(p, R / "gomo-mcp/data" / p.name, shallow=False)
+    for p in (R / "gomo-api/data").glob("*.json")))
 check("discovery advertises dedicated MCP domain", all(endpoint in (R / f).read_text() for f in (
     "agent-page.html", "agent-index.json", "llms.txt", "ai.txt", "api-catalog.json",
     "gomo-api/openapi.json", "gomo-api/data/company.json", "gomo-api/gomo-api.php")))

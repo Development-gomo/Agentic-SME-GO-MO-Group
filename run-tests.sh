@@ -8,6 +8,7 @@ run "Plugin router"     php tests/php/router_test.php
 run "Sync merge"        php tests/php/sync_merge_test.php
 run "Snapshot publication" php tests/php/snapshot_test.php
 run "Generated outputs" python3 tests/test_outputs.py
+run "MCP fallback regression" node --test gomo-mcp/tests/read-cache.test.mjs gomo-mcp/tests/mcp-offline.test.mjs
 run "MCP protocol"      bash tests/mcp_smoke.sh
 echo; [ $status -eq 0 ] && echo "ALL TESTS PASSED" || echo "SOME TESTS FAILED"
 exit $status

@@ -79,6 +79,11 @@ $insights = json_decode(artifact('data/insights.json'), true)['data'];
 $index = json_decode(artifact('agent-index.json'), true);
 $html = artifact('agent-page.html');
 $markdown = artifact('llms.txt');
+check('sync updates both page dates while preserving publication and crawl provenance',
+    substr_count($html, '<time data-page-updated datetime=') === 2
+    && substr_count($html, '>' . gmdate('Y-m-d') . '</time>') >= 2
+    && strpos($html, '<dt>Page published</dt><dd><time datetime="2026-05-26">2026-05-26</time>') !== false
+    && strpos($html, '<dt>Site crawled</dt><dd><time datetime="2026-10-19">2026-10-19</time>') !== false);
 check('all discovery summaries agree with synced data', count($insights) === 2 && $index['insights']['total'] === 2
     && count($index['events']) === 2 && count($index['openRoles']) === 2
     && strpos($html, 'fixture-insights-3') !== false && strpos($markdown, 'fixture-insights-3') !== false);

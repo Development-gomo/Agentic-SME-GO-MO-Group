@@ -13,7 +13,7 @@ Refresh and extension of the live v1.2 package. It was built from a full crawl o
 | `api-catalog.json` | `/api-catalog.json` | APIs.json 0.16 |
 | `robots-addition.txt` | paste into live `robots.txt` | Fixes the `Content-Signal` contradiction (see below) |
 | `gomo-api/` | `wp-content/plugins/gomo-api/` | WordPress plugin v1.3.0. Serves `/agent/v1/*`, `/openapi.json`, and optionally `/agent/`, `/llms.txt`, `/ai.txt`, `/api-catalog.json` |
-| `gomo-mcp/` | Render service at `https://agent-mcp.gomogroup.com/mcp` | 12 tools (8 existing + `list_insights`, `list_events`, `list_careers`, `get_page_index`) |
+| `gomo-mcp/` | Render service at `https://agent-mcp.gomogroup.com/mcp` | 12 tools (8 existing + `list_insights`, `list_events`, `list_careers`, `get_page_index`); bundled read snapshots allow safe reads when the WordPress origin is blocked |
 | `tests/`, `run-tests.sh` | not deployed | Plugin router/contact (71 cases), sync merge, snapshot publication, generated outputs, MCP protocol. Run `./run-tests.sh` before every deploy |
 | `_source/` | not deployed | Crawl data, curated JSON and `build.py` (regenerates every file above) |
 
@@ -110,11 +110,11 @@ Watch the ha@ inbox during the first weeks. If spam gets through, lower the limi
 
 ### 2. MCP server — dedicated Render custom domain
 
-Release tag: `october-2026.1` in both GitHub repositories. The full-build repository contains this package's contents at its root; the MCP repository contains the contents of `gomo-mcp/` at its root.
+Release tag: `october-2026.2` in both GitHub repositories. The full-build repository contains this package's contents at its root; the MCP repository contains the contents of `gomo-mcp/` at its root.
 
 - [ ] Render service source: `Development-gomo/Agentic-MCP-SME-GO-MO-Group`, branch `main`, root directory blank (repository root).
 - [ ] Build with `npm ci && npm run build`; start with `npm start`. Render supplies `PORT`.
-- [ ] Set `GOMO_API_BASE=https://www.gomogroup.com/agent/v1` (no trailing slash), `API_TIMEOUT_MS=10000`, and `GOMO_MCP_SHARED_SECRET` to the same secret configured in WordPress when enabling contact forwarding.
+- [ ] Set `GOMO_API_BASE=https://www.gomogroup.com/agent/v1` (no trailing slash), `API_TIMEOUT_MS=10000`, and `GOMO_MCP_SHARED_SECRET` to the same secret configured in WordPress when enabling contact forwarding. Optional cache settings are `MCP_CACHE_REFRESH_MS` (default 300000), `MCP_CACHE_RETRY_MS` (60000), `MCP_CACHE_MAX_AGE_MS` (604800000; seven days), and `MCP_CACHE_VOLATILE_MAX_AGE_MS` (172800000; 48 hours for events and careers). Values must be positive integers in milliseconds.
 - [ ] Add `agent-mcp.gomogroup.com` under Render's custom domains. Create a DNS CNAME named `agent-mcp` pointing to `gomo-mcp-layer.onrender.com`; verify the domain and TLS certificate in Render. Do not modify the existing `mcp.gomogroup.com` service or its DNS records.
 - [ ] Test the default Render hostname first, then the custom hostname:
 
@@ -123,7 +123,11 @@ curl -fsS https://agent-mcp.gomogroup.com/health
 curl -fsS https://agent-mcp.gomogroup.com/tools
 ```
 
-The health response should identify `gomo-group`, version `1.3.0`; the tool directory should list 12 tools and advertise `https://agent-mcp.gomogroup.com/mcp`. MCP clients connect to that `/mcp` endpoint. `/mcp/health` and `/mcp/tools` remain supported aliases.
+The health response should identify `gomo-group`, version `1.3.0`, and report each read collection's cache status. `/ready` returns 200 only while every read collection has usable data; use it as the readiness probe. The tool directory should list 12 tools and advertise `https://agent-mcp.gomogroup.com/mcp`. MCP clients connect to that `/mcp` endpoint. `/mcp/health` and `/mcp/tools` remain supported aliases.
+
+The nine `gomo-mcp/data/*.json` files are validated public seed snapshots generated from the plugin's bundled data. They ship with the server and make read tools work after a cold start even if SiteGround serves challenge HTML to Render. The server refreshes them from the live API in the background; it checks the response status, content type, size, timeout and collection completeness before replacing a last-known-good snapshot. Tool results include `_meta.freshness` with the source, generation/verification time and any stale-data warning. Ordinary collections stop serving after seven days without a successful refresh; events and careers stop after 48 hours. If the age limit is exceeded, reads return an error instead of presenting expired data as current. Rebuild and deploy after changing WordPress's bundled data so the cold-start snapshots are updated. The cache is process-local, so every Render instance/restart starts from those bundled snapshots.
+
+Contact submissions are deliberately live-only: they need the WordPress endpoint to accept and confirm the lead. If the origin returns a challenge or a delivery response cannot be verified, the MCP reports that delivery is unconfirmed and does not claim cached success. Do not retry automatically; have the user verify through the configured contact channel.
 
 If hosting yourself instead of using Render, route the entire dedicated hostname to the Node process:
 
@@ -151,4 +155,4 @@ The `_source/live-v1.2-snapshot/` directory is historical crawl evidence, not de
 cd _source && python3 build.py
 ```
 
-Edit `_source/curated/*.json` and re-run. Every output file is regenerated from the same data, so URLs and counts can't drift. Keep `<meta name="last-crawled">` current; `build.py` sets it to the build date.
+Edit `_source/curated/*.json` and re-run. Every output file is regenerated from the same data, so URLs and counts can't drift. The agent page preserves its original publication date and the actual source crawl date (`PAGE_PUBLISHED` and `SITE_CRAWLED` in `build.py`). Change `SITE_CRAWLED` only after a new crawl; rebuilding or syncing updates the page's last-updated date.
