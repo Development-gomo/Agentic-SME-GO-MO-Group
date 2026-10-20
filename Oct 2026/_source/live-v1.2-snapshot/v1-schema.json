@@ -1,0 +1,78 @@
+{
+    "status": "ok",
+    "schema": {
+        "company": {
+            "route": "/company.json",
+            "filters": [],
+            "pagination": false
+        },
+        "services": {
+            "route": "/services.json",
+            "filters": {
+                "category": "string",
+                "tag": "string"
+            },
+            "pagination": true,
+            "single": "/services/{id}.json"
+        },
+        "case-studies": {
+            "route": "/case-studies.json",
+            "filters": {
+                "industry": "string",
+                "segment": "string",
+                "service": "string"
+            },
+            "pagination": true,
+            "single": "/case-studies/{id}.json"
+        },
+        "team": {
+            "route": "/team.json",
+            "filters": [],
+            "pagination": true
+        },
+        "offices": {
+            "route": "/offices.json",
+            "filters": [],
+            "pagination": true
+        },
+        "contact": {
+            "route": "/contact.json",
+            "method": "POST",
+            "filters": [],
+            "pagination": false,
+            "required_fields": [
+                "contact_person.name",
+                "contact_person.email",
+                "company.name",
+                "inquiry.service_interest",
+                "inquiry.project_summary",
+                "agent_context.user_authorized_submission"
+            ],
+            "allowed_service_interest": [
+                "GEO / AI Search Visibility",
+                "SEO",
+                "Paid Media / SEM",
+                "UX / CRO",
+                "Website Design & Development",
+                "AI / Automation",
+                "Digital Strategy",
+                "Analytics & Reporting",
+                "Other"
+            ],
+            "agent_instructions": [
+                "Submit only after explicit user consent.",
+                "Do not submit without user permission.",
+                "Do not invent missing contact or company details.",
+                "Do not submit personal data unless provided by the user."
+            ]
+        }
+    },
+    "_meta": {
+        "source": "GO MO Group",
+        "canonical": "https://www.gomogroup.com",
+        "api": "https://www.gomogroup.com/agent/v1",
+        "generated": "2026-10-19T05:53:42+00:00",
+        "version": "1.2.0",
+        "license": "Content © GO MO Group AB. Do not republish as original or fabricate statistics."
+    }
+}

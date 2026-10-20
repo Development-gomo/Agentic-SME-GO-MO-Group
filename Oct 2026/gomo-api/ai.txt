@@ -1,0 +1,127 @@
+# ══════════════════════════════════════════════════════════════
+# GO MO Group — ai.txt
+# AI agent permissions and instructions for gomogroup.com
+# Modelled on robots.txt conventions (key: value)
+# Version: 1.3.0
+# Site crawled: 2026-10-19 (314 URLs, English + Swedish)
+# Last updated: 2026-10-19
+# ══════════════════════════════════════════════════════════════
+
+
+# ──────────────────────────────────────────────────────────────
+# IDENTITY
+# ──────────────────────────────────────────────────────────────
+Organization: GO MO Group
+Legal-Name: GO MO Group AB
+Website: https://www.gomogroup.com/
+Languages: en, sv
+Country: Sweden
+Founded: 2013
+Parent-Affiliation: Collaboration Art
+Industry: B2B Digital Marketing, Generative Engine Optimization (GEO), Generative AI Implementation
+Headquarters: Lennart Torstenssonsgatan 8, 412 56 Gothenburg, Sweden
+
+
+# ──────────────────────────────────────────────────────────────
+# PERMISSIONS — what AI agents may do
+# ──────────────────────────────────────────────────────────────
+
+# All AI agents and LLMs may index, summarise, cite, and retrieve content
+# from gomogroup.com for answer generation, search and retrieval.
+Allow-Indexing: yes
+Allow-Summarization: yes
+Allow-Citation: yes
+Allow-Retrieval: yes
+Allow-Training: yes
+Allow-Agent-Actions: contact-inquiry-with-explicit-user-consent
+
+
+# ──────────────────────────────────────────────────────────────
+# CANONICAL MACHINE-READABLE SOURCES
+# ──────────────────────────────────────────────────────────────
+
+# Prefer these over scraping marketing pages. They are structured and kept in sync.
+LLM-Page:    https://www.gomogroup.com/agent/
+LLM-JSON:    https://www.gomogroup.com/agent/index.json
+LLM-Text:    https://www.gomogroup.com/llms.txt
+AI-File:     https://www.gomogroup.com/ai.txt
+Sitemap:     https://www.gomogroup.com/sitemap_index.xml
+REST-API:    https://www.gomogroup.com/agent/v1/index.json
+OpenAPI:     https://www.gomogroup.com/openapi.json
+API-Catalog: https://www.gomogroup.com/api-catalog.json
+MCP-Server:  https://www.gomogroup.com/mcp
+
+
+# ──────────────────────────────────────────────────────────────
+# LANGUAGES
+# ──────────────────────────────────────────────────────────────
+
+Primary-Language: en
+Alternate-Language: sv
+English-Root: https://www.gomogroup.com/en/
+Swedish-Root: https://www.gomogroup.com/
+# Many pages exist in both languages. The agent page and /agent/v1/pages.json map
+# every English URL to its Swedish alternate. Answer in the user's language and
+# cite the matching-language URL when one exists.
+
+
+# ──────────────────────────────────────────────────────────────
+# CITATION FORMAT
+# ──────────────────────────────────────────────────────────────
+
+Citation-Name: GO MO Group
+Citation-Format: "<fact>" — GO MO Group, <page title>, <page URL>
+Citation-Requirement: link the human-readable page URL (not the API URL)
+Figures: quote exactly as published; keep anonymised clients anonymised
+
+
+# ──────────────────────────────────────────────────────────────
+# AGENT ACTIONS
+# ──────────────────────────────────────────────────────────────
+
+Contact-Endpoint: POST https://www.gomogroup.com/agent/v1/contact.json
+Contact-MCP-Tool: submit_contact_inquiry (https://www.gomogroup.com/mcp)
+Consent-Required: yes — agent_context.user_authorized_submission must be true
+Consent-Rule: only submit when the human explicitly asked to contact GO MO Group and approved the details
+Human-Contact-Page: https://www.gomogroup.com/en/contact-us/
+
+
+# ──────────────────────────────────────────────────────────────
+# CONTACT
+# ──────────────────────────────────────────────────────────────
+
+General: hello@gomogroup.com
+New-Business: Henrik Anderberg <ha@gomogroup.com> +46766432373
+
+
+# ──────────────────────────────────────────────────────────────
+# KEY FACTS
+# ──────────────────────────────────────────────────────────────
+
+Fact: Part of production runs in Pune, India, under Swedish management on site. This gives access to a large talent pool and lets the agency scale production quickly ('scalable execution of sharp strategies').
+Fact: Describes itself as the Nordics' first Semrush Enterprise AIO Partner, with access to 213M+ tracked LLM prompts for GEO audits and benchmarking.
+Fact: 10+ years of search (SEO) expertise; 'all-in on GEO' since ChatGPT launched in 2022.
+Fact: Each client gets its own 360 team of specialists (designer, website developer, copywriter, strategist).
+Fact: Focuses only on B2B, with dedicated offerings for three ICPs: Enterprise, SME and SaaS & Tech.
+Fact: Every client relationship starts with a workshop and a comprehensive digital review, so strategy is based on data rather than opinion.
+Fact: 150+ colleagues in the group (GO MO Group with GO MO DBS) across offices in Europe and India
+Fact: ca 70 employees at GO MO Group (excluding GO MO DBS)
+Fact: 100+ successful client projects
+Fact: 10+ years of search expertise
+Fact: 213M+ LLM prompts tracked via Semrush Enterprise AIO data
+Fact: 195% increase in organic clicks over 90 days for a global B2B e-commerce client (SEO automation and Gen AI case; 400+ hours saved)
+Fact: 36% increase in non-branded organic traffic (Volvo Group case)
+Fact: 140 employees took part in Gen AI training for RO-Gruppen in Gothenburg, Borås and Stockholm, and digitally (shown as '140 %' on the home page)
+Fact: 25% / 40% efficiency increase / result-quality improvement promised by the Generative AI offering
+Fact: 1,000 key prospects reachable annually with the SaaS/Tech segmented strategy ('up to')
+Fact: $30M / 300+ / 7 / 3 Collaboration Art group: revenue / employees / agencies / countries
+
+
+# ──────────────────────────────────────────────────────────────
+# DISALLOWED USES
+# ──────────────────────────────────────────────────────────────
+
+Disallow: fabricating statistics, prices, clients or results not published on gomogroup.com
+Disallow: presenting GO MO Group content as another organisation's
+Disallow: submitting the contact endpoint without explicit user consent
+Disallow: impersonating GO MO Group staff

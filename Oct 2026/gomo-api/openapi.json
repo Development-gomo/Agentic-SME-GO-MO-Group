@@ -1,0 +1,2050 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "GO MO Group Public API",
+    "version": "1.3.0",
+    "description": "Public, read-only JSON API for GO MO Group (gomogroup.com) — the B2B digital marketing, GEO and Generative AI agency — plus one consent-gated contact action. Bilingual (English + Swedish). No authentication. Companion resources: agent page https://www.gomogroup.com/agent/, llms.txt https://www.gomogroup.com/llms.txt, MCP server https://www.gomogroup.com/mcp.",
+    "contact": {
+      "name": "GO MO Group",
+      "email": "hello@gomogroup.com",
+      "url": "https://www.gomogroup.com/en/contact-us/"
+    },
+    "license": {
+      "name": "Content © GO MO Group AB — citation required"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://www.gomogroup.com/agent/v1",
+      "description": "Production"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Discovery"
+    },
+    {
+      "name": "Company"
+    },
+    {
+      "name": "Services"
+    },
+    {
+      "name": "Case studies"
+    },
+    {
+      "name": "Insights"
+    },
+    {
+      "name": "Actions"
+    }
+  ],
+  "paths": {
+    "/index.json": {
+      "get": {
+        "operationId": "getIndex",
+        "summary": "API index and discovery links",
+        "tags": [
+          "Discovery"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IndexResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/schema.json": {
+      "get": {
+        "operationId": "getSchema",
+        "summary": "Filter definitions per endpoint",
+        "tags": [
+          "Discovery"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SchemaResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/company.json": {
+      "get": {
+        "operationId": "getCompany",
+        "summary": "Company profile (EN + SV)",
+        "tags": [
+          "Company"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CompanyResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/services.json": {
+      "get": {
+        "operationId": "listServices",
+        "summary": "All services",
+        "tags": [
+          "Services"
+        ],
+        "parameters": [
+          {
+            "name": "category",
+            "in": "query",
+            "required": false,
+            "description": "Service category",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "search",
+                "ai",
+                "paid",
+                "content",
+                "outbound",
+                "web",
+                "strategy",
+                "local"
+              ]
+            }
+          },
+          {
+            "name": "tag",
+            "in": "query",
+            "required": false,
+            "description": "Tag",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "lang",
+            "in": "query",
+            "required": false,
+            "description": "Language filter (default all).",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "en",
+                "sv",
+                "all"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServicesResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/services/{id}.json": {
+      "get": {
+        "operationId": "getService",
+        "summary": "One service by ID or alias",
+        "tags": [
+          "Services"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SingleServiceResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/case-studies.json": {
+      "get": {
+        "operationId": "listCaseStudies",
+        "summary": "Case studies with measured results",
+        "tags": [
+          "Case studies"
+        ],
+        "parameters": [
+          {
+            "name": "industry",
+            "in": "query",
+            "required": false,
+            "description": "Industry (substring)",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "segment",
+            "in": "query",
+            "required": false,
+            "description": "Segment",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "enterprise",
+                "saas-tech",
+                "sme"
+              ]
+            }
+          },
+          {
+            "name": "service",
+            "in": "query",
+            "required": false,
+            "description": "Service ID",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "lang",
+            "in": "query",
+            "required": false,
+            "description": "Language filter (default all).",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "en",
+                "sv",
+                "all"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CaseStudiesResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/case-studies/{id}.json": {
+      "get": {
+        "operationId": "getCaseStudy",
+        "summary": "One case study by ID or alias",
+        "tags": [
+          "Case studies"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SingleCaseStudyResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/team.json": {
+      "get": {
+        "operationId": "listTeam",
+        "summary": "Team and leadership",
+        "tags": [
+          "Company"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TeamResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/offices.json": {
+      "get": {
+        "operationId": "listOffices",
+        "summary": "Office locations",
+        "tags": [
+          "Company"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OfficesResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/insights.json": {
+      "get": {
+        "operationId": "listInsights",
+        "summary": "Insight/blog articles (EN + SV)",
+        "tags": [
+          "Insights"
+        ],
+        "parameters": [
+          {
+            "name": "lang",
+            "in": "query",
+            "required": false,
+            "description": "Language filter (default all).",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "en",
+                "sv",
+                "all"
+              ]
+            }
+          },
+          {
+            "name": "topic",
+            "in": "query",
+            "required": false,
+            "description": "Topic",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "geo",
+                "ai",
+                "seo",
+                "paid",
+                "b2b-marketing",
+                "content",
+                "leadership",
+                "company",
+                "careers"
+              ]
+            }
+          },
+          {
+            "name": "since",
+            "in": "query",
+            "required": false,
+            "description": "Published on/after (YYYY-MM-DD)",
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "required": false,
+            "description": "Page number",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "per_page",
+            "in": "query",
+            "required": false,
+            "description": "Items per page (max 200)",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InsightsResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/insights/{id}.json": {
+      "get": {
+        "operationId": "getInsight",
+        "summary": "One insight by ID (Swedish IDs are prefixed sv-)",
+        "tags": [
+          "Insights"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SingleInsightResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/events.json": {
+      "get": {
+        "operationId": "listEvents",
+        "summary": "Seminars and events",
+        "tags": [
+          "Company"
+        ],
+        "parameters": [
+          {
+            "name": "lang",
+            "in": "query",
+            "required": false,
+            "description": "Language filter (default all).",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "en",
+                "sv",
+                "all"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EventsResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/careers.json": {
+      "get": {
+        "operationId": "listCareers",
+        "summary": "Open roles",
+        "tags": [
+          "Company"
+        ],
+        "parameters": [
+          {
+            "name": "lang",
+            "in": "query",
+            "required": false,
+            "description": "Language filter (default all).",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "en",
+                "sv",
+                "all"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CareersResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/pages.json": {
+      "get": {
+        "operationId": "listPages",
+        "summary": "Every public URL with language and EN/SV alternate",
+        "tags": [
+          "Discovery"
+        ],
+        "parameters": [
+          {
+            "name": "lang",
+            "in": "query",
+            "required": false,
+            "description": "Language filter (default all).",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "en",
+                "sv",
+                "all"
+              ]
+            }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "required": false,
+            "description": "Page type",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "page",
+                "service",
+                "solution",
+                "case",
+                "insight",
+                "team",
+                "career",
+                "event",
+                "legal"
+              ]
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "required": false,
+            "description": "Page number",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "per_page",
+            "in": "query",
+            "required": false,
+            "description": "Items per page (max 200)",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PagesResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/contact.json": {
+      "post": {
+        "operationId": "submitContactInquiry",
+        "tags": [
+          "Actions"
+        ],
+        "summary": "Submit a qualified B2B inquiry (consent-gated)",
+        "description": "Delivers an inquiry to GO MO Group's commercial team. Agents must only call this after the human user explicitly asked to contact GO MO Group and approved the details; agent_context.user_authorized_submission must be true or the request is rejected with 403. Maximum body size 32768 bytes. Defaults: 5 attempts per client per hour and 20 site-wide; failed delivery attempts consume quota. Identical inquiries are reserved for 24 hours; an uncertain delivery remains pending to prevent duplicate mail.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContactRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Duplicate inquiry already received",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactResponse"
+                }
+              }
+            }
+          },
+          "201": {
+            "description": "Inquiry delivered",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid JSON",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactErrorResponse"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Consent flag missing or not true",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactErrorResponse"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "An identical submission is already being processed; do not resubmit.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactErrorResponse"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Request body exceeds 32768 bytes.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation failed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactErrorResponse"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Rate limited",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactErrorResponse"
+                }
+              }
+            }
+          },
+          "502": {
+            "description": "Delivery failed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Contact disabled, reservation unavailable, or delivery outcome uncertain.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Meta": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "format": "uri"
+          },
+          "endpoint": {
+            "type": "string"
+          },
+          "canonical": {
+            "type": "string",
+            "format": "uri"
+          },
+          "api": {
+            "type": "string",
+            "format": "uri"
+          },
+          "generated": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "version": {
+            "type": "string",
+            "example": "1.3.0"
+          },
+          "languages": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "en",
+                "sv"
+              ]
+            }
+          },
+          "license": {
+            "type": "string"
+          },
+          "filters": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "Pagination": {
+        "type": "object",
+        "properties": {
+          "total": {
+            "type": "integer"
+          },
+          "page": {
+            "type": "integer"
+          },
+          "per_page": {
+            "type": "integer"
+          },
+          "pages": {
+            "type": "integer"
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "required": [
+          "status",
+          "error",
+          "message"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "error"
+          },
+          "error": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      },
+      "PricingTier": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "price_from": {
+            "type": "number",
+            "nullable": true
+          },
+          "includes": {
+            "type": "string"
+          }
+        }
+      },
+      "Pricing": {
+        "type": "object",
+        "properties": {
+          "model": {
+            "type": "string",
+            "enum": [
+              "published",
+              "quote-based"
+            ]
+          },
+          "currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "tiers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PricingTier"
+            }
+          }
+        }
+      },
+      "Result": {
+        "type": "object",
+        "properties": {
+          "metric": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "context": {
+            "type": "string",
+            "nullable": true
+          },
+          "period": {
+            "type": "string",
+            "nullable": true
+          }
+        }
+      },
+      "Service": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "category",
+          "summary",
+          "languages"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "geo"
+          },
+          "name": {
+            "type": "string"
+          },
+          "name_sv": {
+            "type": "string",
+            "nullable": true
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "search",
+              "ai",
+              "paid",
+              "content",
+              "outbound",
+              "web",
+              "strategy",
+              "local"
+            ]
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "summary": {
+            "type": "string"
+          },
+          "summary_sv": {
+            "type": "string",
+            "nullable": true
+          },
+          "key_points": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "pricing": {
+            "$ref": "#/components/schemas/Pricing"
+          },
+          "segments": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "enterprise",
+                "saas-tech",
+                "sme"
+              ]
+            }
+          },
+          "related_cases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "nullable": true
+          },
+          "url_sv": {
+            "type": "string",
+            "format": "uri",
+            "nullable": true
+          },
+          "languages": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "en",
+                "sv"
+              ]
+            }
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "dateModified": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      },
+      "CaseStudy": {
+        "type": "object",
+        "required": [
+          "id",
+          "client",
+          "headline",
+          "languages"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "client": {
+            "type": "string"
+          },
+          "headline": {
+            "type": "string"
+          },
+          "headline_sv": {
+            "type": "string",
+            "nullable": true
+          },
+          "industry": {
+            "type": "string"
+          },
+          "segment": {
+            "type": "string",
+            "nullable": true,
+            "enum": [
+              "enterprise",
+              "saas-tech",
+              "sme",
+              null
+            ]
+          },
+          "services": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "challenge": {
+            "type": "string"
+          },
+          "solution": {
+            "type": "string"
+          },
+          "summary_sv": {
+            "type": "string",
+            "nullable": true
+          },
+          "results": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Result"
+            }
+          },
+          "quote": {
+            "type": "object",
+            "nullable": true,
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "author": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              }
+            }
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "nullable": true
+          },
+          "url_sv": {
+            "type": "string",
+            "format": "uri",
+            "nullable": true
+          },
+          "languages": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "en",
+                "sv"
+              ]
+            }
+          },
+          "datePublished": {
+            "type": "string",
+            "format": "date"
+          },
+          "dateModified": {
+            "type": "string",
+            "format": "date"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "case-study",
+              "showcase",
+              "interview"
+            ]
+          }
+        }
+      },
+      "TeamMember": {
+        "type": "object",
+        "required": [
+          "id",
+          "name"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "role_sv": {
+            "type": "string",
+            "nullable": true
+          },
+          "bio": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "telephone": {
+            "type": "string",
+            "nullable": true
+          },
+          "linkedin": {
+            "type": "string",
+            "nullable": true
+          },
+          "location": {
+            "type": "string",
+            "nullable": true
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "url_sv": {
+            "type": "string",
+            "nullable": true
+          },
+          "languages": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "en",
+                "sv"
+              ]
+            }
+          },
+          "leadership": {
+            "type": "boolean"
+          }
+        }
+      },
+      "Office": {
+        "type": "object",
+        "required": [
+          "id",
+          "city",
+          "country"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "city": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string"
+          },
+          "countryCode": {
+            "type": "string"
+          },
+          "streetAddress": {
+            "type": "string"
+          },
+          "postalCode": {
+            "type": "string"
+          },
+          "addressRegion": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "telephone": {
+            "type": "string",
+            "nullable": true
+          },
+          "timezone": {
+            "type": "string"
+          }
+        }
+      },
+      "Insight": {
+        "type": "object",
+        "required": [
+          "id",
+          "lang",
+          "title",
+          "url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "lang": {
+            "type": "string",
+            "enum": [
+              "en",
+              "sv"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "seo_title": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "alternate": {
+            "type": "string",
+            "format": "uri",
+            "nullable": true,
+            "description": "Same article in the other language"
+          },
+          "datePublished": {
+            "type": "string",
+            "format": "date"
+          },
+          "dateModified": {
+            "type": "string",
+            "format": "date"
+          },
+          "readingMinutes": {
+            "type": "integer",
+            "nullable": true
+          },
+          "topics": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "geo",
+                "ai",
+                "seo",
+                "paid",
+                "b2b-marketing",
+                "content",
+                "leadership",
+                "company",
+                "careers"
+              ]
+            }
+          }
+        }
+      },
+      "Event": {
+        "type": "object",
+        "required": [
+          "id",
+          "title"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "title_sv": {
+            "type": "string",
+            "nullable": true
+          },
+          "startDate": {
+            "type": "string"
+          },
+          "endDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "location": {
+            "type": "string",
+            "nullable": true
+          },
+          "format": {
+            "type": "string",
+            "nullable": true
+          },
+          "language": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "past",
+              "upcoming"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "url_sv": {
+            "type": "string",
+            "nullable": true
+          },
+          "registration_url": {
+            "type": "string",
+            "nullable": true
+          }
+        }
+      },
+      "Career": {
+        "type": "object",
+        "required": [
+          "id",
+          "title"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "title_sv": {
+            "type": "string",
+            "nullable": true
+          },
+          "location": {
+            "type": "string",
+            "nullable": true
+          },
+          "employmentType": {
+            "type": "string",
+            "nullable": true
+          },
+          "summary": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "url_sv": {
+            "type": "string",
+            "nullable": true
+          },
+          "apply_url": {
+            "type": "string",
+            "nullable": true
+          }
+        }
+      },
+      "PageEntry": {
+        "type": "object",
+        "required": [
+          "url",
+          "lang",
+          "type"
+        ],
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "lang": {
+            "type": "string",
+            "enum": [
+              "en",
+              "sv"
+            ]
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "page",
+              "service",
+              "solution",
+              "case",
+              "insight",
+              "team",
+              "career",
+              "event",
+              "legal"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "alternate": {
+            "type": "string",
+            "format": "uri",
+            "nullable": true
+          },
+          "dateModified": {
+            "type": "string",
+            "nullable": true
+          },
+          "robots": {
+            "type": "string",
+            "description": "Present only when the page is set to noindex on the site"
+          }
+        }
+      },
+      "Company": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "legalName": {
+            "type": "string"
+          },
+          "founded": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "description_sv": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "employees": {
+            "type": "string"
+          },
+          "headquarters": {},
+          "certifications": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "partners": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "contact": {
+            "type": "object"
+          },
+          "social": {
+            "type": "object"
+          },
+          "key_pages": {
+            "type": "object"
+          },
+          "counts": {
+            "type": "object"
+          },
+          "machine_readable": {
+            "type": "object"
+          }
+        }
+      },
+      "IndexResponse": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "languages": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "en",
+                "sv"
+              ]
+            }
+          },
+          "endpoints": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "route": {
+                  "type": "string"
+                },
+                "method": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "openapi": {
+            "type": "string",
+            "format": "uri"
+          },
+          "discovery": {
+            "type": "object"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "SchemaResponse": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string"
+          },
+          "schema": {
+            "type": "object"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "CompanyResponse": {
+        "type": "object",
+        "required": [
+          "status",
+          "data",
+          "_meta"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "ok"
+          },
+          "data": {
+            "$ref": "#/components/schemas/Company"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "ServicesResponse": {
+        "type": "object",
+        "required": [
+          "status",
+          "data",
+          "_meta"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "ok"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Service"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/Pagination"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "CaseStudiesResponse": {
+        "type": "object",
+        "required": [
+          "status",
+          "data",
+          "_meta"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "ok"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CaseStudy"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/Pagination"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "TeamResponse": {
+        "type": "object",
+        "required": [
+          "status",
+          "data",
+          "_meta"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "ok"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TeamMember"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/Pagination"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "OfficesResponse": {
+        "type": "object",
+        "required": [
+          "status",
+          "data",
+          "_meta"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "ok"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Office"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/Pagination"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "InsightsResponse": {
+        "type": "object",
+        "required": [
+          "status",
+          "data",
+          "_meta"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "ok"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Insight"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/Pagination"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "EventsResponse": {
+        "type": "object",
+        "required": [
+          "status",
+          "data",
+          "_meta"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "ok"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Event"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/Pagination"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "CareersResponse": {
+        "type": "object",
+        "required": [
+          "status",
+          "data",
+          "_meta"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "ok"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Career"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/Pagination"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "PagesResponse": {
+        "type": "object",
+        "required": [
+          "status",
+          "data",
+          "_meta"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "ok"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PageEntry"
+            }
+          },
+          "pagination": {
+            "$ref": "#/components/schemas/Pagination"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "SingleServiceResponse": {
+        "type": "object",
+        "required": [
+          "status",
+          "data",
+          "_meta"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "ok"
+          },
+          "data": {
+            "$ref": "#/components/schemas/Service"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "SingleCaseStudyResponse": {
+        "type": "object",
+        "required": [
+          "status",
+          "data",
+          "_meta"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "ok"
+          },
+          "data": {
+            "$ref": "#/components/schemas/CaseStudy"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "SingleInsightResponse": {
+        "type": "object",
+        "required": [
+          "status",
+          "data",
+          "_meta"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "ok"
+          },
+          "data": {
+            "$ref": "#/components/schemas/Insight"
+          },
+          "_meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        }
+      },
+      "ContactPerson": {
+        "type": "object",
+        "required": [
+          "name",
+          "email"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 120
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "maxLength": 254
+          },
+          "phone": {
+            "type": "string",
+            "maxLength": 40
+          },
+          "job_title": {
+            "type": "string",
+            "maxLength": 120
+          }
+        }
+      },
+      "ContactCompany": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "website": {
+            "type": "string",
+            "format": "uri",
+            "maxLength": 2048
+          },
+          "country": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "size": {
+            "type": "string",
+            "maxLength": 40
+          }
+        }
+      },
+      "ContactInquiry": {
+        "type": "object",
+        "required": [
+          "service_interest",
+          "project_summary"
+        ],
+        "properties": {
+          "service_interest": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 120,
+            "example": "GEO"
+          },
+          "project_summary": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 4000
+          },
+          "budget_range": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "timeline": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "preferred_language": {
+            "type": "string",
+            "enum": [
+              "en",
+              "sv"
+            ]
+          }
+        }
+      },
+      "AgentContext": {
+        "type": "object",
+        "required": [
+          "user_authorized_submission"
+        ],
+        "properties": {
+          "user_authorized_submission": {
+            "type": "boolean",
+            "enum": [
+              true
+            ],
+            "description": "Must be true: confirms the human user explicitly asked for and approved this submission."
+          },
+          "agent_name": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "conversation_summary": {
+            "type": "string",
+            "maxLength": 2000
+          }
+        }
+      },
+      "ContactRequest": {
+        "type": "object",
+        "required": [
+          "person",
+          "company",
+          "inquiry",
+          "agent_context"
+        ],
+        "properties": {
+          "person": {
+            "$ref": "#/components/schemas/ContactPerson"
+          },
+          "company": {
+            "$ref": "#/components/schemas/ContactCompany"
+          },
+          "inquiry": {
+            "$ref": "#/components/schemas/ContactInquiry"
+          },
+          "agent_context": {
+            "$ref": "#/components/schemas/AgentContext"
+          }
+        }
+      },
+      "ContactResponse": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "example": "received"
+          },
+          "message": {
+            "type": "string"
+          },
+          "lead_id": {
+            "type": "string",
+            "example": "gomo-lead-2026-A3F7B2C1"
+          },
+          "next_step": {
+            "type": "string"
+          }
+        }
+      },
+      "ContactErrorResponse": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/Error"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "fields": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

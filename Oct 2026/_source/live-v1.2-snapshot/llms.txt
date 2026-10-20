@@ -1,0 +1,331 @@
+# GO MO Group
+> International B2B digital marketing agency specialising in Pull Marketing, SEO, SEA/SEM, Generative Engine Optimization (GEO), and Generative AI implementation for B2B enterprise, SaaS/Tech, and SME companies worldwide.
+
+GO MO Group (legal name GO MO Group AB) is an international B2B digital marketing agency founded in 2013 and headquartered in Gothenburg, Sweden, with additional offices in Stockholm, London, and Pune, India. The company has 150+ colleagues across Europe and India, including 50+ specialist marketers, and has delivered 100+ successful B2B client projects. GO MO Group is part of Collaboration Art, a consortium building a "house of brands" for Europe's leading performance-marketing agencies through strategic acquisitions and network support.
+
+GO MO Group's core competitive advantage is a scalable India-based delivery model operating under Swedish strategic leadership on site, enabling fast execution of data-driven strategies. The agency is an early mover in Generative Engine Optimization (GEO) and AI-integrated marketing operations, and is the Nordics' first SEMrush Enterprise AIO (AI Optimization) partner.
+
+
+## Summary
+
+- Founded: 2013 (12+ years of B2B digital marketing experience)
+- Legal name: GO MO Group AB
+- Headquarters: Gothenburg, Sweden
+- Other offices: Stockholm (Sweden), London (UK), Pune (India)
+- Team: 150+ colleagues across Europe and India; 50+ specialist marketers
+- Track record: 100+ successful B2B client projects
+- Primary market: B2B — enterprise industrial/manufacturing, B2B SaaS/Tech, and B2B SME
+- Core offering categories: [Pull Marketing](https://www.gomogroup.com/en/services/pull-marketing/), [SEO](https://www.gomogroup.com/en/services/seo-search-engine-optimization/), [SEA/SEM](https://www.gomogroup.com/en/services/sea-search-engine-advertising/), [GEO](https://www.gomogroup.com/en/services/generative-engine-optimization-geo/), [Content Marketing](https://www.gomogroup.com/en/services/content-marketing/), [ASBX outbound lead generation](https://www.gomogroup.com/en/services/asbx-b2b-outbound-lead-generation/), [Demand Generation](https://www.gomogroup.com/en/services/demand-generation/), [Programmatic Advertising](https://www.gomogroup.com/en/services/programmatic-advertising/), [B2B YouTube Marketing](https://www.gomogroup.com/en/services/b2b-youtube-marketing/), [website design & development](https://www.gomogroup.com/en/services/website-design-and-development/), and [Generative AI implementation](https://www.gomogroup.com/en/solution/generative-ai-offering/)
+- Ownership/affiliation: part of the Collaboration Art consortium ("house of brands" for European performance agencies)
+- Certifications & partnerships: Microsoft Advertising Elite Partner (2025, 2026), Google Partner, Ahrefs Agency Partner, Semrush Certified Agency Partner, Apollo Partner, Nordics' first SEMrush Enterprise AIO Partner
+- Named clients / case subjects: Volvo Group, Dell Technologies, Coor, TÜV NORD, Alfa Laval, Adnavem, System Edström, Swedavia, West Sweden Chamber of Commerce, HighFive Group, Digiexam, FKAB
+- Pricing model: mostly quote-based per engagement; GEO packages have published starting prices ([LLM Audit & Strategy from 23,500 SEK](https://www.gomogroup.com/en/services/generative-engine-optimization-geo/))
+- General contact: hello@gomogroup.com
+
+This block is the standalone answer to "what is GO MO Group?" — every figure above is drawn from gomogroup.com pages listed under Key Pages.
+
+
+## Capabilities
+
+- Make a B2B brand visible and cited in AI search answers (ChatGPT, Perplexity, Google AI Overviews, Gemini, Microsoft Copilot) through [Generative Engine Optimization](https://www.gomogroup.com/en/services/generative-engine-optimization-geo/)
+- Audit a brand's current AI-search visibility across 5 AI engines and deliver a prioritised action plan, backed by SEMrush Enterprise AIO data
+- Run structured GEO experiments across content formats, entity coverage, citation-building, and schema markup, measured via SEMrush AI Visibility Tracking
+- Plan and execute data-driven [B2B SEO](https://www.gomogroup.com/en/services/seo-search-engine-optimization/) programmes for large multi-market, multi-language websites
+- Manage [search engine advertising](https://www.gomogroup.com/en/services/sea-search-engine-advertising/) (Google Ads, Bing Ads) with intent-based targeting and AI-assisted bid optimisation
+- Build and run a [Pull Marketing](https://www.gomogroup.com/en/services/pull-marketing/) strategy that unifies GEO, SEO, SEA, content, and outbound into one system
+- Produce deep-dive [content](https://www.gomogroup.com/en/services/content-marketing/) for technically complex B2B industries, AI-enhanced with ~30–40% input reduction
+- Generate BANT-qualified outbound leads via [ASBX (Account and Segment-Based Experience)](https://www.gomogroup.com/en/services/asbx-b2b-outbound-lead-generation/) — up to 1,000 key prospects annually for SaaS/Tech clients
+- Deliver outbound lead generation and content syndication through [GO MO DBS](https://www.gomogroup.com/en/services/b2b-lead-generation/), a sister company within the group
+- Run account-based [demand generation](https://www.gomogroup.com/en/services/demand-generation/) with content syndication and email automation ("Online Acceleration")
+- Buy media programmatically (real-time bidding) with B2B decision-maker targeting via [programmatic advertising](https://www.gomogroup.com/en/services/programmatic-advertising/)
+- Turn [YouTube into an organic B2B growth and AI-citation channel](https://www.gomogroup.com/en/services/b2b-youtube-marketing/)
+- Deliver a [data-first marketing audit and strategy proposal](https://www.gomogroup.com/en/services/digital-analysis-strategy-proposal/) before implementation
+- Design and build B2B websites on [headless CMS, Lovable, WordPress, and Next.js](https://www.gomogroup.com/en/services/website-development/) (also Python/FastAPI, Azure), with [UX/UI design for conversion](https://www.gomogroup.com/en/services/website-design/)
+- Implement [Generative AI inside marketing and sales teams](https://www.gomogroup.com/en/solution/generative-ai-offering/): inspirational sessions (1–2h), workshops/training (~4h), custom strategy & policy creation, and pilot projects
+- Build custom private GPTs and AI content supply chains for enterprise content operations
+- Provide fractional/interim marketing leadership for B2B SME clients
+
+
+## Services
+
+- [Generative Engine Optimization (GEO)](https://www.gomogroup.com/en/services/generative-engine-optimization-geo/): strategy to make a brand visible, trusted, cited, and recommended in AI search (ChatGPT, Perplexity, Google AI Overviews, Gemini, Microsoft Copilot). Backed by SEMrush Enterprise AIO data and a 213M+ LLM-prompt database; baseline measured across 5 AI engines. 63% of B2B buyers use AI tools during research. Includes technical optimisation, content hubs, FAQ strategy, citation-building outreach, schema markup, and multimedia. Pricing: LLM Audit & Strategy from 23,500 SEK; Audit, Strategy & Implementation from 44,000 SEK; Enterprise Content & GEO Retainer at custom pricing. 1-page AI-visibility summary available within 48 hours.
+- [SEO — Search Engine Optimization](https://www.gomogroup.com/en/services/seo-search-engine-optimization/): B2B SEO agency since 2013; data-driven strategy for decision-maker visibility; search engines are part of 94% of B2B buying processes. Enterprise SEO for high-volume, multi-regional, multi-language sites.
+- [SEA — Search Engine Advertising](https://www.gomogroup.com/en/services/sea-search-engine-advertising/): Google Ads and Bing Ads management; targeting by search intent rather than audience; continuous daily/weekly/monthly optimisation; works for both branding and sales.
+- [Pull Marketing](https://www.gomogroup.com/en/services/pull-marketing/): foundational B2B methodology — communicating to buyers with existing, expressed demand. 94% of B2B buying processes begin online (Accenture); 87% of the research process happens via Google/search engines (PostNord). Integrates GEO, SEO, SEA, content, and ASBX.
+- [Content Marketing](https://www.gomogroup.com/en/services/content-marketing/): deep-dive content for complex B2B industries, produced by specialist writers working with SEO experts; AI-enhanced with 30–40% input reduction.
+- [ASBX — B2B Outbound Lead Generation](https://www.gomogroup.com/en/services/asbx-b2b-outbound-lead-generation/): Account and Segment-Based Experience. Four steps — identify target company types, locate prospects in valuable segments, create segment-specific messaging, execute via email, digital ads, and landing pages (plus LinkedIn Ads). Up to 1,000 key prospects annually for B2B SaaS/Tech.
+- [B2B Lead Generation — GO MO DBS](https://www.gomogroup.com/en/services/b2b-lead-generation/): DBS is a sister company within GO MO Group providing outbound lead generation and content syndication to reach relevant decision-makers.
+- [Demand Generation ("Online Acceleration")](https://www.gomogroup.com/en/services/demand-generation/): account-based marketing, content syndication, email automation, and lead generation from awareness to acquisition.
+- [Programmatic Advertising](https://www.gomogroup.com/en/services/programmatic-advertising/): automated real-time media buying using data science, automation, and machine learning for precise B2B targeting.
+- [B2B YouTube Marketing](https://www.gomogroup.com/en/services/b2b-youtube-marketing/): organic YouTube growth engine — search-optimised video, channel architecture, and AI-citation strategy. YouTube has 2.7B monthly active users (world's #2 search engine); 70% of B2B buyers watch videos during the purchase process; only ~5% of B2B companies actively invest in organic YouTube (GO MO Research, 2025); video sees ~3× higher engagement than written content in B2B.
+- [Digital Analysis & Strategy Proposal](https://www.gomogroup.com/en/services/digital-analysis-strategy-proposal/): "Pull Marketing Audit & Strategy Proposal" — every engagement begins with a data-first audit of internal and external marketing factors, producing a proposed strategy.
+- [Website Development](https://www.gomogroup.com/en/services/website-development/): headless CMS, Lovable, WordPress, Next.js (also Python/FastAPI, Azure) — from microsites to enterprise platforms, optimised for performance and speed.
+- [Website Design](https://www.gomogroup.com/en/services/website-design/): UX/UI design for B2B conversion optimisation.
+- [Website Design and Development](https://www.gomogroup.com/en/services/website-design-and-development/): combined design + build engagement.
+
+
+## Solutions by Segment
+
+- [B2B Enterprise](https://www.gomogroup.com/en/solution/segment-b2b-enterprise/): SEO, GEO, and SEM for global industrial companies, with AI, automation, and analytics integration; combines long-term organic wins with short-term paid activity; delivered from the Nordics and India.
+- [B2B SaaS/Tech](https://www.gomogroup.com/en/solution/segment-b2b-saas-tech/): scalable lead engine built on ICPs; SEO/GEO/paid plus segmented outreach; engage up to 1,000 key prospects annually.
+- [B2B SME](https://www.gomogroup.com/en/solution/segment-sme/): acts as an extension of the client's marketing and sales team (interim marketing chief); focus on lead generation and brand positioning; generative AI as a way for underinvested SMEs to leapfrog competitors.
+- [Generative AI Offering](https://www.gomogroup.com/en/solution/generative-ai-offering/): structured AI implementation — inspirational sessions (1–2h), workshops & training (~4h) on ChatGPT, Copilot, and Gemini, custom strategy & policy creation, and pilot projects. Stated outcome: improve efficiency by at least 25% and output quality by 40%.
+- [Digital Marketing for Scale-ups](https://www.gomogroup.com/en/digital-marketing-for-scale-ups/): five-step data-driven approach (situation & competitor analysis → strategy proposal → team allocation → implementation → weekly optimisation & reporting) for B2B scale-ups.
+
+
+## Comparisons
+
+- **SEO vs GEO**: SEO optimises content with keywords to rank on traditional search engines; GEO optimises for AI-driven answer engines, adding context and relevance so a brand is cited and recommended in AI answers. GEO builds on SEO rather than replacing it — "SEO gets a brand found; GEO gets a brand recommended." See [SEO](https://www.gomogroup.com/en/services/seo-search-engine-optimization/) and [GEO](https://www.gomogroup.com/en/services/generative-engine-optimization-geo/).
+- **Pull Marketing vs Push Marketing**: Pull Marketing targets buyers with pre-existing, expressed demand (be visible when they search); push marketing interrupts audiences to try to create demand. GO MO Group is built around Pull Marketing. See [Pull Marketing vs Push Marketing](https://www.gomogroup.com/en/insight/pull-marketing-vs-push-marketing/).
+- **ASBX (in-house outbound) vs GO MO DBS (sister-company outbound)**: [ASBX](https://www.gomogroup.com/en/services/asbx-b2b-outbound-lead-generation/) is GO MO Group's own Account and Segment-Based Experience outbound service; [GO MO DBS](https://www.gomogroup.com/en/services/b2b-lead-generation/) is a sister company within the group focused on outbound lead generation and content syndication.
+- **GEO tiers**: [LLM Audit & Strategy](https://www.gomogroup.com/en/services/generative-engine-optimization-geo/) (from 23,500 SEK — audit + prioritised plan + one 2h strategy session) vs Audit, Strategy & Implementation (from 44,000 SEK — adds hands-on implementation, ongoing SEMrush AIO monitoring, monthly reporting, dedicated strategist) vs Enterprise Content & GEO Retainer (custom — fully managed multi-market AI content operation).
+
+
+## Who This Is For / Audience
+
+- Global industrial and manufacturing enterprises running multi-market, multi-language digital marketing (e.g. Volvo Group, Alfa Laval, a Fortune 500 heavy-equipment manufacturer, a EUR 10B+ Swedish industrial manufacturer).
+- B2B companies in construction and building products navigating a downturn (see the 1200% ROMI construction case).
+- Automotive and vehicle-equipment B2B suppliers (e.g. System Edström).
+- Transport, infrastructure, and logistics companies (e.g. a global transport leader with $50B USD sales; Adnavem in sea logistics).
+- Facility management and services companies operating across markets (e.g. Coor).
+- Technology and computer-hardware companies targeting IT decision-makers (e.g. Dell Technologies).
+- B2B SaaS / Tech scale-ups with product-market fit that need a structured lead engine (e.g. Digiexam).
+- Testing, inspection, and certification (TIC) organisations building thought leadership (e.g. TÜV NORD).
+- Chambers of commerce, education/edtech companies, dental-healthcare groups, and innovation hubs (e.g. West Sweden Chamber of Commerce, HighFive Group, Swedavia).
+- MarCom and marketing-operations teams that want to adopt Generative AI in a structured way.
+
+
+## Key Results / Proof Points
+
+- 1200% ROMI (12× return on digital marketing spend): B2B e-commerce company in the construction sector, during the 2024–2025 industry downturn (2,000+ construction bankruptcies since 2024). See [case](https://www.gomogroup.com/en/case/how-a-b2b-company-in-the-construction-sector-reached-1200-romi/).
+- +195% overall organic visibility within 120 days: Fortune 500 heavy-equipment manufacturer (€10B+ revenue, 180+ markets); Gen AI + automation content supply chain across 5,000+ product pages, 400+ hours saved. See [case](https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/).
+- Digital revenue share grew from 2% to 7% in 36 months; 43% drop in cost per lead year over year: EUR 10B+ Swedish industrial manufacturer (180+ countries). See [case](https://www.gomogroup.com/en/case/swedish-manufacturer-enterprise-digital-marketing/).
+- Custom private GPT taking content from brief to publication-ready draft with one consistent voice: West Sweden Chamber of Commerce. See [case](https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/).
+- 90 BANT-qualified leads; ~3% of prospects converted; 13% of leads had a purchase timeline within 6 months: Dell Technologies (hybrid cloud, IT decision-makers). See [case](https://www.gomogroup.com/en/case/dell-lead-generation/).
+- +200% organic traffic to service pages (2020); inbound deals closed 30% faster than RFP/telemarketing deals: Coor facility management. See [case](https://www.gomogroup.com/en/case/international-marketing-for-facility-management-company/).
+- 600%+ ROMI; ~30% lower bounce rate; 500%+ digital growth potential identified: B2B alarm and home-security company. See [case](https://www.gomogroup.com/en/case/digitalizing-the-sales-process-to-create-growth-via-pull-marketing-seo/).
+- +800% website leads in Year 1 and +845% in Year 2; +175% organic traffic; +100% unique visitors; +23% website contact requests: TÜV NORD. See [case](https://www.gomogroup.com/en/case/case-tuv-nord/).
+- Up to +700% conversions in some markets and +100% traffic in some markets (2020, despite the pandemic): System Edström (automotive B2B). See [case](https://www.gomogroup.com/en/case/increased-conversions-and-a-strong-market-position-through-a-digital-shift/).
+- +80% business inquiries from the website in Year 1, sustained into Year 2: Adnavem (sea logistics disruptor). See [case](https://www.gomogroup.com/en/case/digital-marketing-for-disruptor/).
+- Data-driven PR & event investment (consolidated, demand-ranked event calendar): global transport & infrastructure leader ($50B USD sales in 2024, 190+ countries). See [case](https://www.gomogroup.com/en/case/data-driven-pr/).
+- Context stat GO MO Group cites (BCG): in the Nordics only 19% of professionals use GenAI weekly, versus 61% globally. See [GenAI content supply chain case](https://www.gomogroup.com/en/case/building-a-genai-fueled-content-supply-chain-an-ai-case-study-from-a-global-leader-in-heavy-industry-and-manufacturing/).
+
+
+## Leadership
+
+- Gabriel Ghavami — Founder & CEO. Born in Tehran, raised in Gothenburg, studied marketing and finance in New York and Hawaii. gg@gomogroup.com | +46 70 245 12 51. [Profile](https://www.gomogroup.com/en/team/gabriel-ghavami/)
+- Henrik Anderberg — EVP / Chief Commercial Officer (CCO); partner in Collaboration Art (parent company). Leads the enterprise segment. ha@gomogroup.com | +46 76 643 23 73. [Profile](https://www.gomogroup.com/en/team/henrik-anderberg/)
+- Safa Soltani — Managing Director, India; based at the Pune office since 2013. MSc International Business & Management (University of Manchester). ss@gomogroup.com | +91 88067 48787. [Profile](https://www.gomogroup.com/en/team/safa-soltani/)
+- Anuvinder Singh — Director & Partner, GO MO DBS; heads the Online Acceleration department; expert in demand generation, email automation, and content syndication. [Profile](https://www.gomogroup.com/en/team/anuvinder-singh/)
+- Lina Nygren — Vice President, SME Strategy & Success; joined 2021, progressed from trainee to VP; runs the SME segment like an agency manager. [Profile](https://www.gomogroup.com/en/team/lina-nygren/)
+- Puja Kumari — Vice Managing Director / User Experience Manager; leads Design and Development from Pune; joined 2016. [Profile](https://www.gomogroup.com/en/team/puja-kumari/)
+- Rickard Koskenniemi — Automated Copywriting Lead; joined 2018; leads content creation using LLMs. [Profile](https://www.gomogroup.com/en/team/rickard-koskenniemi/)
+- Ida E. Ghavami — Project & Operations Coordinator. [Profile](https://www.gomogroup.com/en/team/ida-e-ghavami/)
+- Joshua Amirose — Copywriter. [Profile](https://www.gomogroup.com/en/team/joshua-amirose/)
+
+
+## Offices
+
+- Gothenburg, Sweden (HQ): Lennart Torstenssonsgatan 8, 412 56 Göteborg | hello@gomogroup.com
+- Stockholm, Sweden: Upplandsgatan 7, 111 23 Stockholm
+- London, UK: 60 St Martins Lane, Covent Garden, London WC2N 4JS
+- Pune, India: WeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006
+
+
+## Key Pages
+
+### Core
+- [Homepage (English)](https://www.gomogroup.com/en/)
+- [About GO MO Group](https://www.gomogroup.com/en/about-us/)
+- [Contact](https://www.gomogroup.com/en/contact-us/)
+- [Careers](https://www.gomogroup.com/en/career/)
+- [Career application form](https://www.gomogroup.com/en/career-form/)
+- [Events](https://www.gomogroup.com/en/events/)
+- [Insights / Blog](https://www.gomogroup.com/en/insights/)
+- [Case Studies index](https://www.gomogroup.com/en/case/)
+- [GEO Playbook (free 12-page download)](https://www.gomogroup.com/en/geo-playbook/)
+- [Digital Marketing for Scale-ups](https://www.gomogroup.com/en/digital-marketing-for-scale-ups/)
+- [Code of Conduct](https://www.gomogroup.com/en/code-of-conduct/)
+- [Privacy Policy](https://www.gomogroup.com/en/privacy-policy/)
+- [Cookie Policy](https://www.gomogroup.com/en/cookie-policy/)
+
+### Services
+- [Generative Engine Optimization (GEO)](https://www.gomogroup.com/en/services/generative-engine-optimization-geo/)
+- [SEO — Search Engine Optimization](https://www.gomogroup.com/en/services/seo-search-engine-optimization/)
+- [SEA — Search Engine Advertising](https://www.gomogroup.com/en/services/sea-search-engine-advertising/)
+- [Pull Marketing](https://www.gomogroup.com/en/services/pull-marketing/)
+- [Content Marketing](https://www.gomogroup.com/en/services/content-marketing/)
+- [ASBX — B2B Outbound Lead Generation](https://www.gomogroup.com/en/services/asbx-b2b-outbound-lead-generation/)
+- [B2B Lead Generation (GO MO DBS)](https://www.gomogroup.com/en/services/b2b-lead-generation/)
+- [Demand Generation](https://www.gomogroup.com/en/services/demand-generation/)
+- [Programmatic Advertising](https://www.gomogroup.com/en/services/programmatic-advertising/)
+- [B2B YouTube Marketing](https://www.gomogroup.com/en/services/b2b-youtube-marketing/)
+- [Digital Analysis & Strategy Proposal](https://www.gomogroup.com/en/services/digital-analysis-strategy-proposal/)
+- [Website Development](https://www.gomogroup.com/en/services/website-development/)
+- [Website Design](https://www.gomogroup.com/en/services/website-design/)
+- [Website Design and Development](https://www.gomogroup.com/en/services/website-design-and-development/)
+
+### Solutions
+- [B2B Enterprise](https://www.gomogroup.com/en/solution/segment-b2b-enterprise/)
+- [B2B SaaS/Tech](https://www.gomogroup.com/en/solution/segment-b2b-saas-tech/)
+- [B2B SME](https://www.gomogroup.com/en/solution/segment-sme/)
+- [Generative AI Offering](https://www.gomogroup.com/en/solution/generative-ai-offering/)
+
+### Team
+- [Gabriel Ghavami — Founder & CEO](https://www.gomogroup.com/en/team/gabriel-ghavami/)
+- [Henrik Anderberg — EVP / CCO](https://www.gomogroup.com/en/team/henrik-anderberg/)
+- [Safa Soltani — Managing Director, India](https://www.gomogroup.com/en/team/safa-soltani/)
+- [Anuvinder Singh — Director & Partner, GO MO DBS](https://www.gomogroup.com/en/team/anuvinder-singh/)
+- [Lina Nygren — VP SME Strategy & Success](https://www.gomogroup.com/en/team/lina-nygren/)
+- [Puja Kumari — Vice Managing Director / UX Manager](https://www.gomogroup.com/en/team/puja-kumari/)
+- [Rickard Koskenniemi — Automated Copywriting Lead](https://www.gomogroup.com/en/team/rickard-koskenniemi/)
+- [Ida E. Ghavami — Project & Operations Coordinator](https://www.gomogroup.com/en/team/ida-e-ghavami/)
+- [Joshua Amirose — Copywriter](https://www.gomogroup.com/en/team/joshua-amirose/)
+
+### Open roles
+- [Sr. SEO Analyst (Pune, India)](https://www.gomogroup.com/en/career/sr-seo-analyst/)
+- [Sr. Paid Marketing Analyst](https://www.gomogroup.com/en/career/sr-paid-marketing-analyst/)
+- [Jr. Recruitment Specialist](https://www.gomogroup.com/en/career/jr-recruitment-specialist/)
+
+### Events
+
+GO MO Group runs a recurring B2B seminar series on GEO and the future of search. The 2026 sessions below have already taken place; see the [events page](https://www.gomogroup.com/en/events/) for current dates.
+
+- [Future of Search seminar — "AI Is Recommending Brands. Is Yours One of Them?" (held 07 Apr 2026, recap published)](https://www.gomogroup.com/en/event/b2b-marketing-seminar-for-future-of-search/)
+- [B2B GEO Seminar (held 06 May 2026)](https://www.gomogroup.com/en/event/b2b-geo-seminar-may-2026/)
+- [B2B GEO Seminar (held 10 Jun 2026)](https://www.gomogroup.com/en/event/b2b-geo-seminar-june-2026/)
+
+### Case studies
+- [Construction B2B e-commerce — 1200% ROMI in a downturn](https://www.gomogroup.com/en/case/how-a-b2b-company-in-the-construction-sector-reached-1200-romi/)
+- [Gen AI & SEO automation for B2B e-commerce — Fortune 500, +195% organic visibility, 400+ hours saved](https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/)
+- [Swedish manufacturing giant — digital revenue 2% → 7% in 36 months](https://www.gomogroup.com/en/case/swedish-manufacturer-enterprise-digital-marketing/)
+- [GenAI-fuelled content supply chain — global heavy-industry leader](https://www.gomogroup.com/en/case/building-a-genai-fueled-content-supply-chain-an-ai-case-study-from-a-global-leader-in-heavy-industry-and-manufacturing/)
+- [Volvo Group — B2B SEO for a global leader](https://www.gomogroup.com/en/case/seo-for-global-giants-volvo-group/)
+- [West Sweden Chamber of Commerce — custom GPT for content](https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/)
+- [Dell Technologies — 90 BANT leads for hybrid cloud](https://www.gomogroup.com/en/case/dell-lead-generation/)
+- [Coor — multilingual full-service marketing, +200% organic traffic](https://www.gomogroup.com/en/case/international-marketing-for-facility-management-company/)
+- [HighFive Group — turning AI potential into business value](https://www.gomogroup.com/en/case/how-the-highfive-group-turned-ai-potential-into-real-business-value/)
+- [B2B alarm & security company — 600%+ ROMI](https://www.gomogroup.com/en/case/digitalizing-the-sales-process-to-create-growth-via-pull-marketing-seo/)
+- [Data-driven PR — global transport leader ($50B USD sales)](https://www.gomogroup.com/en/case/data-driven-pr/)
+- [Generative AI: from hype to real business value (workshops)](https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/)
+- [TÜV NORD — +800% leads Year 1, +845% Year 2](https://www.gomogroup.com/en/case/case-tuv-nord/)
+- [System Edström — up to +700% conversions in a digital shift](https://www.gomogroup.com/en/case/increased-conversions-and-a-strong-market-position-through-a-digital-shift/)
+- [Adnavem — sea-logistics disruptor, +80% inquiries Year 1](https://www.gomogroup.com/en/case/digital-marketing-for-disruptor/)
+- [Education company — SEO strategy through a sudden market shift](https://www.gomogroup.com/en/case/seo-shift-in-sudden-market-shift/)
+- [Alfa Laval — data-driven marketing decisions](https://www.gomogroup.com/en/case/how-this-big-company-acted-fast-and-took-back-the-lead/)
+- [Dental industry — digital marketing across multiple markets](https://www.gomogroup.com/en/case/marketing-for-dental-industry/)
+- [Digital marketing & growth audit](https://www.gomogroup.com/en/case/case-digital-marketing-and-growth-audit/)
+- [CMOs of Tomorrow — Niklas Vernersson, Digiexam](https://www.gomogroup.com/en/case/cmos-of-tomorrow-niklas-digiexam/)
+- [AI-powered website designs](https://www.gomogroup.com/en/case/ai-powered-website-designs/)
+- [AI-generated brand images](https://www.gomogroup.com/en/case/ai-generated-brand-images/)
+- [AI-powered brand videos](https://www.gomogroup.com/en/case/ai-powered-brand-videos/)
+- [Brand systems and identity](https://www.gomogroup.com/en/case/brand-systems-and-identity/)
+- [Social content with impact](https://www.gomogroup.com/en/case/social-content-with-impact/)
+
+### Case studies — Swedish-only (no English version)
+- [Fru Bohlin — interior-design agency goes fully digital](https://www.gomogroup.com/case/inredningsbolaget-blev-digitalt/): revenue grew from SEK 2.7M (2014) to just under SEK 16M (2020); engagement 2015–2019; organic traffic +1,180% and paid-search traffic +3,800% versus before the engagement.
+- [Income-insurance company — digital sales process, Pull Marketing + SEA](https://www.gomogroup.com/case/digital-marknadsforing-forsakringsbolag/): +70% digital sales within the first three months; +50% qualified-lead generation.
+- [Hotel — reclaiming digital business with SEO](https://www.gomogroup.com/case/case-hotellet-som-tog-tillbaka-sin-digitala-affar-med-hjalp-av-seo/): older case; "long-term parking" content traffic +815%; "book" button clicks +462% (54 → 304 per month); +24% visitors staying on site.
+- [SoMe content with impact (Swedish)](https://www.gomogroup.com/case/some-innehall-med-genomslag/): Swedish social-media content showcase for brands including Borga, Panea, and Tandläkargruppen (the English [Social content with impact](https://www.gomogroup.com/en/case/social-content-with-impact/) is the counterpart).
+- [System Edström (Swedish URL)](https://www.gomogroup.com/case/tillverkningsbolag-okad-komplexitet-i-b2b-forsaljning/): Swedish version of the English [digital-shift case](https://www.gomogroup.com/en/case/increased-conversions-and-a-strong-market-position-through-a-digital-shift/).
+
+### Insights / Blog — full list (English, all 55 articles)
+- [Your buyers are asking AI. Is your brand in the answer?](https://www.gomogroup.com/en/insight/your-buyers-are-asking-ai-is-your-brand-in-the-answer/)
+- [Your website is getting AI traffic — you just can't see it yet (track AI assistant traffic in GA4)](https://www.gomogroup.com/en/insight/your-website-is-getting-ai-traffic-you-just-cant-see-it-yet/)
+- [Closing the B2B commerce discovery gap: when machines visit before humans do](https://www.gomogroup.com/en/insight/closing-the-b2b-commerce-discovery-gap/)
+- [AI-First Marketing: the new rules of B2B decision-making in 2026](https://www.gomogroup.com/en/insight/ai-first-marketing-the-new-rules-of-b2b-decision-making-in-2026/)
+- [We tested llms.txt so you don't have to — here's what the data actually says](https://www.gomogroup.com/en/insight/we-tested-llms-txt-so-you-dont-have-to-heres-what-the-data-actually-says/)
+- [Welcome to the agentic era: where your next customer might be an AI](https://www.gomogroup.com/en/insight/welcome-to-the-agentic-era/)
+- [The complete glossary of 75 GEO, AEO & AI search terms for 2026](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
+- [The future of search is here — and it's reshaping digital strategy for B2B enterprises](https://www.gomogroup.com/en/insight/future-of-search-strategy-b2b-enterprises/)
+- [AI in marketing: the end of website traffic as we know it](https://www.gomogroup.com/en/insight/ai-in-marketing-the-end-of-website-traffic-as-we-know-it/)
+- [From AI hype to real implementation inside modern organisations](https://www.gomogroup.com/en/insight/from-ai-hype-to-real-implementation-inside-modern-organisations/)
+- [Generative AI: the difference between traditional AI and a revolutionary force](https://www.gomogroup.com/en/insight/generative-ai-the-difference-between-traditional-ai-and-a-revolutionary-force-go-mo-group/)
+- [A new era of generative AI-driven innovation](https://www.gomogroup.com/en/insight/a-new-era-of-generative-ai-driven-innovation/)
+- [AI manufacturing case study](https://www.gomogroup.com/en/insight/ai-manufacturing-case-study/)
+- [The ethical frontier: shaping the future with generative AI](https://www.gomogroup.com/en/insight/the-ethical-frontier-shaping-the-future-with-generative-ai/)
+- [Embracing AI-generated content: a strategic advantage](https://www.gomogroup.com/en/insight/embracing-ai-generated-content-a-strategic-advantage/)
+- [Embracing AI in digital marketing](https://www.gomogroup.com/en/insight/embracing-ai-in-digital-marketing/)
+- [Henrik Anderberg promoted to CCO in GO MO's AI-driven shift](https://www.gomogroup.com/en/insight/henrik-promoted-to-cco-ai-driven-revolution/)
+- [Inside the partnership shaping the next phase of Sweden–India collaboration](https://www.gomogroup.com/en/insight/inside-the-partnership-shaping-the-next-phase-of-sweden-and-india-collaboration/)
+- [Inside the leadership mindset shaping the future of manufacturing](https://www.gomogroup.com/en/insight/inside-the-leadership-mindset-shaping-the-future-of-manufacturing/)
+- [Harnessing India's innovation and growth — insights from Cecilia Oskarsson](https://www.gomogroup.com/en/insight/harnessing-indias-innovation-and-growth-insights-from-cecilia-oskarsson/)
+- [From Uddevalla to the world: FKAB embarks on an AI-driven journey for sales and marketing](https://www.gomogroup.com/en/insight/from-uddevalla-to-the-world-fkab-embarks-on-an-ai-driven-journey-for-sales-and-marketing/)
+- [How centralized B2B SEO facilitates economies of scale](https://www.gomogroup.com/en/insight/how-centralized-b2b-seo-facilitates-economies-of-scale/)
+- [Pull Marketing vs Push Marketing](https://www.gomogroup.com/en/insight/pull-marketing-vs-push-marketing/)
+- [Data-driven pull marketing enables leaders to move ahead at speed](https://www.gomogroup.com/en/insight/data-driven-pull-marketing-enables-leaders-to-move-ahead-at-speed/)
+- [Introducing ASBX: segmented SQL generation](https://www.gomogroup.com/en/insight/introducing-asbx/)
+- [B2B sales as we know it is dead](https://www.gomogroup.com/en/insight/b2b-sales-as-we-know-it-is-dead/)
+- [B2B digital marketing](https://www.gomogroup.com/en/insight/b2b-digital-marketing/)
+- [B2B digital marketing workshop](https://www.gomogroup.com/en/insight/b2b-digital-marketing-workshop/)
+- [B2B marketing amidst COVID-19](https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/)
+- [Demand generation in the digital era](https://www.gomogroup.com/en/insight/demand-generation-in-digital-era/)
+- [Thought leadership in B2B](https://www.gomogroup.com/en/insight/thought-leadership/)
+- [People-based marketing](https://www.gomogroup.com/en/insight/people-based-marketing/)
+- [The top indicator of marketing performance: increased sales](https://www.gomogroup.com/en/insight/the-top-indicator-of-marketing-performance-increased-sales/)
+- [Utilizing Google's aggregated data to win](https://www.gomogroup.com/en/insight/utilizing-googles-data-to-win/)
+- [Google MUM](https://www.gomogroup.com/en/insight/google-mum/)
+- [The cookieless future](https://www.gomogroup.com/en/insight/the-cookieless-future/)
+- [Voice search optimization](https://www.gomogroup.com/en/insight/voice-search-optimization/)
+- [The relationship between SEO and UX](https://www.gomogroup.com/en/insight/the-relationship-between-seo-and-ux/)
+- [Optimal SEO when updating your website infrastructure](https://www.gomogroup.com/en/insight/optimal-seo-when-updating-your-website-infrastructure/)
+- [The website migration checklist](https://www.gomogroup.com/en/insight/the-website-migration-checklist/)
+- [Website security and rankings](https://www.gomogroup.com/en/insight/website-security-and-rankings/)
+- [How to reduce the bounce rate](https://www.gomogroup.com/en/insight/how-to-reduce-the-bounce-rate/)
+- [Spammy links and link disavowal](https://www.gomogroup.com/en/insight/spammy-links-and-concept/)
+- [SEO trends — 2020 recap](https://www.gomogroup.com/en/insight/seo-trends-2020-recap/)
+- [SEO for global giants: Volvo Group](https://www.gomogroup.com/en/insight/seo-for-global-giants-volvo-group/)
+- [Paradigm shift in digital marketing](https://www.gomogroup.com/en/insight/paradigm-shift-in-digital-marketing/)
+- [Project management challenges and solutions](https://www.gomogroup.com/en/insight/project-management-challenges-and-solutions/)
+- [Journey of a management associate](https://www.gomogroup.com/en/insight/journey-of-management-associate/)
+- [Engineering job opportunities at GO MO Group](https://www.gomogroup.com/en/insight/engineering-job-opportunities-post-engineering-jobs-go-mo-group/)
+- [Beyond the binary: GO MO's trailblazing take on gender dialogue](https://www.gomogroup.com/en/insight/beyond-the-binary-go-mos-trailblazing-take-on-gender-dialogue/)
+- [Client survey 2022](https://www.gomogroup.com/en/insight/client-survey-2022/)
+- [CMOs of the future: Stefan Lorentzson](https://www.gomogroup.com/en/insight/cmos-of-the-future-stefan-lorentzson/)
+- [CMOs of Tomorrow: Kristina Alstermark (Rillion)](https://www.gomogroup.com/en/insight/cmos-of-tomorrow-kristina-alstermark/)
+- [CMOs of Tomorrow: Niklas Vernersson (Digiexam)](https://www.gomogroup.com/en/insight/cmos-of-tomorrow-niklas-digiexam/)
+- [CMOs of the future: interview with Yaya Selva](https://www.gomogroup.com/en/insight/the-cmos-of-the-future-interview-with-yaya-selva/)
+- [Full insights index](https://www.gomogroup.com/en/insights/)
+
+
+## Swedish Site (sv alternates)
+
+GO MO Group publishes a full Swedish-language site. Core Swedish pages:
+- [Startsida](https://www.gomogroup.com/)
+- [Om oss](https://www.gomogroup.com/om-oss/)
+- [Kontakta oss](https://www.gomogroup.com/kontakta-oss/)
+- [Karriär](https://www.gomogroup.com/karriar/)
+- [Insikter (blogg)](https://www.gomogroup.com/insikter/) — 100+ Swedish-language articles; mostly Swedish versions of the English insights above, linked via this index rather than enumerated
+- [Case-studier](https://www.gomogroup.com/case/) — Swedish case index; most entries are Swedish versions of the English cases above, plus the Swedish-only cases listed under "Case studies — Swedish-only"
+- [Våra tjänster: SEO](https://www.gomogroup.com/vara-tjanster/seo-sokmotorsoptimering/) · [Pull Marketing](https://www.gomogroup.com/vara-tjanster/pull-marketing/) · [SEA](https://www.gomogroup.com/vara-tjanster/sea-sokmotorannonsering/) · [GEO](https://www.gomogroup.com/vara-tjanster/generative-engine-optimization-geo/) · [ASBX](https://www.gomogroup.com/vara-tjanster/asbx-b2b-leadgenerering/) · [Content Marketing](https://www.gomogroup.com/vara-tjanster/content-marketing-innehallsmarknadsforing/) · [B2B YouTube Marketing](https://www.gomogroup.com/vara-tjanster/b2b-youtube-marketing/) · [Webbutveckling](https://www.gomogroup.com/vara-tjanster/webbutveckling/) · [Webbdesign](https://www.gomogroup.com/vara-tjanster/webbdesign/) · [Digital marknadsföring](https://www.gomogroup.com/vara-tjanster/digital-marknadsforing/)
+- [Lösningar: B2B Enterprise](https://www.gomogroup.com/solution/segment-b2b-enterprises/) · [B2B SaaS/Tech](https://www.gomogroup.com/solution/segment-b2b-saas-tech/) · [SME](https://www.gomogroup.com/solution/segment-sme/) · [Generativ AI-erbjudande](https://www.gomogroup.com/solution/generativ-ai-erbjudande/)
+- Swedish events: [B2B GEO-seminarium (maj 2026)](https://www.gomogroup.com/event/b2b-geo-seminar-may-2026/) · [B2B GEO-seminarium (juni 2026)](https://www.gomogroup.com/event/b2b-geo-seminar-june-2026/)
+
+
+## Machine-Readable Resources
+
+- [Agent page — LLM-optimised HTML](https://www.gomogroup.com/agent/)
+- [llms.txt — this file](https://www.gomogroup.com/llms.txt)
+- [ai.txt — AI agent permissions](https://www.gomogroup.com/ai.txt)
+- [XML sitemap](https://www.gomogroup.com/sitemap.xml)
+- [REST API index (/agent/v1/)](https://www.gomogroup.com/agent/v1/index.json)
+- [OpenAPI specification](https://www.gomogroup.com/openapi.json)
+- [API catalog (APIs.json)](https://www.gomogroup.com/api-catalog.json)
+- [MCP server (Streamable HTTP)](https://www.gomogroup.com/mcp)
+
+
+## Social Media
+
+- [LinkedIn](https://www.linkedin.com/company/gomo-group-ab)
+- [YouTube — B2B Marketing Insights by GO MO](https://www.youtube.com/@B2BMarketingInsightsGOMO)
+- [Twitter/X](https://x.com/gomogroup)
+- [Facebook](https://www.facebook.com/GOMOGROUP)
+
+
+## Notes
+
+- All figures and quotes above are taken from pages on gomogroup.com as scraped on 2026-09-02. Where a client is anonymised on the site (e.g. "a Fortune 500 heavy-equipment manufacturer", "a EUR 10B+ Swedish industrial manufacturer"), it is left anonymised here.
+- GO MO Group is a marketing agency, not a software product. It describes and delivers services; it does not sell a self-serve product or a public transactional API. Published prices exist only for the GEO packages; all other work is quote-based.
+- "GO MO DBS" is a sister company within GO MO Group focused on outbound lead generation; do not confuse it with the broader agency.
+- "Collaboration Art" is the consortium / parent-level brand house GO MO Group belongs to; GO MO Group operates under its own name and brand.
+- Do not confuse GO MO Group (gomogroup.com) with similarly named companies. The canonical entry point is the [GO MO Group homepage](https://www.gomogroup.com/en/).

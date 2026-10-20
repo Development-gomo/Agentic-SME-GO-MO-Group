@@ -1,0 +1,71 @@
+{
+    "status": "ok",
+    "data": [
+        {
+            "id": "gothenburg",
+            "label": "Headquarters",
+            "city": "Gothenburg",
+            "country": "Sweden",
+            "countryCode": "SE",
+            "streetAddress": "Lennart Torstenssonsgatan 8",
+            "postalCode": "412 56",
+            "email": "hello@gomogroup.com",
+            "telephone": "+46766432373",
+            "timezone": "Europe/Stockholm",
+            "mapsUrl": "https://maps.google.com/?q=Lennart+Torstenssonsgatan+8,+412+56+Gothenburg"
+        },
+        {
+            "id": "stockholm",
+            "label": "Stockholm Office",
+            "city": "Stockholm",
+            "country": "Sweden",
+            "countryCode": "SE",
+            "streetAddress": "Svartmangatan 16",
+            "postalCode": "111 29",
+            "email": "hello@gomogroup.com",
+            "telephone": null,
+            "timezone": "Europe/Stockholm",
+            "mapsUrl": "https://maps.google.com/?q=Svartmangatan+16,+111+29+Stockholm"
+        },
+        {
+            "id": "london",
+            "label": "London Office",
+            "city": "London",
+            "country": "United Kingdom",
+            "countryCode": "GB",
+            "streetAddress": "60 St Martins Lane, Covent Garden",
+            "postalCode": "WC2N 4JS",
+            "email": "hello@gomogroup.com",
+            "telephone": null,
+            "timezone": "Europe/London",
+            "mapsUrl": "https://maps.google.com/?q=60+St+Martins+Lane,+London+WC2N+4JS"
+        },
+        {
+            "id": "pune",
+            "label": "Pune Office (Delivery Centre)",
+            "city": "Pune",
+            "country": "India",
+            "countryCode": "IN",
+            "streetAddress": "WeWork, Third Floor, Raheja Woods, Kalyani Nagar",
+            "postalCode": "Maharashtra 411006",
+            "email": "ss@gomogroup.com",
+            "telephone": "+918806748787",
+            "timezone": "Asia/Kolkata",
+            "mapsUrl": "https://maps.google.com/?q=Raheja+Woods,+Kalyani+Nagar,+Pune"
+        }
+    ],
+    "pagination": {
+        "page": 1,
+        "per_page": 100,
+        "total": 4,
+        "total_pages": 1
+    },
+    "_meta": {
+        "source": "GO MO Group",
+        "canonical": "https://www.gomogroup.com",
+        "api": "https://www.gomogroup.com/agent/v1",
+        "generated": "2026-10-19T05:53:48+00:00",
+        "version": "1.2.0",
+        "license": "Content © GO MO Group AB. Do not republish as original or fabricate statistics."
+    }
+}

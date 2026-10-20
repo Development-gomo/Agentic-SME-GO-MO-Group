@@ -1,0 +1,709 @@
+{
+    "status": "ok",
+    "data": [
+        {
+            "id": "gabriel-ghavami",
+            "name": "Gabriel Ghavami",
+            "role": "",
+            "email": "gg@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/gabriel-ghavami/",
+            "linkedin": "https://www.linkedin.com/in/gabriel-g-ghavami-17b84657/"
+        },
+        {
+            "id": "gabriel-ghavami",
+            "name": "Gabriel Ghavami",
+            "role": "",
+            "email": "gg@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/gabriel-ghavami/",
+            "linkedin": "https://www.linkedin.com/in/gabriel-g-ghavami-17b84657/"
+        },
+        {
+            "id": "safa-soltani",
+            "name": "Safa Soltani",
+            "role": "",
+            "email": "ss@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/safa-soltani/",
+            "linkedin": "https://www.linkedin.com/in/safasoltani/"
+        },
+        {
+            "id": "safa-soltani",
+            "name": "Safa Soltani",
+            "role": "",
+            "email": "ss@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/safa-soltani/",
+            "linkedin": "https://www.linkedin.com/in/safasoltani/"
+        },
+        {
+            "id": "henrik-anderberg",
+            "name": "Henrik Anderberg",
+            "role": "",
+            "email": "ha@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/henrik-anderberg/",
+            "linkedin": "https://www.linkedin.com/in/henrikanderberg/"
+        },
+        {
+            "id": "henrik-anderberg",
+            "name": "Henrik Anderberg",
+            "role": "",
+            "email": "ha@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/henrik-anderberg/",
+            "linkedin": "https://www.linkedin.com/in/henrikanderberg/"
+        },
+        {
+            "id": "anuvinder-singh",
+            "name": "Anuvinder Singh",
+            "role": "",
+            "email": "as@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/anuvinder-singh/",
+            "linkedin": "https://www.linkedin.com/in/anuvinders/"
+        },
+        {
+            "id": "anuvinder-singh",
+            "name": "Anuvinder Singh",
+            "role": "",
+            "email": "as@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/anuvinder-singh/",
+            "linkedin": "https://www.linkedin.com/in/anuvinders/"
+        },
+        {
+            "id": "puja-kumari",
+            "name": "Puja Kumari",
+            "role": "",
+            "email": "puja.k@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/puja-kumari/",
+            "linkedin": "https://www.linkedin.com/in/meetpuja/"
+        },
+        {
+            "id": "puja-kumari",
+            "name": "Puja Kumari",
+            "role": "",
+            "email": "puja.k@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/puja-kumari/",
+            "linkedin": "https://www.linkedin.com/in/meetpuja/"
+        },
+        {
+            "id": "lina-nygren",
+            "name": "Lina Nygren",
+            "role": "",
+            "email": "ln@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/lina-nygren/",
+            "linkedin": "https://www.linkedin.com/in/lina-nygren-38912b135"
+        },
+        {
+            "id": "lina-nygren",
+            "name": "Lina Nygren",
+            "role": "",
+            "email": "ln@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/lina-nygren/",
+            "linkedin": "https://www.linkedin.com/in/lina-nygren-38912b135"
+        },
+        {
+            "id": "avichal-singh",
+            "name": "Avichal Singh",
+            "role": "",
+            "email": "avichal.s@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/avichal-singh/",
+            "linkedin": null
+        },
+        {
+            "id": "avichal-singh",
+            "name": "Avichal Singh",
+            "role": "",
+            "email": "avichal.s@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/avichal-singh/",
+            "linkedin": null
+        },
+        {
+            "id": "ida-e-ghavami",
+            "name": "Ida E. Ghavami",
+            "role": "",
+            "email": "ie@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/ida-e-ghavami/",
+            "linkedin": "https://www.linkedin.com/in/ida-eriksson-ghavami-12711551/"
+        },
+        {
+            "id": "ida-e-ghavami",
+            "name": "Ida E. Ghavami",
+            "role": "",
+            "email": "ie@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/ida-e-ghavami/",
+            "linkedin": "https://www.linkedin.com/in/ida-eriksson-ghavami-12711551/"
+        },
+        {
+            "id": "priya-bhoi",
+            "name": "Priya Bhoi",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/priya-bhoi/",
+            "linkedin": null
+        },
+        {
+            "id": "priya-bhoi",
+            "name": "Priya Bhoi",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/priya-bhoi/",
+            "linkedin": null
+        },
+        {
+            "id": "gaurav-khetan",
+            "name": "Gaurav Khetan",
+            "role": "",
+            "email": "gaurav.k@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/gaurav-khetan/",
+            "linkedin": null
+        },
+        {
+            "id": "gaurav-khetan",
+            "name": "Gaurav Khetan",
+            "role": "",
+            "email": "gaurav.k@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/gaurav-khetan/",
+            "linkedin": null
+        },
+        {
+            "id": "naghme-mehrooz",
+            "name": "Naghme Mehrooz",
+            "role": "",
+            "email": "nm@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/naghme-mehrooz/",
+            "linkedin": "https://www.linkedin.com/in/naghme-mehrooz/"
+        },
+        {
+            "id": "naghme-mehrooz",
+            "name": "Naghme Mehrooz",
+            "role": "",
+            "email": "nm@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/naghme-mehrooz/",
+            "linkedin": "https://www.linkedin.com/in/naghme-mehrooz/"
+        },
+        {
+            "id": "veeraj-dattatray-jadhav",
+            "name": "Veeraj Dattatray Jadhav",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/veeraj-dattatray-jadhav/",
+            "linkedin": null
+        },
+        {
+            "id": "veeraj-dattatray-jadhav",
+            "name": "Veeraj Dattatray Jadhav",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/veeraj-dattatray-jadhav/",
+            "linkedin": null
+        },
+        {
+            "id": "prasad-gokhale",
+            "name": "Prasad Gokhale",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/prasad-gokhale/",
+            "linkedin": null
+        },
+        {
+            "id": "prasad-gokhale",
+            "name": "Prasad Gokhale",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/prasad-gokhale/",
+            "linkedin": null
+        },
+        {
+            "id": "shashank-ambagade",
+            "name": "Shashank Ambagade",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/shashank-ambagade/",
+            "linkedin": null
+        },
+        {
+            "id": "shashank-ambagade",
+            "name": "Shashank Ambagade",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/shashank-ambagade/",
+            "linkedin": null
+        },
+        {
+            "id": "jonathan-pinto",
+            "name": "Jonathan Pinto",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/jonathan-pinto/",
+            "linkedin": null
+        },
+        {
+            "id": "jonathan-pinto",
+            "name": "Jonathan Pinto",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/jonathan-pinto/",
+            "linkedin": null
+        },
+        {
+            "id": "rickard-koskenniemi",
+            "name": "Rickard Koskenniemi",
+            "role": "",
+            "email": "rk@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/rickard-koskenniemi/",
+            "linkedin": "https://www.linkedin.com/in/rickard-koskenniemi/"
+        },
+        {
+            "id": "rickard-koskenniemi",
+            "name": "Rickard Koskenniemi",
+            "role": "",
+            "email": "rk@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/rickard-koskenniemi/",
+            "linkedin": "https://www.linkedin.com/in/rickard-koskenniemi/"
+        },
+        {
+            "id": "vishal-kawade",
+            "name": "Vishal Kawade",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/vishal-kawade/",
+            "linkedin": null
+        },
+        {
+            "id": "vishal-kawade",
+            "name": "Vishal Kawade",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/vishal-kawade/",
+            "linkedin": null
+        },
+        {
+            "id": "anna-hakansson",
+            "name": "Anna Håkansson",
+            "role": "",
+            "email": "finance@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/anna-hakansson/",
+            "linkedin": null
+        },
+        {
+            "id": "anna-hakansson",
+            "name": "Anna Håkansson",
+            "role": "",
+            "email": "finance@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/anna-hakansson/",
+            "linkedin": null
+        },
+        {
+            "id": "bezaleel-mathai",
+            "name": "Bezaleel Mathai",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/bezaleel-mathai/",
+            "linkedin": null
+        },
+        {
+            "id": "bezaleel-mathai",
+            "name": "Bezaleel Mathai",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/bezaleel-mathai/",
+            "linkedin": null
+        },
+        {
+            "id": "s-vishnu-vardhan-adithya",
+            "name": "S Vishnu Vardhan Adithya",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/s-vishnu-vardhan-adithya/",
+            "linkedin": null
+        },
+        {
+            "id": "s-vishnu-vardhan-adithya",
+            "name": "S Vishnu Vardhan Adithya",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/s-vishnu-vardhan-adithya/",
+            "linkedin": null
+        },
+        {
+            "id": "mridul-malhotra",
+            "name": "Mridul Malhotra",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/mridul-malhotra/",
+            "linkedin": null
+        },
+        {
+            "id": "mridul-malhotra",
+            "name": "Mridul Malhotra",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/mridul-malhotra/",
+            "linkedin": null
+        },
+        {
+            "id": "jigar-kantilal-dhulla",
+            "name": "Jigar Kantilal Dhulla",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/jigar-kantilal-dhulla/",
+            "linkedin": null
+        },
+        {
+            "id": "jigar-kantilal-dhulla",
+            "name": "Jigar Kantilal Dhulla",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/jigar-kantilal-dhulla/",
+            "linkedin": null
+        },
+        {
+            "id": "joshua-amirose",
+            "name": "Joshua Amirose",
+            "role": "",
+            "email": "ja@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/joshua-amirose/",
+            "linkedin": "https://www.linkedin.com/in/joshua-amirose/"
+        },
+        {
+            "id": "meenal-yelsangikar",
+            "name": "Meenal Yelsangikar",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/meenal-yelsangikar/",
+            "linkedin": null
+        },
+        {
+            "id": "meenal-yelsangikar",
+            "name": "Meenal Yelsangikar",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/meenal-yelsangikar/",
+            "linkedin": null
+        },
+        {
+            "id": "sanghapriya-waghmare",
+            "name": "Sanghapriya Waghmare",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/sanghapriya-waghmare/",
+            "linkedin": null
+        },
+        {
+            "id": "sanghapriya-waghmare",
+            "name": "Sanghapriya Waghmare",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/sanghapriya-waghmare/",
+            "linkedin": null
+        },
+        {
+            "id": "aditi-rawal",
+            "name": "Aditi Rawal",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/aditi-rawal/",
+            "linkedin": null
+        },
+        {
+            "id": "aditi-rawal",
+            "name": "Aditi Rawal",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/aditi-rawal/",
+            "linkedin": null
+        },
+        {
+            "id": "isabelle-coquet",
+            "name": "Isabelle Coquet",
+            "role": "",
+            "email": "isabelle@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/isabelle-coquet/",
+            "linkedin": "https://www.linkedin.com/in/isabelle-coquet-1a3b541/"
+        },
+        {
+            "id": "isabelle-coquet",
+            "name": "Isabelle Coquet",
+            "role": "",
+            "email": "isabelle@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/isabelle-coquet/",
+            "linkedin": "https://www.linkedin.com/in/isabelle-coquet-1a3b541/"
+        },
+        {
+            "id": "roshni-bhuta",
+            "name": "Roshni Bhuta",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/roshni-bhuta/",
+            "linkedin": null
+        },
+        {
+            "id": "roshni-bhuta",
+            "name": "Roshni Bhuta",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/roshni-bhuta/",
+            "linkedin": null
+        },
+        {
+            "id": "pratik-chiwarkar",
+            "name": "Pratik Chiwarkar",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/pratik-chiwarkar/",
+            "linkedin": null
+        },
+        {
+            "id": "pratik-chiwarkar",
+            "name": "Pratik Chiwarkar",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/pratik-chiwarkar/",
+            "linkedin": null
+        },
+        {
+            "id": "muthu-durga",
+            "name": "Muthu Durga",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/muthu-durga/",
+            "linkedin": null
+        },
+        {
+            "id": "muthu-durga",
+            "name": "Muthu Durga",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/muthu-durga/",
+            "linkedin": null
+        },
+        {
+            "id": "oliver-strang-paschetto",
+            "name": "Oliver Sträng Paschetto",
+            "role": "",
+            "email": "oliver@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/oliver-strang-paschetto/",
+            "linkedin": "https://www.linkedin.com/in/oliver-str%C3%A4ng-paschetto-194911ba/"
+        },
+        {
+            "id": "oliver-strang-paschetto",
+            "name": "Oliver Sträng Paschetto",
+            "role": "",
+            "email": "oliver@gomogroup.com",
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/oliver-strang-paschetto/",
+            "linkedin": "https://www.linkedin.com/in/oliver-str%C3%A4ng-paschetto-194911ba/"
+        },
+        {
+            "id": "krantiraj-mohanrao-patil",
+            "name": "Krantiraj Mohanrao Patil",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/krantiraj-mohanrao-patil/",
+            "linkedin": null
+        },
+        {
+            "id": "krantiraj-mohanrao-patil",
+            "name": "Krantiraj Mohanrao Patil",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/krantiraj-mohanrao-patil/",
+            "linkedin": null
+        },
+        {
+            "id": "tanya-ann",
+            "name": "Tanya Ann",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/tanya-ann/",
+            "linkedin": null
+        },
+        {
+            "id": "tanya-ann",
+            "name": "Tanya Ann",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/tanya-ann/",
+            "linkedin": null
+        },
+        {
+            "id": "sohom-niyogi",
+            "name": "Sohom Niyogi",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/sohom-niyogi/",
+            "linkedin": null
+        },
+        {
+            "id": "sohom-niyogi",
+            "name": "Sohom Niyogi",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/sohom-niyogi/",
+            "linkedin": null
+        },
+        {
+            "id": "aasim-sayyad",
+            "name": "Aasim Sayyad",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/medarbetare/aasim-sayyad/",
+            "linkedin": null
+        },
+        {
+            "id": "aasim-sayyad",
+            "name": "Aasim Sayyad",
+            "role": "",
+            "email": null,
+            "telephone": null,
+            "location": "",
+            "profileUrl": "https://www.gomogroup.com/en/team/aasim-sayyad/",
+            "linkedin": null
+        }
+    ],
+    "pagination": {
+        "page": 1,
+        "per_page": 100,
+        "total": 69,
+        "total_pages": 1
+    },
+    "_meta": {
+        "source": "GO MO Group",
+        "canonical": "https://www.gomogroup.com",
+        "api": "https://www.gomogroup.com/agent/v1",
+        "generated": "2026-10-19T05:53:47+00:00",
+        "version": "1.2.0",
+        "license": "Content © GO MO Group AB. Do not republish as original or fabricate statistics."
+    }
+}

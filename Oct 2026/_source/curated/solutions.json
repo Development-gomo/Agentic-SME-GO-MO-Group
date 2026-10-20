@@ -1,0 +1,182 @@
+[
+  {
+    "id": "enterprise",
+    "name": "B2B Enterprise",
+    "name_sv": "B2B Enterprise",
+    "type": "segment",
+    "summary": "GO MO Group's offering for global B2B enterprises combines SEO, GEO and SEM with generative AI to drive top-line growth and productivity in the commercial domain. It balances long-term organic wins with short-term paid activity and is delivered by specialist teams operating from the Nordics and India. The 360° solution spans CX and digital differentiation, pull marketing, segmented outreach and training to build internal expertise.",
+    "summary_sv": "Som partner till globala B2B-företag stärker vi er internationella närvaro med generativ AI, pull-marketing (SEO, SEM, content, webb, design, LinkedIn) och ASBX (CRM, prospektering, e-post, LinkedIn).",
+    "key_points": [
+      "Mantra: quickly evaluated and proven SEO, GEO and SEM methods",
+      "Combines long-term organic wins with short-term paid activities",
+      "Delivered from the Nordics and India, giving access to a large digital marketing talent pool",
+      "Team roles: senior strategist & segment owner, client success manager, SEO/GEO analysts, paid search analysts (Google, Bing, LinkedIn, Capterra), UX/UI designers, prompt engineers/copywriters, web developers (HubSpot, WordPress), lead generation specialists",
+      "Generative AI cut content input by over 30-40% while boosting output (EN page; SV page says over 30%)",
+      "360° solution: CX & digital differentiation, pull marketing, segmented & vertical outreach, training",
+      "Client success managers train client teams to build internal expertise"
+    ],
+    "services": [
+      "seo",
+      "geo",
+      "sea",
+      "sem",
+      "pull-marketing",
+      "content-marketing",
+      "website-design",
+      "website-development",
+      "asbx"
+    ],
+    "url": "https://www.gomogroup.com/en/solution/segment-b2b-enterprise/",
+    "url_sv": "https://www.gomogroup.com/solution/segment-b2b-enterprises/",
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "dateModified": "2026-05-13"
+  },
+  {
+    "id": "saas-tech",
+    "name": "B2B SaaS/Tech",
+    "name_sv": "B2B SaaS & Tech",
+    "type": "segment",
+    "summary": "A vertical digital marketing offering for B2B SaaS and tech companies focused on scalable, efficient growth amid intense competition. GO MO combines SEO and generative search optimization, paid search, content, web development and segmented outreach, using generative AI for efficiency and a delivery presence in India for speed and scale. The stated goal is to engage up to 1,000 key prospects annually through a targeted, segmented approach.",
+    "summary_sv": "Förbättra er online-närvaro och attrahera potentiella kunder med en vertikal SaaS/Tech-lösning och förbättrad sökbarhet. Nå upp till 1 000 nyckelprospekt årligen med en riktad och segmenterad strategi.",
+    "key_points": [
+      "Engage up to 1,000 key prospects annually through a targeted, segmented approach",
+      "SEO and GSO (generative search optimization) strategy led by a senior strategist & segment owner",
+      "Paid search across Google, Bing, LinkedIn and Capterra",
+      "AI reduced content input by over 30% while enhancing output",
+      "360° solution: CX & digital differentiation, pull marketing, segmented & vertical outreach (Google, LinkedIn, email)",
+      "Delivery presence in India for high-impact, low-risk, scalable execution"
+    ],
+    "services": [
+      "seo",
+      "geo",
+      "sea",
+      "pull-marketing",
+      "content-marketing",
+      "demand-generation",
+      "website-design",
+      "website-development",
+      "asbx"
+    ],
+    "url": "https://www.gomogroup.com/en/solution/segment-b2b-saas-tech/",
+    "url_sv": "https://www.gomogroup.com/solution/segment-b2b-saas-tech/",
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "dateModified": "2026-05-13"
+  },
+  {
+    "id": "sme",
+    "name": "B2B SME",
+    "name_sv": "B2B SME",
+    "type": "segment",
+    "summary": "GO MO Group's offering for B2B small and medium-sized enterprises, particularly traditional industrial and manufacturing companies. GO MO acts as an extension of the client's marketing and sales team, stepping in as interim marketing chief when needed, with a primary focus on lead generation and brand positioning. Generative AI is presented as a way for historically underinvested SMEs to leapfrog competitors.",
+    "summary_sv": "Traditionella industri- och tillverkande medelstora bolag hör hemma hos oss. Vi fungerar som en förlängning av ert marknadsförings- och säljteam, vid behov som interim marknadschef.",
+    "key_points": [
+      "Acts as an extension of the marketing and sales team, including interim marketing chief",
+      "Primary focus on lead generation and strategic brand positioning",
+      "Swedish page targets traditional industrial and manufacturing mid-sized companies ('B2B SME')",
+      "360° solution: lead generation, inbound/pull marketing, social media (LinkedIn, Meta), push marketing, sales enablement with CRM",
+      "AI reduced content input by over 30% while increasing output",
+      "Delivery presence in India for speed, expertise and scalability"
+    ],
+    "services": [
+      "seo",
+      "sea",
+      "pull-marketing",
+      "content-marketing",
+      "website-design",
+      "website-development",
+      "asbx"
+    ],
+    "url": "https://www.gomogroup.com/en/solution/segment-sme/",
+    "url_sv": "https://www.gomogroup.com/solution/segment-sme/",
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "dateModified": "2026-09-28"
+  },
+  {
+    "id": "generative-ai",
+    "name": "Generative AI Offering",
+    "name_sv": "Generativ AI-erbjudande",
+    "type": "offering",
+    "summary": "A structured programme to help organisations adopt generative AI, from leadership inspiration to implementation. It runs from short inspirational sessions and hands-on workshops on tools such as ChatGPT, Copilot and Gemini to custom AI strategy and policy creation and a guided pilot project. GO MO addresses integration, ethical use and bias control, and data security and compliance.",
+    "summary_sv": "Generativ AI står ut som en avgörande faktor för framtida framgång. GO MO erbjuder inspirerande utbildningar, workshops, skräddarsydd strategi och policy samt pilotprojekt och implementering.",
+    "key_points": [
+      "Stated potential: improve efficiency by at least 25% and output quality by 40%",
+      "Inspirational sessions of about 1-2 hours for leadership",
+      "Workshops and training sessions of about 4 hours on ChatGPT, Copilot and Gemini",
+      "Custom AI strategy and policy creation based on analysis of current operations",
+      "Pilot project selection, implementation and review",
+      "Addresses integration, ethical AI and bias control, and data security/compliance"
+    ],
+    "services": [
+      "website-design",
+      "website-development"
+    ],
+    "url": "https://www.gomogroup.com/en/solution/generative-ai-offering/",
+    "url_sv": "https://www.gomogroup.com/solution/generativ-ai-erbjudande/",
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "dateModified": "2026-04-29"
+  },
+  {
+    "id": "scale-ups",
+    "name": "Digital Marketing for Scale-ups",
+    "name_sv": null,
+    "type": "landing-page",
+    "summary": "An English landing page for B2B scale-ups, offering team capacity and competence to speed up growth with data-driven pull marketing. GO MO follows a five-step approach from situation and competitor analysis to weekly optimisation and reporting. The page features a video case with B2B SaaS scale-up Digiexam.",
+    "summary_sv": null,
+    "key_points": [
+      "Five steps: current situation & competitor analysis, strategy proposal from market insights, team allocation by scope, implementation, weekly optimisations and reporting",
+      "Focus on using data-driven pull marketing to capture existing demand",
+      "Video case with Niklas Vernersson of B2B SaaS scale-up Digiexam"
+    ],
+    "services": [
+      "pull-marketing",
+      "digital-analysis-strategy",
+      "asbx"
+    ],
+    "url": "https://www.gomogroup.com/en/digital-marketing-for-scale-ups/",
+    "url_sv": null,
+    "languages": [
+      "en"
+    ],
+    "dateModified": "2026-06-03"
+  },
+  {
+    "id": "geo-playbook",
+    "name": "GEO Playbook",
+    "name_sv": "GEO Playbook",
+    "type": "landing-page",
+    "summary": "A free downloadable playbook for marketing leaders, SEO teams and B2B brands on getting visible, cited and recommended in AI search tools such as ChatGPT, Gemini and Perplexity. It explains how SEO, GEO and agentic optimization (B2A) relate, what AI search tends to reward, what to measure, and gives a 30/60/90-day roadmap.",
+    "summary_sv": "En kostnadsfri guide för marknadschefer, SEO-team och B2B-varumärken om hur man syns, citeras och rekommenderas i AI-sök som ChatGPT, Gemini och Perplexity, med en 30/60/90-dagars roadmap.",
+    "key_points": [
+      "Free download with a practical 30/60/90-day roadmap",
+      "Framework: SEO gets you found, GEO gets you recommended, B2A (agentic optimization) gets you business",
+      "What AI search rewards: knowledge extractability, trust & reliability signals, evidence & expertise, community & user signals, ecosystem validation",
+      "Covers the difference between SEO, AEO and GEO",
+      "Recommends measuring citations, share of voice and sentiment beyond rankings and traffic",
+      "GEO service page describes it as a 12-page playbook used by 200+ marketers across the Nordics"
+    ],
+    "services": [
+      "geo",
+      "seo",
+      "agentic-web"
+    ],
+    "url": "https://www.gomogroup.com/en/geo-playbook/",
+    "url_sv": "https://www.gomogroup.com/geo-playbook/",
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "dateModified": "2026-10-08"
+  }
+]

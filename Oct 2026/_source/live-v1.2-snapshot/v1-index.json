@@ -1,0 +1,68 @@
+{
+    "status": "ok",
+    "name": "GO MO Group Public API",
+    "version": "1.2.0",
+    "description": "Public read-only REST API for GO MO Group. No authentication required.",
+    "endpoints": [
+        {
+            "route": "/index.json",
+            "url": "https://www.gomogroup.com/agent/v1/index.json",
+            "description": "This index"
+        },
+        {
+            "route": "/schema.json",
+            "url": "https://www.gomogroup.com/agent/v1/schema.json",
+            "description": "Endpoint schema and filter definitions"
+        },
+        {
+            "route": "/company.json",
+            "url": "https://www.gomogroup.com/agent/v1/company.json",
+            "description": "Company identity and overview"
+        },
+        {
+            "route": "/services.json",
+            "url": "https://www.gomogroup.com/agent/v1/services.json",
+            "description": "All services — filter by ?category= or ?tag="
+        },
+        {
+            "route": "/services/{id}.json",
+            "url": "https://www.gomogroup.com/agent/v1/services/{id}.json",
+            "description": "Single service by ID"
+        },
+        {
+            "route": "/case-studies.json",
+            "url": "https://www.gomogroup.com/agent/v1/case-studies.json",
+            "description": "Case studies — filter by ?industry=, ?segment=, ?service="
+        },
+        {
+            "route": "/case-studies/{id}.json",
+            "url": "https://www.gomogroup.com/agent/v1/case-studies/{id}.json",
+            "description": "Single case study by ID"
+        },
+        {
+            "route": "/team.json",
+            "url": "https://www.gomogroup.com/agent/v1/team.json",
+            "description": "Leadership team profiles"
+        },
+        {
+            "route": "/offices.json",
+            "url": "https://www.gomogroup.com/agent/v1/offices.json",
+            "description": "Office locations"
+        },
+        {
+            "route": "/contact.json",
+            "url": "https://www.gomogroup.com/agent/v1/contact.json",
+            "method": "POST",
+            "description": "Submit a qualified B2B inquiry (POST only — requires user_authorized_submission: true)"
+        }
+    ],
+    "openapi": "https://www.gomogroup.com/openapi.json",
+    "_meta": {
+        "source": "GO MO Group",
+        "canonical": "https://www.gomogroup.com",
+        "api": "https://www.gomogroup.com/agent/v1",
+        "generated": "2026-10-19T05:51:15+00:00",
+        "version": "1.2.0",
+        "license": "Content © GO MO Group AB. Do not republish as original or fabricate statistics."
+    }
+}

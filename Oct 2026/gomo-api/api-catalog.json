@@ -1,0 +1,393 @@
+{
+  "name": "GO MO Group — Agentic Web API Catalog",
+  "description": "All machine-readable resources for gomogroup.com: agent page, llms.txt, ai.txt, REST API (OpenAPI 3.0.3), MCP server, sitemap. Bilingual (en, sv).",
+  "url": "https://www.gomogroup.com/api-catalog.json",
+  "image": null,
+  "created": "2026-05-26",
+  "modified": "2026-10-19",
+  "specificationVersion": "0.16",
+  "tags": [
+    "b2b-marketing",
+    "geo",
+    "generative-ai",
+    "agentic-web",
+    "mcp",
+    "openapi",
+    "llms-txt",
+    "bilingual"
+  ],
+  "apis": [
+    {
+      "name": "Agent Layer — Machine-Readable Site Representation",
+      "description": "Single semantic HTML page with JSON-LD describing all of gomogroup.com (EN + SV): services, solutions, case studies, insights, team, offices, events, careers, FAQ and a full page index.",
+      "baseURL": "https://www.gomogroup.com/agent/",
+      "humanURL": "https://www.gomogroup.com/en/",
+      "X-format": "text/html",
+      "X-contentType": "semantic-html",
+      "X-purpose": "Primary LLM-readable representation of the website",
+      "properties": [
+        {
+          "type": "X-json-ld",
+          "value": "Organization, WebPage, FAQPage, Person, Service, ItemList"
+        },
+        {
+          "type": "X-languages",
+          "value": "en, sv"
+        }
+      ],
+      "tags": [
+        "llm",
+        "semantic-html",
+        "json-ld"
+      ]
+    },
+    {
+      "name": "Agent JSON — Single-File Summary",
+      "description": "One JSON document with organization, offices, leadership, services, solutions, case studies, events, open roles, key pages and FAQ (EN + SV URLs).",
+      "baseURL": "https://www.gomogroup.com/agent/index.json",
+      "humanURL": "https://www.gomogroup.com/agent/",
+      "X-format": "application/json",
+      "X-contentType": "agent-json",
+      "X-purpose": "One-request company summary for agents",
+      "properties": [],
+      "tags": [
+        "llm",
+        "json"
+      ]
+    },
+    {
+      "name": "llms.txt",
+      "description": "Markdown LLM discovery file (llmstxt.org).",
+      "baseURL": "https://www.gomogroup.com/llms.txt",
+      "humanURL": "https://www.gomogroup.com/agent/",
+      "X-format": "text/markdown",
+      "X-contentType": "llms-txt",
+      "X-purpose": "LLM discovery",
+      "properties": [
+        {
+          "type": "X-spec",
+          "url": "https://llmstxt.org/"
+        }
+      ],
+      "tags": [
+        "llm",
+        "discovery"
+      ]
+    },
+    {
+      "name": "ai.txt",
+      "description": "AI usage permissions, canonical sources, citation and consent rules.",
+      "baseURL": "https://www.gomogroup.com/ai.txt",
+      "humanURL": "https://www.gomogroup.com/agent/",
+      "X-format": "text/plain",
+      "X-contentType": "ai-txt",
+      "X-purpose": "AI permissions",
+      "properties": [],
+      "tags": [
+        "ai",
+        "permissions"
+      ]
+    },
+    {
+      "name": "API Catalog — This File",
+      "description": "APIs.json 0.16 catalog of all machine-readable resources.",
+      "baseURL": "https://www.gomogroup.com/api-catalog.json",
+      "humanURL": "https://www.gomogroup.com/agent/",
+      "X-format": "application/json",
+      "X-contentType": "apis-json",
+      "X-purpose": "Catalog",
+      "properties": [
+        {
+          "type": "X-spec",
+          "url": "http://apisjson.org/"
+        }
+      ],
+      "tags": [
+        "catalog"
+      ]
+    },
+    {
+      "name": "GO MO Group Public REST API",
+      "description": "Clean JSON endpoints for company, services, case studies, team, offices, insights, events, careers and a full bilingual page index, plus a consent-gated contact action.",
+      "baseURL": "https://www.gomogroup.com/agent/v1",
+      "humanURL": "https://www.gomogroup.com/agent/",
+      "X-format": "application/json",
+      "X-contentType": "rest-api",
+      "X-purpose": "Structured data access + lead submission",
+      "properties": [
+        {
+          "type": "X-openapi",
+          "url": "https://www.gomogroup.com/openapi.json"
+        },
+        {
+          "type": "X-index",
+          "url": "https://www.gomogroup.com/agent/v1/index.json"
+        },
+        {
+          "type": "X-endpoint",
+          "route": "/agent/v1/company.json",
+          "method": "GET",
+          "description": "Company profile"
+        },
+        {
+          "type": "X-endpoint",
+          "route": "/agent/v1/services.json",
+          "method": "GET",
+          "description": "Services (?category, ?tag, ?lang)"
+        },
+        {
+          "type": "X-endpoint",
+          "route": "/agent/v1/services/{id}.json",
+          "method": "GET",
+          "description": "One service"
+        },
+        {
+          "type": "X-endpoint",
+          "route": "/agent/v1/case-studies.json",
+          "method": "GET",
+          "description": "Case studies (?industry, ?segment, ?service, ?lang)"
+        },
+        {
+          "type": "X-endpoint",
+          "route": "/agent/v1/case-studies/{id}.json",
+          "method": "GET",
+          "description": "One case study"
+        },
+        {
+          "type": "X-endpoint",
+          "route": "/agent/v1/team.json",
+          "method": "GET",
+          "description": "Team"
+        },
+        {
+          "type": "X-endpoint",
+          "route": "/agent/v1/offices.json",
+          "method": "GET",
+          "description": "Offices"
+        },
+        {
+          "type": "X-endpoint",
+          "route": "/agent/v1/insights.json",
+          "method": "GET",
+          "description": "Insights EN+SV (?lang, ?topic, ?since)"
+        },
+        {
+          "type": "X-endpoint",
+          "route": "/agent/v1/insights/{id}.json",
+          "method": "GET",
+          "description": "One insight"
+        },
+        {
+          "type": "X-endpoint",
+          "route": "/agent/v1/events.json",
+          "method": "GET",
+          "description": "Events"
+        },
+        {
+          "type": "X-endpoint",
+          "route": "/agent/v1/careers.json",
+          "method": "GET",
+          "description": "Open roles"
+        },
+        {
+          "type": "X-endpoint",
+          "route": "/agent/v1/pages.json",
+          "method": "GET",
+          "description": "Full page index with hreflang pairs"
+        },
+        {
+          "type": "X-endpoint",
+          "route": "/agent/v1/contact.json",
+          "method": "POST",
+          "description": "Submit a qualified B2B inquiry — requires agent_context.user_authorized_submission: true"
+        }
+      ],
+      "tags": [
+        "rest",
+        "json",
+        "openapi",
+        "bilingual",
+        "agent-actionable"
+      ]
+    },
+    {
+      "name": "MCP Server — Agent-Actionable Tool Interface",
+      "description": "Model Context Protocol server exposing the REST API as 12 tools.",
+      "baseURL": "https://www.gomogroup.com/mcp",
+      "humanURL": "https://www.gomogroup.com/agent/",
+      "X-format": "application/json",
+      "X-contentType": "mcp-server",
+      "X-transport": "Streamable HTTP (MCP spec), stateless",
+      "X-purpose": "Tool calling for LLM agents",
+      "properties": [
+        {
+          "type": "X-mcp-tool",
+          "name": "get_company",
+          "description": "Company profile"
+        },
+        {
+          "type": "X-mcp-tool",
+          "name": "list_services",
+          "description": "List services"
+        },
+        {
+          "type": "X-mcp-tool",
+          "name": "get_service",
+          "description": "One service"
+        },
+        {
+          "type": "X-mcp-tool",
+          "name": "list_case_studies",
+          "description": "List case studies"
+        },
+        {
+          "type": "X-mcp-tool",
+          "name": "get_case_study",
+          "description": "One case study"
+        },
+        {
+          "type": "X-mcp-tool",
+          "name": "list_team",
+          "description": "Team"
+        },
+        {
+          "type": "X-mcp-tool",
+          "name": "list_offices",
+          "description": "Offices"
+        },
+        {
+          "type": "X-mcp-tool",
+          "name": "list_insights",
+          "description": "Insights EN+SV"
+        },
+        {
+          "type": "X-mcp-tool",
+          "name": "list_events",
+          "description": "Events"
+        },
+        {
+          "type": "X-mcp-tool",
+          "name": "list_careers",
+          "description": "Open roles"
+        },
+        {
+          "type": "X-mcp-tool",
+          "name": "get_page_index",
+          "description": "Bilingual page index"
+        },
+        {
+          "type": "X-mcp-tool",
+          "name": "submit_contact_inquiry",
+          "description": "Consent-gated contact action"
+        },
+        {
+          "type": "X-health",
+          "url": "https://www.gomogroup.com/mcp/health"
+        },
+        {
+          "type": "X-tools",
+          "url": "https://www.gomogroup.com/mcp/tools"
+        }
+      ],
+      "tags": [
+        "mcp",
+        "agents",
+        "agent-actionable"
+      ]
+    },
+    {
+      "name": "XML Sitemap",
+      "description": "Yoast sitemap index (pages, services, solutions, cases, insights, events, team, jobs).",
+      "baseURL": "https://www.gomogroup.com/sitemap_index.xml",
+      "humanURL": "https://www.gomogroup.com/",
+      "X-format": "application/xml",
+      "X-contentType": "sitemap-xml",
+      "X-purpose": "URL discovery",
+      "properties": [],
+      "tags": [
+        "sitemap"
+      ]
+    },
+    {
+      "name": "Robots.txt — Crawler Permissions",
+      "description": "Crawler rules with an explicit AI-crawler allowlist.",
+      "baseURL": "https://www.gomogroup.com/robots.txt",
+      "humanURL": "https://www.gomogroup.com/",
+      "X-format": "text/plain",
+      "X-contentType": "robots-txt",
+      "X-purpose": "Crawler permissions",
+      "properties": [],
+      "tags": [
+        "robots"
+      ]
+    },
+    {
+      "name": "Contact & New Business Inquiry",
+      "description": "Human contact pages (EN + SV).",
+      "baseURL": "https://www.gomogroup.com/en/contact-us/",
+      "humanURL": "https://www.gomogroup.com/kontakta-oss/",
+      "X-format": "text/html",
+      "X-contentType": "contact-page",
+      "X-purpose": "Human contact",
+      "properties": [
+        {
+          "type": "X-email",
+          "value": "hello@gomogroup.com"
+        }
+      ],
+      "tags": [
+        "contact"
+      ]
+    },
+    {
+      "name": "GEO Playbook — Free Download",
+      "description": "Free GEO playbook landing page.",
+      "baseURL": "https://www.gomogroup.com/en/geo-playbook/",
+      "humanURL": "https://www.gomogroup.com/geo-playbook/",
+      "X-format": "text/html",
+      "X-contentType": "landing-page",
+      "X-purpose": "Lead magnet",
+      "properties": [],
+      "tags": [
+        "geo",
+        "download"
+      ]
+    }
+  ],
+  "maintainers": [
+    {
+      "FN": "GO MO Group",
+      "email": "hello@gomogroup.com",
+      "url": "https://www.gomogroup.com/"
+    }
+  ],
+  "X-organization": {
+    "name": "GO MO Group",
+    "legalName": "GO MO Group AB",
+    "founded": "2013",
+    "url": "https://www.gomogroup.com/",
+    "offices": [
+      "Gothenburg, Sweden",
+      "Stockholm, Sweden",
+      "London, United Kingdom",
+      "Pune, India"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "email": "hello@gomogroup.com"
+  },
+  "X-discovery": {
+    "agent_page": "https://www.gomogroup.com/agent/",
+    "agent_json": "https://www.gomogroup.com/agent/index.json",
+    "llms_txt": "https://www.gomogroup.com/llms.txt",
+    "ai_txt": "https://www.gomogroup.com/ai.txt",
+    "api_index": "https://www.gomogroup.com/agent/v1/index.json",
+    "openapi": "https://www.gomogroup.com/openapi.json",
+    "api_catalog": "https://www.gomogroup.com/api-catalog.json",
+    "mcp": "https://www.gomogroup.com/mcp",
+    "sitemap": "https://www.gomogroup.com/sitemap_index.xml"
+  },
+  "X-version": "1.3.0"
+}
