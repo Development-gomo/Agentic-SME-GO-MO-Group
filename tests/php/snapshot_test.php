@@ -47,6 +47,12 @@ function untrailingslashit($s) { return rtrim($s, '/'); }
 function trailingslashit($s) { return rtrim($s, '/') . '/'; }
 function home_url($path) { return 'https://www.gomogroup.com' . $path; }
 function url_to_postid($url) { return 0; }
+function get_option($name, $default = false) { return $default; }
+function get_post($id) { return null; }
+function get_post_status($id) { return false; }
+function is_wp_error($thing) { return false; }
+function wp_remote_head($url, $args = []) { return ['code' => 200]; }
+function wp_remote_retrieve_response_code($r) { return $r['code']; }
 function wp_json_encode($value, $flags = 0) { return json_encode($value, $flags); }
 $fail = 0; $n = 0;
 function check($label, $ok) {

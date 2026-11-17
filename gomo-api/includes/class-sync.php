@@ -22,6 +22,14 @@ require_once __DIR__ . '/class-discovery.php';
 final class GOMO_API_Sync
 {
     private $pending = [];
+    /** Enabled redirect rules (Redirection plugin, Yoast Premium), loaded once per sync. */
+    private $redirects = null;
+    /** URL => reason for every post this sync left out, reported rather than silently dropped. */
+    private $excluded = [];
+    /** Page-index outcomes for the report. */
+    private $carried = [];
+    private $dropped = [];
+    private $unverified = [];
 
     /** WordPress post types on gomogroup.com (from the Yoast sitemap index). */
     private const POST_TYPES = [
@@ -196,6 +204,20 @@ final class GOMO_API_Sync
         $pages = $this->collect_pages();
         $this->write_json('pages', $pages);
         $log[] = 'pages: ' . count($pages) . ' URLs';
+        if ($this->excluded) {
+            ksort($this->excluded);
+            $log[] = 'left out (not public pages): ' . count($this->excluded) . "\n" . implode("\n", array_map(
+                static fn($u, $why) => "  - {$u} ({$why})", array_keys($this->excluded), $this->excluded));
+        }
+        if ($this->carried) {
+            $log[] = 'kept from the published index (still live, not produced by permalinks): ' . count($this->carried);
+        }
+        if ($this->dropped) {
+            $log[] = 'removed from the index (no longer a published post): ' . "\n  - " . implode("\n  - ", $this->dropped);
+        }
+        if ($this->unverified) {
+            $log[] = 'NEEDS REVIEW — new URLs added without a live check (loopback request blocked):' . "\n  - " . implode("\n  - ", $this->unverified);
+        }
 
         // Curated files: refresh dates, report gaps — never rewrite text.
         foreach (['services' => 'service', 'case-studies' => 'case'] as $ep => $kind) {
@@ -214,11 +236,11 @@ final class GOMO_API_Sync
             }
             $missing = [];
             foreach ($this->posts(self::POST_TYPES[$kind]) as $post) {
-                $url = untrailingslashit(get_permalink($post));
+                $url = untrailingslashit($this->url_of($post));
                 if (isset($known[$url])) {
                     $json['data'][$known[$url]]['dateModified'] = get_post_modified_time('Y-m-d', true, $post);
                 } else {
-                    $missing[] = '  - ' . get_the_title($post) . ' → ' . get_permalink($post);
+                    $missing[] = '  - ' . get_the_title($post) . ' → ' . $this->url_of($post);
                 }
             }
             $this->write_json($ep, $json['data'], $json);
@@ -247,14 +269,23 @@ final class GOMO_API_Sync
                 'order'            => 'DESC',
             ]);
             if (!empty($wpdb->last_error)) { throw new RuntimeException('WordPress query failed: ' . $post_type); }
-            $posts = array_filter($q->posts, static function (WP_Post $p) {
+            $posts = [];
+            foreach ($q->posts as $p) {
                 // Duplicated drafts published by mistake ("… (copy)", slug-2) were the source of v1.2 junk entries.
                 if (stripos($p->post_title, '(copy)') !== false || preg_match('/-2$/', $p->post_name)) {
-                    return false;
+                    continue;
                 }
-                return get_post_meta($p->ID, '_yoast_wpseo_meta-robots-noindex', true) !== '1';
-            });
-            return array_values($posts);
+                if (get_post_meta($p->ID, '_yoast_wpseo_meta-robots-noindex', true) === '1') {
+                    continue;
+                }
+                $why = $this->exclusion($p, $this->url_of($p));
+                if ($why !== null) {
+                    $this->excluded[$this->url_of($p)] = $why;
+                    continue;
+                }
+                $posts[] = $p;
+            }
+            return $posts;
         } finally {
             do_action('wpml_switch_language', null);
         }
@@ -274,7 +305,127 @@ final class GOMO_API_Sync
     {
         $other = $lang === 'en' ? 'sv' : 'en';
         $id    = apply_filters('wpml_object_id', $p->ID, $p->post_type, false, $other);
-        return ($id && (int) $id !== $p->ID && get_post_status($id) === 'publish') ? get_permalink($id) : null;
+        if (!$id || (int) $id === $p->ID || get_post_status($id) !== 'publish') {
+            return null;
+        }
+        $alt = get_post((int) $id);
+        $url = $alt instanceof WP_Post ? $this->url_of($alt, $other) : (string) get_permalink($id);
+        return $this->exclusion($alt instanceof WP_Post ? $alt : $p, $url) === null ? $url : null;
+    }
+
+    /**
+     * The URL visitors actually reach for a post, in its own language. WPML's permalink filter adds the
+     * language prefix that get_permalink() can omit (English events came out as /event/… instead of
+     * /en/event/…), and a front page is the language root, not /en/home/.
+     */
+    private function url_of(WP_Post $p, ?string $lang = null): string
+    {
+        $lang = $lang ?? $this->lang_of($p);
+        if ($p->post_type === 'page' && $this->is_front_page($p)) {
+            return trailingslashit(home_url($lang === 'en' ? '/en/' : '/'));
+        }
+        $url = (string) get_permalink($p);
+        $translated = apply_filters('wpml_permalink', $url, $lang, true);
+        return is_string($translated) && $translated !== '' ? $translated : $url;
+    }
+
+    private function is_front_page(WP_Post $p): bool
+    {
+        $front = (int) get_option('page_on_front');
+        if (!$front) {
+            return false;
+        }
+        if ((int) $p->ID === $front) {
+            return true;
+        }
+        $original = apply_filters('wpml_object_id', $p->ID, 'page', false, apply_filters('wpml_default_language', null));
+        return is_numeric($original) && (int) $original === $front;
+    }
+
+    /** Why a published post is not a public page in its own right, or null when it is. */
+    private function exclusion(WP_Post $p, string $url): ?string
+    {
+        if ($p->post_type === 'page' && preg_match('/^(page-?404|404|not-found)$/', $p->post_name)) {
+            return '404 page';
+        }
+        if ($this->is_redirect_source($url)) {
+            return 'redirects elsewhere';
+        }
+        $canonical = (string) get_post_meta($p->ID, '_yoast_wpseo_canonical', true);
+        if ($canonical !== '' && $this->path_key($canonical) !== $this->path_key($url)) {
+            return 'canonical points elsewhere';
+        }
+        return null;
+    }
+
+    /** Lower-case, decoded path without trailing slash: the key redirect plugins match on. */
+    private function path_key(string $url): string
+    {
+        return strtolower(rtrim(rawurldecode((string) parse_url($url, PHP_URL_PATH)), '/'));
+    }
+
+    private function redirect_rules(): array
+    {
+        if ($this->redirects !== null) {
+            return $this->redirects;
+        }
+        $this->redirects = ['exact' => [], 'regex' => []];
+        global $wpdb;
+        if (is_object($wpdb) && method_exists($wpdb, 'get_results') && !empty($wpdb->prefix)) {
+            $table = $wpdb->prefix . 'redirection_items';
+            if ($wpdb->get_var($wpdb->prepare('SHOW TABLES LIKE %s', $table)) === $table) {
+                foreach ((array) $wpdb->get_results("SELECT url, regex FROM {$table} WHERE status = 'enabled'", ARRAY_A) as $rule) {
+                    if (!empty($rule['regex'])) {
+                        $this->redirects['regex'][] = (string) $rule['url'];
+                    } else {
+                        $this->redirects['exact'][$this->path_key((string) $rule['url'])] = true;
+                    }
+                }
+            }
+        }
+        foreach ((array) get_option('wpseo-premium-redirects-base', []) as $rule) {
+            if (is_array($rule) && !empty($rule['origin'])) {
+                if (($rule['format'] ?? 'plain') === 'regex') {
+                    $this->redirects['regex'][] = (string) $rule['origin'];
+                } else {
+                    $this->redirects['exact'][$this->path_key('/' . ltrim((string) $rule['origin'], '/'))] = true;
+                }
+            }
+        }
+        return $this->redirects;
+    }
+
+    private function is_redirect_source(string $url): bool
+    {
+        $rules = $this->redirect_rules();
+        if (isset($rules['exact'][$this->path_key($url)])) {
+            return true;
+        }
+        $path = (string) parse_url($url, PHP_URL_PATH);
+        foreach ($rules['regex'] as $pattern) {
+            if (@preg_match('@' . str_replace('@', '\\@', $pattern) . '@i', $path) === 1) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * HTTP status of a URL without following redirects, or null when it cannot be checked (loopback
+     * blocked, timeout, or a bot-protection challenge). Only used for URLs new to the index.
+     */
+    private function probe(string $url): ?int
+    {
+        if (!function_exists('wp_remote_head')) {
+            return null;
+        }
+        $response = wp_remote_head($url, ['redirection' => 0, 'timeout' => 8,
+            'user-agent' => 'GomoGroup-Agent/1.0 (+https://www.gomogroup.com) sync-check']);
+        if (is_wp_error($response)) {
+            return null;
+        }
+        $code = (int) wp_remote_retrieve_response_code($response);
+        return in_array($code, [200, 301, 302, 303, 307, 308, 404, 410], true) ? $code : null;
     }
 
     private function summary(WP_Post $p): string
@@ -311,7 +462,7 @@ final class GOMO_API_Sync
                 'lang'          => $lang,
                 'title'         => html_entity_decode(get_the_title($p), ENT_QUOTES, 'UTF-8'),
                 'summary'       => $this->summary($p),
-                'url'           => get_permalink($p),
+                'url'           => $this->url_of($p, $lang),
                 'alternate'     => $this->alternate_of($p, $lang),
                 'datePublished' => get_post_time('Y-m-d', true, $p),
                 'dateModified'  => get_post_modified_time('Y-m-d', true, $p),
@@ -410,7 +561,7 @@ final class GOMO_API_Sync
         foreach ($types as $pt) {
             foreach ($this->posts($pt) as $p) {
                 $lang  = $this->lang_of($p);
-                $url   = get_permalink($p);
+                $url   = $this->url_of($p, $lang);
                 $kind  = $map[$pt] ?? 'page';
                 if ($pt === 'page' && preg_match('#/(privacy-policy|cookie-policy|code-of-conduct|gdpr|cookies-regler)/#', $url)) {
                     $kind = 'legal';
@@ -425,16 +576,74 @@ final class GOMO_API_Sync
                 ];
             }
         }
-        // Rows added by hand to the curated index (they carry 'robots', e.g. noindex team profiles)
-        // are skipped by posts(), so carry them over while they are still published.
-        $have = array_flip(array_column($rows, 'url'));
+        $homes = [trailingslashit(home_url('/')), trailingslashit(home_url('/en/'))];
+        $previous = [];
         foreach (($this->read('pages')['data'] ?? []) as $old) {
-            if (!empty($old['robots']) && !isset($have[$old['url']]) && url_to_postid($old['url'])) {
-                $rows[] = $old;
+            if (!empty($old['url'])) { $previous[$this->path_key($old['url'])] = $old; }
+        }
+        // One row per URL. If two posts claim the same URL, keep the one whose language matches the path.
+        $unique = [];
+        foreach ($rows as $row) {
+            $key = $this->path_key($row['url']);
+            $fits = ($row['lang'] === 'en') === (strpos($key, '/en/') === 0 || $key === '/en');
+            if (!isset($unique[$key]) || ($fits && !$unique[$key]['fits'])) {
+                $unique[$key] = ['row' => $row, 'fits' => $fits];
             }
         }
+        $rows = [];
+        foreach ($unique as $key => $entry) {
+            $row = $entry['row'];
+            if (isset($previous[$key])) {
+                if (!empty($previous[$key]['robots'])) { $row['robots'] = $previous[$key]['robots']; }
+                $rows[] = $row;
+                continue;
+            }
+            // A URL new to the index must answer 200 itself: server-level redirects and 404 templates are
+            // invisible to WordPress queries.
+            $status = $this->probe($row['url']);
+            if ($status === null) {
+                $this->unverified[] = $row['url'];
+            } elseif ($status !== 200) {
+                $this->excluded[$row['url']] = "HTTP {$status}";
+                continue;
+            }
+            $rows[] = $row;
+        }
+        // Keep published rows WordPress did not produce this time (language roots, curated noindex profiles,
+        // pages whose permalink differs from their live URL) while they still resolve to a published post.
+        foreach ($previous as $key => $old) {
+            if (isset($unique[$key])) {
+                continue;
+            }
+            if ($this->is_redirect_source($old['url'])) {
+                $this->excluded[$old['url']] = 'redirects elsewhere';
+                continue;
+            }
+            if (in_array(trailingslashit($old['url']), $homes, true)) {
+                $rows[] = $old;
+                $this->carried[] = $old['url'];
+                continue;
+            }
+            $id = url_to_postid($old['url']);
+            if (!$id || get_post_status($id) !== 'publish') {
+                $this->dropped[] = $old['url'];
+                continue;
+            }
+            // The same checks as fresh rows: a front page under its old URL (/en/home/), a 404 template or
+            // a redirected post must not come back just because it was in an earlier index.
+            $post = get_post($id);
+            if ($post instanceof WP_Post) {
+                $why = $post->post_type === 'page' && $this->is_front_page($post)
+                    ? 'front page lives at the language root' : $this->exclusion($post, $old['url']);
+                if ($why !== null) {
+                    $this->excluded[$old['url']] = $why;
+                    continue;
+                }
+            }
+            $rows[] = $old;
+            $this->carried[] = $old['url'];
+        }
         // WPML falls back to the other language's homepage when a page has no translation; that isn't an alternate.
-        $homes = [trailingslashit(home_url('/')), trailingslashit(home_url('/en/'))];
         foreach ($rows as &$row) {
             if (!empty($row['alternate']) && in_array(trailingslashit($row['alternate']), $homes, true) && !in_array(trailingslashit($row['url']), $homes, true)) {
                 $row['alternate'] = null;
