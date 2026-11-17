@@ -317,7 +317,6 @@ final class GOMO_API_Sync
                 'dateModified'  => get_post_modified_time('Y-m-d', true, $p),
             ];
             if ($kind === 'insight') {
-                $item['author'] = get_the_author_meta('display_name', (int) $p->post_author) ?: null;
                 $item['topics'] = $this->topics($p);
             }
             $items[] = $item;
@@ -328,7 +327,8 @@ final class GOMO_API_Sync
 
     /**
      * The article byline ("About the author" box), the author's title and the reading time come from the
-     * page template, not from post_author. Keep the values already published for articles that still exist.
+     * page template, not from post_author (the uploader). Keep exactly what was published for articles that
+     * still exist, including an intentionally absent byline. New articles get no author until curated.
      */
     private function keep_page_fields(array $fresh): array
     {
@@ -340,7 +340,7 @@ final class GOMO_API_Sync
             $old = $prev[untrailingslashit($item['url'])] ?? null;
             if (!$old) { continue; }
             foreach (['author', 'authorRole', 'readingMinutes'] as $field) {
-                if (!empty($old[$field])) { $item[$field] = $old[$field]; }
+                if (array_key_exists($field, $old)) { $item[$field] = $old[$field]; }
             }
         }
         unset($item);

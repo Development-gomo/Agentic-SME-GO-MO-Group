@@ -144,3 +144,26 @@ test("fetch helper rejects HTML, malformed JSON, bad HTTP, slow bodies and overs
   await new Promise(resolve => server.close(resolve));
   await assert.rejects(fetchJson(base), /fetch failed/);
 });
+
+test("expired cold start becomes ready from background refresh without any tool call", async () => {
+  const now = GENERATED + 3 * 86400000 + 1000; // events and careers bundles are past their 48-hour limit
+  let calls = 0;
+  const cache = new ReadCache(config({ now: () => now, fetcher: async url => { calls++; return sample(url.split("/").pop().replace(".json", "")); } }));
+  assert.equal(cache.status().ready, false, "expired bundles start not ready");
+  const stop = cache.startBackgroundRefresh(1000);
+  try {
+    for (let i = 0; i < 50 && !cache.status().ready; i++) await tick();
+    assert.equal(cache.status().ready, true, "becomes ready with no get() calls");
+    assert(calls >= 9, "every collection was refreshed");
+  } finally { stop(); }
+});
+
+test("background refresh keeps failing upstream throttled and never fakes readiness", async () => {
+  const now = GENERATED + 3 * 86400000 + 1000;
+  let calls = 0;
+  const cache = new ReadCache(config({ now: () => now, retryMs: 60000, fetcher: async () => { calls++; throw new Error("HTML challenge"); } }));
+  await cache.refreshAll();
+  await cache.refreshAll();
+  assert.equal(calls, 9, "second pass within the retry window makes no new requests");
+  assert.equal(cache.status().ready, false);
+});

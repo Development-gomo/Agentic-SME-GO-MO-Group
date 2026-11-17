@@ -162,6 +162,14 @@ None of the v1.3.0 URLs now redirect. Known redirecting URLs stay out of the ind
 - **The crawl date followed the build date.** `ai.txt` ("Site crawled") and the `llms.txt` verification line used the build date, so a later rebuild without a new crawl would have misstated the crawl date. Both now use `SITE_CRAWLED`.
 - Regression checks for all three fixes are added to `tests/test_outputs.py`.
 
+### Fixes from the independent code review
+- **MCP readiness could fail permanently (high).** Collections were refreshed only when a tool asked for them. Once bundled events/careers data passed its 48-hour limit, `/ready` returned 503, and a readiness probe that withholds traffic meant no tool call ever triggered recovery. The server now refreshes all collections at startup and in the background (healthy every 5 minutes, failed every minute), and a failing `/ready` also triggers a throttled refresh. New tests: an expired cold start becomes ready with no tool calls, and a failing upstream stays throttled and never reports ready.
+- **"Sync now" could publish the WordPress uploader as the article author (medium).** Sync no longer reads `post_author`. It keeps exactly the byline, author title and reading time already published, including an intentionally absent byline, and new articles get no author until curated. New tests cover a preserved byline, an absent byline and a new article.
+- **"Sync now" dropped author titles from the agent page (medium).** The PHP renderer now outputs `authorRole` ("Author title"), with a post-sync assertion.
+- **MCP rate limiting behind Render's proxy.** The server trusted only loopback proxies, so on Render every client shared one rate-limit bucket and WordPress saw the proxy's IP. A new `TRUST_PROXY` setting (set `1` on Render) fixes this, and `true` is refused because it lets clients forge addresses. Smoke tests confirm separate buckets per client.
+- **ARD validation now runs the official schema.** `tests/ard_schema.test.mjs` validates both copies of `ard.json` against the vendored ARD v0.91 entry schema with Ajv, plus the Lighthouse best-practice checks. Ajv is now an explicit dev dependency of `gomo-mcp`.
+- `DEPLOYMENT.md` adds pre-deploy steps (confirm the founding year, run the suite) and host checks: snapshot publication, duplicate-suppressed contact test, upstream (not challenge) data in `/health`, and per-client rate-limit buckets.
+
 ### Package changes
 
 - **New `ard.json`:** an Agentic Resource Discovery v0.91 manifest served at `/.well-known/ard.json`.

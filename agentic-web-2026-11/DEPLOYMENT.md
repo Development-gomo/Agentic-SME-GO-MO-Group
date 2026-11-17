@@ -40,6 +40,10 @@ See `CHANGELOG.md` for every page added, updated or removed, and `SITE-FINDINGS.
 
 ## Deployment checklist
 
+### 0. Before you start
+- [ ] **Confirm the founding year.** The package publishes 2013. The site's own structured data says 2014, and one profile says 2012 (see `SITE-FINDINGS.md`). If 2013 is wrong, change `founded` in `_source/curated/company.json`, run `python3 build.py` and `./run-tests.sh`, and deploy the regenerated files.
+- [ ] Run `./run-tests.sh` (after `npm ci` in `gomo-mcp/`). Every suite must pass.
+
 ### 1. WordPress plugin
 - [ ] Back up the entire current `wp-content/plugins/gomo-api/` folder, including `snapshots/`. Then replace it with this `gomo-api/` folder.
 - [ ] **Remove the active snapshot pointer `gomo-api/snapshots/current.json`** so the new bundled files become the baseline. Otherwise the v1.3.0 snapshot stays active and `/.well-known/ard.json` returns 404.
@@ -78,7 +82,9 @@ curl -sI https://www.gomogroup.com/en/ | grep -i '^link:'
 curl -X POST https://www.gomogroup.com/agent/v1/contact.json -H "Content-Type: application/json" -d '{"agent_context":{"user_authorized_submission":true},"person":{"name":"Test","email":"test@example.com"},"company":{"name":"Test Co"},"inquiry":{"service_interest":"GEO","project_summary":"Deployment test submission"}}'
 ```
 
-The test lead goes to **ha@gomogroup.com**, with Reply-To set to the submitter. Confirm that it arrives.
+The test lead goes to **ha@gomogroup.com**, with Reply-To set to the submitter. Only send it with the inbox owner's approval, and confirm that it arrives. Then send the identical request again: it must return the same `lead_id` and send no second email. That confirms the database locking and duplicate suppression work on this host.
+
+- [ ] Confirm snapshot publication on this host. After **Sync now**, `gomo-api/snapshots/` must contain a new generation folder and `snapshots/current.json` must name it. If the report says `FAILED`, check that the plugin folder is writable and that all PHP workers share the same filesystem.
 
 - [ ] Run PageSpeed Insights on `https://www.gomogroup.com/en/`. The **Agentic Browsing** category should list the ARD manifest as found and passing.
 
@@ -146,8 +152,9 @@ The full-build repository holds this package's contents at its root. The MCP rep
 
 - [ ] Render service source: `Development-gomo/Agentic-MCP-SME-GO-MO-Group`, branch `main`, root directory blank (repository root).
 - [ ] Build with `npm ci && npm run build`; start with `npm start`. Render supplies `PORT`.
-- [ ] Environment variables (unchanged from v1.3.0):
+- [ ] Environment variables:
   - `GOMO_API_BASE=https://www.gomogroup.com/agent/v1` (no trailing slash).
+  - **`TRUST_PROXY=1`** (new in v1.4). Render's load balancer is one proxy hop. Without this setting, every client shares one MCP rate-limit bucket, and WordPress receives the proxy's address instead of the agent's. Never set it to `true`; the server refuses to start with that value because it lets clients forge their address.
   - `API_TIMEOUT_MS=10000`.
   - `GOMO_MCP_SHARED_SECRET`, set to the same secret configured in WordPress.
   - Optional cache settings: `MCP_CACHE_REFRESH_MS` (300000), `MCP_CACHE_RETRY_MS` (60000), `MCP_CACHE_MAX_AGE_MS` (604800000) and `MCP_CACHE_VOLATILE_MAX_AGE_MS` (172800000).
@@ -163,11 +170,19 @@ curl -fsS https://agent-mcp.gomogroup.com/tools
 ```
 
 - `/health` should identify `gomo-group`, version `1.4.0`, and report each read collection's cache status.
-- `/ready` returns 200 only while every read collection has usable data; use it as the readiness probe.
+- `/ready` returns 200 only while every read collection has usable data; use it as the readiness probe. Since v1.4 the server refreshes every collection at startup and keeps them fresh in the background, whether or not tools are being called: healthy collections every 5 minutes, failed ones retried every minute. A failing `/ready` also triggers a (throttled) refresh. An instance that starts with expired bundled data becomes ready by itself once WordPress answers.
+- [ ] In `/health`, check that each collection reports `"source": "upstream"` within a few minutes of deploy. If they stay `"bundled"` with an `upstream_error` that mentions HTML or a challenge, SiteGround is blocking Render. Allowlist the `GomoGroup-Agent/1.0` user agent or Render's outbound IPs in SiteGround's bot protection.
+- [ ] Check proxy handling. Run this twice from one network and once from another (for example, office and a mobile hotspot):
+
+```bash
+curl -s -o /dev/null -D - -X POST https://agent-mcp.gomogroup.com/mcp -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | grep -i ratelimit-remaining
+```
+
+  On the first network, `RateLimit-Remaining` should fall from 99 to 98. On the second network it must start again at 99. If it continues from 98, all clients share one bucket: check `TRUST_PROXY`.
 - `/tools` should list 12 tools and advertise `https://agent-mcp.gomogroup.com/mcp`.
 
 **Bundled data.** The nine `gomo-mcp/data/*.json` files are public seed snapshots generated from the plugin's bundled data. They let read tools work after a cold start even if SiteGround serves challenge HTML to Render.
-- The server refreshes them from the live API in the background. It checks status, content type, size, timeout and completeness before replacing a last-known-good snapshot.
+- The server refreshes them from the live API in the background (at startup, then every `MCP_CACHE_RETRY_MS` / `MCP_CACHE_REFRESH_MS`). It checks status, content type, size, timeout and completeness before replacing a last-known-good snapshot.
 - Tool results include `_meta.freshness`.
 - Ordinary collections stop serving after seven days without a successful refresh; events and careers stop after 48 hours.
 - Rebuild and deploy whenever WordPress's bundled data changes.

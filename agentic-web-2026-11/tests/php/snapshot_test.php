@@ -63,6 +63,13 @@ function current_id() {
 }
 function artifact($name) { return file_get_contents(GOMO_API_DIR . 'snapshots/' . current_id() . '/' . $name); }
 
+// Bylines come from the page template: one article has a curated byline, one intentionally has none.
+$bundled = json_decode(file_get_contents("$tmp/data/insights.json"), true);
+$bundled['data'][] = ['id' => 'fixture-insights-1', 'lang' => 'en', 'title' => 'Fixture 1', 'url' => 'https://www.gomogroup.com/en/insights/fixture-insights-1/',
+    'author' => 'Jane Byline', 'authorRole' => 'Head of Fixtures', 'readingMinutes' => 7];
+$bundled['data'][] = ['id' => 'fixture-insights-3', 'lang' => 'en', 'title' => 'Fixture 3', 'url' => 'https://www.gomogroup.com/en/insights/fixture-insights-3/',
+    'author' => null, 'authorRole' => null, 'readingMinutes' => null];
+file_put_contents("$tmp/data/insights.json", json_encode($bundled));
 $original = hash_file('sha256', "$tmp/data/insights.json");
 $missing = true;
 $report = (new GOMO_API_Sync())->run();
@@ -84,6 +91,12 @@ check('sync updates both page dates while preserving publication and crawl prove
     && substr_count($html, '>' . gmdate('Y-m-d') . '</time>') >= 2
     && strpos($html, '<dt>Page published</dt><dd><time datetime="2026-05-26">2026-05-26</time>') !== false
     && strpos($html, '<dt>Site crawled</dt><dd><time datetime="2026-11-17">2026-11-17</time>') !== false);
+$byId = array_column($insights, null, 'id');
+check('sync keeps curated byline, title and reading time', ($byId['fixture-insights-1']['author'] ?? null) === 'Jane Byline'
+    && ($byId['fixture-insights-1']['authorRole'] ?? null) === 'Head of Fixtures' && ($byId['fixture-insights-1']['readingMinutes'] ?? null) === 7);
+check('sync never publishes the uploader as author', array_key_exists('author', $byId['fixture-insights-3'] ?? []) && $byId['fixture-insights-3']['author'] === null
+    && strpos(artifact('data/insights.json'), '"author":"Author"') === false);
+check('synced agent page renders the author title', strpos($html, '<dt>Author title</dt><dd>Head of Fixtures</dd>') !== false);
 check('all discovery summaries agree with synced data', count($insights) === 2 && $index['insights']['total'] === 2
     && count($index['events']) === 2 && count($index['openRoles']) === 2
     && strpos($html, 'fixture-insights-3') !== false && strpos($markdown, 'fixture-insights-3') !== false);
