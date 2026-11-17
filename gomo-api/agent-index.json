@@ -1,14 +1,14 @@
 {
   "$schema": "https://www.gomogroup.com/agent/index.json",
   "datePublished": "2026-05-26",
-  "generated": "2026-10-19",
-  "version": "1.3.0",
+  "generated": "2026-11-17",
+  "version": "1.4.0",
   "source": "https://www.gomogroup.com/",
   "languages": [
     "en",
     "sv"
   ],
-  "note": "Machine-readable reference data for GO MO Group, compiled from a full crawl of gomogroup.com (314 URLs, English + Swedish). Quote figures exactly; keep anonymised clients anonymised. For filterable data use the REST API.",
+  "note": "Machine-readable reference data for GO MO Group, compiled from a full crawl of gomogroup.com (327 URLs, English + Swedish). Quote figures exactly; keep anonymised clients anonymised. For filterable data use the REST API.",
   "organization": {
     "name": "GO MO Group",
     "legalName": "GO MO Group AB",
@@ -178,7 +178,28 @@
       "url_sv": "https://www.gomogroup.com/vara-tjanster/b2b-youtube-marketing/",
       "category": "content",
       "summary": "GO MO Group helps B2B companies turn YouTube into an organic growth engine through search-optimised content, channel architecture and AI citation strategy built for long sales cycles. Engagements start with a channel audit and follow a 3-month model: audit and quick wins, architecture and distribution, then GEO and compounding growth. The service covers six areas from strategy and metadata to GEO for YouTube, paid/organic integration and pipeline attribution, and is offered exclusively to B2B companies.",
-      "pricing": "quote-based"
+      "pricing": [
+        {
+          "tier": "Free channel audit",
+          "price": "free",
+          "includes": "Assessment of the channel with prioritised recommendations; no commitment"
+        },
+        {
+          "tier": "YouTube Audit & Strategy",
+          "price": "custom",
+          "includes": "Listed as a service option on the enquiry form"
+        },
+        {
+          "tier": "Audit, Strategy & Implementation",
+          "price": "custom",
+          "includes": "Listed as a service option on the enquiry form"
+        },
+        {
+          "tier": "Full YouTube Growth Programme",
+          "price": "custom",
+          "includes": "Listed as a service option on the enquiry form"
+        }
+      ]
     },
     {
       "id": "content-marketing",
@@ -217,27 +238,27 @@
       "url": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/",
       "url_sv": "https://www.gomogroup.com/vara-tjanster/generative-engine-optimization-geo/",
       "category": "ai",
-      "summary": "GO MO Group's GEO service makes B2B brands visible, cited and recommended in AI-generated answers from ChatGPT, Perplexity, Gemini, Microsoft Copilot, Meta AI and Google AI Overviews. GO MO describes itself as the Nordics' first SEMrush Enterprise AIO Partner, using a 213M+ LLM prompt database for benchmarking and AI visibility measurement. Work combines a GEO audit, competitor benchmarking, education of internal teams and structured experiments, sold as published packages from audit through implementation to an enterprise retainer.",
+      "summary": "GO MO Group's GEO service gets B2B brands mentioned, cited and recommended in AI-generated answers from ChatGPT, Gemini, Perplexity, Microsoft Copilot, Claude and Google AI Overviews / AI Mode. GO MO is the Nordics' first Semrush Enterprise AIO partner and measures how often AI engines mention, cite and recommend a brand, closes the gaps against competitors and reports what it means for pipeline. Work starts with a free Mini GEO Audit and is sold as fixed-price packages from audit through implementation to an enterprise retainer.",
       "pricing": [
         {
-          "tier": "Free Mini GEO Audit",
-          "price": "custom",
-          "includes": "1-page AI-visibility snapshot (ChatGPT and Perplexity) within 48 hours"
+          "tier": "Mini GEO Audit",
+          "price": "free",
+          "includes": "Free, presentation-ready audit: Executive AI Score vs competitors, visibility in AI Mode, AI Overviews, ChatGPT and Gemini, GEO readiness and AI agent readiness scores, how AI frames the brand"
         },
         {
           "tier": "LLM Audit & Strategy",
-          "price": "from 23,500 SEK",
-          "includes": "AI visibility baseline (5 engines), SEMrush AIO benchmarking, gap analysis, action plan, executive presentation, one 2h strategy session. Note: Swedish page lists 'GEO-analys & strategi' at 27,500 SEK (one market, one language, up to three workshops)"
+          "price": "23,500 SEK",
+          "includes": "One-off project: AI visibility baseline across 5 engines, competitor benchmarking, gap analysis and prioritised action plan, executive presentation, 2-hour strategy session"
         },
         {
           "tier": "Audit, Strategy & Implementation",
-          "price": "from 44,000 SEK",
-          "includes": "Everything in tier 1 plus ongoing SEMrush AIO monitoring, content creation, citation-building outreach, monthly reporting, dedicated GEO strategist (SV: up to two markets and two languages)"
+          "price": "44,000 SEK",
+          "includes": "Recommended one-off project: everything in LLM Audit & Strategy plus content creation and optimisation, citation building on third-party sites, ongoing monitoring and monthly reporting, dedicated GEO strategist"
         },
         {
           "tier": "Enterprise Content & GEO Retainer",
           "price": "custom",
-          "includes": "Custom pricing: AI-powered content supply chain, multi-market and multi-language, dedicated team (SV equivalent: '360°-lösning' with a 12-month plan)"
+          "includes": "Custom pricing: AI content supply chain, multi-market and multi-language, full Semrush Enterprise AIO integration, dedicated team and quarterly reviews"
         }
       ]
     },
@@ -270,6 +291,32 @@
       "category": "paid",
       "summary": "GO MO Group plans and manages search engine advertising through Google Ads, buying visibility on specific search phrases to reach B2B buyers when they are looking for solutions. Campaigns are planned around search intent rather than audience, start with a data-driven audit of the website and competitors' paid keywords, and are optimised through daily, weekly and monthly tasks. SEA is combined with SEO and the wider digital strategy and supports both branding and sales goals.",
       "pricing": "quote-based"
+    },
+    {
+      "id": "chatgpt-ads",
+      "name": "ChatGPT Ads",
+      "name_sv": "ChatGPT Ads",
+      "url": "https://www.gomogroup.com/en/services/chatgpt-ads/",
+      "url_sv": "https://www.gomogroup.com/vara-tjanster/chatgpt-ads/",
+      "category": "paid",
+      "summary": "GO MO Group runs ChatGPT Ads, OpenAI's sponsored cards shown below ChatGPT's answer when they fit the conversation, as a measured 30-day pilot that tracks visits, leads and sales. Ads Manager self-service is open to Swedish-billed entities. Campaigns are built on context hints rather than exact-match keywords, mapped to the needs customers describe to ChatGPT, and measured with the OpenAI Pixel, conversion events, UTM tagging, GA4 and CRM lead matching with weekly reporting. Ads place a brand below the answer from day one; GEO works on getting it named inside the answer.",
+      "pricing": [
+        {
+          "tier": "Ad budget (media)",
+          "price": "50,000 SEK",
+          "includes": "Typical 30-day ad spend paid directly to OpenAI from the client's own ad account, billed per valid click, sized to market and goals"
+        },
+        {
+          "tier": "Setup and management",
+          "price": "20,000 SEK",
+          "includes": "GO MO fee: OpenAI Pixel, conversion events, UTMs and GA4, campaigns, ad creative and QA, weekly report and optimisation plan (up to 20 hours)"
+        },
+        {
+          "tier": "30-day pilot (total)",
+          "price": "70,000 SEK",
+          "includes": "Media budget plus GO MO setup and management, with a clear go/no-go on scaling"
+        }
+      ]
     },
     {
       "id": "seo",
@@ -463,18 +510,18 @@
     },
     {
       "id": "seo-automation-gen-ai-b2b-ecommerce",
-      "name": "How Gen-AI & SEO Automation Scaled E-Commerce Marketing",
+      "name": "How generative AI and SEO automation delivered 32 times more organic clicks in B2B e-commerce",
       "client": "Fortune 500 heavy-equipment manufacturer",
       "url": "https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/",
       "url_sv": "https://www.gomogroup.com/case/seo-automation-gen-ai-b2b-e-handel/",
       "segment": "enterprise",
       "industry": "manufacturing",
       "results": [
-        "+195% Overall organic visibility (headline result)",
-        "+195% Organic clicks (compared to the previous period)",
-        "400+ Hours saved (through automation and AI, refocused on strategic planning)",
-        "5000+ Content pieces created (optimised content created and initially deployed)",
-        "3,000+ Product and category pages covered (Gen AI-generated SEO content, meta titles and descriptions)"
+        "32x Organic clicks per month (from 250 (December 2024) to about 8,100 (August 2026))",
+        "43x Organic impressions per month (from about 4,300 (December 2024) to about 185,000 (August 2026))",
+        "7 Average Google position (up from 15 in December 2024, from page two to page one)",
+        "~12,000 Product and category pages with AI-generated content (English and Danish; Polish in quality review)",
+        "~13,000 Technical SEO issues (down from more than 100,000)"
       ]
     },
     {
@@ -650,7 +697,7 @@
       "name": "Streamline with AI workshops",
       "client": "Workshop participants (incl. Swedavia)",
       "url": "https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/",
-      "url_sv": "https://www.gomogroup.com/case/generativ-ai-fran-hype-till-faktisk-affarsnytta/",
+      "url_sv": null,
       "segment": null,
       "industry": "cross-industry",
       "results": []
@@ -700,7 +747,7 @@
       "name": "A MedTech company needed to fill the room. We did it with the right people.",
       "client": "Medical-technology manufacturer",
       "url": "https://www.gomogroup.com/en/case/medtech-webinar-b2b-event-marketing/",
-      "url_sv": null,
+      "url_sv": "https://www.gomogroup.com/case/medtech-webbinarium-b2b-eventmarknadsforing/",
       "segment": null,
       "industry": "medtech",
       "results": [
@@ -720,7 +767,7 @@
       "name": "The first Swedish B2B website with a full agentic layer",
       "client": "Swedish B2B manufacturer of specialist technical equipment",
       "url": "https://www.gomogroup.com/en/case/first-swedish-b2b-website-full-agentic-layer/",
-      "url_sv": null,
+      "url_sv": "https://www.gomogroup.com/case/forsta-svenska-b2b-webbplatsen-med-agentiskt-lager/",
       "segment": null,
       "industry": "manufacturing",
       "results": [
@@ -728,6 +775,22 @@
         "5/5 AI platforms rating the site agent-friendly",
         "7/7 Agent components found by every platform",
         "2/2 Agent-submitted leads delivered (live test)"
+      ]
+    },
+    {
+      "id": "translation-agency-agentic-web-layer",
+      "name": "From invisible to AI agents to built for them",
+      "client": "Established Swedish language and translation services provider",
+      "url": "https://www.gomogroup.com/en/case/translation-agency-agentic-web-layer/",
+      "url_sv": null,
+      "segment": "sme",
+      "industry": "language services",
+      "results": [
+        "3/3 Google Agentic Browsing checks passed (up from 2 of 2 applicable)",
+        "5/5 AI platforms that independently confirmed the build (Claude, ChatGPT, Gemini, Grok and Perplexity)",
+        "11 Read-only MCP tools live (MCP server found by all five platforms)",
+        "3 weeks Time from audit to live (live on 28 July 2026)",
+        "4 of 5 platforms /agent page confirmed"
       ]
     },
     {
@@ -865,11 +928,12 @@
     "chamber of commerce",
     "commercial real estate",
     "medtech",
+    "language services",
     "hospitality",
     "insurance",
     "interior design"
   ],
-  "eventsNote": "Status as of 2026-10-19. For current events see https://www.gomogroup.com/en/events/",
+  "eventsNote": "Status as of 2026-11-17. For current events see https://www.gomogroup.com/en/events/",
   "events": [
     {
       "name": "How to get your brand selected by AI and Agents? GEO in practice.",
@@ -917,10 +981,34 @@
     }
   ],
   "insights": {
-    "total": 165,
-    "en": 56,
-    "sv": 109,
+    "total": 174,
+    "en": 57,
+    "sv": 117,
     "latest": [
+      {
+        "title": "Era köpare frågar AI. Finns ert varumärke med i svaret?",
+        "lang": "sv",
+        "date": "2026-11-05",
+        "url": "https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/"
+      },
+      {
+        "title": "LinkedIn-algoritmen 2026: så når ni ut organiskt, enligt LinkedIn själva",
+        "lang": "sv",
+        "date": "2026-10-21",
+        "url": "https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/"
+      },
+      {
+        "title": "How to win organically on LinkedIn, according to LinkedIn",
+        "lang": "en",
+        "date": "2026-10-20",
+        "url": "https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/"
+      },
+      {
+        "title": "ChatGPT Ads vs Google Ads: tidiga B2B-resultat",
+        "lang": "sv",
+        "date": "2026-10-19",
+        "url": "https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/"
+      },
       {
         "title": "ChatGPT Ads vs Google Ads: what we’ve learned so far",
         "lang": "en",
@@ -934,52 +1022,28 @@
         "url": "https://www.gomogroup.com/en/insight/do-visitors-from-chatgpt-and-other-ai-assistants-convert-better/"
       },
       {
+        "title": "Konverterar besökare från ChatGPT och andra AI-assistenter bättre?",
+        "lang": "sv",
+        "date": "2026-10-15",
+        "url": "https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/"
+      },
+      {
         "title": "Google Has Published Its Official AI Search Optimisation Guide. Here’s What It Actually Says.",
         "lang": "en",
         "date": "2026-10-14",
         "url": "https://www.gomogroup.com/en/insight/google-ai-search-optimisation-guide/"
       },
       {
+        "title": "Google har publicerat sin officiella guide för AI-sökoptimering. Här är vad den faktiskt säger.",
+        "lang": "sv",
+        "date": "2026-10-14",
+        "url": "https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/"
+      },
+      {
         "title": "Varför B2B digital commerce behöver utvecklas både tekniskt och emotionellt",
         "lang": "sv",
         "date": "2026-10-05",
         "url": "https://www.gomogroup.com/insikter/varfor-b2b-digital-commerce-behover-utvecklas-bade-tekniskt-och-emotionellt/"
-      },
-      {
-        "title": "Closing the B2B Commerce Discovery Gap: When Machines Visit Before Humans Do",
-        "lang": "en",
-        "date": "2026-08-17",
-        "url": "https://www.gomogroup.com/en/insight/closing-the-b2b-commerce-discovery-gap/"
-      },
-      {
-        "title": "Ett fundamentalt skifte i B2B-köpresan: När maskinerna besöker före människorna",
-        "lang": "sv",
-        "date": "2026-08-17",
-        "url": "https://www.gomogroup.com/insikter/ai-agenter-och-b2b-kopresan-ett-fundamentalt-skifte/"
-      },
-      {
-        "title": "The Complete Glossary of 75 GEO, AEO & AI Search Terms You Must Know in 2026",
-        "lang": "en",
-        "date": "2026-06-19",
-        "url": "https://www.gomogroup.com/en/insight/geo-ai-search-glossary/"
-      },
-      {
-        "title": "Den kompletta ordlistan för GEO, AEO och AI-sök: 75 termer du måste kunna 2026",
-        "lang": "sv",
-        "date": "2026-06-19",
-        "url": "https://www.gomogroup.com/insikter/geo-ai-sok-ordlista/"
-      },
-      {
-        "title": "Your website is getting AI traffic. You just can’t see it yet.",
-        "lang": "en",
-        "date": "2026-06-16",
-        "url": "https://www.gomogroup.com/en/insight/your-website-is-getting-ai-traffic-you-just-cant-see-it-yet/"
-      },
-      {
-        "title": "Your buyers are asking AI. Is your brand in the answer?",
-        "lang": "en",
-        "date": "2026-05-26",
-        "url": "https://www.gomogroup.com/en/insight/your-buyers-are-asking-ai-is-your-brand-in-the-answer/"
       }
     ],
     "all": "https://www.gomogroup.com/agent/v1/insights.json"
@@ -1011,6 +1075,7 @@
     "restApiIndex": "https://www.gomogroup.com/agent/v1/index.json",
     "openapi": "https://www.gomogroup.com/openapi.json",
     "apiCatalog": "https://www.gomogroup.com/api-catalog.json",
+    "ard": "https://www.gomogroup.com/.well-known/ard.json",
     "mcpServer": "https://agent-mcp.gomogroup.com/mcp"
   },
   "faq": [
@@ -1020,7 +1085,7 @@
     },
     {
       "q": "What services does GO MO Group offer?",
-      "a": "Core services: Agentic Web, ASBX – B2B Outbound Lead Generation, B2B Lead Generation (GO MO DBS), B2B YouTube Marketing, Content Marketing, Demand Generation (Online Acceleration), Generative Engine Optimization (GEO), Programmatic Advertising, SEA – Search Engine Advertising, SEO – Search Engine Optimization, SEM – Search Engine Marketing. Full list with details: https://www.gomogroup.com/agent/v1/services.json"
+      "a": "Core services: Agentic Web, ASBX – B2B Outbound Lead Generation, B2B Lead Generation (GO MO DBS), B2B YouTube Marketing, Content Marketing, Demand Generation (Online Acceleration), Generative Engine Optimization (GEO), Programmatic Advertising, SEA – Search Engine Advertising, ChatGPT Ads, SEO – Search Engine Optimization, SEM – Search Engine Marketing. Full list with details: https://www.gomogroup.com/agent/v1/services.json"
     },
     {
       "q": "Who does GO MO Group work with?",
@@ -1028,11 +1093,11 @@
     },
     {
       "q": "How much does GEO cost?",
-      "a": "Published GEO packages: Free Mini GEO Audit custom; LLM Audit & Strategy from 23,500 SEK; Audit, Strategy & Implementation from 44,000 SEK; Enterprise Content & GEO Retainer custom. All other services are quote-based."
+      "a": "Published GEO packages: Mini GEO Audit free; LLM Audit & Strategy 23,500 SEK; Audit, Strategy & Implementation 44,000 SEK; Enterprise Content & GEO Retainer custom. All other services are quote-based."
     },
     {
       "q": "Does GO MO Group publish in Swedish?",
-      "a": "Yes. The site is bilingual: English under https://www.gomogroup.com/en/ and Swedish at https://www.gomogroup.com/. Most services and cases exist in both languages; 109 insights are in Swedish and 56 in English."
+      "a": "Yes. The site is bilingual: English under https://www.gomogroup.com/en/ and Swedish at https://www.gomogroup.com/. Most services and cases exist in both languages; 117 insights are in Swedish and 57 in English."
     },
     {
       "q": "How do I contact GO MO Group?",
@@ -1105,7 +1170,7 @@
     },
     {
       "q": "What is the Mini GEO Audit and what do I get?",
-      "a": "The Mini GEO Audit is a free, no-commitment snapshot of your brand’s current AI search visibility. We check how your brand appears — or doesn’t — across ChatGPT and Perplexity for your core topic areas, and deliver a 1-page summary within 48 hours. It’s the fastest way to understand your starting point before committing to a full GEO strategy. There’s no pitch, no obligation — just a clear picture of where you stand today. Request your free Mini Audit here.",
+      "a": "The Mini GEO Audit is free, no-commitment and presentation-ready. It gives your Executive AI Score against up to six competitors, your visibility in Google AI Mode, AI Overviews, ChatGPT and Gemini, GEO readiness and AI agent readiness scores, and how AI currently frames your brand, and ends with three options for your leadership team: first mover, follower or late majority.",
       "source": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/"
     },
     {
@@ -1237,6 +1302,26 @@
       "q": "Is the event free of charge?",
       "a": "Yes, there’s no cost to attend. Since we’re keeping the session small and focused, we review all seat requests to make sure the room is composed of marketing and communications professionals who’ll get the most out of it.",
       "source": "https://www.gomogroup.com/en/event/b2b-geo-seminar-may-2026/"
+    },
+    {
+      "q": "What are ChatGPT Ads?",
+      "a": "Sponsored cards that appear below ChatGPT's answer when they fit the conversation. They are labelled as sponsored and kept separate from the answer; ads do not influence ChatGPT's answers and advertisers never get access to users' conversations.",
+      "source": "https://www.gomogroup.com/en/services/chatgpt-ads/"
+    },
+    {
+      "q": "Can Swedish companies advertise in ChatGPT today?",
+      "a": "Yes. Ads Manager self-service is open to Swedish-billed entities, so there is no waiting list. GO MO runs ChatGPT Ads as a measured 30-day pilot billed per valid click.",
+      "source": "https://www.gomogroup.com/en/services/chatgpt-ads/"
+    },
+    {
+      "q": "What does a ChatGPT Ads click cost?",
+      "a": "On GO MO's Swedish runs, about 16–18 SEK per click, roughly half OpenAI's guided 30–50 SEK. A typical 30-day pilot is SEK 50,000 media plus SEK 20,000 setup and management (SEK 70,000 in total, excluding VAT).",
+      "source": "https://www.gomogroup.com/en/services/chatgpt-ads/"
+    },
+    {
+      "q": "How do ChatGPT Ads relate to GEO?",
+      "a": "Ads put a brand below the answer from day one. GEO works on getting the brand named in the answer itself over time, and ad insights show which topics to own.",
+      "source": "https://www.gomogroup.com/en/services/chatgpt-ads/"
     }
   ]
 }

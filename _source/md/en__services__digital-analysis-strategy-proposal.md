@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/en/services/digital-analysis-strategy-proposal/
-LANG: en
-TYPE: service
-TITLE: Digital Marketing: Analysis and Strategy
-DESC: Analysis of your digital marketing. Get a thorough report outlining your current situation and how to achieve your marketing goals.
-PUBLISHED: 2024-02-13
-MODIFIED: 2024-05-28
-AUTHOR: None
-ALT: {'lang': 'sv', 'url': 'https://www.gomogroup.com/vara-tjanster/digital-analys-och-strategiforslag/'}
----
 # Pull Marketing  Audit & Strategy Proposal
 
 Your marketing strategy needs to be based on data. This is why all our partnerships begin with a thorough audit of our clients’ internal and external marketing factors. From this, we are able to develop and propose a strategy that will let you reach your digital marketing goals.
@@ -138,17 +128,23 @@ Get a comprehensive view of your digital presence and optimize your strategy wit
 
 We offer a full range of Pull Marketing services that make your website visible to a relevant audience.
 
-### Agentic Web
+### ChatGPT Ads
 
-Maximize your online presence with a comprehensive SEO strategy: drive relevant traffic to your website and build a strong online presence over time.
+Put your offer directly below ChatGPT’s answer. We run ChatGPT Ads as a measured 30-day pilot, tracking visits, leads and sales.
 
-[Read more about Agentic Web](https://www.gomogroup.com/en/services/agentic-web/)
+[Read more about ChatGPT Ads](https://www.gomogroup.com/en/services/chatgpt-ads/)
 
 ### Generative Engine Optimization (GEO)
 
 Future of search demands futuristic strategies. The digital search landscape is undergoing a transformation, one that will significantly reduce organic website traffic - by up to 50%. Generative Engine Optimization (GEO) is the strategy designed to thrive in this new environment.
 
 [Read more about Generative Engine Optimization (GEO)](https://www.gomogroup.com/en/services/generative-engine-optimization-geo/)
+
+### Agentic Web
+
+We build the agentic layer of your website – structured data, llms.txt, APIs and MCP – so AI assistants and agentic browsers can read, cite and act on your business.
+
+[Read more about Agentic Web](https://www.gomogroup.com/en/services/agentic-web/)
 
 ### Pull Marketing
 
@@ -192,6 +188,11 @@ Our insights about Pull Marketing come from hundreds of ongoing client projects.
 
 [Read More](https://www.gomogroup.com/en/insights/)
 
+[How to win organically on LinkedIn, according to LinkedIn\\
+On LinkedIn, B2B engagement is earned by people and proof. The company page comes second. LinkedIn has changed how its algorithm decides what shows up in the feed. We went through what LinkedIn itself has published in 2026, from engineering posts to marketing guides and buyer research, and turned it into a short guide. The \[…\]](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
+
+[Read More](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
+
 [ChatGPT Ads vs Google Ads: what we’ve learned so far\\
 Last updated: 15 October 2026. We update the data as the pilots continue – more to come. In August, ChatGPT Ads opened to advertisers in 31 European markets, Sweden and Germany among them. For B2B marketing leaders the question came quickly: is this a new search channel, and does it deserve a budget of its \[…\]](https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/)
 
@@ -211,11 +212,6 @@ For the first time, Google has released a dedicated resource on optimising conte
 The next trillion users of the internet aren’t human. Most B2B companies are invisible to them. The majority of your website’s visitors can’t see it 57.8% of all HTTP requests to web content are now automated. For the first time in the thirty-year history of the commercial internet, machines outnumber humans as the primary audience \[…\]](https://www.gomogroup.com/en/insight/closing-the-b2b-commerce-discovery-gap/)
 
 [Read More](https://www.gomogroup.com/en/insight/closing-the-b2b-commerce-discovery-gap/)
-
-[The Complete Glossary of 75 GEO, AEO & AI Search Terms You Must Know in 2026\\
-75 terms. Every AI search discipline. One reference to bookmark. Why the Language of Search Just Changed — And What You Need to Know The vocabulary of search has undergone its most dramatic transformation in two decades. Terms that didn’t exist 3 years ago — GEO, AEO, LLM-O, AI Overviews, RAG, zero-click — are now \[…\]](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
-
-[Read More](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
 
 ### Let’s discuss your future.
 

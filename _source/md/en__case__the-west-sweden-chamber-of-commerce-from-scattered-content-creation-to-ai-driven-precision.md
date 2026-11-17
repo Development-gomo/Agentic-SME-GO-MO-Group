@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/
-LANG: en
-TYPE: case
-TITLE: Streamlining Content Creation with AI
-DESC: Discover how AI halved content creation time for the West Sweden Chamber of Commerce.
-PUBLISHED: 2025-07-31
-MODIFIED: 2025-11-05
-AUTHOR: None
-ALT: {'lang': 'sv', 'url': 'https://www.gomogroup.com/case/vastsvenska-handelskammaren-fran-spretig-textproduktion-till-ai-styrd-precision/'}
----
 # The West Sweden Chamber of Commerce – From scattered content creation to AI-driven precision
 
 CASE STUDY \| Generative AI
@@ -22,7 +12,7 @@ GO MO’s team worked closely with the communications lead and the AI pilot grou
 
 We built a private GPT with embedded instructions, tailored to the Chamber’s tone of voice, content types and structural needs.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201541%20958'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2025/06/c98bb8d7-d2fb-4dd5-903e-b7858b5dab22.png.webp)
 
 ### How we solved it
 
@@ -42,7 +32,7 @@ The model was trained with clear rules for structure, citations and voice.
 
 The marketing and policy teams gave feedback – we fine-tuned until the GPT delivered right on the first try.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202560%201247'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2025/06/ChatGPT-VHK-Web-Content-Articles-SEO-GPT-06-27-2025_02_23_PM-scaled.png.webp)
 
 ### The impact? Clear and measurable
 
@@ -57,7 +47,7 @@ At the same time, they got free visibility. The GPT solution was featured in cou
 
 “We save time, we improve quality – and we sound like ourselves. That’s exactly what we wanted.”
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201030%20429'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2025/07/4.45-3-1030x429.png.webp)
 
 ## Tired of AI talk? Here’s the real output
 
@@ -72,14 +62,14 @@ It starts with the right AI – trained on your content, your voice, your way of
 Hi, my name is  and I represent , where my title is . You can contact me at . I am contacting you regarding .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
 
 Contact us, and we’ll get back to you with our expertise and support!
 
@@ -87,15 +77,15 @@ Contact us, and we’ll get back to you with our expertise and support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Privacy Policy](https://www.gomogroup.com/en/privacy-policy/) [Cookie Policy](https://www.gomogroup.com/en/cookie-policy/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: Generative AI: From Hype to Real Business ValueLink to: Generative AI: From Hype to Real Business ValueGenerative AI: From Hype to Real Business Value![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)](https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/ "Link to: Generative AI: From Hype to Real Business Value") [Link to: How Automation and Gen-AI Scaled Marketing Operations and Saved 400+ Hours for a Global B2B E-commerce GiantLink to: How Automation and Gen-AI Scaled Marketing Operations and Saved 400+ Hours for a Global B2B E-commerce Giant![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)How Automation and Gen-AI Scaled Marketing Operations and Saved 400+ Hours for...](https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/ "Link to: How Automation and Gen-AI Scaled Marketing Operations and Saved 400+ Hours for a Global B2B E-commerce Giant")
+[Link to: Generative AI: From Hype to Real Business ValueLink to: Generative AI: From Hype to Real Business ValueGenerative AI: From Hype to Real Business Value![](https://www.gomogroup.com/wp-content/uploads/2024/04/Gabriel_Ghavami_digital-strateg_gomogroup-450x200-1-e1621414657780-1-80x80.jpg.webp)](https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/ "Link to: Generative AI: From Hype to Real Business Value") [Link to: AI generated Brand imagesLink to: AI generated Brand images![](https://www.gomogroup.com/wp-content/uploads/2025/11/Group-60-3-80x80.png.webp)AI generated Brand images](https://www.gomogroup.com/en/case/ai-generated-brand-images/ "Link to: AI generated Brand images")
 
  [Scroll to top](https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/#top "Scroll to top")
 

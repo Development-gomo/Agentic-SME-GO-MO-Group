@@ -1,16 +1,6 @@
-URL: https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/
-LANG: sv
-TYPE: insight
-TITLE: B2B-försäljning behöver inte vara tråkig
-DESC: Vem bestämde att köpupplevelsen i B2B ska vara dålig? Läs hur bolag kan modernisera upplevelsen, och vad det innebär att sätta CXO i centrum.
-PUBLISHED: 2023-03-29
-MODIFIED: 2024-05-10
-AUTHOR: None
-ALT: None
----
 [Tillbaka](https://www.gomogroup.com/insights/)
 
-[![facebook](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/ "Share on facebook")[![twitter](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://twitter.com/intent/tweet?text=B2B-f%C3%B6rs%C3%A4ljning%20%C3%A4r%20tr%C3%A5kig%20%E2%80%93%20h%C3%B6g%20tid%20f%C3%B6r%20modernisering&url=https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/ "Share on twitter")[![linkedin](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/ "Share on linkedin")[![print](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/# "Print this document")[![facebook](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/ "Share with email")
+[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/ "Share on facebook")[![twitter](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/twitter.png)](https://twitter.com/intent/tweet?text=B2B-f%C3%B6rs%C3%A4ljning%20%C3%A4r%20tr%C3%A5kig%20%E2%80%93%20h%C3%B6g%20tid%20f%C3%B6r%20modernisering&url=https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/ "Share on twitter")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/ "Share on linkedin")[![print](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/print.png)](https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/# "Print this document")[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/ "Share with email")
 
 Nyheter \| LÄSTID: 5 MINUTER \| 29 mars 2023
 
@@ -18,15 +8,15 @@ Nyheter \| LÄSTID: 5 MINUTER \| 29 mars 2023
 
 Vem bestämde att B2B-försäljning ska vara tråkig och köpupplevelsen dålig? Det är en fråga jag funderat på under mina 20 år inom B2B-försäljning och marknadsföring, där jag har sett den digitala revolutionen skaka om spelplanen. Genom att fördjupa mig i digital marknadsföring under de senaste 10 åren, har jag samlat på mig en bred insikt i de utmaningar som organisationer står inför när de kämpar för att anpassa sig till den nya köpprocessen. En process som alltför ofta faller offer för en ålderdomlig inställning och motstånd till förändring.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202240%201260'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2023/03/Gabriel-Ghavami-digital-marketing-future.jpg.webp)
 
 Det är dags att stå på barrikaderna och återinföra ”sexy” i B2B. Vi förtjänar att ha vackra och användarvänliga plattformar. Vi måste anpassa oss till generation Z, som inte kommer att acceptera något annat än det bästa.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202240%201260'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2023/03/Gabriel-b2b-omtag.jpg.webp)
 
 Vi står mitt i en B2B-försäljningsrevolution där gamla säljprocessen är helt utdaterade för dagens köpprocess. Med pandemi, teknologiskifte och lågkonjunktur har stjärnorna äntligen ställt sig rätt på himlen, vilket har tvingat ledande B2B-organisationer att ställa om hela sin försäljning för att anpassa sig till den nya köpverkligheten. Teknologiskiftet och AI:s intåg inom kommunikation har förändrat sättet vi kommunicerar på, vilket kräver en [anpassning av säljprocessen till interaktiv försäljning](https://www.gomogroup.com/insikter/gabriel-ghavami/forandring-av-saljprocessen-inom-b2b/).
 
-![Moderna komplexa köpprocesser | GO MO Group](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202240%201259'%3E%3C/svg%3E)
+![Moderna komplexa köpprocesser | GO MO Group](https://www.gomogroup.com/wp-content/uploads/2023/03/non-linear-purchasing.png.webp)
 
 I denna resa och omställning är det kunden som sitter i förarsätet. Det är på kundens villkor vi säljer och de som kan hjälpa kunder genomföra sina köp vinner över de som betalar dyrt för att trycka ner ett budskap i halsen på målgrupperna. Den digitala intjäningsmöjligheten växer och min övertygelse är att vinnande B2B-bolag endast har två sätt att vinna digitala affärer på: genom att agera som [tankeledare](https://www.gomogroup.com/insikter/gabriel-ghavami/tankeledarskap-i-b2b/) och genom att anpassa och därmed underlätta köpresan (det som i vår värld kallas för Customer Experience Optimization, eller CXO).
 
@@ -42,7 +32,7 @@ Att dominera inom CXO kräver att företagen sätter kundupplevelsen i fokus som
 
 Förändring är aldrig enkel, men att stå stilla är inte ett alternativ. Att skapa en bättre och mer framgångsrik köpupplevelse för sina kunder kräver en djup förståelse för marknaden och kundbehoven, men det är värt det. Med en väl genomtänkt strategi och rätt implementering kan företag ta sig an utmaningarna och ta ledarskapet i den nya era av B2B-försäljning.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202240%201260'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2023/03/Gabriel-Ghavami-digital-marketing-future.jpg.webp)
 
 ## Slutsats
 
@@ -50,7 +40,7 @@ Med över 20 års erfarenhet inom försäljning och digital marknadsföring inom
 
 Om författaren
 
-![Gabriel Ghavami](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E)
+![Gabriel Ghavami](https://www.gomogroup.com/wp-content/uploads/2026/06/gg-author-image-300x300.webp)
 
 Gabriel GhavamiCEOJag, Gabriel Ghavami, är VD för GO MO Group och en engagerad förespråkare för generativ AI och dess potential att förnya traditionella B2B-industrier. Med en gedigen erfarenhet inom försäljning, marknadsföring och tillväxtstrategier, är jag passionerat engagerad i att utforska och implementera Gen AI-teknologier som främjar effektivitet och hållbar tillväxt. Är driven av en vision där teknik och mänskliga värden samspelar för att varsamt öppna upp för nya framsteg och möjligheter inom industrin - Tror att människans känslor och moral tillsammans med maskinens snabbhet kan göra våra beslut smartare och snällare.
 
@@ -58,50 +48,50 @@ Gabriel GhavamiCEOJag, Gabriel Ghavami, är VD för GO MO Group och en engagerad
 
 Upptäck personerna bakom vår framgång i ”Meet the Marketer” – en videoserie där vi intervjuar våra egna talangfulla medarbetare. Lär känna teamet som driver vår innovation och kreativitet på GO MO Group.
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerHenrik Anderberg![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/henrik-video-thumbnail.webp)Meet the MarketerHenrik Anderberg![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerPuja Kumari![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/puja-video-thumbnail.webp)Meet the MarketerPuja Kumari![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLina Nygren![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/lina-video-thumbnail.png.webp)Meet the MarketerLina Nygren![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerVishnu Adithya![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/vishnu-video-thumbnail.webp)Meet the MarketerVishnu Adithya![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLisa & Rickard![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/Rick-and-Lisa.jpg.webp)Meet the MarketerLisa & Rickard![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerJan Thesleff![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/jan-thesleff-video-thumbnail.webp)Meet the MarketerJan Thesleff![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerCecilia Oskarsson![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/cecilia-oskarsson-video-thumbnail.webp)Meet the MarketerCecilia Oskarsson![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerSunil Muralidharan![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/sunil-muralidharan-video-thumbnail.webp)Meet the MarketerSunil Muralidharan![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
 
 ## Relaterade insikter
 
 Våra insikter om Pull-marknadsföring kommer från hundratals pågående kunduppdrag. Läs om de trenderna inom digital marknadsföring och vilka slutsatser vi kunnat dra från tidigare projekt.
 
-[Varför B2B digital commerce behöver utvecklas både tekniskt och emotionellt\\
-För ett par veckor sedan höll vi på GO MO Group ett frukostseminarium i Göteborg tillsammans med Marknadsföreningen i Sverige (MiS). Temat var vad som händer med människan, varumärket och CXO när AI ritar om köpresan. Vår Gabriel Ghavami var huvudtalare, och efter hans föredrag fortsatte samtalet i en panel med representanter från Kantar, SKF, \[…\]](https://www.gomogroup.com/insikter/varfor-b2b-digital-commerce-behover-utvecklas-bade-tekniskt-och-emotionellt/)
+[Era köpare frågar AI. Finns ert varumärke med i svaret?\\
+Vid två event i våras samlade vi B2B-marknadsledare i Göteborg och Stockholm för att ställa de frågor som branschen helst går runt. Det de berättade för oss, live, anonymt och i realtid, är mer brådskande än de flesta företag vill erkänna.](https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/)
 
-[Läs mer](https://www.gomogroup.com/insikter/varfor-b2b-digital-commerce-behover-utvecklas-bade-tekniskt-och-emotionellt/)
+[Läs mer](https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/)
 
-[Ett fundamentalt skifte i B2B-köpresan: När maskinerna besöker före människorna\\
-Internets nästa biljon användare är inte människor. De är språkmodeller och agenter. En strukturell förskjutning — och varför människan i B2B är viktigare än någonsin För första gången på det kommersiella internets trettioåriga historia utgör maskiner majoriteten av publiken. I decennier vilade internets affärsmodell på ett outtalat kontrakt: webbplatsägare lät sökmotorer crawla deras innehåll, och \[…\]](https://www.gomogroup.com/insikter/ai-agenter-och-b2b-kopresan-ett-fundamentalt-skifte/)
+[LinkedIn-algoritmen 2026: så når ni ut organiskt, enligt LinkedIn själva\\
+På LinkedIn är det människor och konkreta exempel som skapar engagemang i B2B. Företagssidan har en mer stödjande roll. LinkedIn har ändrat hur algoritmen avgör vad som syns i flödet. Vi har gått igenom det LinkedIn självt har publicerat under 2026, från tekniska blogginlägg till marknadsguider och köparforskning, och gjort en kort guide av det. \[…\]](https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/)
 
-[Läs mer](https://www.gomogroup.com/insikter/ai-agenter-och-b2b-kopresan-ett-fundamentalt-skifte/)
+[Läs mer](https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/)
 
-[Den kompletta ordlistan för GEO, AEO och AI-sök: 75 termer du måste kunna 2026\\
-Uppdaterad 30e september 2026 75 termer. Varje disciplin inom AI-sök. En referens att spara. Varför språket inom sök har förändrats — och vad du behöver veta Ordförrådet inom sök har genomgått sin mest dramatiska omvandling på två decennier. Begrepp som inte fanns för tre år sedan — GEO, AEO, LLMO, AI Overviews, RAG, zero-click — \[…\]](https://www.gomogroup.com/insikter/geo-ai-sok-ordlista/)
+[ChatGPT Ads vs Google Ads: tidiga B2B-resultat \| GO MO Group\\
+Senast uppdaterad: 19 oktober 2026. Vi fyller på med ny data allteftersom piloterna fortsätter. I augusti öppnade ChatGPT Ads för annonsörer på 31 europeiska marknader, däribland Sverige och Tyskland. Många marknadschefer i B2B ställde sig genast samma fråga: är det här en ny sökkanal, och är den värd en egen budget? Sedan dess har vi \[…\]](https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/)
 
-[Läs mer](https://www.gomogroup.com/insikter/geo-ai-sok-ordlista/)
+[Läs mer](https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/)
 
-[Från Uddevalla till globala marknader\\
-Så påbörjade FKAB Marine Design sin AI-drivna tillväxtresa Hur kan ett svenskt fartygsdesignföretag från Uddevalla expandera globalt och effektivisera sina sälj- och marknadsföringsaktiviteter? För FKAB Marine Design blev svaret en kombination av strategi, data och AI. Tillsammans med GO MO Group inledde företaget en AI-driven transformation med målet att skapa en mer träffsäker marknadsstrategi och \[…\]](https://www.gomogroup.com/insikter/fkab-mot-en-global-expansion-med-gen-ai-go-mo-group-insikter/)
+[Konverterar besökare från ChatGPT och andra AI-assistenter bättre?\\
+GO MO analyserade GA4-data från 60+ webbplatser. AI-besökare konverterade nästan dubbelt så ofta som andra besökare, med stora skillnader mellan branscher. Se vad ni bör kontrollera och ändra.](https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/)
 
-[Läs mer](https://www.gomogroup.com/insikter/fkab-mot-en-global-expansion-med-gen-ai-go-mo-group-insikter/)
+[Läs mer](https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/)
 
-[Välkommen till den agentiska eran: När din nästa kund kan vara en AI\\
-AI-agenter har förändrat kundresan. Här är varför B2B-företag måste ligga steget före redan nu Tiderna har förändrats. Agentisk sök är här för att stanna Under de senaste månaderna har vi på GO MO Group följt ett av de mest betydande skiftena inom digital strategi sedan Googles genombrott: framväxten av AI-agenter som autonoma beslutsfattare, köpare och \[…\]](https://www.gomogroup.com/insikter/valkommen-till-den-agentiska-eran-nar-din-nasta-kund-kan-vara-en-ai/)
+[Google har publicerat sin officiella guide för AI-sökoptimering. Här är vad den faktiskt säger.\\
+Har du lagt tid och budget på llms.txt-filer, uppstyckat innehåll eller texter omskrivna ”för AI”? Då är det här värt att läsa. För första gången har Google publicerat en officiell guide för hur du syns i AI Overviews och AI Mode – och den slår hål på flera av de GEO-knep som marknadsförs flitigt i \[…\]](https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/)
 
-[Läs mer](https://www.gomogroup.com/insikter/valkommen-till-den-agentiska-eran-nar-din-nasta-kund-kan-vara-en-ai/)
+[Läs mer](https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/)
 
 ### Låt oss diskutera framtiden.
 
@@ -127,15 +117,15 @@ Kontakta oss, så återkommer vi med vår expertis och support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
 ![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Integritetspolicy](https://www.gomogroup.com/gdpr/) [Cookies & Regler](https://www.gomogroup.com/cookies-regler/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: The Ethical Frontier: Shaping the Future with Generative AILink to: The Ethical Frontier: Shaping the Future with Generative AIThe Ethical Frontier: Shaping the Future with Generative AI![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)](https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/ "Link to: The Ethical Frontier: Shaping the Future with Generative AI") [Link to: Varför en förändring av säljprocessen är nödvändig inom B2B försäljning: Från linjär till interaktivLink to: Varför en förändring av säljprocessen är nödvändig inom B2B försäljning: Från linjär till interaktiv![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)Varför en förändring av säljprocessen är nödvändig inom B2B försäljning:...](https://www.gomogroup.com/insikter/forandring-av-saljprocessen-inom-b2b-forsaljning/ "Link to: Varför en förändring av säljprocessen är nödvändig inom B2B försäljning: Från linjär till interaktiv")
+[Link to: AI och etik: att forma framtidens affärerLink to: AI och etik: att forma framtidens affärerAI och etik: att forma framtidens affärer![](https://www.gomogroup.com/wp-content/uploads/2023/11/Screenshot-2023-11-09-at-11.11.11-80x80.png)](https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/ "Link to: AI och etik: att forma framtidens affärer") [Link to: Varför en förändring av säljprocessen är nödvändig inom B2B försäljning: Från linjär till interaktivLink to: Varför en förändring av säljprocessen är nödvändig inom B2B försäljning: Från linjär till interaktiv![](https://www.gomogroup.com/wp-content/uploads/2024/04/saljprocess-linjar-till-interaktiv-in-text-80x80.jpeg.webp)Varför en förändring av säljprocessen är nödvändig inom B2B försäljning:...](https://www.gomogroup.com/insikter/forandring-av-saljprocessen-inom-b2b-forsaljning/ "Link to: Varför en förändring av säljprocessen är nödvändig inom B2B försäljning: Från linjär till interaktiv")
 
  [Scroll to top](https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/#top "Scroll to top")
 

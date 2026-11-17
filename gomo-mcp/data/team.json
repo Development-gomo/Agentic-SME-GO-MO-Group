@@ -199,23 +199,6 @@
       "dateModified": "2026-06-05"
     },
     {
-      "id": "joshua-amirose",
-      "name": "Joshua Amirose",
-      "role": "Copywriter",
-      "role_sv": null,
-      "bio": null,
-      "email": "ja@gomogroup.com",
-      "telephone": "+46723291231",
-      "telephone_e164": "+46723291231",
-      "linkedin": "https://www.linkedin.com/in/joshua-amirose/",
-      "location": null,
-      "url": null,
-      "url_sv": null,
-      "languages": null,
-      "leadership": false,
-      "source_url": "https://www.gomogroup.com/en/contact-us/"
-    },
-    {
       "id": "avichal-singh",
       "name": "Avichal Singh",
       "role": "Head of Paid Marketing",
@@ -454,40 +437,6 @@
       "source_url": "https://www.gomogroup.com/om-oss/"
     },
     {
-      "id": "sanghapriya-waghmare",
-      "name": "Sanghapriya Waghmare",
-      "role": "Sr. Analyst - Paid Marketing",
-      "role_sv": "Sr. Analyst - Paid Marketing",
-      "bio": null,
-      "email": null,
-      "telephone": null,
-      "telephone_e164": null,
-      "linkedin": null,
-      "location": null,
-      "url": null,
-      "url_sv": null,
-      "languages": null,
-      "leadership": false,
-      "source_url": "https://www.gomogroup.com/om-oss/"
-    },
-    {
-      "id": "aditi-rawal",
-      "name": "Aditi Rawal",
-      "role": "Sr. SEO Analyst",
-      "role_sv": "Sr. SEO Analyst",
-      "bio": null,
-      "email": null,
-      "telephone": null,
-      "telephone_e164": null,
-      "linkedin": null,
-      "location": null,
-      "url": null,
-      "url_sv": null,
-      "languages": null,
-      "leadership": false,
-      "source_url": "https://www.gomogroup.com/om-oss/"
-    },
-    {
       "id": "roshni-bhuta",
       "name": "Roshni Bhuta",
       "role": "Sr. SEO Analyst",
@@ -605,12 +554,48 @@
       "languages": null,
       "leadership": false,
       "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "oliver-wilkenson",
+      "name": "Oliver Wilkenson",
+      "role": "Digital Creator",
+      "role_sv": "Digital Creator",
+      "bio": null,
+      "email": "oliver.w@gomogroup.com",
+      "telephone": "+46723633556",
+      "telephone_e164": "+46723633556",
+      "linkedin": "http://www.linkedin.com/in/oliver-wilkenson-b0b74a274",
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/en/contact-us/"
+    },
+    {
+      "id": "ville-olsson",
+      "name": "Ville Olsson",
+      "role": "Copywriter",
+      "role_sv": "Copywriter",
+      "bio": null,
+      "email": "ville@gomogroup.com",
+      "telephone": "+46730508955",
+      "telephone_e164": "+46730508955",
+      "linkedin": "https://www.linkedin.com/in/ville-olsson-5a8259185",
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": [
+        "sv"
+      ],
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/kontakta-oss/"
     }
   ],
   "pagination": {
-    "total": 35,
+    "total": 34,
     "page": 1,
-    "per_page": 35,
+    "per_page": 34,
     "pages": 1
   },
   "_meta": {
@@ -618,8 +603,8 @@
     "endpoint": "team",
     "canonical": "https://www.gomogroup.com",
     "api": "https://www.gomogroup.com/agent/v1",
-    "generated": "2026-10-19T00:00:00+00:00",
-    "version": "1.3.0",
+    "generated": "2026-11-17T00:00:00+00:00",
+    "version": "1.4.0",
     "languages": [
       "en",
       "sv"

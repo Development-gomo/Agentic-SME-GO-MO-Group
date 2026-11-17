@@ -26,13 +26,19 @@ for p in pages:
     h1 = re.search(r'<h1[^>]*>(.*?)</h1>', t, re.S)
     title = html.unescape(re.sub(r'<[^>]+>', '', h1.group(1))).strip() if h1 else p['title']
     rt = re.search(r'twitter:data1" content="(\d+) min', t)
+    # Visible "About the author" box (added site-wide in autumn 2026); fall back to Person markup.
+    box = re.search(r'author_card.*?contact-card-name">([^<]+)</span>\s*<span class="contact-card-designation">([^<]*)</span>', t, re.S)
+    author = html.unescape(box.group(1)).strip() if box else p.get('author')
+    author_role = html.unescape(box.group(2)).strip() or None if box else None
     out.append({
         'id': ('sv-' if p['lang'] == 'sv' else '') + p['slug'],
-        'lang': p['lang'], 'title': re.sub(r'\s+', ' ', title), 'seo_title': p['title'],
+        'lang': p['lang'], 'title': re.sub(r'\s*\|\s*GO MO Group\s*$', '', re.sub(r'\s+', ' ', title)), 'seo_title': p['title'],
         'summary': p['description'], 'url': p['url'],
         'alternate': p['alternate']['url'] if p['alternate'] else None,
         'datePublished': p['published'], 'dateModified': p['modified'],
         'readingMinutes': int(rt.group(1)) if rt else None,
+        'author': author,
+        'authorRole': author_role,
         'topics': topics(p['slug'], title),
     })
 # make alternates symmetric

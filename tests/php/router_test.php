@@ -69,7 +69,7 @@ $r = req(['QV' => ['gomo_endpoint' => 'services'], 'METHOD' => 'OPTIONS']);
 check('OPTIONS preflight 204', $r['status'] === 204);
 
 // ── Static files ──
-foreach (['llms_txt', 'ai_txt', 'api_catalog', 'openapi', 'agent_page', 'agent_json'] as $k) {
+foreach (['llms_txt', 'ai_txt', 'api_catalog', 'ard', 'openapi', 'agent_page', 'agent_json'] as $k) {
     $r = req(['QV' => ['gomo_static' => $k]]);
     check("static $k 200", $r['status'] === 200 && strlen($r['raw']) > 1000);
 }

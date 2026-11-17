@@ -2,16 +2,90 @@
   "status": "ok",
   "data": [
     {
+      "id": "sv-era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret",
+      "lang": "sv",
+      "title": "Era köpare frågar AI. Finns ert varumärke med i svaret?",
+      "seo_title": "Era köpare frågar AI. Finns ert varumärke med i svaret?",
+      "summary": "73 % av B2B-marknadsledarna tror att AI-sök påverkar dem betydligt inom 18 månader. Bara 20 % prioriterar det. Se vad våra event våren 2026 visade.",
+      "url": "https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/",
+      "alternate": "https://www.gomogroup.com/en/insight/your-buyers-are-asking-ai-is-your-brand-in-the-answer/",
+      "datePublished": "2026-11-05",
+      "dateModified": "2026-11-05",
+      "readingMinutes": null,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sv-linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva",
+      "lang": "sv",
+      "title": "LinkedIn-algoritmen 2026: så når ni ut organiskt, enligt LinkedIn själva",
+      "seo_title": "LinkedIn-algoritmen 2026: nå ut organiskt",
+      "summary": "LinkedIns egen forskning från 2026 om hur algoritmen väljer inlägg, en plan i fem steg för B2B-företag och en gratis prompt som bedömer ert nästa inlägg.",
+      "url": "https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/",
+      "alternate": "https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/",
+      "datePublished": "2026-10-21",
+      "dateModified": "2026-11-02",
+      "readingMinutes": 12,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
+      "topics": [
+        "b2b-marketing"
+      ]
+    },
+    {
+      "id": "how-to-win-organically-on-linkedin",
+      "lang": "en",
+      "title": "How to win organically on LinkedIn, according to LinkedIn",
+      "seo_title": "LinkedIn Algorithm 2026: How to Win Organically",
+      "summary": "LinkedIn's own 2026 research on how the algorithm picks posts, a five-step plan for B2B companies, and a free prompt that scores your next post.",
+      "url": "https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/",
+      "alternate": "https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/",
+      "datePublished": "2026-10-20",
+      "dateModified": "2026-10-22",
+      "readingMinutes": null,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
+      "topics": [
+        "b2b-marketing"
+      ]
+    },
+    {
+      "id": "sv-chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group",
+      "lang": "sv",
+      "title": "ChatGPT Ads vs Google Ads: tidiga B2B-resultat",
+      "seo_title": "ChatGPT Ads vs Google Ads: tidiga B2B-resultat",
+      "summary": "ChatGPT Ads når fler köpare tidigare, till en CPC nära Googles men med mindre insyn och kontroll. Det här visar våra B2B-piloter hittills.",
+      "url": "https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/",
+      "alternate": "https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/",
+      "datePublished": "2026-10-19",
+      "dateModified": "2026-10-21",
+      "readingMinutes": null,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
+      "topics": [
+        "geo",
+        "seo",
+        "paid",
+        "b2b-marketing",
+        "company"
+      ]
+    },
+    {
       "id": "chatgpt-ads-vs-google-ads-what-weve-learned-so-far",
       "lang": "en",
       "title": "ChatGPT Ads vs Google Ads: what we’ve learned so far",
       "seo_title": "ChatGPT Ads vs Google Ads: Early B2B Results",
       "summary": "ChatGPT Ads reach more buyers earlier at a CPC close to Google's, with less visibility and control. What our B2B pilots against Google Ads show so far.",
       "url": "https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/",
       "datePublished": "2026-10-15",
-      "dateModified": "2026-10-16",
+      "dateModified": "2026-10-21",
       "readingMinutes": null,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "geo",
         "seo",
@@ -25,10 +99,30 @@
       "seo_title": "Do AI assistant visitors convert better?",
       "summary": "GO MO analysed GA4 data from 60+ websites. AI assistant visitors converted at nearly twice the rate of other visitors, with big differences by industry.",
       "url": "https://www.gomogroup.com/en/insight/do-visitors-from-chatgpt-and-other-ai-assistants-convert-better/",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/",
       "datePublished": "2026-10-15",
       "dateModified": "2026-10-15",
       "readingMinutes": null,
+      "author": null,
+      "authorRole": null,
+      "topics": [
+        "geo",
+        "ai"
+      ]
+    },
+    {
+      "id": "sv-konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre",
+      "lang": "sv",
+      "title": "Konverterar besökare från ChatGPT och andra AI-assistenter bättre?",
+      "seo_title": "Konverterar besökare från AI-assistenter bättre?",
+      "summary": "GO MO analyserade GA4-data från 60+ webbplatser. AI-besökare konverterade nästan dubbelt så ofta som andra besökare, med stora skillnader mellan branscher.",
+      "url": "https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/",
+      "alternate": "https://www.gomogroup.com/en/insight/do-visitors-from-chatgpt-and-other-ai-assistants-convert-better/",
+      "datePublished": "2026-10-15",
+      "dateModified": "2026-10-22",
+      "readingMinutes": null,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "geo",
         "ai"
@@ -41,12 +135,32 @@
       "seo_title": "Google's AI Search Optimisation Guide, Explained",
       "summary": "Google has published its first official guide to optimising for AI Overviews and AI Mode. Here's what it says, the GEO myths it debunks, and what to do next.",
       "url": "https://www.gomogroup.com/en/insight/google-ai-search-optimisation-guide/",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/",
       "datePublished": "2026-10-14",
       "dateModified": "2026-10-15",
       "readingMinutes": null,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "geo",
+        "ai",
+        "seo"
+      ]
+    },
+    {
+      "id": "sv-google-guide-ai-sokoptimering",
+      "lang": "sv",
+      "title": "Google har publicerat sin officiella guide för AI-sökoptimering. Här är vad den faktiskt säger.",
+      "seo_title": "Googles guide för AI-sökoptimering förklarad",
+      "summary": "Google har publicerat sin första officiella guide för AI Overviews och AI Mode. Här är vad den säger, vilka GEO-myter den avlivar och vad du bör göra nu.",
+      "url": "https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/",
+      "alternate": "https://www.gomogroup.com/en/insight/google-ai-search-optimisation-guide/",
+      "datePublished": "2026-10-14",
+      "dateModified": "2026-10-20",
+      "readingMinutes": 8,
+      "author": null,
+      "authorRole": null,
+      "topics": [
         "ai",
         "seo"
       ]
@@ -62,6 +176,8 @@
       "datePublished": "2026-10-05",
       "dateModified": "2026-10-06",
       "readingMinutes": 6,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -77,6 +193,8 @@
       "datePublished": "2026-08-17",
       "dateModified": null,
       "readingMinutes": 9,
+      "author": "Gabriel Ghavami",
+      "authorRole": "Founder & CEO, GO MO Group",
       "topics": [
         "b2b-marketing"
       ]
@@ -92,6 +210,8 @@
       "datePublished": "2026-08-17",
       "dateModified": "2026-08-19",
       "readingMinutes": 9,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "geo",
         "ai",
@@ -109,6 +229,8 @@
       "datePublished": "2026-06-19",
       "dateModified": "2026-09-30",
       "readingMinutes": 25,
+      "author": "Krish Mayani Dadlani",
+      "authorRole": "Digital Marketing Specialist & GEO Product Lead",
       "topics": [
         "geo",
         "ai"
@@ -125,6 +247,8 @@
       "datePublished": "2026-06-19",
       "dateModified": "2026-10-05",
       "readingMinutes": 25,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "geo",
         "ai"
@@ -137,12 +261,31 @@
       "seo_title": "Track AI Assistant Traffic in GA4 in Under 15 Minutes",
       "summary": "AI assistants like ChatGPT, Perplexity, Gemini and Claude are already sending users to your site. Learn how to track LLM referral traffic in GA4 in under 15 minutes.",
       "url": "https://www.gomogroup.com/en/insight/your-website-is-getting-ai-traffic-you-just-cant-see-it-yet/",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/insikter/er-webbplats-far-ai-trafik-ni-kan-bara-inte-se-den-an/",
       "datePublished": "2026-06-16",
       "dateModified": "2026-06-25",
       "readingMinutes": 7,
+      "author": "Krish Mayani Dadlani",
+      "authorRole": "Digital Marketing Specialist & GEO Product Lead",
       "topics": [
         "geo",
+        "ai"
+      ]
+    },
+    {
+      "id": "sv-er-webbplats-far-ai-trafik-ni-kan-bara-inte-se-den-an",
+      "lang": "sv",
+      "title": "Er webbplats får AI-trafik. Ni kan bara inte se den än.",
+      "seo_title": "Mät AI-trafik i GA4 på under 15 minuter",
+      "summary": "AI-assistenter som ChatGPT, Perplexity, Gemini och Claude skickar redan besökare till er webbplats. Så mäter ni LLM-trafik i GA4 på under 15 minuter.",
+      "url": "https://www.gomogroup.com/insikter/er-webbplats-far-ai-trafik-ni-kan-bara-inte-se-den-an/",
+      "alternate": "https://www.gomogroup.com/en/insight/your-website-is-getting-ai-traffic-you-just-cant-see-it-yet/",
+      "datePublished": "2026-06-16",
+      "dateModified": "2026-10-23",
+      "readingMinutes": null,
+      "author": null,
+      "authorRole": null,
+      "topics": [
         "ai"
       ]
     },
@@ -153,10 +296,12 @@
       "seo_title": "Your buyers are asking AI. Is your brand in the answer?",
       "summary": "73% of B2B marketing leaders say AI-driven search will significantly affect their business within 18 months. Only 20% are treating it as a strategic priority. GO MO Group's spring 2025 event research reveals the awareness-action gap — and what B2B brands must do to stay visible in AI search.",
       "url": "https://www.gomogroup.com/en/insight/your-buyers-are-asking-ai-is-your-brand-in-the-answer/",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/",
       "datePublished": "2026-05-26",
       "dateModified": "2026-06-01",
       "readingMinutes": 7,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "ai"
       ]
@@ -168,10 +313,30 @@
       "seo_title": "AI-First Marketing - New Rules of B2B Growth",
       "summary": "Discover AI-first marketing strategies to optimize for ChatGPT, Gemini, and Claude bots while managing good bots, bad bots, and AI search visibility.",
       "url": "https://www.gomogroup.com/en/insight/ai-first-marketing-the-new-rules-of-b2b-decision-making-in-2026/",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/insikter/ai-first-marknadsforing-de-nya-reglerna-for-beslutsfattande-inom-b2b-2026/",
       "datePublished": "2026-05-07",
-      "dateModified": "2026-06-16",
-      "readingMinutes": 8,
+      "dateModified": "2026-11-08",
+      "readingMinutes": null,
+      "author": "Aditi Rawal",
+      "authorRole": "Sr. Analyst",
+      "topics": [
+        "ai",
+        "b2b-marketing"
+      ]
+    },
+    {
+      "id": "sv-ai-first-marknadsforing-de-nya-reglerna-for-beslutsfattande-inom-b2b-2026",
+      "lang": "sv",
+      "title": "AI-first-marknadsföring: de nya reglerna för beslutsfattande inom B2B 2026",
+      "seo_title": "AI-first-marknadsföring - nya regler för B2B-tillväxt",
+      "summary": "Upptäck strategier för AI-first-marknadsföring som optimerar för botar från ChatGPT, Gemini och Claude och hanterar bra och dåliga botar samt synlighet i AI-sök.",
+      "url": "https://www.gomogroup.com/insikter/ai-first-marknadsforing-de-nya-reglerna-for-beslutsfattande-inom-b2b-2026/",
+      "alternate": "https://www.gomogroup.com/en/insight/ai-first-marketing-the-new-rules-of-b2b-decision-making-in-2026/",
+      "datePublished": "2026-05-07",
+      "dateModified": "2026-11-08",
+      "readingMinutes": 10,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "ai",
         "b2b-marketing"
@@ -184,10 +349,29 @@
       "seo_title": "LLMs.txt Tested: Data Shows It Doesn't Work for GEO",
       "summary": "GO MO Group tested LLMs.txt across 4 clients for 6 months. Data shows no AI visibility improvement with ChatGPT, Gemini & Google AI Overviews. Here's what worked instead.",
       "url": "https://www.gomogroup.com/en/insight/we-tested-llms-txt-so-you-dont-have-to-heres-what-the-data-actually-says/",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/insikter/vi-testade-llms-txt-har-ar-vad-datan-visar/",
       "datePublished": "2026-05-06",
       "dateModified": "2026-07-08",
       "readingMinutes": 7,
+      "author": "Krish Mayani Dadlani",
+      "authorRole": "Digital Marketing Specialist & GEO Product Lead",
+      "topics": [
+        "geo"
+      ]
+    },
+    {
+      "id": "sv-vi-testade-llms-txt-har-ar-vad-datan-visar",
+      "lang": "sv",
+      "title": "Vi testade LLMs.txt så att ni slipper. Här är vad datan faktiskt visar.",
+      "seo_title": "LLMs.txt i test: data visar ingen effekt på GEO",
+      "summary": "GO MO Group testade LLMs.txt hos 4 kunder i 6 månader. Datan visar ingen förbättrad AI-synlighet i ChatGPT, Gemini och Google AI Overviews. Här är vad som fungerade i stället.",
+      "url": "https://www.gomogroup.com/insikter/vi-testade-llms-txt-har-ar-vad-datan-visar/",
+      "alternate": "https://www.gomogroup.com/en/insight/we-tested-llms-txt-so-you-dont-have-to-heres-what-the-data-actually-says/",
+      "datePublished": "2026-05-06",
+      "dateModified": "2026-11-08",
+      "readingMinutes": null,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "geo"
       ]
@@ -196,13 +380,15 @@
       "id": "from-ai-hype-to-real-implementation-inside-modern-organisations",
       "lang": "en",
       "title": "From AI hype to real implementation inside modern organisations",
-      "seo_title": "From AI Hype to Real Implementation Inside Modern Organisations",
+      "seo_title": "From AI Hype to Real Implementation",
       "summary": "Discover how generative AI is moving from hype to real implementation inside modern organisations, and why leadership, structured adoption, and capability building are critical to closing the AI divide.",
       "url": "https://www.gomogroup.com/en/insight/from-ai-hype-to-real-implementation-inside-modern-organisations/",
       "alternate": null,
       "datePublished": "2026-03-23",
-      "dateModified": "2026-08-11",
+      "dateModified": "2026-11-02",
       "readingMinutes": 2,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "ai"
       ]
@@ -218,6 +404,8 @@
       "datePublished": "2026-03-20",
       "dateModified": "2026-03-20",
       "readingMinutes": 4,
+      "author": "Lina Nygren",
+      "authorRole": "VP of SME Strategy & Success",
       "topics": [
         "ai",
         "b2b-marketing"
@@ -234,6 +422,8 @@
       "datePublished": "2026-03-20",
       "dateModified": "2026-06-24",
       "readingMinutes": 3,
+      "author": "Lina Nygren",
+      "authorRole": "VP av SME Strategy & Success",
       "topics": [
         "ai",
         "company"
@@ -250,6 +440,8 @@
       "datePublished": "2026-03-04",
       "dateModified": "2026-04-03",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -265,6 +457,8 @@
       "datePublished": "2026-03-04",
       "dateModified": "2026-06-03",
       "readingMinutes": 2,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "leadership"
       ]
@@ -280,6 +474,8 @@
       "datePublished": "2026-03-04",
       "dateModified": "2026-04-03",
       "readingMinutes": 2,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "company"
       ]
@@ -295,6 +491,8 @@
       "datePublished": "2026-03-04",
       "dateModified": "2026-06-03",
       "readingMinutes": 2,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -310,6 +508,8 @@
       "datePublished": "2026-03-04",
       "dateModified": "2026-06-03",
       "readingMinutes": 2,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "company"
       ]
@@ -325,6 +525,8 @@
       "datePublished": "2026-03-04",
       "dateModified": "2026-04-03",
       "readingMinutes": 2,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -340,6 +542,8 @@
       "datePublished": "2026-02-26",
       "dateModified": "2026-06-04",
       "readingMinutes": 5,
+      "author": "Krish Mayani Dadlani",
+      "authorRole": "Digital Marketing Specialist & GEO Product Lead",
       "topics": [
         "geo",
         "ai"
@@ -356,6 +560,8 @@
       "datePublished": "2026-02-26",
       "dateModified": "2026-06-03",
       "readingMinutes": 5,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "geo",
         "ai"
@@ -372,6 +578,8 @@
       "datePublished": "2025-05-07",
       "dateModified": "2026-05-07",
       "readingMinutes": 6,
+      "author": "Gabriel Ghavami",
+      "authorRole": "Founder & CEO, GO MO Group",
       "topics": [
         "ai",
         "content"
@@ -388,6 +596,8 @@
       "datePublished": "2025-05-07",
       "dateModified": "2026-01-07",
       "readingMinutes": 7,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "ai"
       ]
@@ -403,6 +613,8 @@
       "datePublished": "2025-02-20",
       "dateModified": "2026-03-04",
       "readingMinutes": 5,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "b2b-marketing"
       ]
@@ -418,6 +630,8 @@
       "datePublished": "2025-02-20",
       "dateModified": "2026-06-24",
       "readingMinutes": 5,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "b2b-marketing"
       ]
@@ -433,6 +647,8 @@
       "datePublished": "2024-10-08",
       "dateModified": "2026-02-17",
       "readingMinutes": 7,
+      "author": "Sam Toosi",
+      "authorRole": "Client Success Manager",
       "topics": [
         "ai",
         "b2b-marketing"
@@ -449,6 +665,8 @@
       "datePublished": "2024-10-08",
       "dateModified": "2026-06-24",
       "readingMinutes": null,
+      "author": "Sam Toosi",
+      "authorRole": "Client Success Manager",
       "topics": [
         "ai",
         "b2b-marketing"
@@ -465,6 +683,8 @@
       "datePublished": "2024-06-19",
       "dateModified": "2026-02-20",
       "readingMinutes": 2,
+      "author": "Gabriel Ghavami",
+      "authorRole": "Founder & CEO, GO MO Group",
       "topics": [
         "ai",
         "b2b-marketing",
@@ -482,6 +702,8 @@
       "datePublished": "2024-06-19",
       "dateModified": "2026-02-17",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "ai",
         "company"
@@ -498,6 +720,8 @@
       "datePublished": "2024-06-18",
       "dateModified": "2026-02-17",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "ai",
         "company"
@@ -514,6 +738,8 @@
       "datePublished": "2024-06-13",
       "dateModified": "2026-02-20",
       "readingMinutes": 3,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "ai",
         "company"
@@ -530,6 +756,8 @@
       "datePublished": "2024-02-06",
       "dateModified": "2024-05-08",
       "readingMinutes": 4,
+      "author": "Ellen Håkman",
+      "authorRole": "Client Success Manager Trainee",
       "topics": [
         "ai"
       ]
@@ -545,6 +773,8 @@
       "datePublished": "2024-02-06",
       "dateModified": "2024-05-11",
       "readingMinutes": 4,
+      "author": "Ellen Håkman",
+      "authorRole": "Client Success Manager Trainee",
       "topics": [
         "ai"
       ]
@@ -560,6 +790,8 @@
       "datePublished": "2023-12-11",
       "dateModified": "2024-09-03",
       "readingMinutes": 10,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "b2b-marketing"
       ]
@@ -575,6 +807,8 @@
       "datePublished": "2023-11-27",
       "dateModified": "2024-05-08",
       "readingMinutes": 5,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "ai"
       ]
@@ -582,14 +816,16 @@
     {
       "id": "the-ethical-frontier-shaping-the-future-with-generative-ai",
       "lang": "en",
-      "title": "The Ethical Frontier: Shaping the Future with Generative AI",
+      "title": "AI and Ethics: Shaping the Future of Business",
       "seo_title": "Navigating Ethics in AI: Shaping Business Futures",
       "summary": "Insights from GO MO's The Conference of the Future. Dive into how Generative AI is transforming industries with a conscience.",
       "url": "https://www.gomogroup.com/en/insight/the-ethical-frontier-shaping-the-future-with-generative-ai/",
       "alternate": "https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/",
       "datePublished": "2023-11-09",
-      "dateModified": "2024-05-09",
-      "readingMinutes": 4,
+      "dateModified": "2026-11-09",
+      "readingMinutes": null,
+      "author": "Gabriel Ghavami",
+      "authorRole": null,
       "topics": [
         "ai"
       ]
@@ -597,14 +833,16 @@
     {
       "id": "sv-the-ethical-frontier-generative-ai",
       "lang": "sv",
-      "title": "The Ethical Frontier: Shaping the Future with Generative AI",
+      "title": "AI och etik: att forma framtidens affärer",
       "seo_title": "AI och etik: Att forma framtidens affärer",
       "summary": "Insikter från GO MO:s The Conference of the Future. Fördjupa dig i hur generativ AI förändrar branscher med ansvar.",
       "url": "https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/",
       "alternate": "https://www.gomogroup.com/en/insight/the-ethical-frontier-shaping-the-future-with-generative-ai/",
       "datePublished": "2023-11-09",
-      "dateModified": "2026-02-20",
-      "readingMinutes": 4,
+      "dateModified": "2026-11-09",
+      "readingMinutes": null,
+      "author": "Gabriel Ghavami",
+      "authorRole": null,
       "topics": [
         "ai"
       ]
@@ -620,6 +858,8 @@
       "datePublished": "2023-07-11",
       "dateModified": "2026-02-20",
       "readingMinutes": 3,
+      "author": "Avichal Singh",
+      "authorRole": "HR Manager",
       "topics": [
         "company"
       ]
@@ -635,6 +875,8 @@
       "datePublished": "2023-06-20",
       "dateModified": "2024-05-09",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "ai",
         "company"
@@ -651,6 +893,8 @@
       "datePublished": "2023-06-08",
       "dateModified": "2024-05-26",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "ai",
         "b2b-marketing",
@@ -668,6 +912,8 @@
       "datePublished": "2023-05-24",
       "dateModified": "2024-05-09",
       "readingMinutes": 2,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "ai",
         "b2b-marketing",
@@ -686,6 +932,8 @@
       "datePublished": "2023-03-29",
       "dateModified": "2024-05-09",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -701,6 +949,8 @@
       "datePublished": "2023-03-29",
       "dateModified": "2024-05-10",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -716,6 +966,8 @@
       "datePublished": "2023-03-13",
       "dateModified": "2024-05-12",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -731,6 +983,8 @@
       "datePublished": "2023-02-07",
       "dateModified": "2026-06-04",
       "readingMinutes": 10,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "geo",
         "ai",
@@ -749,6 +1003,8 @@
       "datePublished": "2023-01-31",
       "dateModified": "2024-05-12",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing",
         "content"
@@ -765,6 +1021,8 @@
       "datePublished": "2023-01-20",
       "dateModified": "2024-05-15",
       "readingMinutes": 4,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "leadership"
       ]
@@ -780,6 +1038,8 @@
       "datePublished": "2023-01-20",
       "dateModified": "2026-02-20",
       "readingMinutes": 5,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "leadership"
       ]
@@ -795,6 +1055,8 @@
       "datePublished": "2022-11-23",
       "dateModified": "2026-02-20",
       "readingMinutes": 4,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -810,6 +1072,8 @@
       "datePublished": "2022-10-10",
       "dateModified": "2025-04-28",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -825,6 +1089,8 @@
       "datePublished": "2022-09-07",
       "dateModified": "2026-02-20",
       "readingMinutes": 4,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing",
         "leadership"
@@ -841,6 +1107,8 @@
       "datePublished": "2022-09-07",
       "dateModified": "2026-02-20",
       "readingMinutes": 4,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing",
         "leadership"
@@ -857,6 +1125,8 @@
       "datePublished": "2022-09-05",
       "dateModified": "2024-05-09",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "company"
       ]
@@ -872,6 +1142,8 @@
       "datePublished": "2022-08-09",
       "dateModified": "2024-05-15",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing",
         "leadership"
@@ -888,6 +1160,8 @@
       "datePublished": "2022-08-09",
       "dateModified": "2024-05-12",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing",
         "leadership"
@@ -904,6 +1178,8 @@
       "datePublished": "2022-06-09",
       "dateModified": "2026-02-20",
       "readingMinutes": 4,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -919,6 +1195,8 @@
       "datePublished": "2022-05-17",
       "dateModified": "2024-05-10",
       "readingMinutes": 8,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "b2b-marketing"
       ]
@@ -934,6 +1212,8 @@
       "datePublished": "2022-05-17",
       "dateModified": "2026-02-20",
       "readingMinutes": 4,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing",
         "leadership"
@@ -950,6 +1230,8 @@
       "datePublished": "2022-03-23",
       "dateModified": "2024-06-14",
       "readingMinutes": 5,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "seo",
         "b2b-marketing"
@@ -966,6 +1248,8 @@
       "datePublished": "2022-03-23",
       "dateModified": "2024-05-14",
       "readingMinutes": 4,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "seo",
         "b2b-marketing"
@@ -982,6 +1266,8 @@
       "datePublished": "2022-03-22",
       "dateModified": "2026-02-20",
       "readingMinutes": 5,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "seo"
       ]
@@ -997,6 +1283,8 @@
       "datePublished": "2022-03-21",
       "dateModified": "2026-02-20",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "seo",
         "b2b-marketing"
@@ -1013,6 +1301,8 @@
       "datePublished": "2022-03-17",
       "dateModified": "2024-05-08",
       "readingMinutes": 2,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "seo"
       ]
@@ -1028,6 +1318,8 @@
       "datePublished": "2022-03-12",
       "dateModified": "2024-05-09",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "seo",
         "leadership"
@@ -1044,6 +1336,8 @@
       "datePublished": "2022-03-10",
       "dateModified": "2024-05-14",
       "readingMinutes": 2,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "seo"
       ]
@@ -1059,6 +1353,8 @@
       "datePublished": "2022-01-31",
       "dateModified": "2024-06-14",
       "readingMinutes": 5,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "seo"
       ]
@@ -1074,6 +1370,8 @@
       "datePublished": "2022-01-12",
       "dateModified": "2026-02-20",
       "readingMinutes": 6,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "paid"
       ]
@@ -1089,6 +1387,8 @@
       "datePublished": "2021-12-10",
       "dateModified": "2026-06-04",
       "readingMinutes": 5,
+      "author": "Avichal Singh",
+      "authorRole": "HR Manager",
       "topics": [
         "b2b-marketing",
         "company",
@@ -1106,6 +1406,8 @@
       "datePublished": "2021-12-10",
       "dateModified": "2026-06-04",
       "readingMinutes": 13,
+      "author": "Shweta Dabholkar",
+      "authorRole": "Sr. Content Writer",
       "topics": [
         "seo"
       ]
@@ -1121,6 +1423,8 @@
       "datePublished": "2021-12-10",
       "dateModified": "2024-05-11",
       "readingMinutes": 5,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -1136,6 +1440,8 @@
       "datePublished": "2021-12-10",
       "dateModified": "2026-06-04",
       "readingMinutes": 4,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "b2b-marketing"
       ]
@@ -1151,6 +1457,8 @@
       "datePublished": "2021-12-09",
       "dateModified": "2024-05-11",
       "readingMinutes": 2,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo",
         "company"
@@ -1167,6 +1475,8 @@
       "datePublished": "2021-12-09",
       "dateModified": "2024-05-11",
       "readingMinutes": 2,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -1182,6 +1492,8 @@
       "datePublished": "2021-12-09",
       "dateModified": "2024-05-11",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -1197,6 +1509,8 @@
       "datePublished": "2021-12-09",
       "dateModified": "2026-06-04",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -1212,6 +1526,8 @@
       "datePublished": "2021-12-09",
       "dateModified": "2026-02-20",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "seo"
       ]
@@ -1227,6 +1543,8 @@
       "datePublished": "2021-12-09",
       "dateModified": "2024-06-14",
       "readingMinutes": 3,
+      "author": "Ida E. Ghavami",
+      "authorRole": "Sr. Project Manager",
       "topics": [
         "seo"
       ]
@@ -1242,6 +1560,8 @@
       "datePublished": "2021-12-09",
       "dateModified": "2024-05-11",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing",
         "content"
@@ -1258,6 +1578,8 @@
       "datePublished": "2021-12-08",
       "dateModified": "2025-04-28",
       "readingMinutes": 6,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo",
         "b2b-marketing"
@@ -1274,6 +1596,8 @@
       "datePublished": "2021-12-08",
       "dateModified": "2026-02-20",
       "readingMinutes": 5,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "b2b-marketing"
       ]
@@ -1282,13 +1606,15 @@
       "id": "sv-hur-ett-samarbete-med-go-mo-group-startar",
       "lang": "sv",
       "title": "Vår process för att identifiera den digitala strategins byggstenar",
-      "seo_title": "Djupgående nulägesanalys med NÖHR-modellen |GO MO Group",
+      "seo_title": "Djupgående nulägesanalys med NÖHR-modellen",
       "summary": "Effektiv marknadsföring måste vara datadriven. Genom en fullständig nulägesanalys identifierar vi vad som behövs för att nå ert önskade läge.",
       "url": "https://www.gomogroup.com/insikter/hur-ett-samarbete-med-go-mo-group-startar/",
       "alternate": null,
       "datePublished": "2021-10-19",
       "dateModified": "2024-05-11",
       "readingMinutes": 2,
+      "author": "Reza Ghazizadeh",
+      "authorRole": "Client Success Manager",
       "topics": [
         "company"
       ]
@@ -1304,6 +1630,8 @@
       "datePublished": "2021-10-19",
       "dateModified": "2024-05-10",
       "readingMinutes": 8,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -1319,6 +1647,8 @@
       "datePublished": "2021-09-27",
       "dateModified": "2024-05-09",
       "readingMinutes": 4,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "b2b-marketing"
       ]
@@ -1334,6 +1664,8 @@
       "datePublished": "2021-09-13",
       "dateModified": "2024-06-14",
       "readingMinutes": 4,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "b2b-marketing"
       ]
@@ -1349,6 +1681,8 @@
       "datePublished": "2021-08-09",
       "dateModified": "2024-06-14",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "seo"
       ]
@@ -1364,6 +1698,8 @@
       "datePublished": "2021-08-09",
       "dateModified": "2024-05-14",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "seo"
       ]
@@ -1379,6 +1715,8 @@
       "datePublished": "2021-06-22",
       "dateModified": "2026-06-04",
       "readingMinutes": 4,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -1394,6 +1732,8 @@
       "datePublished": "2021-06-14",
       "dateModified": "2024-05-14",
       "readingMinutes": 3,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -1409,6 +1749,8 @@
       "datePublished": "2021-06-09",
       "dateModified": "2024-05-09",
       "readingMinutes": 4,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -1424,6 +1766,8 @@
       "datePublished": "2021-02-11",
       "dateModified": "2024-05-14",
       "readingMinutes": 5,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -1439,6 +1783,8 @@
       "datePublished": "2021-02-03",
       "dateModified": "2024-05-10",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "Founder & CEO, GO MO Group",
       "topics": [
         "b2b-marketing"
       ]
@@ -1454,6 +1800,8 @@
       "datePublished": "2021-01-22",
       "dateModified": "2024-05-09",
       "readingMinutes": null,
+      "author": "Gabriel Ghavami",
+      "authorRole": "Founder & CEO, GO MO Group",
       "topics": [
         "seo",
         "b2b-marketing"
@@ -1470,6 +1818,8 @@
       "datePublished": "2021-01-14",
       "dateModified": "2024-05-09",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "Founder & CEO, GO MO Group",
       "topics": [
         "b2b-marketing"
       ]
@@ -1485,6 +1835,8 @@
       "datePublished": "2021-01-11",
       "dateModified": "2024-05-09",
       "readingMinutes": 7,
+      "author": "Reza Ghazizadeh",
+      "authorRole": "Client Success Manager",
       "topics": [
         "seo"
       ]
@@ -1500,6 +1852,8 @@
       "datePublished": "2020-11-30",
       "dateModified": "2025-04-28",
       "readingMinutes": 2,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing",
         "content"
@@ -1516,6 +1870,8 @@
       "datePublished": "2020-05-18",
       "dateModified": "2024-05-09",
       "readingMinutes": null,
+      "author": "Gabriel Ghavami",
+      "authorRole": "Founder & CEO, GO MO Group",
       "topics": [
         "content",
         "leadership"
@@ -1532,6 +1888,8 @@
       "datePublished": "2020-05-11",
       "dateModified": "2024-05-21",
       "readingMinutes": 4,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "b2b-marketing"
       ]
@@ -1547,6 +1905,8 @@
       "datePublished": "2020-01-21",
       "dateModified": "2026-02-20",
       "readingMinutes": 7,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -1562,6 +1922,8 @@
       "datePublished": "2019-12-16",
       "dateModified": "2024-05-10",
       "readingMinutes": 8,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -1577,6 +1939,8 @@
       "datePublished": "2019-11-30",
       "dateModified": "2026-06-04",
       "readingMinutes": 5,
+      "author": "Maurvi Narvekar",
+      "authorRole": "Content Writer",
       "topics": [
         "seo"
       ]
@@ -1592,6 +1956,8 @@
       "datePublished": "2019-11-13",
       "dateModified": "2024-05-10",
       "readingMinutes": 12,
+      "author": "Maurvi Narvekar",
+      "authorRole": "Content Writer",
       "topics": [
         "b2b-marketing"
       ]
@@ -1607,6 +1973,8 @@
       "datePublished": "2019-08-12",
       "dateModified": "2024-05-10",
       "readingMinutes": 6,
+      "author": "Avichal Singh",
+      "authorRole": "HR Manager",
       "topics": [
         "b2b-marketing"
       ]
@@ -1622,6 +1990,8 @@
       "datePublished": "2019-07-31",
       "dateModified": "2024-05-10",
       "readingMinutes": 7,
+      "author": "Shweta Dabholkar",
+      "authorRole": "Sr. Content Writer",
       "topics": [
         "b2b-marketing"
       ]
@@ -1637,6 +2007,8 @@
       "datePublished": "2019-06-20",
       "dateModified": "2026-06-04",
       "readingMinutes": null,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "seo"
       ]
@@ -1652,6 +2024,8 @@
       "datePublished": "2019-05-29",
       "dateModified": "2024-07-11",
       "readingMinutes": 7,
+      "author": "Maurvi Narvekar",
+      "authorRole": "Content Writer",
       "topics": [
         "careers"
       ]
@@ -1667,6 +2041,8 @@
       "datePublished": "2019-05-08",
       "dateModified": "2024-05-09",
       "readingMinutes": 2,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -1682,6 +2058,8 @@
       "datePublished": "2019-02-27",
       "dateModified": "2024-05-09",
       "readingMinutes": 14,
+      "author": "Shweta Dabholkar",
+      "authorRole": "Sr. Content Writer",
       "topics": [
         "seo"
       ]
@@ -1697,6 +2075,8 @@
       "datePublished": "2019-02-17",
       "dateModified": "2026-02-20",
       "readingMinutes": 9,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "content",
         "leadership"
@@ -1713,6 +2093,8 @@
       "datePublished": "2019-02-01",
       "dateModified": "2026-06-04",
       "readingMinutes": 11,
+      "author": "Shweta Dabholkar",
+      "authorRole": "Sr. Content Writer",
       "topics": [
         "seo"
       ]
@@ -1728,6 +2110,8 @@
       "datePublished": "2018-12-18",
       "dateModified": "2024-05-11",
       "readingMinutes": 9,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -1743,6 +2127,8 @@
       "datePublished": "2018-12-17",
       "dateModified": "2024-05-11",
       "readingMinutes": 5,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -1758,6 +2144,8 @@
       "datePublished": "2018-10-30",
       "dateModified": "2026-06-04",
       "readingMinutes": 7,
+      "author": "Maurvi Narvekar",
+      "authorRole": "Content Writer",
       "topics": [
         "seo"
       ]
@@ -1773,6 +2161,8 @@
       "datePublished": "2018-10-11",
       "dateModified": "2026-02-20",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -1788,6 +2178,8 @@
       "datePublished": "2018-08-27",
       "dateModified": "2026-06-04",
       "readingMinutes": 5,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -1803,6 +2195,8 @@
       "datePublished": "2018-06-09",
       "dateModified": "2024-05-11",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -1818,6 +2212,8 @@
       "datePublished": "2018-04-03",
       "dateModified": "2024-05-11",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo",
         "b2b-marketing"
@@ -1834,6 +2230,8 @@
       "datePublished": "2018-01-22",
       "dateModified": "2026-02-20",
       "readingMinutes": 4,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -1849,6 +2247,8 @@
       "datePublished": "2017-11-09",
       "dateModified": "2024-05-11",
       "readingMinutes": null,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -1864,6 +2264,8 @@
       "datePublished": "2017-10-23",
       "dateModified": "2026-06-04",
       "readingMinutes": null,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo",
         "b2b-marketing"
@@ -1880,6 +2282,8 @@
       "datePublished": "2017-09-04",
       "dateModified": "2026-02-20",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -1895,6 +2299,8 @@
       "datePublished": "2017-09-04",
       "dateModified": "2026-02-20",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -1910,6 +2316,8 @@
       "datePublished": "2017-08-28",
       "dateModified": "2026-06-04",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo",
         "b2b-marketing",
@@ -1927,6 +2335,8 @@
       "datePublished": "2017-08-02",
       "dateModified": "2026-06-04",
       "readingMinutes": 6,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -1942,6 +2352,8 @@
       "datePublished": "2017-05-26",
       "dateModified": "2024-05-11",
       "readingMinutes": 6,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo",
         "b2b-marketing",
@@ -1951,7 +2363,7 @@
     {
       "id": "sv-seo-digital-tillvaxt-och-digital-kommunikation",
       "lang": "sv",
-      "title": "5 steg för digital tillväxt genom hållbar SEO | GO MO Group",
+      "title": "5 steg för digital tillväxt genom hållbar SEO",
       "seo_title": "5 steg för digital tillväxt genom hållbar SEO, av Gabriel Ghavami",
       "summary": "\"Letar du efter förvärvade digitala medier och toppositioner på Google med relevans? Kolla in våra 5 steg för långsiktigt hållbar SEO av Gabriel Ghavami\"",
       "url": "https://www.gomogroup.com/insikter/seo-digital-tillvaxt-och-digital-kommunikation/",
@@ -1959,6 +2371,8 @@
       "datePublished": "2017-04-26",
       "dateModified": "2024-05-11",
       "readingMinutes": 5,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo",
         "company"
@@ -1975,6 +2389,8 @@
       "datePublished": "2017-03-20",
       "dateModified": "2024-05-11",
       "readingMinutes": 2,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -1990,6 +2406,8 @@
       "datePublished": "2017-03-01",
       "dateModified": "2024-05-11",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -2005,6 +2423,8 @@
       "datePublished": "2017-01-31",
       "dateModified": "2024-05-11",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -2020,6 +2440,8 @@
       "datePublished": "2016-11-21",
       "dateModified": "2024-05-11",
       "readingMinutes": null,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -2035,6 +2457,8 @@
       "datePublished": "2016-11-03",
       "dateModified": "2026-02-20",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo",
         "b2b-marketing"
@@ -2051,6 +2475,8 @@
       "datePublished": "2016-08-09",
       "dateModified": "2026-06-04",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -2066,6 +2492,8 @@
       "datePublished": "2016-06-22",
       "dateModified": "2024-05-11",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -2081,6 +2509,8 @@
       "datePublished": "2016-06-06",
       "dateModified": "2024-05-11",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2096,6 +2526,8 @@
       "datePublished": "2016-04-29",
       "dateModified": "2026-02-20",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2111,6 +2543,8 @@
       "datePublished": "2016-03-17",
       "dateModified": "2024-05-10",
       "readingMinutes": 4,
+      "author": "Reza Ghazizadeh",
+      "authorRole": "Client Success Manager",
       "topics": [
         "seo"
       ]
@@ -2126,6 +2560,8 @@
       "datePublished": "2016-02-29",
       "dateModified": "2024-05-11",
       "readingMinutes": 5,
+      "author": "Henrik Anderberg",
+      "authorRole": "Executive Vice President & Vice vd",
       "topics": [
         "seo"
       ]
@@ -2141,6 +2577,8 @@
       "datePublished": "2016-02-26",
       "dateModified": "2024-05-11",
       "readingMinutes": 2,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2156,6 +2594,8 @@
       "datePublished": "2016-02-08",
       "dateModified": "2024-05-10",
       "readingMinutes": 3,
+      "author": "Ida E. Ghavami",
+      "authorRole": "Sr. Project Manager",
       "topics": [
         "seo"
       ]
@@ -2171,6 +2611,8 @@
       "datePublished": "2016-01-29",
       "dateModified": "2024-05-11",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2186,6 +2628,8 @@
       "datePublished": "2016-01-23",
       "dateModified": "2024-05-09",
       "readingMinutes": 7,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -2201,6 +2645,8 @@
       "datePublished": "2015-12-27",
       "dateModified": "2024-05-11",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -2216,6 +2662,8 @@
       "datePublished": "2015-12-23",
       "dateModified": "2026-06-04",
       "readingMinutes": 3,
+      "author": "Ida E. Ghavami",
+      "authorRole": "Sr. Project Manager",
       "topics": [
         "seo"
       ]
@@ -2231,6 +2679,8 @@
       "datePublished": "2015-11-25",
       "dateModified": "2024-05-11",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2246,6 +2696,8 @@
       "datePublished": "2015-11-12",
       "dateModified": "2024-05-11",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -2261,6 +2713,8 @@
       "datePublished": "2015-11-06",
       "dateModified": "2026-02-20",
       "readingMinutes": 2,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "company"
       ]
@@ -2276,6 +2730,8 @@
       "datePublished": "2015-09-15",
       "dateModified": "2024-05-11",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2291,6 +2747,8 @@
       "datePublished": "2015-08-20",
       "dateModified": "2024-06-14",
       "readingMinutes": 3,
+      "author": "Reza Ghazizadeh",
+      "authorRole": "Client Success Manager",
       "topics": [
         "b2b-marketing"
       ]
@@ -2306,6 +2764,8 @@
       "datePublished": "2015-08-17",
       "dateModified": "2024-05-11",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -2321,6 +2781,8 @@
       "datePublished": "2015-07-13",
       "dateModified": "2024-05-11",
       "readingMinutes": 6,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "b2b-marketing"
       ]
@@ -2336,6 +2798,8 @@
       "datePublished": "2015-06-24",
       "dateModified": "2024-06-14",
       "readingMinutes": 5,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing",
         "content"
@@ -2352,6 +2816,8 @@
       "datePublished": "2015-05-28",
       "dateModified": "2024-05-11",
       "readingMinutes": 2,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2367,6 +2833,8 @@
       "datePublished": "2015-05-08",
       "dateModified": "2024-05-10",
       "readingMinutes": 2,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo",
         "company"
@@ -2383,6 +2851,8 @@
       "datePublished": "2015-04-27",
       "dateModified": "2026-02-20",
       "readingMinutes": 8,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "seo"
       ]
@@ -2398,6 +2868,8 @@
       "datePublished": "2015-03-24",
       "dateModified": "2024-05-10",
       "readingMinutes": 2,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2413,6 +2885,8 @@
       "datePublished": "2015-03-15",
       "dateModified": "2024-05-10",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2428,6 +2902,8 @@
       "datePublished": "2015-02-25",
       "dateModified": "2024-05-10",
       "readingMinutes": 1,
+      "author": "Ida E. Ghavami",
+      "authorRole": "Sr. Project Manager",
       "topics": [
         "seo",
         "company"
@@ -2444,6 +2920,8 @@
       "datePublished": "2015-02-09",
       "dateModified": "2024-05-11",
       "readingMinutes": 5,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2459,6 +2937,8 @@
       "datePublished": "2015-01-29",
       "dateModified": "2024-05-11",
       "readingMinutes": 2,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2474,6 +2954,8 @@
       "datePublished": "2015-01-27",
       "dateModified": "2024-05-11",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2489,6 +2971,8 @@
       "datePublished": "2014-12-20",
       "dateModified": "2026-02-20",
       "readingMinutes": 5,
+      "author": null,
+      "authorRole": null,
       "topics": [
         "seo"
       ]
@@ -2504,6 +2988,8 @@
       "datePublished": "2014-12-18",
       "dateModified": "2024-05-11",
       "readingMinutes": 4,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2519,6 +3005,8 @@
       "datePublished": "2014-12-17",
       "dateModified": "2024-05-11",
       "readingMinutes": 3,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
@@ -2534,15 +3022,17 @@
       "datePublished": "2014-10-28",
       "dateModified": "2024-05-11",
       "readingMinutes": 2,
+      "author": "Gabriel Ghavami",
+      "authorRole": "CEO",
       "topics": [
         "b2b-marketing"
       ]
     }
   ],
   "pagination": {
-    "total": 165,
+    "total": 174,
     "page": 1,
-    "per_page": 165,
+    "per_page": 174,
     "pages": 1
   },
   "_meta": {
@@ -2550,8 +3040,8 @@
     "endpoint": "insights",
     "canonical": "https://www.gomogroup.com",
     "api": "https://www.gomogroup.com/agent/v1",
-    "generated": "2026-10-19T00:00:00+00:00",
-    "version": "1.3.0",
+    "generated": "2026-11-17T00:00:00+00:00",
+    "version": "1.4.0",
     "languages": [
       "en",
       "sv"

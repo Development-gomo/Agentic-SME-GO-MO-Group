@@ -62,7 +62,7 @@ final class GOMO_API_Discovery
                 . self::link($item['url'] ?? $item['url_sv'] ?? null, $item['title']) . '</h3><dl>';
             foreach (['summary' => 'Summary', 'description' => 'About', 'datePublished' => 'Published', 'dateModified' => 'Updated',
                 'startDate' => 'When', 'status' => 'Status', 'location' => 'Location', 'employmentType' => 'Employment type',
-                'format' => 'Format', 'language' => 'Language', 'author' => 'Author', 'readingMinutes' => 'Reading time (minutes)'] as $field => $label) {
+                'format' => 'Format', 'language' => 'Language', 'author' => 'Author', 'authorRole' => 'Author title', 'readingMinutes' => 'Reading time (minutes)'] as $field => $label) {
                 if (!empty($item[$field])) {
                     $out .= '<dt>' . $label . '</dt><dd>' . self::e($item[$field]) . '</dd>';
                 }

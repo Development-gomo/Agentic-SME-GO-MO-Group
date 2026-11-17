@@ -1,30 +1,36 @@
-URL: https://www.gomogroup.com/case/
-LANG: sv
-TYPE: page
-TITLE: Kundcase om digital marknadsföring
-DESC: Utforska resultaten av datadriven SEO och digital marknadsföring genom våra kundcase. Läs om våra processer och Pull Marketing-arbetssätt.
-PUBLISHED: 2024-02-09
-MODIFIED: 2024-05-15
-AUTHOR: None
-ALT: None
----
 # Case
 
 Våra datadrivna och agila processer har löst många olika problem för våra kunder. När våra kunder växer så växer även vi. Läs mer i ett av våra case från genomförda kunduppdrag.
 
 [Se alla cases](https://www.gomogroup.com/case/#scroll-down)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)](https://www.gomogroup.com/case/sa-gav-en-segmenterad-b2b-kampanj-15-kvalificerade-leads/)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/10/agentic-web-case-study-image.webp)](https://www.gomogroup.com/case/forsta-svenska-b2b-webbplatsen-med-agentiskt-lager/)
+
+Agentic Web
+
+[Den första svenska B2B-webbplatsen med ett komplett agentiskt lager](https://www.gomogroup.com/case/forsta-svenska-b2b-webbplatsen-med-agentiskt-lager/)
+
+Så blev en svensk B2B-tillverkare på WordPress och WooCommerce läsbar, citerbar och agerbar för AI-agenter, med offertförfrågningar som agenter skickar via en MCP-server.
+
+[Läs mer](https://www.gomogroup.com/case/forsta-svenska-b2b-webbplatsen-med-agentiskt-lager/)
+
+[![](https://www.gomogroup.com/wp-content/uploads/2016/01/Digital-online-marketing.jpg.webp)](https://www.gomogroup.com/case/medtech-webbinarium-b2b-eventmarknadsforing/)
+
+Demand Generation
+
+[Så lockade ett medicinteknikföretag deltagare från cirka 115 organisationer till sitt webbinarium](https://www.gomogroup.com/case/medtech-webbinarium-b2b-eventmarknadsforing/)[Read more about Så lockade ett medicinteknikföretag deltagare från cirka 115 organisationer till sitt webbinarium](https://www.gomogroup.com/case/medtech-webbinarium-b2b-eventmarknadsforing/)
+
+Så fyllde GO MO ett livewebbinarium inom medtech med seniora beslutsfattare på fyra veckor: +36 % anmälningar mot målet, 44 % närvarograd och ~115 köpande organisationer.
+
+[![Moderna kontorsbyggnader i glas vid vattnet, från ett case om en segmenterad B2B-kampanj för ett fastighetsbolag](https://www.gomogroup.com/wp-content/uploads/2026/10/segmented-b2b-outreach-generated-15-sales-qualified-leads-featured.webp)](https://www.gomogroup.com/case/sa-gav-en-segmenterad-b2b-kampanj-15-kvalificerade-leads/)
 
 Generative AI
 
-[Så gav en segmenterad B2B-kampanj 15 kvalificerade leads](https://www.gomogroup.com/case/sa-gav-en-segmenterad-b2b-kampanj-15-kvalificerade-leads/)
+[Så gav en segmenterad B2B-kampanj 15 kvalificerade leads](https://www.gomogroup.com/case/sa-gav-en-segmenterad-b2b-kampanj-15-kvalificerade-leads/)[Read more about Så gav en segmenterad B2B-kampanj 15 kvalificerade leads](https://www.gomogroup.com/case/sa-gav-en-segmenterad-b2b-kampanj-15-kvalificerade-leads/)
 
 By implementing a tailored GPT solution, the West Sweden Chamber of Commerce streamlined its content creation, halved production time and established a consistent tone across all channels.
 
-[Läs mer](https://www.gomogroup.com/case/sa-gav-en-segmenterad-b2b-kampanj-15-kvalificerade-leads/)
-
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)](https://www.gomogroup.com/case/hur-highfive-gruppen-tog-kontroll-over-sin-ai-potential/)
+[![](https://www.gomogroup.com/wp-content/uploads/2025/07/Innovation-hub-HighFive-t.jpg.webp)](https://www.gomogroup.com/case/hur-highfive-gruppen-tog-kontroll-over-sin-ai-potential/)
 
 Generative AI
 
@@ -32,7 +38,7 @@ Generative AI
 
 Workshops och riktad coachning gav fyra företag en tydlig plan för hur AI kan öka intäkter, effektivisera processer och skapa verklig affärsnytta.
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)](https://www.gomogroup.com/case/hur-ett-b2b-foretag-i-byggsektorn-nadde-1200-romi/)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/01/bgfix-banner.webp)](https://www.gomogroup.com/case/hur-ett-b2b-foretag-i-byggsektorn-nadde-1200-romi/)
 
 SME
 
@@ -40,52 +46,36 @@ SME
 
 En ledande B2B‑e‑handelsaktör inom bygg lyckades nå 1200% ROMI under ett av branschens svagaste år genom performance marketing, SEO, AI‑sök och optimerade konverteringsflöden.
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)](https://www.gomogroup.com/case/generativ-ai-fran-hype-till-faktisk-affarsnytta/)
-
-Generative AI
-
-[Generativ AI – från hype till faktisk affärsnytta](https://www.gomogroup.com/case/generativ-ai-fran-hype-till-faktisk-affarsnytta/)[Read more about Generativ AI – från hype till faktisk affärsnytta](https://www.gomogroup.com/case/generativ-ai-fran-hype-till-faktisk-affarsnytta/)
-
-Många pratar om AI – få vet var de ska börja. Se hur vi hjälpte företag att gå från nyfikenhet till konkret användning som sparar tid, ökar tempot och skapar affärsnytta direkt.
-
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)](https://www.gomogroup.com/case/vastsvenska-handelskammaren-fran-spretig-textproduktion-till-ai-styrd-precision/)
-
-Generative AI
-
-[Västsvenska Handelskammaren – Från spretig textproduktion till AI-styrd precision](https://www.gomogroup.com/case/vastsvenska-handelskammaren-fran-spretig-textproduktion-till-ai-styrd-precision/)[Read more about Västsvenska Handelskammaren – Från spretig textproduktion till AI-styrd precision](https://www.gomogroup.com/case/vastsvenska-handelskammaren-fran-spretig-textproduktion-till-ai-styrd-precision/)
-
-Genom att implementera en skräddarsydd GPT-lösning effektiviserade Västsvenska Handelskammaren sitt innehållsskapande, halverade produktionstiden och etablerade en konsekvent ton i alla kanaler. L...
-
 [Läs mer](https://www.gomogroup.com/case/#)
 
 ## Insikter
 
 Våra insikter om Pull-marknadsföring kommer från hundratals pågående kunduppdrag. Läs om de trenderna inom digital marknadsföring och vilka slutsatser vi kunnat dra från tidigare projekt.
 
-[Varför B2B digital commerce behöver utvecklas både tekniskt och emotionellt\\
-För ett par veckor sedan höll vi på GO MO Group ett frukostseminarium i Göteborg tillsammans med Marknadsföreningen i Sverige (MiS). Temat var vad som händer med människan, varumärket och CXO när AI ritar om köpresan. Vår Gabriel Ghavami var huvudtalare, och efter hans föredrag fortsatte samtalet i en panel med representanter från Kantar, SKF, \[…\]](https://www.gomogroup.com/insikter/varfor-b2b-digital-commerce-behover-utvecklas-bade-tekniskt-och-emotionellt/)
+[Era köpare frågar AI. Finns ert varumärke med i svaret?\\
+Vid två event i våras samlade vi B2B-marknadsledare i Göteborg och Stockholm för att ställa de frågor som branschen helst går runt. Det de berättade för oss, live, anonymt och i realtid, är mer brådskande än de flesta företag vill erkänna.](https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/)
 
-[Läs mer](https://www.gomogroup.com/insikter/varfor-b2b-digital-commerce-behover-utvecklas-bade-tekniskt-och-emotionellt/)
+[Läs mer](https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/)
 
-[Ett fundamentalt skifte i B2B-köpresan: När maskinerna besöker före människorna\\
-Internets nästa biljon användare är inte människor. De är språkmodeller och agenter. En strukturell förskjutning — och varför människan i B2B är viktigare än någonsin För första gången på det kommersiella internets trettioåriga historia utgör maskiner majoriteten av publiken. I decennier vilade internets affärsmodell på ett outtalat kontrakt: webbplatsägare lät sökmotorer crawla deras innehåll, och \[…\]](https://www.gomogroup.com/insikter/ai-agenter-och-b2b-kopresan-ett-fundamentalt-skifte/)
+[LinkedIn-algoritmen 2026: så når ni ut organiskt, enligt LinkedIn själva\\
+På LinkedIn är det människor och konkreta exempel som skapar engagemang i B2B. Företagssidan har en mer stödjande roll. LinkedIn har ändrat hur algoritmen avgör vad som syns i flödet. Vi har gått igenom det LinkedIn självt har publicerat under 2026, från tekniska blogginlägg till marknadsguider och köparforskning, och gjort en kort guide av det. \[…\]](https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/)
 
-[Läs mer](https://www.gomogroup.com/insikter/ai-agenter-och-b2b-kopresan-ett-fundamentalt-skifte/)
+[Läs mer](https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/)
 
-[Den kompletta ordlistan för GEO, AEO och AI-sök: 75 termer du måste kunna 2026\\
-Uppdaterad 30e september 2026 75 termer. Varje disciplin inom AI-sök. En referens att spara. Varför språket inom sök har förändrats — och vad du behöver veta Ordförrådet inom sök har genomgått sin mest dramatiska omvandling på två decennier. Begrepp som inte fanns för tre år sedan — GEO, AEO, LLMO, AI Overviews, RAG, zero-click — \[…\]](https://www.gomogroup.com/insikter/geo-ai-sok-ordlista/)
+[ChatGPT Ads vs Google Ads: tidiga B2B-resultat \| GO MO Group\\
+Senast uppdaterad: 19 oktober 2026. Vi fyller på med ny data allteftersom piloterna fortsätter. I augusti öppnade ChatGPT Ads för annonsörer på 31 europeiska marknader, däribland Sverige och Tyskland. Många marknadschefer i B2B ställde sig genast samma fråga: är det här en ny sökkanal, och är den värd en egen budget? Sedan dess har vi \[…\]](https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/)
 
-[Läs mer](https://www.gomogroup.com/insikter/geo-ai-sok-ordlista/)
+[Läs mer](https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/)
 
-[Från Uddevalla till globala marknader\\
-Så påbörjade FKAB Marine Design sin AI-drivna tillväxtresa Hur kan ett svenskt fartygsdesignföretag från Uddevalla expandera globalt och effektivisera sina sälj- och marknadsföringsaktiviteter? För FKAB Marine Design blev svaret en kombination av strategi, data och AI. Tillsammans med GO MO Group inledde företaget en AI-driven transformation med målet att skapa en mer träffsäker marknadsstrategi och \[…\]](https://www.gomogroup.com/insikter/fkab-mot-en-global-expansion-med-gen-ai-go-mo-group-insikter/)
+[Konverterar besökare från ChatGPT och andra AI-assistenter bättre?\\
+GO MO analyserade GA4-data från 60+ webbplatser. AI-besökare konverterade nästan dubbelt så ofta som andra besökare, med stora skillnader mellan branscher. Se vad ni bör kontrollera och ändra.](https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/)
 
-[Läs mer](https://www.gomogroup.com/insikter/fkab-mot-en-global-expansion-med-gen-ai-go-mo-group-insikter/)
+[Läs mer](https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/)
 
-[Välkommen till den agentiska eran: När din nästa kund kan vara en AI\\
-AI-agenter har förändrat kundresan. Här är varför B2B-företag måste ligga steget före redan nu Tiderna har förändrats. Agentisk sök är här för att stanna Under de senaste månaderna har vi på GO MO Group följt ett av de mest betydande skiftena inom digital strategi sedan Googles genombrott: framväxten av AI-agenter som autonoma beslutsfattare, köpare och \[…\]](https://www.gomogroup.com/insikter/valkommen-till-den-agentiska-eran-nar-din-nasta-kund-kan-vara-en-ai/)
+[Google har publicerat sin officiella guide för AI-sökoptimering. Här är vad den faktiskt säger.\\
+Har du lagt tid och budget på llms.txt-filer, uppstyckat innehåll eller texter omskrivna ”för AI”? Då är det här värt att läsa. För första gången har Google publicerat en officiell guide för hur du syns i AI Overviews och AI Mode – och den slår hål på flera av de GEO-knep som marknadsförs flitigt i \[…\]](https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/)
 
-[Läs mer](https://www.gomogroup.com/insikter/valkommen-till-den-agentiska-eran-nar-din-nasta-kund-kan-vara-en-ai/)
+[Läs mer](https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/)
 
 ## Läs mer om hur vi arbetar med digital marknadsföring i våra insikter.
 
@@ -95,21 +85,21 @@ AI-agenter har förändrat kundresan. Här är varför B2B-företag måste ligga
 
 Upptäck personerna bakom vår framgång i ”Meet the Marketer” – en videoserie där vi intervjuar våra egna talangfulla medarbetare. Lär känna teamet som driver vår innovation och kreativitet på GO MO Group.
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerHenrik Anderberg![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/henrik-video-thumbnail.webp)Meet the MarketerHenrik Anderberg![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerPuja Kumari![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/puja-video-thumbnail.webp)Meet the MarketerPuja Kumari![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLina Nygren![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/lina-video-thumbnail.png.webp)Meet the MarketerLina Nygren![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerVishnu Adithya![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/vishnu-video-thumbnail.webp)Meet the MarketerVishnu Adithya![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLisa & Rickard![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/Rick-and-Lisa.jpg.webp)Meet the MarketerLisa & Rickard![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerJan Thesleff![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/jan-thesleff-video-thumbnail.webp)Meet the MarketerJan Thesleff![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerCecilia Oskarsson![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/cecilia-oskarsson-video-thumbnail.webp)Meet the MarketerCecilia Oskarsson![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerSunil Muralidharan![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/sunil-muralidharan-video-thumbnail.webp)Meet the MarketerSunil Muralidharan![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
 
 ### Låt oss diskutera framtiden.
 
@@ -118,14 +108,14 @@ Hej mitt namn är  och jag representerar , där jag arbetar som .
 Du kan kontakta mig på . Jag vill komma i kontakt med er gällande .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)StockholmUpplandsgatan 7 \\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)StockholmUpplandsgatan 7 \\
 \\
 111 23 Stockholm](https://maps.app.goo.gl/Htdrys9wEw1PFt2B7)
 
@@ -135,11 +125,11 @@ Kontakta oss, så återkommer vi med vår expertis och support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/case/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/case/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/case/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/case/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Integritetspolicy](https://www.gomogroup.com/gdpr/) [Cookies & Regler](https://www.gomogroup.com/cookies-regler/) [AI Agent Information](https://www.gomogroup.com/agent/)
 

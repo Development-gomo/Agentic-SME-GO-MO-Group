@@ -1,18 +1,8 @@
-URL: https://www.gomogroup.com/case/sa-gav-en-segmenterad-b2b-kampanj-15-kvalificerade-leads/
-LANG: sv
-TYPE: case
-TITLE: Så gav en segmenterad B2B-kampanj 15 kvalificerade leads
-DESC: B2B-leadsgenerering: segmenterad outreach till ~900 beslutsfattare åt ett fastighetsbolag gav 18 % svarsfrekvens och 15 kvalificerade leads.
-PUBLISHED: 2026-10-01
-MODIFIED: 2026-10-07
-AUTHOR: None
-ALT: None
----
 B2B outbound och leadgenerering \| Lästid: 5 minuter \| 28 september 2026
 
 # Så gav en segmenterad B2B-kampanj  15 kvalificerade leads
 
-Mellan oktober och december 2025 använde ett fastighetsbolag en kampanj för B2B-leadsgenerering för att skapa direkt efterfrågan på sina lediga lokaler. GO MO byggde kampanjen utifrån de skäl som får olika företag och beslutsfattare att överväga en flytt.
+Mellan oktober och december 2025 använde ett fastighetsbolag en segmenterad B2B-kampanj för att skapa direkt efterfrågan på sina lediga lokaler. GO MO byggde kampanjen utifrån de skäl som får olika företag och beslutsfattare att överväga en flytt.
 
 _Kunden är ett fastighetsbolag i Västsverige med ett fastighetsbestånd värderat till över 20 miljarder kronor. Av sekretesskäl anges inte bolagets namn._
 
@@ -329,6 +319,33 @@ Kampanjen visade också vilka målgrupper erbjudandet passade bäst för och vil
 
 →**Testerna:** Ämnesradstestet mot vd:ar pekade ut riktningen för kommande utskick.
 
+FAQ
+
+## Vanliga frågor om en segmenterad B2B-kampanj
+
+### Vad är en bra svarsfrekvens för kalla mejl?
+
+Den genomsnittliga svarsfrekvensen för kalla B2B-mejl är omkring 3,4 % ( [Instantlys data för 2025](https://instantly.ai/cold-email-benchmark-report-2026)). De 25 % bästa kampanjerna når över 5,5 % och de 10 % bästa över 10 %. Generellt räknas 5–10 % som bra och allt över 10 % som mycket bra.
+
+Tre saker skiljer de bästa kampanjerna från resten:
+
+- **Uppföljning:** 42 % av svaren kommer efter det första mejlet. Sekvenser med flera utskick får ungefär dubbelt så hög svarsfrekvens som enstaka mejl ( [Woodpecker](https://woodpecker.co/blog/cold-email-statistics/)).
+- **Segmentering:** Stora, generiska listor med 500 kontakter eller fler ger i snitt omkring 2 % (Woodpecker).
+- **Relevans:** Personalisering som går längre än förnamn och företagsnamn ungefär fördubblar svarsfrekvensen (Woodpecker).
+
+För fastighetsbolaget gav en segmenterad B2B-kampanj till ungefär 900 beslutsfattare 18 % svarsfrekvens över tre mejl, långt över det rapporterade snittet. Det nischade foodtech-segmentet nådde 30 %. Siffran räknar bara svar från personer, inte automatiska frånvaromeddelanden.
+
+### Hur många gånger ska man följa upp ett kallt mejl?
+
+De flesta B2B-kampanjer fungerar bäst med 2–4 uppföljningar efter det första mejlet, alltså 3–5 mejl totalt. [Belkins](https://belkins.io/blog/sales-follow-up-statistics) analyserade 7,5 miljoner utskickade mejl under 2025. Steg 3 stod ensamt för 35,6 % av mötena som bokades via mejl. Efter steg 5 sjunker antalet nya svar kraftigt.
+
+Uppföljningar spelar roll eftersom många mottagare inte svarar på det första mejlet:
+
+- 42–59 % av alla svar kommer från uppföljningar, inte från det första mejlet (Instantly, Belkins).
+- Sekvenser med flera uppföljningar får ungefär dubbelt så hög svarsfrekvens som enstaka mejl, omkring 8 % mot 4 % (Woodpecker).
+
+Varje uppföljning ska tillföra något nytt, inte bara vara en påminnelse. För fastighetsbolaget skickade vi tre mejl. Det första var ett erbjudande anpassat efter varje segment, det andra gav mer sammanhang och bildmaterial och det tredje var en kort uppföljning som höll dörren öppen för företag som planerade att flytta senare. Svaren fortsatte att komma in efter det andra och tredje mejlet, vilket är viktigt för erbjudanden med lång beslutscykel, som kontorslokaler.
+
 Om skribenten
 
 ![Naghme Mehrooz](https://www.gomogroup.com/wp-content/uploads/2026/06/naghme-mehrooz-profile-image.webp)
@@ -339,7 +356,7 @@ Naghme MehroozDigital Marketing Analyst and Project CoordinatorNaghme är Digita
 
 Se hur vi kombinerar prospektering enligt er ICP, segmenterade outreach-strategier och A/B-testad copy för att leverera kontakter som är redo att prata med er.
 
-[Läs mer om B2B outbound och leadgenerering](https://www.gomogroup.com/kontakta-oss/)
+[Läs mer om B2B outbound och leadgenerering](https://www.gomogroup.com/vara-tjanster/asbx-b2b-leadgenerering/https://)
 
 ### Låt oss diskutera framtiden.
 
@@ -373,7 +390,7 @@ Kontakta oss, så återkommer vi med vår expertis och support!
 
 [Integritetspolicy](https://www.gomogroup.com/gdpr/) [Cookies & Regler](https://www.gomogroup.com/cookies-regler/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: Hur HighFive gruppen tog kontroll över sin AI-potentialLink to: Hur HighFive gruppen tog kontroll över sin AI-potential![](https://www.gomogroup.com/wp-content/uploads/2025/07/Innovation-hub-HighFive-t-80x80.jpg.webp)Hur HighFive gruppen tog kontroll över sin AI-potential](https://www.gomogroup.com/case/hur-highfive-gruppen-tog-kontroll-over-sin-ai-potential/ "Link to: Hur HighFive gruppen tog kontroll över sin AI-potential")
+[Link to: Så lockade ett medicinteknikföretag deltagare från cirka 115 organisationer till sitt webbinariumLink to: Så lockade ett medicinteknikföretag deltagare från cirka 115 organisationer till sitt webbinariumSå lockade ett medicinteknikföretag deltagare från cirka 115 organisationer...![](https://www.gomogroup.com/wp-content/uploads/2016/01/Digital-online-marketing-80x80.jpg.webp)](https://www.gomogroup.com/case/medtech-webbinarium-b2b-eventmarknadsforing/ "Link to: Så lockade ett medicinteknikföretag deltagare från cirka 115 organisationer till sitt webbinarium") [Link to: Hur HighFive gruppen tog kontroll över sin AI-potentialLink to: Hur HighFive gruppen tog kontroll över sin AI-potential![](https://www.gomogroup.com/wp-content/uploads/2025/07/Innovation-hub-HighFive-t-80x80.jpg.webp)Hur HighFive gruppen tog kontroll över sin AI-potential](https://www.gomogroup.com/case/hur-highfive-gruppen-tog-kontroll-over-sin-ai-potential/ "Link to: Hur HighFive gruppen tog kontroll över sin AI-potential")
 
  [Scroll to top](https://www.gomogroup.com/case/sa-gav-en-segmenterad-b2b-kampanj-15-kvalificerade-leads/#top "Scroll to top")
 

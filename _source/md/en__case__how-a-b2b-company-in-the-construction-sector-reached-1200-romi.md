@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/en/case/how-a-b2b-company-in-the-construction-sector-reached-1200-romi/
-LANG: en
-TYPE: case
-TITLE: We helped a B2B construction company to reach 1200% ROM
-DESC: Learn how a leading B2B e-commerce player in the construction sector reached 1200% ROMI during one of the industry's toughest years
-PUBLISHED: 2026-01-07
-MODIFIED: 2026-04-13
-AUTHOR: None
-ALT: {'lang': 'sv', 'url': 'https://www.gomogroup.com/case/hur-ett-b2b-foretag-i-byggsektorn-nadde-1200-romi/'}
----
 # How a B2B company in the construction sector achieved 1200% ROMI, despite a historically weak year for the industry
 
 Case study \| SME

@@ -41,19 +41,19 @@ final class GOMO_API_Snapshot
         $id = bin2hex(random_bytes(12));
         $dir = $base . $id . '/';
         $pointerTemp = $base . $id . '.pointer';
-        if (!mkdir($dir . 'data', 0755, true)) { throw new RuntimeException('Cannot stage snapshot.'); }
+        if (!mkdir($dir . 'data', 0755, true)) { throw new RuntimeException('Cannot prepare snapshot.'); }
         try {
             foreach ($files as $name => $contents) {
                 if (!preg_match('#^(data/)?[a-z-]+\.(json|html|txt)$#D', $name)) { throw new RuntimeException('Invalid snapshot filename.'); }
                 if (substr($name, -5) === '.json' && !is_array(json_decode($contents, true))) {
-                    throw new RuntimeException('Invalid staged JSON: ' . $name);
+                    throw new RuntimeException('Invalid snapshot JSON: ' . $name);
                 }
                 self::write($dir . $name, $contents);
             }
             foreach (['company', 'services', 'case-studies', 'team', 'offices', 'insights', 'events', 'careers', 'pages'] as $ep) {
                 if (!isset($files["data/$ep.json"])) { throw new RuntimeException('Incomplete snapshot: ' . $ep); }
             }
-            foreach (['agent-page.html', 'agent-index.json', 'llms.txt', 'ai.txt', 'api-catalog.json', 'openapi.json'] as $name) {
+            foreach (['agent-page.html', 'agent-index.json', 'llms.txt', 'ai.txt', 'api-catalog.json', 'ard.json', 'openapi.json'] as $name) {
                 if (empty($files[$name])) { throw new RuntimeException('Incomplete snapshot: ' . $name); }
             }
             $previous = is_file($base . 'current.json') ? json_decode(file_get_contents($base . 'current.json'), true)['generation'] : null;

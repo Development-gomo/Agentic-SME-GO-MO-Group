@@ -7,7 +7,7 @@
       "type": "career",
       "title": "Jr. Recruitment Specialist",
       "alternate": null,
-      "dateModified": "2026-08-04"
+      "dateModified": "2026-11-02"
     },
     {
       "url": "https://www.gomogroup.com/en/career/sr-paid-marketing-analyst/",
@@ -15,7 +15,7 @@
       "type": "career",
       "title": "Sr. Paid Marketing Analyst",
       "alternate": null,
-      "dateModified": null
+      "dateModified": "2026-11-02"
     },
     {
       "url": "https://www.gomogroup.com/en/career/sr-seo-analyst/",
@@ -93,7 +93,7 @@
       "url": "https://www.gomogroup.com/en/case/dell-lead-generation/",
       "lang": "en",
       "type": "case",
-      "title": "Outbound Lead Generation Strategy for Dell | GO MO Group",
+      "title": "Outbound Lead Generation Strategy for Dell",
       "alternate": "https://www.gomogroup.com/case/dell-lead-generation/",
       "dateModified": "2025-03-03"
     },
@@ -109,7 +109,7 @@
       "url": "https://www.gomogroup.com/en/case/digitalizing-the-sales-process-to-create-growth-via-pull-marketing-seo/",
       "lang": "en",
       "type": "case",
-      "title": "Digital Sales Process Spurred Incredible Growth | GO MO Group",
+      "title": "Digital Sales Process Spurred Incredible Growth",
       "alternate": "https://www.gomogroup.com/case/case-study-digitaliserad-saljprocess/",
       "dateModified": "2025-02-18"
     },
@@ -118,15 +118,15 @@
       "lang": "en",
       "type": "case",
       "title": "Agentic Web Case: Swedish B2B Manufacturer",
-      "alternate": null,
-      "dateModified": "2026-10-16"
+      "alternate": "https://www.gomogroup.com/case/forsta-svenska-b2b-webbplatsen-med-agentiskt-lager/",
+      "dateModified": "2026-10-27"
     },
     {
       "url": "https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/",
       "lang": "en",
       "type": "case",
       "title": "Streamline with AI workshops",
-      "alternate": "https://www.gomogroup.com/case/generativ-ai-fran-hype-till-faktisk-affarsnytta/",
+      "alternate": null,
       "dateModified": "2025-09-01"
     },
     {
@@ -141,9 +141,9 @@
       "url": "https://www.gomogroup.com/en/case/how-segmented-b2b-outreach-generated-15-sales-qualified-leads/",
       "lang": "en",
       "type": "case",
-      "title": "How segmented B2B outreach generated 15 Sales Qualified Leads",
+      "title": "Segmented B2B Outreach: 15 Sales Qualified Leads",
       "alternate": "https://www.gomogroup.com/case/sa-gav-en-segmenterad-b2b-kampanj-15-kvalificerade-leads/",
-      "dateModified": "2026-10-07"
+      "dateModified": "2026-10-28"
     },
     {
       "url": "https://www.gomogroup.com/en/case/how-the-highfive-group-turned-ai-potential-into-real-business-value/",
@@ -173,7 +173,7 @@
       "url": "https://www.gomogroup.com/en/case/international-marketing-for-facility-management-company/",
       "lang": "en",
       "type": "case",
-      "title": "Digital marketing across several markets | GO MO Group",
+      "title": "Digital marketing across several markets",
       "alternate": "https://www.gomogroup.com/case/internationell-marknadsforing-for-facility-management-bolag/",
       "dateModified": "2025-03-03"
     },
@@ -190,16 +190,16 @@
       "lang": "en",
       "type": "case",
       "title": "A MedTech company needed to fill the room. We did it with the right people.",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/case/medtech-webbinarium-b2b-eventmarknadsforing/",
       "dateModified": "2026-10-16"
     },
     {
       "url": "https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/",
       "lang": "en",
       "type": "case",
-      "title": "How Gen-AI & SEO Automation Scaled E-Commerce Marketing",
+      "title": "SEO Automation with Gen AI for B2B E-commerce",
       "alternate": "https://www.gomogroup.com/case/seo-automation-gen-ai-b2b-e-handel/",
-      "dateModified": "2025-06-26"
+      "dateModified": "2026-11-12"
     },
     {
       "url": "https://www.gomogroup.com/en/case/seo-for-global-giants-volvo-group/",
@@ -240,6 +240,14 @@
       "title": "Streamlining Content Creation with AI",
       "alternate": "https://www.gomogroup.com/case/vastsvenska-handelskammaren-fran-spretig-textproduktion-till-ai-styrd-precision/",
       "dateModified": "2025-11-05"
+    },
+    {
+      "url": "https://www.gomogroup.com/en/case/translation-agency-agentic-web-layer/",
+      "lang": "en",
+      "type": "case",
+      "title": "Agentic Web Case: Swedish Translation Agency",
+      "alternate": null,
+      "dateModified": "2026-11-03"
     },
     {
       "url": "https://www.gomogroup.com/case/ai-genererad-webbdesign/",
@@ -317,9 +325,9 @@
       "url": "https://www.gomogroup.com/case/digital-marknadsforing-forsakringsbolag/",
       "lang": "sv",
       "type": "case",
-      "title": "Digitala processer möjliggjorde tillväxt för försäkringsbranschen",
+      "title": "Digital tillväxt för försäkringsbranschen",
       "alternate": null,
-      "dateModified": "2025-03-03"
+      "dateModified": "2026-11-02"
     },
     {
       "url": "https://www.gomogroup.com/case/digital-marknadsforing-lat-disruptivt-bolag-konkurrera-med-storforetag/",
@@ -330,12 +338,12 @@
       "dateModified": "2025-03-03"
     },
     {
-      "url": "https://www.gomogroup.com/case/generativ-ai-fran-hype-till-faktisk-affarsnytta/",
+      "url": "https://www.gomogroup.com/case/forsta-svenska-b2b-webbplatsen-med-agentiskt-lager/",
       "lang": "sv",
       "type": "case",
-      "title": "Effektivisera med AI-workshops",
-      "alternate": "https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/",
-      "dateModified": "2026-10-01"
+      "title": "Agentic Web: Svensk B2B-tillverkare",
+      "alternate": "https://www.gomogroup.com/en/case/first-swedish-b2b-website-full-agentic-layer/",
+      "dateModified": "2026-11-05"
     },
     {
       "url": "https://www.gomogroup.com/case/hur-ett-b2b-foretag-i-byggsektorn-nadde-1200-romi/",
@@ -370,20 +378,28 @@
       "dateModified": "2025-03-03"
     },
     {
+      "url": "https://www.gomogroup.com/case/medtech-webbinarium-b2b-eventmarknadsforing/",
+      "lang": "sv",
+      "type": "case",
+      "title": "Så lockade ett medicinteknikföretag deltagare från cirka 115 organisationer till sitt webbinarium",
+      "alternate": "https://www.gomogroup.com/en/case/medtech-webinar-b2b-event-marketing/",
+      "dateModified": "2026-11-03"
+    },
+    {
       "url": "https://www.gomogroup.com/case/sa-gav-en-segmenterad-b2b-kampanj-15-kvalificerade-leads/",
       "lang": "sv",
       "type": "case",
-      "title": "Så gav en segmenterad B2B-kampanj 15 kvalificerade leads",
+      "title": "Segmenterad B2B-kampanj: 15 kvalificerade leads",
       "alternate": "https://www.gomogroup.com/en/case/how-segmented-b2b-outreach-generated-15-sales-qualified-leads/",
-      "dateModified": "2026-10-07"
+      "dateModified": "2026-10-28"
     },
     {
       "url": "https://www.gomogroup.com/case/seo-automation-gen-ai-b2b-e-handel/",
       "lang": "sv",
       "type": "case",
-      "title": "Hur Gen AI och SEO-automation skalade e-handelsmarknadsföring",
+      "title": "SEO-automation med Gen AI för B2B-e-handel",
       "alternate": "https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/",
-      "dateModified": "2026-03-24"
+      "dateModified": "2026-11-12"
     },
     {
       "url": "https://www.gomogroup.com/case/seo-omstallning-i-plotsligt-marknadsskifte/",
@@ -437,7 +453,7 @@
       "url": "https://www.gomogroup.com/case/varumarkessystem-och-identitet/",
       "lang": "sv",
       "type": "case",
-      "title": "Varumärkessystem & identitet| GO MO Group",
+      "title": "Varumärkessystem & identitet",
       "alternate": "https://www.gomogroup.com/en/case/brand-systems-and-identity/",
       "dateModified": "2026-06-03"
     },
@@ -445,9 +461,9 @@
       "url": "https://www.gomogroup.com/case/vastsvenska-handelskammaren-fran-spretig-textproduktion-till-ai-styrd-precision/",
       "lang": "sv",
       "type": "case",
-      "title": "Mätbar och märkbar effekt av GPT",
+      "title": "Egen GPT hos Västsvenska Handelskammaren",
       "alternate": "https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/",
-      "dateModified": "2025-11-05"
+      "dateModified": "2026-11-08"
     },
     {
       "url": "https://www.gomogroup.com/en/event/b2b-geo-seminar-june-2026/",
@@ -455,7 +471,7 @@
       "type": "event",
       "title": "GEO Seminar: Brand Selected by AI & Agents | June 10, 2026",
       "alternate": "https://www.gomogroup.com/event/b2b-geo-seminar-june-2026/",
-      "dateModified": "2026-06-11"
+      "dateModified": "2026-10-20"
     },
     {
       "url": "https://www.gomogroup.com/en/event/b2b-geo-seminar-may-2026/",
@@ -479,7 +495,7 @@
       "type": "event",
       "title": "GEO Seminar: Brand Selected by AI & Agents | June 10, 2026",
       "alternate": "https://www.gomogroup.com/en/event/b2b-geo-seminar-june-2026/",
-      "dateModified": "2026-06-11"
+      "dateModified": "2026-10-20"
     },
     {
       "url": "https://www.gomogroup.com/event/b2b-marketing-seminar-for-future-of-search/",
@@ -502,8 +518,8 @@
       "lang": "en",
       "type": "insight",
       "title": "AI-First Marketing - New Rules of B2B Growth",
-      "alternate": null,
-      "dateModified": "2026-06-16"
+      "alternate": "https://www.gomogroup.com/insikter/ai-first-marknadsforing-de-nya-reglerna-for-beslutsfattande-inom-b2b-2026/",
+      "dateModified": "2026-11-08"
     },
     {
       "url": "https://www.gomogroup.com/en/insight/ai-in-marketing-the-end-of-website-traffic-as-we-know-it/",
@@ -566,8 +582,8 @@
       "lang": "en",
       "type": "insight",
       "title": "ChatGPT Ads vs Google Ads: Early B2B Results",
-      "alternate": null,
-      "dateModified": "2026-10-16"
+      "alternate": "https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/",
+      "dateModified": "2026-10-21"
     },
     {
       "url": "https://www.gomogroup.com/en/insight/client-survey-2022/",
@@ -622,7 +638,7 @@
       "lang": "en",
       "type": "insight",
       "title": "Do AI assistant visitors convert better?",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/",
       "dateModified": "2026-10-15"
     },
     {
@@ -653,9 +669,9 @@
       "url": "https://www.gomogroup.com/en/insight/from-ai-hype-to-real-implementation-inside-modern-organisations/",
       "lang": "en",
       "type": "insight",
-      "title": "From AI Hype to Real Implementation Inside Modern Organisations",
+      "title": "From AI Hype to Real Implementation",
       "alternate": null,
-      "dateModified": "2026-08-11"
+      "dateModified": "2026-11-02"
     },
     {
       "url": "https://www.gomogroup.com/en/insight/from-uddevalla-to-the-world-fkab-embarks-on-an-ai-driven-journey-for-sales-and-marketing/",
@@ -694,7 +710,7 @@
       "lang": "en",
       "type": "insight",
       "title": "Google's AI Search Optimisation Guide, Explained",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/",
       "dateModified": "2026-10-15"
     },
     {
@@ -736,6 +752,14 @@
       "title": "#GOMOTALKS: Reduce The Bounce Rate",
       "alternate": null,
       "dateModified": "2026-06-04"
+    },
+    {
+      "url": "https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/",
+      "lang": "en",
+      "type": "insight",
+      "title": "LinkedIn Algorithm 2026: How to Win Organically",
+      "alternate": "https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/",
+      "dateModified": "2026-10-22"
     },
     {
       "url": "https://www.gomogroup.com/en/insight/inside-the-leadership-mindset-shaping-the-future-of-manufacturing/",
@@ -847,7 +871,7 @@
       "type": "insight",
       "title": "Navigating Ethics in AI: Shaping Business Futures",
       "alternate": "https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/",
-      "dateModified": "2024-05-09"
+      "dateModified": "2026-11-09"
     },
     {
       "url": "https://www.gomogroup.com/en/insight/the-relationship-between-seo-and-ux/",
@@ -902,7 +926,7 @@
       "lang": "en",
       "type": "insight",
       "title": "LLMs.txt Tested: Data Shows It Doesn't Work for GEO",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/insikter/vi-testade-llms-txt-har-ar-vad-datan-visar/",
       "dateModified": "2026-07-08"
     },
     {
@@ -926,7 +950,7 @@
       "lang": "en",
       "type": "insight",
       "title": "Your buyers are asking AI. Is your brand in the answer?",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/",
       "dateModified": "2026-06-01"
     },
     {
@@ -934,7 +958,7 @@
       "lang": "en",
       "type": "insight",
       "title": "Track AI Assistant Traffic in GA4 in Under 15 Minutes",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/insikter/er-webbplats-far-ai-trafik-ni-kan-bara-inte-se-den-an/",
       "dateModified": "2026-06-25"
     },
     {
@@ -960,6 +984,14 @@
       "title": "AI Case i Industrin: Effektivisering med GO MO Group",
       "alternate": "https://www.gomogroup.com/en/insight/ai-manufacturing-case-study/",
       "dateModified": "2026-01-07"
+    },
+    {
+      "url": "https://www.gomogroup.com/insikter/ai-first-marknadsforing-de-nya-reglerna-for-beslutsfattande-inom-b2b-2026/",
+      "lang": "sv",
+      "type": "insight",
+      "title": "AI-first-marknadsföring - nya regler för B2B-tillväxt",
+      "alternate": "https://www.gomogroup.com/en/insight/ai-first-marketing-the-new-rules-of-b2b-decision-making-in-2026/",
+      "dateModified": "2026-11-08"
     },
     {
       "url": "https://www.gomogroup.com/insikter/ai-i-marknadsforing-slutet-for-webbplatstrafik-som-vi-kanner-den/",
@@ -1032,6 +1064,14 @@
       "title": "Centralized B2B SEO creates economies of scale GO MO Group",
       "alternate": "https://www.gomogroup.com/en/insight/how-centralized-b2b-seo-facilitates-economies-of-scale/",
       "dateModified": "2025-04-28"
+    },
+    {
+      "url": "https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/",
+      "lang": "sv",
+      "type": "insight",
+      "title": "ChatGPT Ads vs Google Ads: tidiga B2B-resultat",
+      "alternate": "https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/",
+      "dateModified": "2026-10-21"
     },
     {
       "url": "https://www.gomogroup.com/insikter/cmos-of-the-future-stefan-lorentzson/",
@@ -1202,6 +1242,22 @@
       "dateModified": "2026-02-20"
     },
     {
+      "url": "https://www.gomogroup.com/insikter/er-webbplats-far-ai-trafik-ni-kan-bara-inte-se-den-an/",
+      "lang": "sv",
+      "type": "insight",
+      "title": "Mät AI-trafik i GA4 på under 15 minuter",
+      "alternate": "https://www.gomogroup.com/en/insight/your-website-is-getting-ai-traffic-you-just-cant-see-it-yet/",
+      "dateModified": "2026-10-23"
+    },
+    {
+      "url": "https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/",
+      "lang": "sv",
+      "type": "insight",
+      "title": "Era köpare frågar AI. Finns ert varumärke med i svaret?",
+      "alternate": "https://www.gomogroup.com/en/insight/your-buyers-are-asking-ai-is-your-brand-in-the-answer/",
+      "dateModified": "2026-11-05"
+    },
+    {
       "url": "https://www.gomogroup.com/insikter/etisk-sokmotoroptimering/",
       "lang": "sv",
       "type": "insight",
@@ -1306,6 +1362,14 @@
       "dateModified": "2026-02-20"
     },
     {
+      "url": "https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/",
+      "lang": "sv",
+      "type": "insight",
+      "title": "Googles guide för AI-sökoptimering förklarad",
+      "alternate": "https://www.gomogroup.com/en/insight/google-ai-search-optimisation-guide/",
+      "dateModified": "2026-10-20"
+    },
+    {
       "url": "https://www.gomogroup.com/insikter/googles-mum-uppdatering/",
       "lang": "sv",
       "type": "insight",
@@ -1325,7 +1389,7 @@
       "url": "https://www.gomogroup.com/insikter/hur-ett-samarbete-med-go-mo-group-startar/",
       "lang": "sv",
       "type": "insight",
-      "title": "Djupgående nulägesanalys med NÖHR-modellen |GO MO Group",
+      "title": "Djupgående nulägesanalys med NÖHR-modellen",
       "alternate": null,
       "dateModified": "2024-05-11"
     },
@@ -1378,6 +1442,14 @@
       "dateModified": "2024-05-09"
     },
     {
+      "url": "https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/",
+      "lang": "sv",
+      "type": "insight",
+      "title": "Konverterar besökare från AI-assistenter bättre?",
+      "alternate": "https://www.gomogroup.com/en/insight/do-visitors-from-chatgpt-and-other-ai-assistants-convert-better/",
+      "dateModified": "2026-10-22"
+    },
+    {
       "url": "https://www.gomogroup.com/insikter/kundfokuserad-pull-marketing/",
       "lang": "sv",
       "type": "insight",
@@ -1392,6 +1464,14 @@
       "title": "Inblick i ledarskapsmentaliteten som formar tillverkningsindustrins framtid",
       "alternate": "https://www.gomogroup.com/en/insight/inside-the-leadership-mindset-shaping-the-future-of-manufacturing/",
       "dateModified": "2026-04-03"
+    },
+    {
+      "url": "https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/",
+      "lang": "sv",
+      "type": "insight",
+      "title": "LinkedIn-algoritmen 2026: nå ut organiskt",
+      "alternate": "https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/",
+      "dateModified": "2026-11-02"
     },
     {
       "url": "https://www.gomogroup.com/insikter/marknads-kommunikation-tanker-digitalt/",
@@ -1711,7 +1791,7 @@
       "type": "insight",
       "title": "AI och etik: Att forma framtidens affärer",
       "alternate": "https://www.gomogroup.com/en/insight/the-ethical-frontier-shaping-the-future-with-generative-ai/",
-      "dateModified": "2026-02-20"
+      "dateModified": "2026-11-09"
     },
     {
       "url": "https://www.gomogroup.com/insikter/thought-leadership/",
@@ -1786,6 +1866,14 @@
       "dateModified": "2026-10-06"
     },
     {
+      "url": "https://www.gomogroup.com/insikter/vi-testade-llms-txt-har-ar-vad-datan-visar/",
+      "lang": "sv",
+      "type": "insight",
+      "title": "LLMs.txt i test: data visar ingen effekt på GEO",
+      "alternate": "https://www.gomogroup.com/en/insight/we-tested-llms-txt-so-you-dont-have-to-heres-what-the-data-actually-says/",
+      "dateModified": "2026-11-08"
+    },
+    {
       "url": "https://www.gomogroup.com/insikter/viktigaste-faktorerna-for-digital-framgang-ladda-ner/",
       "lang": "sv",
       "type": "insight",
@@ -1837,7 +1925,7 @@
       "url": "https://www.gomogroup.com/code-of-conduct/",
       "lang": "sv",
       "type": "legal",
-      "title": "Uppförandekod | GO MO Group",
+      "title": "Uppförandekod",
       "alternate": "https://www.gomogroup.com/en/code-of-conduct/",
       "dateModified": "2026-06-03"
     },
@@ -1870,7 +1958,7 @@
       "lang": "en",
       "type": "page",
       "title": "About Us and Our Approach to Marketing",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/om-oss/",
       "dateModified": "2026-03-24"
     },
     {
@@ -1973,7 +2061,7 @@
       "url": "https://www.gomogroup.com/insikter/",
       "lang": "sv",
       "type": "page",
-      "title": "Insikter om digital marknadsföring | GO MO Group",
+      "title": "Insikter om digital marknadsföring",
       "alternate": "https://www.gomogroup.com/en/insights/",
       "dateModified": "2024-09-16"
     },
@@ -2006,7 +2094,7 @@
       "lang": "sv",
       "type": "page",
       "title": "Om oss och vår syn på marknadsföring",
-      "alternate": null,
+      "alternate": "https://www.gomogroup.com/en/about-us/",
       "dateModified": "2026-06-02"
     },
     {
@@ -2015,7 +2103,7 @@
       "type": "service",
       "title": "Agentic Web Services for B2B",
       "alternate": "https://www.gomogroup.com/vara-tjanster/agentic-web/",
-      "dateModified": "2026-10-15"
+      "dateModified": "2026-10-20"
     },
     {
       "url": "https://www.gomogroup.com/en/services/asbx-b2b-outbound-lead-generation/",
@@ -2042,6 +2130,14 @@
       "dateModified": "2026-06-17"
     },
     {
+      "url": "https://www.gomogroup.com/en/services/chatgpt-ads/",
+      "lang": "en",
+      "type": "service",
+      "title": "ChatGPT Ads in Sweden | 30-day pilot",
+      "alternate": "https://www.gomogroup.com/vara-tjanster/chatgpt-ads/",
+      "dateModified": null
+    },
+    {
       "url": "https://www.gomogroup.com/en/services/content-marketing/",
       "lang": "en",
       "type": "service",
@@ -2053,9 +2149,9 @@
       "url": "https://www.gomogroup.com/en/services/demand-generation/",
       "lang": "en",
       "type": "service",
-      "title": "B2B Lead Generation",
+      "title": "B2B Demand Generation with Online Acceleration",
       "alternate": null,
-      "dateModified": "2026-06-03"
+      "dateModified": "2026-11-02"
     },
     {
       "url": "https://www.gomogroup.com/en/services/digital-analysis-strategy-proposal/",
@@ -2069,9 +2165,9 @@
       "url": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/",
       "lang": "en",
       "type": "service",
-      "title": "Generative Engine Optimization (GEO) Services for AI Search",
+      "title": "Generative Engine Optimization (GEO) Agency",
       "alternate": "https://www.gomogroup.com/vara-tjanster/generative-engine-optimization-geo/",
-      "dateModified": "2026-07-20"
+      "dateModified": "2026-10-28"
     },
     {
       "url": "https://www.gomogroup.com/en/services/programmatic-advertising/",
@@ -2125,9 +2221,9 @@
       "url": "https://www.gomogroup.com/vara-tjanster/agentic-web/",
       "lang": "sv",
       "type": "service",
-      "title": "Agentic Web Services for B2B",
+      "title": "Agentic Web för B2B – synlighet i AI-sök",
       "alternate": "https://www.gomogroup.com/en/services/agentic-web/",
-      "dateModified": "2026-10-15"
+      "dateModified": "2026-11-02"
     },
     {
       "url": "https://www.gomogroup.com/vara-tjanster/asbx-b2b-leadgenerering/",
@@ -2141,9 +2237,17 @@
       "url": "https://www.gomogroup.com/vara-tjanster/b2b-youtube-marketing/",
       "lang": "sv",
       "type": "service",
-      "title": "B2B YouTube Marketing",
+      "title": "2B YouTube-marknadsföring för industriföretag",
       "alternate": "https://www.gomogroup.com/en/services/b2b-youtube-marketing/",
-      "dateModified": "2026-07-16"
+      "dateModified": "2026-11-02"
+    },
+    {
+      "url": "https://www.gomogroup.com/vara-tjanster/chatgpt-ads/",
+      "lang": "sv",
+      "type": "service",
+      "title": "ChatGPT Ads i Sverige | Pilot på 30 dagar",
+      "alternate": "https://www.gomogroup.com/en/services/chatgpt-ads/",
+      "dateModified": "2026-10-27"
     },
     {
       "url": "https://www.gomogroup.com/vara-tjanster/content-marketing-innehallsmarknadsforing/",
@@ -2165,7 +2269,7 @@
       "url": "https://www.gomogroup.com/vara-tjanster/digital-marknadsforing/",
       "lang": "sv",
       "type": "service",
-      "title": "Digital marknadsföring som ger resultat | GO MO Group",
+      "title": "Digital marknadsföring som ger resultat",
       "alternate": null,
       "dateModified": "2026-02-20"
     },
@@ -2189,9 +2293,9 @@
       "url": "https://www.gomogroup.com/vara-tjanster/generative-engine-optimization-geo/",
       "lang": "sv",
       "type": "service",
-      "title": "Generative Engine Optimization (GEO) | AI Search",
+      "title": "Generative Engine Optimization (GEO) för B2B",
       "alternate": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/",
-      "dateModified": "2026-05-13"
+      "dateModified": "2026-10-28"
     },
     {
       "url": "https://www.gomogroup.com/vara-tjanster/google-ads-goteborg/",
@@ -2482,7 +2586,7 @@
       "type": "team",
       "title": "Lina Nygren, Vice President SME Strategy & Success",
       "alternate": "https://www.gomogroup.com/en/team/lina-nygren/",
-      "dateModified": "2026-09-18"
+      "dateModified": "2026-11-02"
     },
     {
       "url": "https://www.gomogroup.com/medarbetare/oliver-strang-paschetto/",
@@ -2519,9 +2623,9 @@
     }
   ],
   "pagination": {
-    "total": 314,
+    "total": 327,
     "page": 1,
-    "per_page": 314,
+    "per_page": 327,
     "pages": 1
   },
   "_meta": {
@@ -2529,8 +2633,8 @@
     "endpoint": "pages",
     "canonical": "https://www.gomogroup.com",
     "api": "https://www.gomogroup.com/agent/v1",
-    "generated": "2026-10-19T00:00:00+00:00",
-    "version": "1.3.0",
+    "generated": "2026-11-17T00:00:00+00:00",
+    "version": "1.4.0",
     "languages": [
       "en",
       "sv"

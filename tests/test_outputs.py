@@ -32,7 +32,7 @@ ld = json.loads(re.search(r'application/ld\+json">(.*?)</script>', H, re.S).grou
 check("agent page: JSON-LD parses with Organization", ld["@graph"][0]["@type"] == "Organization")
 check("agent page: dark only", "prefers-color-scheme" not in H and 'content="dark"' in H)
 check("agent page lists every page-index URL", not [u for u in pu if u not in H])
-for f in ("agent-page.html", "agent-index.json", "llms.txt", "ai.txt", "api-catalog.json"):
+for f in ("agent-page.html", "agent-index.json", "llms.txt", "ai.txt", "api-catalog.json", "ard.json"):
     check(f"plugin copy of {f} in sync", filecmp.cmp(R / f, R / "gomo-api" / f, shallow=False))
 legacy = ("wp-content/plugins", '"api/v1/', "synced from WordPress")
 offenders = [p.name for p in [R / f for f in ("agent-page.html", "agent-index.json", "llms.txt", "ai.txt", "api-catalog.json", "robots-addition.txt")] + list((R / "gomo-api/data").glob("*.json")) if any(s in p.read_text(errors="ignore") for s in legacy)]
@@ -59,6 +59,34 @@ active = list((R / "gomo-api").rglob("*")) + [R / name for name in (
 check("deployable artifacts contain no retired MCP endpoints", not [
     str(p.relative_to(R)) for p in active if p.is_file() and any(old in p.read_text(errors="ignore")
     for old in ("https://www.gomogroup.com/mcp", "https://mcp.gomogroup.com"))])
+ard = json.loads((R / "ard.json").read_text())
+ents = ard.get("entries") or []
+check("ard.json: has entries", bool(ents))
+check("ard.json: required fields", all(e.get("identifier") and e.get("displayName") and e.get("type") for e in ents))
+check("ard.json: domain-anchored URNs", all(re.fullmatch(r"urn:air:gomogroup\.com(:[a-zA-Z0-9._-]+)+", e["identifier"]) for e in ents))
+check("ard.json: exactly one of url/data", all(("url" in e) != ("data" in e) for e in ents))
+check("ard.json: 2-5 representative queries", all(isinstance(e.get("representativeQueries"), list) and 2 <= len(e["representativeQueries"]) <= 5 for e in ents))
+check("ard.json: no deprecated collections member", "collections" not in ard)
+check("ard.json: updatedAt is date-time", all(re.fullmatch(r"\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ", e.get("updatedAt", "")) for e in ents))
+mcp_entry = next((e for e in ents if e["type"] == "application/mcp-server-card+json"), None)
+check("ard.json: MCP entry lists every MCP tool", mcp_entry and {t["name"] for t in mcp_entry["data"]["tools"]} == {p["name"] for p in mcp["properties"] if p["type"] == "X-mcp-tool"})
+check("ard advertised: robots Agentmap, rel=ard, plugin route", "Agentmap: https://www.gomogroup.com/.well-known/ard.json" in (R / "robots-addition.txt").read_text()
+      and '<link rel="ard" href="https://www.gomogroup.com/.well-known/ard.json">' in H
+      and "^\\.well-known/ard\\.json$" in (R / "gomo-api/gomo-api.php").read_text())
+PRE = "stag" + "ing"  # built at runtime so this file does not match itself
+check("deliverables reference production only", not [str(p.relative_to(R)) for p in list(R.glob("*.*")) + list((R / "gomo-api").rglob("*.*")) + list((R / "tests").rglob("*.*")) + list((R / "gomo-mcp").glob("*.*"))
+      if p.is_file() and p.suffix in (".md", ".txt", ".json", ".html", ".php", ".py", ".sh") and p.name not in ("package-lock.json",) and PRE in p.read_text(errors="ignore").lower()])
+svc = {x["id"]: x for x in D("services")}
+idx_pricing = {x["id"]: x["pricing"] for x in json.loads((R / "agent-index.json").read_text())["services"]}
+free_tiers = [(sid, t["name"]) for sid, x in svc.items() for t in x["pricing"].get("tiers", []) if t.get("price_from") == 0]
+check("free tiers render as free, not custom", free_tiers and all(
+    any(p["tier"] == n and p["price"] == "free" for p in idx_pricing[sid]) for sid, n in free_tiers), str(free_tiers))
+check("fixed-price services never say 'from'", all(
+    not any(p["price"].startswith("from ") for p in idx_pricing[sid])
+    for sid, x in svc.items() if x["pricing"].get("price_type") == "fixed"))
+crawled = re.search(r'name="last-crawled" content="([^"]+)"', H).group(1)
+check("crawl date is the same everywhere", f"# Site crawled: {crawled} " in (R / "ai.txt").read_text()
+      and f"on {crawled}." in L)
 import runpy
 build = runpy.run_path(str(R / "_source/build.py"))
 check("generator retains the new MCP endpoint", build["URLS"]["mcp"] == endpoint

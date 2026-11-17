@@ -1,5 +1,3 @@
-URL: https://www.gomogroup.com/en/event/b2b-marketing-seminar-for-future-of-search/
----
 Event Recap
 
 # AI Is Recommending Brands. Is Yours One of Them?

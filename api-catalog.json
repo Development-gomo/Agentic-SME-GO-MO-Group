@@ -1,10 +1,10 @@
 {
   "name": "GO MO Group — Agentic Web API Catalog",
-  "description": "All machine-readable resources for gomogroup.com: agent page, llms.txt, ai.txt, REST API (OpenAPI 3.0.3), MCP server, sitemap. Bilingual (en, sv).",
+  "description": "All machine-readable resources for gomogroup.com: agent page, llms.txt, ai.txt, ARD manifest, REST API (OpenAPI 3.0.3), MCP server, sitemap. Bilingual (en, sv).",
   "url": "https://www.gomogroup.com/api-catalog.json",
   "image": null,
   "created": "2026-05-26",
-  "modified": "2026-10-19",
+  "modified": "2026-11-17",
   "specificationVersion": "0.16",
   "tags": [
     "b2b-marketing",
@@ -14,6 +14,7 @@
     "mcp",
     "openapi",
     "llms-txt",
+    "ard",
     "bilingual"
   ],
   "apis": [
@@ -104,6 +105,34 @@
       ],
       "tags": [
         "catalog"
+      ]
+    },
+    {
+      "name": "Agentic Resource Discovery Manifest",
+      "description": "ARD v0.91 manifest listing the MCP server and the REST API as discoverable agentic resources, with representative queries for registries.",
+      "baseURL": "https://www.gomogroup.com/.well-known/ard.json",
+      "humanURL": "https://www.gomogroup.com/agent/",
+      "X-format": "application/json",
+      "X-contentType": "ard-manifest",
+      "X-purpose": "Agent registry discovery",
+      "properties": [
+        {
+          "type": "X-spec",
+          "url": "https://agenticresourcediscovery.org/spec/"
+        },
+        {
+          "type": "X-link-rel",
+          "value": "ard"
+        },
+        {
+          "type": "X-robots",
+          "value": "Agentmap"
+        }
+      ],
+      "tags": [
+        "ard",
+        "discovery",
+        "agents"
       ]
     },
     {
@@ -386,8 +415,9 @@
     "api_index": "https://www.gomogroup.com/agent/v1/index.json",
     "openapi": "https://www.gomogroup.com/openapi.json",
     "api_catalog": "https://www.gomogroup.com/api-catalog.json",
+    "ard": "https://www.gomogroup.com/.well-known/ard.json",
     "mcp": "https://agent-mcp.gomogroup.com/mcp",
     "sitemap": "https://www.gomogroup.com/sitemap_index.xml"
   },
-  "X-version": "1.3.0"
+  "X-version": "1.4.0"
 }

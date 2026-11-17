@@ -1,0 +1,152 @@
+{
+  "specVersion": "0.91",
+  "publisher": {
+    "name": "GO MO Group AB",
+    "url": "https://www.gomogroup.com/",
+    "contact": "hello@gomogroup.com"
+  },
+  "entries": [
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:gomogroup.com:mcp:gomo-group",
+      "displayName": "GO MO Group MCP Server",
+      "type": "application/mcp-server-card+json",
+      "data": {
+        "name": "com.gomogroup/agent-mcp",
+        "title": "GO MO Group",
+        "version": "1.4.0",
+        "description": "Read GO MO Group's services, prices, case studies, team, offices, insights, events and open roles in English and Swedish, and send a consent-gated B2B inquiry.",
+        "websiteUrl": "https://www.gomogroup.com/en/services/agentic-web/",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://agent-mcp.gomogroup.com/mcp"
+          }
+        ],
+        "tools": [
+          {
+            "name": "get_company",
+            "description": "Company profile, offices, contact details and machine-readable URLs"
+          },
+          {
+            "name": "list_services",
+            "description": "List services with pricing where published (filter by category, tag, language)"
+          },
+          {
+            "name": "get_service",
+            "description": "One service by id"
+          },
+          {
+            "name": "list_case_studies",
+            "description": "List case studies with results (filter by industry, segment, service, language)"
+          },
+          {
+            "name": "get_case_study",
+            "description": "One case study by id"
+          },
+          {
+            "name": "list_team",
+            "description": "Team members and leadership contacts"
+          },
+          {
+            "name": "list_offices",
+            "description": "Office addresses"
+          },
+          {
+            "name": "list_insights",
+            "description": "Insights and articles in English and Swedish (filter by topic, date, language)"
+          },
+          {
+            "name": "list_events",
+            "description": "Events"
+          },
+          {
+            "name": "list_careers",
+            "description": "Open roles"
+          },
+          {
+            "name": "get_page_index",
+            "description": "Every public URL with its English/Swedish alternate"
+          },
+          {
+            "name": "submit_contact_inquiry",
+            "description": "Send a B2B inquiry to GO MO Group, only with the user's explicit consent"
+          }
+        ],
+        "endpoints": {
+          "health": "https://agent-mcp.gomogroup.com/health",
+          "tools": "https://agent-mcp.gomogroup.com/tools"
+        }
+      },
+      "capabilities": [
+        "get_company",
+        "list_services",
+        "get_service",
+        "list_case_studies",
+        "get_case_study",
+        "list_team",
+        "list_offices",
+        "list_insights",
+        "list_events",
+        "list_careers",
+        "get_page_index",
+        "submit_contact_inquiry"
+      ],
+      "description": "Model Context Protocol server for GO MO Group, the B2B digital marketing, GEO and generative AI agency in Gothenburg, Stockholm, London and Pune. Read-only tools for company facts plus one consent-gated contact action.",
+      "representativeQueries": [
+        "which B2B agencies in Sweden offer generative engine optimization",
+        "how much does a GEO audit from GO MO Group cost",
+        "show GO MO Group case studies with measurable B2B results",
+        "who runs ChatGPT Ads pilots for B2B companies in Sweden",
+        "send an inquiry to GO MO Group about an agentic web build"
+      ],
+      "tags": [
+        "b2b-marketing",
+        "geo",
+        "seo",
+        "chatgpt-ads",
+        "agentic-web",
+        "generative-ai",
+        "sweden",
+        "bilingual"
+      ],
+      "version": "1.4.0",
+      "updatedAt": "2026-11-17T00:00:00Z"
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:gomogroup.com:api:agent-v1",
+      "displayName": "GO MO Group Public REST API",
+      "type": "application/vnd.oai.openapi+json",
+      "url": "https://www.gomogroup.com/openapi.json",
+      "capabilities": [
+        "company",
+        "services",
+        "case-studies",
+        "team",
+        "offices",
+        "insights",
+        "events",
+        "careers",
+        "pages",
+        "contact"
+      ],
+      "description": "Read-only JSON API at https://www.gomogroup.com/agent/v1/ for GO MO Group's company profile, services, case studies, team, offices, insights, events, careers and bilingual page index, plus a consent-gated contact endpoint. Described by OpenAPI 3.0.3.",
+      "representativeQueries": [
+        "get GO MO Group services as structured JSON",
+        "list GO MO Group insights published in Swedish",
+        "find the English and Swedish URLs for a GO MO Group page",
+        "get GO MO Group office addresses and contact details"
+      ],
+      "tags": [
+        "rest",
+        "openapi",
+        "json",
+        "b2b-marketing",
+        "bilingual"
+      ],
+      "version": "1.4.0",
+      "updatedAt": "2026-11-17T00:00:00Z"
+    }
+  ]
+}

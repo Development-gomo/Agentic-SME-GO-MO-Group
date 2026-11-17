@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/en/case/swedish-manufacturer-enterprise-digital-marketing/
-LANG: en
-TYPE: case
-TITLE: Enterprise Digital Marketing for a Swedish Manufacturing Giant
-DESC: Discover how an enterprise digital marketing strategy, including SEO and Paid Marketing, helped an International Swedish Manufacturer scale from 2% to 11% digital revenue.
-PUBLISHED: 2025-01-02
-MODIFIED: 2026-02-20
-AUTHOR: None
-ALT: {'lang': 'sv', 'url': 'https://www.gomogroup.com/case/svenskt-foretag-enterprise-digital-marknadsforing/'}
----
 Enterprise Digital Marketing for a Swedish Manufacturer
 
 # How we leveraged search to   increase share of digital revenue   from 2% to 7%
@@ -112,14 +102,14 @@ Digital Marketing Manager at Volvo Group
 Hi, my name is  and I represent , where my title is . You can contact me at . I am contacting you regarding .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
 
 Contact us, and we’ll get back to you with our expertise and support!
 
@@ -127,15 +117,15 @@ Contact us, and we’ll get back to you with our expertise and support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/case/swedish-manufacturer-enterprise-digital-marketing/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/en/case/swedish-manufacturer-enterprise-digital-marketing/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/case/swedish-manufacturer-enterprise-digital-marketing/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/en/case/swedish-manufacturer-enterprise-digital-marketing/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
 ![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Privacy Policy](https://www.gomogroup.com/en/privacy-policy/) [Cookie Policy](https://www.gomogroup.com/en/cookie-policy/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: AI powered Brand videosLink to: AI powered Brand videosAI powered Brand videos![](https://www.gomogroup.com/wp-content/uploads/2025/11/Video_-80x80.png.webp)](https://www.gomogroup.com/en/case/ai-powered-brand-videos/ "Link to: AI powered Brand videos") [Link to: Building a GenAI-Fueled Content Supply Chain: An AI-Case Study from a Global Leader in Heavy Industry and ManufacturingLink to: Building a GenAI-Fueled Content Supply Chain: An AI-Case Study from a Global Leader in Heavy Industry and Manufacturing![](https://www.gomogroup.com/wp-content/uploads/2025/05/case-banner-80x80.jpg.webp)Building a GenAI-Fueled Content Supply Chain: An AI-Case Study from a Global...](https://www.gomogroup.com/en/case/building-a-genai-fueled-content-supply-chain-an-ai-case-study-from-a-global-leader-in-heavy-industry-and-manufacturing/ "Link to: Building a GenAI-Fueled Content Supply Chain: An AI-Case Study from a Global Leader in Heavy Industry and Manufacturing")
+[Link to: AI powered Brand videosLink to: AI powered Brand videosAI powered Brand videos![](https://www.gomogroup.com/wp-content/uploads/2025/11/Video_-80x80.png.webp)](https://www.gomogroup.com/en/case/ai-powered-brand-videos/ "Link to: AI powered Brand videos") [Link to: How generative AI and SEO automation delivered 32 times more organic clicks in B2B e-commerceLink to: How generative AI and SEO automation delivered 32 times more organic clicks in B2B e-commerce![](https://www.gomogroup.com/wp-content/uploads/2025/07/8df29988-ee5c-4073-aa27-0184d5124ebd-scaled1-80x80.jpg.webp)How generative AI and SEO automation delivered 32 times more organic clicks...](https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/ "Link to: How generative AI and SEO automation delivered 32 times more organic clicks in B2B e-commerce")
 
  [Scroll to top](https://www.gomogroup.com/en/case/swedish-manufacturer-enterprise-digital-marketing/#top "Scroll to top")
 

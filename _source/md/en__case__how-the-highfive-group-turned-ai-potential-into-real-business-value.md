@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/en/case/how-the-highfive-group-turned-ai-potential-into-real-business-value/
-LANG: en
-TYPE: case
-TITLE: GO MO Elevated HighFive’s AI Initiative
-DESC: GO MO Group equipped HighFive companies with the tools to turn AI into business value.
-PUBLISHED: 2025-07-31
-MODIFIED: 2026-02-20
-AUTHOR: None
-ALT: {'lang': 'sv', 'url': 'https://www.gomogroup.com/case/hur-highfive-gruppen-tog-kontroll-over-sin-ai-potential/'}
----
 # How innovation hub HighFive turned AI potential into real business value
 
 CASE STUDY \| Generative AI
@@ -30,7 +20,7 @@ We used a **straightforward framework**: where are you now, where do you want to
 
 In the next phase, we met with each company individually. We identified bottlenecks and presented tailored proposals that matched their **business priorities**.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202048%201152'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2025/07/1747663640948.jpeg.webp)
 
 ### What changed
 
@@ -54,14 +44,14 @@ _It was about moving forward. Together._
 Hi, my name is  and I represent , where my title is . You can contact me at . I am contacting you regarding .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
 
 Contact us, and we’ll get back to you with our expertise and support!
 
@@ -69,15 +59,15 @@ Contact us, and we’ll get back to you with our expertise and support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/case/how-the-highfive-group-turned-ai-potential-into-real-business-value/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/en/case/how-the-highfive-group-turned-ai-potential-into-real-business-value/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/case/how-the-highfive-group-turned-ai-potential-into-real-business-value/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/en/case/how-the-highfive-group-turned-ai-potential-into-real-business-value/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Privacy Policy](https://www.gomogroup.com/en/privacy-policy/) [Cookie Policy](https://www.gomogroup.com/en/cookie-policy/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: How segmented B2B outreach generated 15 Sales Qualified LeadsLink to: How segmented B2B outreach generated 15 Sales Qualified LeadsHow segmented B2B outreach generated 15 Sales Qualified Leads![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)](https://www.gomogroup.com/en/case/how-segmented-b2b-outreach-generated-15-sales-qualified-leads/ "Link to: How segmented B2B outreach generated 15 Sales Qualified Leads") [Link to: How a B2B company in the construction sector reached 1200% ROMILink to: How a B2B company in the construction sector reached 1200% ROMI![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)How a B2B company in the construction sector reached 1200% ROMI](https://www.gomogroup.com/en/case/how-a-b2b-company-in-the-construction-sector-reached-1200-romi/ "Link to: How a B2B company in the construction sector reached 1200% ROMI")
+[Link to: How segmented B2B outreach generated 15 Sales Qualified LeadsLink to: How segmented B2B outreach generated 15 Sales Qualified LeadsHow segmented B2B outreach generated 15 Sales Qualified Leads![Modern glass office buildings in a waterfront business district, from a segmented B2B outreach case for a property company](https://www.gomogroup.com/wp-content/uploads/2026/10/segmented-b2b-outreach-generated-15-sales-qualified-leads-featured-80x80.webp)](https://www.gomogroup.com/en/case/how-segmented-b2b-outreach-generated-15-sales-qualified-leads/ "Link to: How segmented B2B outreach generated 15 Sales Qualified Leads") [Link to: How a B2B company in the construction sector reached 1200% ROMILink to: How a B2B company in the construction sector reached 1200% ROMI![](https://www.gomogroup.com/wp-content/uploads/2026/01/bgfix-banner-80x80.webp)How a B2B company in the construction sector reached 1200% ROMI](https://www.gomogroup.com/en/case/how-a-b2b-company-in-the-construction-sector-reached-1200-romi/ "Link to: How a B2B company in the construction sector reached 1200% ROMI")
 
  [Scroll to top](https://www.gomogroup.com/en/case/how-the-highfive-group-turned-ai-potential-into-real-business-value/#top "Scroll to top")
 

@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/en/case/brand-systems-and-identity/
-LANG: en
-TYPE: case
-TITLE: Brand systems and identity
-DESC: Brand systems built through strategy, clarity, and thoughtful design. Each identity is created to stay consistent across touchpoints while allowing the brand to express itself with confidence and purpose.
-PUBLISHED: 2026-01-20
-MODIFIED: 2026-06-03
-AUTHOR: None
-ALT: {'lang': 'sv', 'url': 'https://www.gomogroup.com/case/varumarkessystem-och-identitet/'}
----
 # Brand systems   and identity
 
 Brand systems built through strategy, clarity, and thoughtful design. Each identity is created to stay consistent across touchpoints while allowing the brand to express itself with confidence and purpose.

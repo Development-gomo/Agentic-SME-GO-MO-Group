@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/om-oss/
-LANG: sv
-TYPE: page
-TITLE: Om oss och vår syn på marknadsföring
-DESC: GO MO Group är en internationell B2B-marknadsföringsbyrå. Upptäck hur vi utmanar marknadsföringen och hjälper företag ställa om sin kommunikation.
-PUBLISHED: 2024-02-27
-MODIFIED: 2026-06-02
-AUTHOR: None
-ALT: None
----
 # Traditionell expertis,  framtidsorienterade   marknadsförare
 
 Vi är en internationell digital marknadsföringsbyrå som hjälper ledande B2B-företag att uppnå optimala marknadsföringseffekter. Vi kallar det vi gör för _Pull-marketing._
@@ -18,7 +8,7 @@ En del av Collaboration Art.
 
 ### Vår erfarenhet och strategiska inriktning utgör grunden för vår roll i Collaboration Art, en sammanslutning av entreprenörer som tillsammans bygger ett framstående varumärkeshus inom prestationsbaserad marknadsföring.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20170%2090'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/02/ca-logo.jpg.webp)
 
 Collaboration Art utvecklar ett ”house of brands” för Europas ledande performancebyråer, där de stärker entreprenörsdrivna företag genom strategiska förvärv och nätverksstöd, samtidigt som de bevarar våra unika varumärken och företagskulturer.
 
@@ -30,23 +20,23 @@ Mina ambitioner för bolaget är skyhöga, och som grundare strävar jag efter a
 
 Den största utmaningen för vår bransch är kompetensförsörjning, detta har vi löst genom att etablera delar av vår produktion i Indien, under svensk regi på plats. Detta ger oss inte bara tillgång till världens största talangpool inom vår sektor utan också att vi kan skala produktionen i en hastighet som är unik i vår bransch. Detta resulterar i vår främsta konkurrensfördel: skalbar exekvering av knivskarpa strategier.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20152'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/02/gg-sign.png.webp)
 
 VD, GRUNDARE
 
 [Läs mer](https://www.gomogroup.com/medarbetare/gabriel-ghavami/)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201200'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/05/GG-about-image.jpg.webp)
 
 ## Vi har en passion för att skapa affärsmöjligheter, människor och tillväxt
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)](https://www.gomogroup.com/medarbetare/safa-soltani/) [Safa Soltani](https://www.gomogroup.com/medarbetare/safa-soltani/)[Read more about Safa Soltani](https://www.gomogroup.com/medarbetare/safa-soltani/)MANAGING DIRECTOR
+[![](https://www.gomogroup.com/wp-content/uploads/2026/06/safa-soltani-profile-image.jpg)](https://www.gomogroup.com/medarbetare/safa-soltani/) [Safa Soltani](https://www.gomogroup.com/medarbetare/safa-soltani/)[Read more about Safa Soltani](https://www.gomogroup.com/medarbetare/safa-soltani/)MANAGING DIRECTOR
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)](https://www.gomogroup.com/medarbetare/henrik-anderberg/) [Henrik Anderberg](https://www.gomogroup.com/medarbetare/henrik-anderberg/)[Read more about Henrik Anderberg](https://www.gomogroup.com/medarbetare/henrik-anderberg/)EVP / Vice VD
+[![](https://www.gomogroup.com/wp-content/uploads/2026/06/henrik-anderberg-profile-image.webp)](https://www.gomogroup.com/medarbetare/henrik-anderberg/) [Henrik Anderberg](https://www.gomogroup.com/medarbetare/henrik-anderberg/)[Read more about Henrik Anderberg](https://www.gomogroup.com/medarbetare/henrik-anderberg/)EVP / Vice VD
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)](https://www.gomogroup.com/medarbetare/anuvinder-singh/) [Anuvinder Singh](https://www.gomogroup.com/medarbetare/anuvinder-singh/)[Read more about Anuvinder Singh](https://www.gomogroup.com/medarbetare/anuvinder-singh/)DIRECTOR
+[![](https://www.gomogroup.com/wp-content/uploads/2026/06/anuvinder-singh-profile-image.jpg)](https://www.gomogroup.com/medarbetare/anuvinder-singh/) [Anuvinder Singh](https://www.gomogroup.com/medarbetare/anuvinder-singh/)[Read more about Anuvinder Singh](https://www.gomogroup.com/medarbetare/anuvinder-singh/)DIRECTOR
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)](https://www.gomogroup.com/medarbetare/lina-nygren/) [Lina Nygren](https://www.gomogroup.com/medarbetare/lina-nygren/)[Read more about Lina Nygren](https://www.gomogroup.com/medarbetare/lina-nygren/)Vice President SME Strategy & Success
+[![](https://www.gomogroup.com/wp-content/uploads/2026/06/lina-nygren-profile-image.webp)](https://www.gomogroup.com/medarbetare/lina-nygren/) [Lina Nygren](https://www.gomogroup.com/medarbetare/lina-nygren/)[Read more about Lina Nygren](https://www.gomogroup.com/medarbetare/lina-nygren/)Vice President SME Strategy & Success
 
 ## Våra medarbetare,  ditt team
 
@@ -54,7 +44,7 @@ GO MO Group har ca 70 anställda och tillsammans med GO MO DBS är vi totalt 150
 
 Vi bygger en företagskultur som främjar samarbete och ambition. Det är när kollegor och partners stöttar varandra som nya idéer kan frodas och nya tillvägagångssätt kan utvecklas. Vi är övertygade att jämlikhet och respekt är fundament till en hälsosam och socialt hållbar organisation.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201030%20921'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/05/GOMO-AI-event-Gothenburg-1030x921.jpg)
 
 ## Vi utmanar de befintliga villkoren inom marknadsföring
 
@@ -68,9 +58,9 @@ Utan data hade våra rekommendationer bara varit uttryck av åsikter. Alla våra
 
 Vi förstår att hållbar tillväxt kräver att man återvänder till tidigare slutsatser och utmanar dessa. Därför arbetar vi efter agila processer för att kunna anpassa marknadsföringsinsatserna efter nya rön och insikter. Genom att följa upp och mäta utfallet på marknadsföringsaktiviteterna kan vi ta vara på nya möjligheter och parera inkomna hinder.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201030%20986'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/05/d2a16c0e-c281-4763-a137-55a9a8b85f09-1030x986.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201030%20687'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/05/GOMO-EventPortraits-312-1030x687.jpg)
 
 Ryggraden i vårt erbjudande är våra medarbetares specialistkompetens, men vi anställer även strateger som inte har en klassisk bakgrund för marknadsföring. Välkommen att höra av dig, ta nästa steg i karriären med oss.
 
@@ -84,89 +74,81 @@ Vi har identifierat en brist på resurser och specialistkunskap inom digital Pul
 
 Vårt löfte till våra kunder är att de ska kunna kapitalisera på befintlig efterfrågan. Vi skapar digitala tillgångar anpassade efter slutkunden. Våra tjänster bygger upp konkurrensfördelar som bara stärks över tid. Vi förespråkar starkt Pull-marknadsföring som grunden i all marknadsföring.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/puja-kumari-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Puja KumariVice Managing Director
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/puja-kumari-profile-image.jpg)Puja KumariVice Managing Director
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/avichal-singh-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Avichal SinghHead of Paid Marketing
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/avichal-singh-profile-image.jpg)Avichal SinghHead of Paid Marketing
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/ida-eriksson-ghavami-profile-image.webp)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Ida E. GhavamiProjects & Operations Coordinator
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/ida-eriksson-ghavami-profile-image.webp)Ida E. GhavamiProjects & Operations Coordinator
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/priya-bhoi-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Priya BhoiDesign Strategist
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/priya-bhoi-profile-image.jpg)Priya BhoiDesign Strategist
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/gaurav-khetan-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Gaurav KhetanHead of Development
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/gaurav-khetan-profile-image.jpg)Gaurav KhetanHead of Development
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/naghme-mehrooz-profile-image.webp)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Naghme MehroozDigital Marketing Analyst and Project Coordinator
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/naghme-mehrooz-profile-image.webp)Naghme MehroozDigital Marketing Analyst and Project Coordinator
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/veeraj-jadhav-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Veeraj Dattatray JadhavFull Stack Developer
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/veeraj-jadhav-profile-image.jpg)Veeraj Dattatray JadhavFull Stack Developer
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/prasad-gokhale-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Prasad GokhaleFull Stack Developer
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/prasad-gokhale-profile-image.jpg)Prasad GokhaleFull Stack Developer
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/shashank-ambagade-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Shashank AmbagadeFull Stack Developer
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/shashank-ambagade-profile-image.jpg)Shashank AmbagadeFull Stack Developer
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/jonathan-pinto-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Jonathan PintoSpecialist - Digital Marketing
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/jonathan-pinto-profile-image.jpg)Jonathan PintoSpecialist - Digital Marketing
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/rickard-koskenniemi-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Rickard KoskenniemiAutomated Copywriting Lead
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/rickard-koskenniemi-profile-image.jpg)Rickard KoskenniemiAutomated Copywriting Lead
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/vishal-kawade-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Vishal KawadeTechnical Specialist
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/vishal-kawade-profile-image.jpg)Vishal KawadeTechnical Specialist
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2025/11/anna-hakansson-profile-image.webp)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Anna HåkanssonAccounting Officer & Financial Manager
+![](https://www.gomogroup.com/wp-content/uploads/2025/11/anna-hakansson-profile-image.webp)Anna HåkanssonAccounting Officer & Financial Manager
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/bezaleel-mathai-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Bezaleel MathaiSpecialist - Digital Marketing
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/bezaleel-mathai-profile-image.jpg)Bezaleel MathaiSpecialist - Digital Marketing
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/vishnu-adithya-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)S Vishnu Vardhan AdithyaSegment Lead - Digital Marketing
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/vishnu-adithya-profile-image.jpg)S Vishnu Vardhan AdithyaSegment Lead - Digital Marketing
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/mridul-malhotra-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Mridul MalhotraSpecialist - Digital Marketing
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/mridul-malhotra-profile-image.jpg)Mridul MalhotraSpecialist - Digital Marketing
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/jigar-dhulla-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Jigar Kantilal DhullaSr. Software Engineer
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/jigar-dhulla-profile-image.jpg)Jigar Kantilal DhullaSr. Software Engineer
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/meenal-yelsangikar-profile-image.jpg)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Meenal YelsangikarUI Designer
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/meenal-yelsangikar-profile-image.jpg)Meenal YelsangikarUI Designer
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/isabelle-coquet-profile-image.webp)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Sanghapriya WaghmareSr. Analyst - Paid Marketing
-
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
-
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Aditi RawalSr. SEO Analyst
-
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
-
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Isabelle CoquetCommercial Strategy Lead
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/isabelle-coquet-profile-image.webp)Isabelle CoquetCommercial Strategy Lead
 
 ![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
 
@@ -183,6 +165,14 @@ Vårt löfte till våra kunder är att de ska kunna kapitalisera på befintlig e
 ![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
 
 ![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Oliver Sträng PaschettoCommercial Strategy Lead
+
+![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201457'%3E%3C/svg%3E)
+
+![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201457'%3E%3C/svg%3E)Oliver WilkensonDigital Creator
+
+![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201457'%3E%3C/svg%3E)
+
+![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201457'%3E%3C/svg%3E)Ville OlssonCopywriter
 
 ![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
 
@@ -244,30 +234,30 @@ Våra insikter om digital marknadsföring kommer från hundratals pågående kun
 
 [Läs mer](https://www.gomogroup.com/insikter/)
 
-[Varför B2B digital commerce behöver utvecklas både tekniskt och emotionellt\\
-För ett par veckor sedan höll vi på GO MO Group ett frukostseminarium i Göteborg tillsammans med Marknadsföreningen i Sverige (MiS). Temat var vad som händer med människan, varumärket och CXO när AI ritar om köpresan. Vår Gabriel Ghavami var huvudtalare, och efter hans föredrag fortsatte samtalet i en panel med representanter från Kantar, SKF, \[…\]](https://www.gomogroup.com/insikter/varfor-b2b-digital-commerce-behover-utvecklas-bade-tekniskt-och-emotionellt/)
+[Era köpare frågar AI. Finns ert varumärke med i svaret?\\
+Vid två event i våras samlade vi B2B-marknadsledare i Göteborg och Stockholm för att ställa de frågor som branschen helst går runt. Det de berättade för oss, live, anonymt och i realtid, är mer brådskande än de flesta företag vill erkänna.](https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/)
 
-[Läs mer](https://www.gomogroup.com/insikter/varfor-b2b-digital-commerce-behover-utvecklas-bade-tekniskt-och-emotionellt/)
+[Läs mer](https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/)
 
-[Ett fundamentalt skifte i B2B-köpresan: När maskinerna besöker före människorna\\
-Internets nästa biljon användare är inte människor. De är språkmodeller och agenter. En strukturell förskjutning — och varför människan i B2B är viktigare än någonsin För första gången på det kommersiella internets trettioåriga historia utgör maskiner majoriteten av publiken. I decennier vilade internets affärsmodell på ett outtalat kontrakt: webbplatsägare lät sökmotorer crawla deras innehåll, och \[…\]](https://www.gomogroup.com/insikter/ai-agenter-och-b2b-kopresan-ett-fundamentalt-skifte/)
+[LinkedIn-algoritmen 2026: så når ni ut organiskt, enligt LinkedIn själva\\
+På LinkedIn är det människor och konkreta exempel som skapar engagemang i B2B. Företagssidan har en mer stödjande roll. LinkedIn har ändrat hur algoritmen avgör vad som syns i flödet. Vi har gått igenom det LinkedIn självt har publicerat under 2026, från tekniska blogginlägg till marknadsguider och köparforskning, och gjort en kort guide av det. \[…\]](https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/)
 
-[Läs mer](https://www.gomogroup.com/insikter/ai-agenter-och-b2b-kopresan-ett-fundamentalt-skifte/)
+[Läs mer](https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/)
 
-[Den kompletta ordlistan för GEO, AEO och AI-sök: 75 termer du måste kunna 2026\\
-Uppdaterad 30e september 2026 75 termer. Varje disciplin inom AI-sök. En referens att spara. Varför språket inom sök har förändrats — och vad du behöver veta Ordförrådet inom sök har genomgått sin mest dramatiska omvandling på två decennier. Begrepp som inte fanns för tre år sedan — GEO, AEO, LLMO, AI Overviews, RAG, zero-click — \[…\]](https://www.gomogroup.com/insikter/geo-ai-sok-ordlista/)
+[ChatGPT Ads vs Google Ads: tidiga B2B-resultat \| GO MO Group\\
+Senast uppdaterad: 19 oktober 2026. Vi fyller på med ny data allteftersom piloterna fortsätter. I augusti öppnade ChatGPT Ads för annonsörer på 31 europeiska marknader, däribland Sverige och Tyskland. Många marknadschefer i B2B ställde sig genast samma fråga: är det här en ny sökkanal, och är den värd en egen budget? Sedan dess har vi \[…\]](https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/)
 
-[Läs mer](https://www.gomogroup.com/insikter/geo-ai-sok-ordlista/)
+[Läs mer](https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/)
 
-[Från Uddevalla till globala marknader\\
-Så påbörjade FKAB Marine Design sin AI-drivna tillväxtresa Hur kan ett svenskt fartygsdesignföretag från Uddevalla expandera globalt och effektivisera sina sälj- och marknadsföringsaktiviteter? För FKAB Marine Design blev svaret en kombination av strategi, data och AI. Tillsammans med GO MO Group inledde företaget en AI-driven transformation med målet att skapa en mer träffsäker marknadsstrategi och \[…\]](https://www.gomogroup.com/insikter/fkab-mot-en-global-expansion-med-gen-ai-go-mo-group-insikter/)
+[Konverterar besökare från ChatGPT och andra AI-assistenter bättre?\\
+GO MO analyserade GA4-data från 60+ webbplatser. AI-besökare konverterade nästan dubbelt så ofta som andra besökare, med stora skillnader mellan branscher. Se vad ni bör kontrollera och ändra.](https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/)
 
-[Läs mer](https://www.gomogroup.com/insikter/fkab-mot-en-global-expansion-med-gen-ai-go-mo-group-insikter/)
+[Läs mer](https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/)
 
-[Välkommen till den agentiska eran: När din nästa kund kan vara en AI\\
-AI-agenter har förändrat kundresan. Här är varför B2B-företag måste ligga steget före redan nu Tiderna har förändrats. Agentisk sök är här för att stanna Under de senaste månaderna har vi på GO MO Group följt ett av de mest betydande skiftena inom digital strategi sedan Googles genombrott: framväxten av AI-agenter som autonoma beslutsfattare, köpare och \[…\]](https://www.gomogroup.com/insikter/valkommen-till-den-agentiska-eran-nar-din-nasta-kund-kan-vara-en-ai/)
+[Google har publicerat sin officiella guide för AI-sökoptimering. Här är vad den faktiskt säger.\\
+Har du lagt tid och budget på llms.txt-filer, uppstyckat innehåll eller texter omskrivna ”för AI”? Då är det här värt att läsa. För första gången har Google publicerat en officiell guide för hur du syns i AI Overviews och AI Mode – och den slår hål på flera av de GEO-knep som marknadsförs flitigt i \[…\]](https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/)
 
-[Läs mer](https://www.gomogroup.com/insikter/valkommen-till-den-agentiska-eran-nar-din-nasta-kund-kan-vara-en-ai/)
+[Läs mer](https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/)
 
 ### Låt oss diskutera framtiden.
 
@@ -297,7 +287,7 @@ Kontakta oss, så återkommer vi med vår expertis och support!
 
 [![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Integritetspolicy](https://www.gomogroup.com/gdpr/) [Cookies & Regler](https://www.gomogroup.com/cookies-regler/) [AI Agent Information](https://www.gomogroup.com/agent/)
 

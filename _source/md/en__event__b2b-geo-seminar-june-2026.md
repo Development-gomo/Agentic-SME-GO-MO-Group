@@ -1,5 +1,3 @@
-URL: https://www.gomogroup.com/en/event/b2b-geo-seminar-june-2026/
----
 Exclusive Event \| STHLM
 
 # How to get your brand selected by AI and Agents? GEO in practice.

@@ -1,76 +1,107 @@
-URL: https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/
-LANG: en
-TYPE: case
-TITLE: How Gen-AI & SEO Automation Scaled E-Commerce Marketing
-DESC: Discover how Gen-AI-powered automation scaled SEO operations and saved 400+ hours, boosting organic visibility for over 5,000 product pages in B2B e-commerce.
-PUBLISHED: 2025-06-16
-MODIFIED: 2025-06-26
-AUTHOR: None
-ALT: {'lang': 'sv', 'url': 'https://www.gomogroup.com/case/seo-automation-gen-ai-b2b-e-handel/'}
----
-Enterprise Digital Marketing and Sales for e-commerce
+Digital marketing and sales for e-commerce in the Enterprise segment.
 
-# How Automation and   Generative AI (Gen AI) enabled marketing operations for a   global B2B e-commerce giant
+# How generative AI and SEO automation delivered 32 times more organic clicks in B2B e-commerce
 
-Case study \| Enterprise MarketinG \| Automation & Generative AI
+CASE \| Enterprise MARKETING \| Automation & Generative AI
 
 ### About the client
 
-A Fortune 500 heavy-equipment manufacturer with annual revenues exceeding €10 billion, operating across more than 180 international markets. Previously lacking a dedicated e-commerce platform, the client is now rapidly scaling an enterprise-level Salesforce B2B e-commerce solution. Specializing in the global sale of spare parts, the business navigates the complexity of mixed ownership models between dealers and wholly owned entities.
+The client
+
+Manufacturer
+
+Fortune 500
+
+of heavy equipment, selling through dealers
+
+Countries
+
+180+
+
+of operation and a new B2B marketplace
+
+Starting point, December 2024
+
+Organic clicks
+
+250
+
+per month to the marketplace
+
+Average position
+
+15
+
+in Google, on page 2
+
+The client is a Fortune 500 manufacturer of heavy equipment, operating in more than 180 countries, that launched a new B2B marketplace for genuine spare parts. The company’s name is withheld to protect client confidentiality. Since December 2024, we have worked with the client’s marketing team to turn technical product data into search-optimised content in several languages.
 
 Opportunity
 
-### Boost global  organic visibility and enable sales using Generative AI and automation with large-scale content creation and implementation for a B2B e-commerce platform.
+### More customers should find the right spare part in search and buy online.
+
+![Illustration of the same search before and after: before, the manufacturer’s website appeared but not the marketplace; after, the marketplace appears first with part number, price and stock status.](https://www.gomogroup.com/wp-content/uploads/2026/11/before-after-search-en.webp)
 
 ### Deliverables
 
 ![](https://www.gomogroup.com/wp-content/uploads/2024/01/data-driven-pull-marketing-icon.jpg.webp)
 
-**Automation Strategy**
+**Automation strategy and workflow**
 
-Comprehensive enterprise e-commerce automation strategy and playbook
+A repeatable process for large-scale content production, from keyword research to publishing, rolled out market by market.
 
 ![](https://www.gomogroup.com/wp-content/uploads/2024/01/scalability-icon.jpg.webp)
 
-**Scalable Technology**
+**AI content pipeline**
 
-Reusable scripts in Google Apps Script and Python for ongoing scalability.
+A RAG-based workflow in which generative AI writes content from the customer’s own technical product data, with human review before anything is published.
 
 ![](https://www.gomogroup.com/wp-content/uploads/2024/01/b2b-marketing-icon.jpg.webp)
 
-**SEO-Optimized Content**
+**Multilingual content at scale**
 
-Keyword Research, Ready-to-implement Gen AI-generated SEO content, meta titles, and descriptions provided for seamless integration across 3,000+ product and category pages.
+Product copy, meta titles and meta descriptions for nearly 12,000 product and category pages in English, Danish and Polish.
+
+![](https://www.gomogroup.com/wp-content/uploads/2024/01/b2b-marketing-icon.jpg.webp)
+
+**Technical SEO**
+
+Ongoing work on the site’s technical health, which has reduced the number of technical issues from more than 100,000 to around 13,000.
 
 ### Challenges
 
-- No historical online sales data to inform the initial strategy.
-- Newly developed e-commerce platform constructed without integration of marketing and content supply chain
-- Constraints posed by the enterprise Salesforce e-commerce platform and associated consultancy limitations.
+- **No historical online sales data**: There was no previous data to base the strategy on. In December 2024 the marketplace received around 250 organic clicks a month, with an average position of about 15, on the second page of Google.
+- **A new e-commerce platform**: The newly built platform had no established practice for marketing, SEO or GEO, and no pages had been optimised.
+- **Technical product data rather than sales copy**: The source material consisted mainly of part numbers and specifications, often available only in some languages.
+- **Salesforce platform constraints**: The work had to fit within the customer’s Salesforce-based e-commerce setup and its associated consultant dependencies.
 
 ### Strategy
 
-This is where Gen AI-driven automation transforms the traditional content supply chain and marketing approaches. Leveraging structured, scalable processes, our data-driven methodology enables efficient keyword discovery, precise content generation, and rapid implementation, ensuring a measurable impact and clear return on investment (ROI).
+We built a content workflow in which generative AI does the work that previously required writing each page by hand. Keyword research decides what each page needs to answer, the AI pipeline pulls facts from the customer’s product data and generates content in the right language, and people review the output before it is published. We started with English for the global market and then added Danish. Polish content has been generated and is in quality review. Every product page now sends clearer signals to Google and gives the customer a clearer answer. The effect is visible in the search results: previously the manufacturer’s brand appeared, but not the marketplace. Today the marketplace appears directly, with the exact part number, which gives the customer a shorter route to purchase.
 
-![SEO Automation Workflow](https://www.gomogroup.com/wp-content/uploads/2025/06/Volvo-CE-Case-Methodology-2.png.webp)
+![SEO automation loop: keyword research, keyword finalisation, prompt creation, bulk content generation, quality check, review by local language experts, bulk implementation, implementation QA and deeper optimisation after launch, repeated for each new market.](https://www.gomogroup.com/wp-content/uploads/2026/11/image-1-scaled.png)
 
-The result?
+The result
 
-### Increase in overall organic visibility by 195% within 120 days
+### 32 times more organic clicks in 21 months
 
-![](https://www.gomogroup.com/wp-content/uploads/2025/06/Performance-06-17-2025_09_42_AM.png.webp)
+![Bar chart of organic clicks per month, from 250 in December 2024 to about 8,100 in August 2026.](https://www.gomogroup.com/wp-content/uploads/2026/11/organic-clicks-dec2024-aug2026-approx.webp)
 
-**195%**
+**32x**
 
-increase in organic clicks over a 90 day period compared to the previous period
+More organic clicks per month: from 250 in December 2024 to about 8,100 in August 2026.
 
-**400+**
+**43x**
 
-hours saved with automation and AI allowing the marketing teams to refocus saved hours on high-level strategic planning and optimization initiatives.
+More organic impressions per month: from about 4,300 in December 2024 to about 185,000 in August 2026.
 
-**5000+**
+**7**
 
-content pieces created overall enabling efficient creation and initial deployment of optimized content to improve organic SEO performance
+Average position in Google, up from 15 in December 2024. From the second page to the first.
+
+### Next steps
+
+The work continues as a repeatable growth engine in four steps. We expand into new markets, starting with Poland and followed by France and Brazil. We optimise the highest-value English and Danish pages with targeted content updates, internal linking and conversion work. As markets mature, we build authority and readiness for AI search with structured data, reviews and customer cases. Then the process is repeated in the next market. The content workflow is also developing. The next version draws on other languages when source material is missing in the current one, giving more than 1,500 additional spare parts real source material to build content from. In parallel, we are preparing the marketplace for AI search and agentic commerce, where AI assistants compare spare parts and complete purchases on the customer’s behalf.
 
 ## Interested in seeing more impact stories?
 
@@ -109,14 +140,14 @@ Digital Marketing Manager at Volvo Group
 Hi, my name is  and I represent , where my title is . You can contact me at . I am contacting you regarding .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
 
 Contact us, and we’ll get back to you with our expertise and support!
 
@@ -124,15 +155,15 @@ Contact us, and we’ll get back to you with our expertise and support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
 ![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Privacy Policy](https://www.gomogroup.com/en/privacy-policy/) [Cookie Policy](https://www.gomogroup.com/en/cookie-policy/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: The West Sweden Chamber of Commerce – From scattered content creation to AI-driven precisionLink to: The West Sweden Chamber of Commerce – From scattered content creation to AI-driven precisionThe West Sweden Chamber of Commerce – From scattered content creation...![](https://www.gomogroup.com/wp-content/uploads/2025/07/AI-driven-precision-80x80.jpg.webp)](https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/ "Link to: The West Sweden Chamber of Commerce – From scattered content creation to AI-driven precision") [Link to: AI generated Brand imagesLink to: AI generated Brand images![](https://www.gomogroup.com/wp-content/uploads/2025/11/Group-60-3-80x80.png.webp)AI generated Brand images](https://www.gomogroup.com/en/case/ai-generated-brand-images/ "Link to: AI generated Brand images")
+[Link to: Case: Enterprise Digital Marketing for a Swedish ManufacturerLink to: Case: Enterprise Digital Marketing for a Swedish ManufacturerCase: Enterprise Digital Marketing for a Swedish Manufacturer![](https://www.gomogroup.com/wp-content/uploads/2025/02/enterprise-swedish-manufacturer-banner-80x80.jpg.webp)](https://www.gomogroup.com/en/case/swedish-manufacturer-enterprise-digital-marketing/ "Link to: Case: Enterprise Digital Marketing for a Swedish Manufacturer") [Link to: Building a GenAI-Fueled Content Supply Chain: An AI-Case Study from a Global Leader in Heavy Industry and ManufacturingLink to: Building a GenAI-Fueled Content Supply Chain: An AI-Case Study from a Global Leader in Heavy Industry and Manufacturing![](https://www.gomogroup.com/wp-content/uploads/2025/05/case-banner-80x80.jpg.webp)Building a GenAI-Fueled Content Supply Chain: An AI-Case Study from a Global...](https://www.gomogroup.com/en/case/building-a-genai-fueled-content-supply-chain-an-ai-case-study-from-a-global-leader-in-heavy-industry-and-manufacturing/ "Link to: Building a GenAI-Fueled Content Supply Chain: An AI-Case Study from a Global Leader in Heavy Industry and Manufacturing")
 
  [Scroll to top](https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/#top "Scroll to top")
 
