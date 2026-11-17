@@ -859,9 +859,13 @@
           "name": {
             "type": "string"
           },
+          "name_sv": {
+            "type": "string"
+          },
           "price_from": {
             "type": "number",
-            "nullable": true
+            "nullable": true,
+            "description": "Published price (0 = free; null = custom). A lower bound unless the service's pricing.price_type is 'fixed'."
           },
           "includes": {
             "type": "string"
@@ -881,6 +885,21 @@
           "currency": {
             "type": "string",
             "nullable": true
+          },
+          "price_type": {
+            "type": "string",
+            "enum": [
+              "fixed",
+              "from"
+            ],
+            "description": "'fixed' when the page states fixed prices; otherwise prices are lower bounds"
+          },
+          "vat": {
+            "type": "string",
+            "enum": [
+              "excluded",
+              "included"
+            ]
           },
           "tiers": {
             "type": "array",

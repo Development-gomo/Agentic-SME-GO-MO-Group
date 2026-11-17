@@ -402,7 +402,8 @@
             "price_from": null,
             "includes": "Custom pricing: AI content supply chain, multi-market and multi-language, full Semrush Enterprise AIO integration, dedicated team and quarterly reviews"
           }
-        ]
+        ],
+        "price_type": "fixed"
       },
       "segments": [
         "enterprise",
@@ -598,7 +599,8 @@
             "price_from": 70000,
             "includes": "Media budget plus GO MO setup and management, with a clear go/no-go on scaling"
           }
-        ]
+        ],
+        "price_type": "fixed"
       },
       "segments": [],
       "related_cases": [],

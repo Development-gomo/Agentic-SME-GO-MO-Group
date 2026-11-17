@@ -76,6 +76,17 @@ check("ard advertised: robots Agentmap, rel=ard, plugin route", "Agentmap: https
 PRE = "stag" + "ing"  # built at runtime so this file does not match itself
 check("deliverables reference production only", not [str(p.relative_to(R)) for p in list(R.glob("*.*")) + list((R / "gomo-api").rglob("*.*")) + list((R / "tests").rglob("*.*")) + list((R / "gomo-mcp").glob("*.*"))
       if p.is_file() and p.suffix in (".md", ".txt", ".json", ".html", ".php", ".py", ".sh") and p.name not in ("package-lock.json",) and PRE in p.read_text(errors="ignore").lower()])
+svc = {x["id"]: x for x in D("services")}
+idx_pricing = {x["id"]: x["pricing"] for x in json.loads((R / "agent-index.json").read_text())["services"]}
+free_tiers = [(sid, t["name"]) for sid, x in svc.items() for t in x["pricing"].get("tiers", []) if t.get("price_from") == 0]
+check("free tiers render as free, not custom", free_tiers and all(
+    any(p["tier"] == n and p["price"] == "free" for p in idx_pricing[sid]) for sid, n in free_tiers), str(free_tiers))
+check("fixed-price services never say 'from'", all(
+    not any(p["price"].startswith("from ") for p in idx_pricing[sid])
+    for sid, x in svc.items() if x["pricing"].get("price_type") == "fixed"))
+crawled = re.search(r'name="last-crawled" content="([^"]+)"', H).group(1)
+check("crawl date is the same everywhere", f"# Site crawled: {crawled} " in (R / "ai.txt").read_text()
+      and f"on {crawled}." in L)
 import runpy
 build = runpy.run_path(str(R / "_source/build.py"))
 check("generator retains the new MCP endpoint", build["URLS"]["mcp"] == endpoint

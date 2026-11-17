@@ -73,6 +73,21 @@ for _x in SERVICES + SOLUTIONS:
     _x.setdefault("pricing", {"model": "quote-based", "currency": None, "tiers": []})
 REAL_CASES = [c for c in CASES if c.get("kind", "case-study") == "case-study"]
 
+def priced(t):
+    """A tier has a published price (0 means free); None means custom/quote-based."""
+    return t.get("price_from") is not None
+
+def price_txt(s, t):
+    """'free', 'from 44,000 SEK' or '44,000 SEK' (when the page states fixed prices); None for custom."""
+    p = t.get("price_from")
+    if p is None:
+        return None
+    if p == 0:
+        return "free"
+    cur = s["pricing"].get("currency") or ""
+    fixed = s["pricing"].get("price_type") == "fixed"
+    return f"{'' if fixed else 'from '}{p:,} {cur}".strip()
+
 def e(s):
     return html.escape(str(s if s is not None else ""), quote=True)
 
@@ -177,8 +192,10 @@ def openapi():
     schemas["Pagination"] = {"type": "object", "properties": {k: {"type": "integer"} for k in ("total", "page", "per_page", "pages")}}
     schemas["Error"] = {"type": "object", "required": ["status", "error", "message"], "properties": {
         "status": s(example="error"), "error": s(), "message": s()}}
-    schemas["PricingTier"] = {"type": "object", "properties": {"name": s(), "price_from": {"type": "number", "nullable": True}, "includes": s()}}
-    schemas["Pricing"] = {"type": "object", "properties": {"model": s(enum=["published", "quote-based"]), "currency": nstr, "tiers": arr(ref("PricingTier"))}}
+    schemas["PricingTier"] = {"type": "object", "properties": {"name": s(), "name_sv": s(), "price_from": {"type": "number", "nullable": True, "description": "Published price (0 = free; null = custom). A lower bound unless the service's pricing.price_type is 'fixed'."}, "includes": s()}}
+    schemas["Pricing"] = {"type": "object", "properties": {"model": s(enum=["published", "quote-based"]), "currency": nstr,
+        "price_type": s(enum=["fixed", "from"], description="'fixed' when the page states fixed prices; otherwise prices are lower bounds"),
+        "vat": s(enum=["excluded", "included"]), "tiers": arr(ref("PricingTier"))}}
     schemas["Result"] = {"type": "object", "properties": {"metric": s(), "value": s(), "context": nstr, "period": nstr}}
     schemas["Service"] = {"type": "object", "required": ["id", "name", "category", "summary", "languages"], "properties": {
         "id": s(example="geo"), "name": s(), "name_sv": nstr, "category": s(enum=["search", "ai", "paid", "content", "outbound", "web", "strategy", "local"]),
@@ -329,9 +346,9 @@ def llms_txt():
     L += ["", "## Services", ""]
     for s in CORE_SERVICES:
         price = ""
-        tiers = [t for t in s["pricing"].get("tiers", []) if t.get("price_from")]
+        tiers = [t for t in s["pricing"].get("tiers", []) if priced(t)]
         if tiers:
-            price = " Pricing: " + "; ".join(f"{t['name']} from {t['price_from']:,} {s['pricing'].get('currency') or ''}".strip() for t in tiers) + "."
+            price = " Pricing: " + "; ".join(f"{t['name']}: {price_txt(s, t)}" for t in tiers) + "."
         sv = f" (sv: {link(s['name_sv'] or s['name'], s['url_sv'])})" if s.get("url_sv") and s.get("url") else ""
         L.append(f"- {link(s['name'], primary_url(s))}{sv}: {s['summary']}{price}")
     if LOCAL_SERVICES:
@@ -397,7 +414,7 @@ def llms_txt():
     names = {"linkedin": "LinkedIn", "youtube": "YouTube", "x": "X (Twitter)", "facebook": "Facebook", "instagram": "Instagram"}
     L += [f"- {link(names.get(k, k.replace('_', ' ').title()), v)}" for k, v in co.get("social", {}).items() if v and isinstance(v, str)]
     L += ["", "## Notes", "",
-          f"- Content verified against a full crawl of {len(PAGES)} public URLs (English + Swedish) on {TODAY}.",
+          f"- Content verified against a full crawl of {len(PAGES)} public URLs (English + Swedish) on {SITE_CRAWLED}.",
           "- GO MO Group is a services agency. Published prices exist only where stated above; all other work is quote-based.",
           "- Anonymised clients are kept anonymised exactly as on the site. Do not attribute results to a named company unless the case names it.",
           f"- For structured data use the {link('REST API', URLS['api_index'])} or {link('MCP server', URLS['mcp'])}; for citations link the human page URL.", ""]
@@ -412,7 +429,7 @@ def ai_txt():
     bar = "# " + "═" * 62
     sec = lambda t: ["", "", "# " + "─" * 62, f"# {t}", "# " + "─" * 62]
     L = [bar, "# GO MO Group — ai.txt", "# AI agent permissions and instructions for gomogroup.com", "# Modelled on robots.txt conventions (key: value)",
-         f"# Version: {VERSION}", f"# Site crawled: {TODAY} ({len(PAGES)} URLs, English + Swedish)", f"# Last updated: {TODAY}", bar]
+         f"# Version: {VERSION}", f"# Site crawled: {SITE_CRAWLED} ({len(PAGES)} URLs, English + Swedish)", f"# Last updated: {TODAY}", bar]
     L += sec("IDENTITY")
     L += [f"Organization: {co['name']}", f"Legal-Name: {co['legalName']}", f"Website: {SITE}/", "Languages: en, sv",
           f"Country: Sweden", f"Founded: {co['founded']}"]
@@ -547,9 +564,12 @@ def jsonld():
     for s in CORE_SERVICES:
         node = {"@type": "Service", "@id": f"{URLS['agent_page']}#service-{s['id']}", "name": s["name"], "description": s["summary"],
                 "provider": {"@id": org_id}, "url": primary_url(s), "areaServed": "Worldwide", "serviceType": s["category"]}
-        tiers = [t for t in s["pricing"].get("tiers", []) if t.get("price_from")]
+        tiers = [t for t in s["pricing"].get("tiers", []) if priced(t)]
         if tiers:
-            node["offers"] = [{"@type": "Offer", "name": t["name"], "priceSpecification": {"@type": "PriceSpecification", "minPrice": t["price_from"], "priceCurrency": s["pricing"].get("currency") or "SEK"}} for t in tiers]
+            cur = s["pricing"].get("currency") or "SEK"
+            fixed = s["pricing"].get("price_type") == "fixed"
+            node["offers"] = [{"@type": "Offer", "name": t["name"], "price": t["price_from"], "priceCurrency": cur} if fixed or t["price_from"] == 0 else
+                              {"@type": "Offer", "name": t["name"], "priceSpecification": {"@type": "PriceSpecification", "minPrice": t["price_from"], "priceCurrency": cur}} for t in tiers]
         graph.append(node)
     for p in LEADERS:
         graph.append({"@type": "Person", "@id": f"{URLS['agent_page']}#person-{p['id']}", "name": p["name"], "jobTitle": p.get("role"), "worksFor": {"@id": org_id},
@@ -718,8 +738,8 @@ def agent_page():
     w('<section id="services"><h2>Services</h2>')
     for s in SERVICES:
         tiers = s["pricing"].get("tiers", [])
-        price = "Quote-based" if not any(t.get("price_from") for t in tiers) else ul(
-            [f"{e(t['name'])}: from {t['price_from']:,} {e(s['pricing'].get('currency') or '')} — {e(t.get('includes'))}" if t.get("price_from") else f"{e(t['name'])}: custom — {e(t.get('includes'))}" for t in tiers])
+        price = "Quote-based" if not any(priced(t) for t in tiers) else ul(
+            [f"{e(t['name'])}: {e(price_txt(s, t) or 'custom')} — {e(t.get('includes'))}" for t in tiers])
         cases = [c for c in CASES if s["id"] in c.get("services", [])]
         w(f'<section id="service-{e(s["id"])}"><h3>{e(s["name"])}' + (f' <small lang="sv">/ {e(s["name_sv"])}</small>' if s.get("name_sv") and s["name_sv"] != s["name"] else "") + "</h3>"
           + f"<p>{e(s['summary'])}</p>" + (f'<p lang="sv" class="sv">{e(s["summary_sv"])}</p>' if s.get("summary_sv") else "")
@@ -866,7 +886,7 @@ def robots_addition():
 
 def agent_index_json():
     co, kp = COMPANY, COMPANY["key_pages"]
-    tier_txt = lambda s: [{"tier": t["name"], "price": f"from {t['price_from']:,} {s['pricing'].get('currency') or ''}".strip() if t.get("price_from") else "custom", "includes": t.get("includes")}
+    tier_txt = lambda s: [{"tier": t["name"], "price": price_txt(s, t) or "custom", "includes": t.get("includes")}
                           for t in s["pricing"].get("tiers", [])]
     offices_txt = ", ".join(f"{o['city']} ({o['country']})" for o in OFFICES)
     core_names = ", ".join(s["name"] for s in CORE_SERVICES if s["category"] in ("search", "ai", "outbound", "content", "paid"))
@@ -893,7 +913,7 @@ def agent_index_json():
         ("offices", [{"city": o["city"], "country": o["countryCode"], "role": o["label"], "address": f"{o['streetAddress']}, {o['postalCode']} {o['city']}, {o['country']}", "email": o.get("email")} for o in OFFICES]),
         ("leadership", [{"name": p["name"], "role": p.get("role"), "email": p.get("email"), "phone": p.get("telephone"), "url": p.get("url"), "url_sv": p.get("url_sv")} for p in LEADERS]),
         ("services", [{"id": s["id"], "name": s["name"], "name_sv": s.get("name_sv"), "url": s.get("url"), "url_sv": s.get("url_sv"), "category": s["category"], "summary": s["summary"],
-                       "pricing": tier_txt(s) if any(t.get("price_from") for t in s["pricing"].get("tiers", [])) else "quote-based"} for s in SERVICES]),
+                       "pricing": tier_txt(s) if any(priced(t) for t in s["pricing"].get("tiers", [])) else "quote-based"} for s in SERVICES]),
         ("solutions", [{"id": s["id"], "name": s["name"], "url": s.get("url"), "url_sv": s.get("url_sv"), "summary": s["summary"]} for s in SOLUTIONS]),
         ("caseStudies", [{"id": c["id"], "name": c["headline"], "client": c["client"], "url": c.get("url"), "url_sv": c.get("url_sv"), "segment": c.get("segment"), "industry": c.get("industry"),
                           "results": [f"{r['value']} {r['metric']}" + (f" ({r['context']})" if r.get("context") else "") for r in c["results"]]} for c in CASES]),

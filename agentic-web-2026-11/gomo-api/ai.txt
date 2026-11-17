@@ -110,7 +110,7 @@ Fact: ca 70 employees at GO MO Group (excluding GO MO DBS)
 Fact: 100+ successful client projects
 Fact: 10+ years of search expertise
 Fact: 213M+ LLM prompts tracked via Semrush Enterprise AIO data
-Fact: 195% increase in organic clicks over 90 days for a global B2B e-commerce client (SEO automation and Gen AI case; 400+ hours saved)
+Fact: 32x more organic clicks per month (250 → ~8,100, December 2024 to August 2026) for a Fortune 500 heavy-equipment manufacturer's B2B marketplace (SEO automation and Gen AI case)
 Fact: 36% increase in non-branded organic traffic (Volvo Group case)
 Fact: 140 employees took part in Gen AI training for RO-Gruppen in Gothenburg, Borås and Stockholm, and digitally (shown as '140 %' on the home page)
 Fact: 25% / 40% efficiency increase / result-quality improvement promised by the Generative AI offering

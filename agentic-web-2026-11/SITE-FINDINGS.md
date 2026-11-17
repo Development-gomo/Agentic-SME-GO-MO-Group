@@ -29,6 +29,7 @@ Items marked *(re-checked)* were confirmed again in the 2026-11-17 crawl. Items 
   - SV "Västsvenska Handelskammaren" → `/?post_type=case&p=47687` (404).
   - SV "Industrial Manufacturing (Enterprise)" → `/case/fran-genai-ide-till-handling-…/`, which 301-redirects to `/insikter/…`.
   - EN "Industrial Manufacturing (Enterprise)" → a long `/en/case/building-a-genai-fueled-content-supply-chain-…/` URL that redirects to `/en/insight/ai-manufacturing-case-study/`.
+- **Old SEO automation figures still appear in case teasers.** The homepage case carousel and the "next case" teaser on about 10 English service and solution pages still say "195% increase in organic clicks over 90 days" and "saved 400+ hours". The case page itself was rewritten on 2026-11-12 and now reports 32× organic clicks (250 → ~8,100 a month). The package uses the case page's figures. Update the teasers.
 - **A removed Swedish case is still linked.** `/case/generativ-ai-fran-hype-till-faktisk-affarsnytta/` now returns 404. Check the internal links to it and decide whether to redirect it to the English case.
 - **Language pairs missing in hreflang:**
   - The West Sweden Chamber of Commerce case (EN ↔ SV) and the events have no hreflang pair. The package keeps the earlier pairs.

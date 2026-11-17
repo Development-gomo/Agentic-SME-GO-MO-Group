@@ -178,7 +178,28 @@
       "url_sv": "https://www.gomogroup.com/vara-tjanster/b2b-youtube-marketing/",
       "category": "content",
       "summary": "GO MO Group helps B2B companies turn YouTube into an organic growth engine through search-optimised content, channel architecture and AI citation strategy built for long sales cycles. Engagements start with a channel audit and follow a 3-month model: audit and quick wins, architecture and distribution, then GEO and compounding growth. The service covers six areas from strategy and metadata to GEO for YouTube, paid/organic integration and pipeline attribution, and is offered exclusively to B2B companies.",
-      "pricing": "quote-based"
+      "pricing": [
+        {
+          "tier": "Free channel audit",
+          "price": "free",
+          "includes": "Assessment of the channel with prioritised recommendations; no commitment"
+        },
+        {
+          "tier": "YouTube Audit & Strategy",
+          "price": "custom",
+          "includes": "Listed as a service option on the enquiry form"
+        },
+        {
+          "tier": "Audit, Strategy & Implementation",
+          "price": "custom",
+          "includes": "Listed as a service option on the enquiry form"
+        },
+        {
+          "tier": "Full YouTube Growth Programme",
+          "price": "custom",
+          "includes": "Listed as a service option on the enquiry form"
+        }
+      ]
     },
     {
       "id": "content-marketing",
@@ -221,17 +242,17 @@
       "pricing": [
         {
           "tier": "Mini GEO Audit",
-          "price": "custom",
+          "price": "free",
           "includes": "Free, presentation-ready audit: Executive AI Score vs competitors, visibility in AI Mode, AI Overviews, ChatGPT and Gemini, GEO readiness and AI agent readiness scores, how AI frames the brand"
         },
         {
           "tier": "LLM Audit & Strategy",
-          "price": "from 23,500 SEK",
+          "price": "23,500 SEK",
           "includes": "One-off project: AI visibility baseline across 5 engines, competitor benchmarking, gap analysis and prioritised action plan, executive presentation, 2-hour strategy session"
         },
         {
           "tier": "Audit, Strategy & Implementation",
-          "price": "from 44,000 SEK",
+          "price": "44,000 SEK",
           "includes": "Recommended one-off project: everything in LLM Audit & Strategy plus content creation and optimisation, citation building on third-party sites, ongoing monitoring and monthly reporting, dedicated GEO strategist"
         },
         {
@@ -282,17 +303,17 @@
       "pricing": [
         {
           "tier": "Ad budget (media)",
-          "price": "from 50,000 SEK",
+          "price": "50,000 SEK",
           "includes": "Typical 30-day ad spend paid directly to OpenAI from the client's own ad account, billed per valid click, sized to market and goals"
         },
         {
           "tier": "Setup and management",
-          "price": "from 20,000 SEK",
+          "price": "20,000 SEK",
           "includes": "GO MO fee: OpenAI Pixel, conversion events, UTMs and GA4, campaigns, ad creative and QA, weekly report and optimisation plan (up to 20 hours)"
         },
         {
           "tier": "30-day pilot (total)",
-          "price": "from 70,000 SEK",
+          "price": "70,000 SEK",
           "includes": "Media budget plus GO MO setup and management, with a clear go/no-go on scaling"
         }
       ]
@@ -1072,7 +1093,7 @@
     },
     {
       "q": "How much does GEO cost?",
-      "a": "Published GEO packages: Mini GEO Audit custom; LLM Audit & Strategy from 23,500 SEK; Audit, Strategy & Implementation from 44,000 SEK; Enterprise Content & GEO Retainer custom. All other services are quote-based."
+      "a": "Published GEO packages: Mini GEO Audit free; LLM Audit & Strategy 23,500 SEK; Audit, Strategy & Implementation 44,000 SEK; Enterprise Content & GEO Retainer custom. All other services are quote-based."
     },
     {
       "q": "Does GO MO Group publish in Swedish?",

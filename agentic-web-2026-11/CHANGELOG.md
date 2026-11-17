@@ -153,6 +153,14 @@ None of the v1.3.0 URLs now redirect. Known redirecting URLs stay out of the ind
 - **Team: 34 (was 35).** Joshua Amirose, Sanghapriya Waghmare and Aditi Rawal removed. Oliver Wilkenson and Ville Olsson added.
 - **FAQ:** the Mini GEO Audit answer is updated, and four ChatGPT Ads FAQs are added.
 - Contact details, offices, careers (3 roles) and events (3, all past) are unchanged.
+- **Company stats:** the "195% more organic clicks in 90 days … 400+ hours saved" stat is replaced with the SEO automation case's current figure (32× organic clicks, 250 → ~8,100 a month).
+- **Solutions:** the SaaS/Tech solution now names the Digiexam interviewee correctly as Niklas Borgström, not Niklas Vernersson.
+
+### Fixes from the build review
+- **Free tiers were shown as "custom".** A tier priced at 0 (the free Mini GEO Audit and a free channel audit) was treated as "no price". It showed as "custom" in `agent-index.json` and was left out of `llms.txt` and the JSON-LD offers. October had the same bug. Free tiers now render as "free", with `price: 0` in JSON-LD.
+- **Fixed prices were shown as "from".** The GEO and ChatGPT Ads pages state fixed prices, but every tier rendered as "from 23,500 SEK" and similar. Services now carry `pricing.price_type: "fixed"`, which prints exact prices and uses `Offer.price` instead of `minPrice`. The OpenAPI `Pricing` schema documents `price_type` and `vat`.
+- **The crawl date followed the build date.** `ai.txt` ("Site crawled") and the `llms.txt` verification line used the build date, so a later rebuild without a new crawl would have misstated the crawl date. Both now use `SITE_CRAWLED`.
+- Regression checks for all three fixes are added to `tests/test_outputs.py`.
 
 ### Package changes
 
