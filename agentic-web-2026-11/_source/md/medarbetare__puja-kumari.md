@@ -1,0 +1,104 @@
+[Tillbaka](https://www.gomogroup.com/medarbetare/puja-kumari/)
+
+[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/medarbetare/puja-kumari/ "Share on facebook")[![twitter](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/twitter.png)](https://twitter.com/intent/tweet?text=Puja%20Kumari&url=https://www.gomogroup.com/medarbetare/puja-kumari/ "Share on twitter")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/medarbetare/puja-kumari/ "Share on linkedin")[![print](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/print.png)](https://www.gomogroup.com/medarbetare/puja-kumari/# "Print this document")[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/medarbetare/puja-kumari/ "Share with email")
+
+# Meet Puja
+
+I am GO MO’s User Experience Manager. I lead the Design and Development departments from the office in Pune, India. At heart, I have always been a problem solver who believes that great customer experience can be achieved through the magic of design.
+
+### Education
+
+Bachelors in journalism and mass communication from Guru Gobind Singh Indraprastha University, Delhi.
+
+### About my role
+
+I joined GO MO Group in 2016. I have had the opportunity to build and lead a team of designers and developers in producing digital products.
+
+In my 8 years of leading design engagements, I’ve designed UI/UX strategies that operate in tandem with digital marketing for both B2B and B2C customers. I believe that a combination of user-centric design, effective stakeholder management, and digital marketing knowledge can bring about the best solutions for any digital product.
+
+### Up close and personal
+
+Curiosity and creative expression are the two mantras I live by. Because of this, I spend my free time indulging in my many hobbies and interests: reading fiction and history books, painting, writing, learning new languages, and making music, to name a few. Although I love meeting new people and traveling to new places, I feel equally joyous when I complete a painting or write a song alone in my room.
+
+![Puja Kumari](https://www.gomogroup.com/wp-content/uploads/2024/02/Puja-GO-MO-300-600.png.webp)
+
+### Puja Kumari
+
+Vice Managing Director
+
+UX design lead with deep experience in digital design and user experience. Puja‘s teams provide design mockups and analysis on improving user journey, and develops our client’s websites.
+
+GO MO Group
+
+[![Email](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)puja.k@gomogroup.com](mailto:puja.k@gomogroup.com "Email") [![LinkedIn](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)Visit LinkedIn](https://www.linkedin.com/in/meetpuja/ "LinkedIn")
+
+## Related insights
+
+Industry-specific insights make a difference. We bring experience from over successful 100 client projects to each new case to develop and implement optimal digital marketing strategies for all of our clients.
+
+[Read more](https://www.gomogroup.com/medarbetare/puja-kumari/#)
+
+[Era köpare frågar AI. Finns ert varumärke med i svaret?\\
+Vid två event i våras samlade vi B2B-marknadsledare i Göteborg och Stockholm för att ställa de frågor som branschen helst går runt. Det de berättade för oss, live, anonymt och i realtid, är mer brådskande än de flesta företag vill erkänna.](https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/)
+
+[Läs mer](https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/)
+
+[LinkedIn-algoritmen 2026: så når ni ut organiskt, enligt LinkedIn själva\\
+På LinkedIn är det människor och konkreta exempel som skapar engagemang i B2B. Företagssidan har en mer stödjande roll. LinkedIn har ändrat hur algoritmen avgör vad som syns i flödet. Vi har gått igenom det LinkedIn självt har publicerat under 2026, från tekniska blogginlägg till marknadsguider och köparforskning, och gjort en kort guide av det. \[…\]](https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/)
+
+[Läs mer](https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/)
+
+[ChatGPT Ads vs Google Ads: tidiga B2B-resultat \| GO MO Group\\
+Senast uppdaterad: 19 oktober 2026. Vi fyller på med ny data allteftersom piloterna fortsätter. I augusti öppnade ChatGPT Ads för annonsörer på 31 europeiska marknader, däribland Sverige och Tyskland. Många marknadschefer i B2B ställde sig genast samma fråga: är det här en ny sökkanal, och är den värd en egen budget? Sedan dess har vi \[…\]](https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/)
+
+[Läs mer](https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/)
+
+[Konverterar besökare från ChatGPT och andra AI-assistenter bättre?\\
+GO MO analyserade GA4-data från 60+ webbplatser. AI-besökare konverterade nästan dubbelt så ofta som andra besökare, med stora skillnader mellan branscher. Se vad ni bör kontrollera och ändra.](https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/)
+
+[Läs mer](https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/)
+
+[Google har publicerat sin officiella guide för AI-sökoptimering. Här är vad den faktiskt säger.\\
+Har du lagt tid och budget på llms.txt-filer, uppstyckat innehåll eller texter omskrivna ”för AI”? Då är det här värt att läsa. För första gången har Google publicerat en officiell guide för hur du syns i AI Overviews och AI Mode – och den slår hål på flera av de GEO-knep som marknadsförs flitigt i \[…\]](https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/)
+
+[Läs mer](https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/)
+
+### Låt oss diskutera framtiden.
+
+Hej mitt namn är  och jag representerar , där jag arbetar som .
+
+Du kan kontakta mig på . Jag vill komma i kontakt med er gällande .
+
+
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
+\\
+\\
+412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
+
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)StockholmUpplandsgatan 7 \\
+\\
+111 23 Stockholm](https://maps.app.goo.gl/Htdrys9wEw1PFt2B7)
+
+Kontakta oss, så återkommer vi med vår expertis och support!
+
+[Kontakta oss](https://www.gomogroup.com/kontakta-oss/)
+
+[Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
+
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/medarbetare/puja-kumari/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/medarbetare/puja-kumari/#)
+
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
+
+[Integritetspolicy](https://www.gomogroup.com/gdpr/) [Cookies & Regler](https://www.gomogroup.com/cookies-regler/) [AI Agent Information](https://www.gomogroup.com/agent/)
+
+[Link to: Anuvinder SinghLink to: Anuvinder SinghAnuvinder Singh![](https://www.gomogroup.com/wp-content/uploads/2026/06/anuvinder-singh-profile-image-80x80.jpg)](https://www.gomogroup.com/medarbetare/anuvinder-singh/ "Link to: Anuvinder Singh") [Link to: Lina NygrenLink to: Lina Nygren![](https://www.gomogroup.com/wp-content/uploads/2026/06/lina-nygren-profile-image-80x80.webp)Lina Nygren](https://www.gomogroup.com/medarbetare/lina-nygren/ "Link to: Lina Nygren")
+
+ [Scroll to top](https://www.gomogroup.com/medarbetare/puja-kumari/#top "Scroll to top")
+
+Get AI summary of GO MO Group
+
+[ChatGPT](https://chat.openai.com/?q=As%20a%20potential%20client%2C%20help%20me%20understand%20what%20GO%20MO%20Group%20%28https%3A%2F%2Fwww.gomogroup.com%29%20does.%20Explain%20clearly%20what%20services%20they%20provide%20%28marketing%2C%20technology%2C%20AI%2C%20website%20development%2C%20etc.%29%2C%20what%20kind%20of%20companies%20they%20usually%20work%20with%2C%20what%20problems%20they%20help%20solve%2C%20what%20technologies%20or%20methods%20they%20use%2C%20and%20what%20results%20or%20business%20outcomes%20clients%20typically%20get.%20Explain%20it%20in%20simple%20language%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20working%20with%20GO%20MO%20Group%2C%20with%20concrete%20examples%20of%20services%20and%20how%20they%20help%20a%20company%20grow. "ChatGPT")[Claude](https://claude.ai/new?q=As%20a%20potential%20client%2C%20help%20me%20understand%20what%20GO%20MO%20Group%20%28https%3A%2F%2Fwww.gomogroup.com%29%20does.%20Explain%20clearly%20what%20services%20they%20provide%20%28marketing%2C%20technology%2C%20AI%2C%20website%20development%2C%20etc.%29%2C%20what%20kind%20of%20companies%20they%20usually%20work%20with%2C%20what%20problems%20they%20help%20solve%2C%20what%20technologies%20or%20methods%20they%20use%2C%20and%20what%20results%20or%20business%20outcomes%20clients%20typically%20get.%20Explain%20it%20in%20simple%20language%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20working%20with%20GO%20MO%20Group%2C%20with%20concrete%20examples%20of%20services%20and%20how%20they%20help%20a%20company%20grow. "Claude")[Gemini](https://gemini.google.com/guided-learning?query=As%20a%20potential%20client%2C%20help%20me%20understand%20what%20GO%20MO%20Group%20%28https%3A%2F%2Fwww.gomogroup.com%29%20does.%20Explain%20clearly%20what%20services%20they%20provide%20%28marketing%2C%20technology%2C%20AI%2C%20website%20development%2C%20etc.%29%2C%20what%20kind%20of%20companies%20they%20usually%20work%20with%2C%20what%20problems%20they%20help%20solve%2C%20what%20technologies%20or%20methods%20they%20use%2C%20and%20what%20results%20or%20business%20outcomes%20clients%20typically%20get.%20Explain%20it%20in%20simple%20language%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20working%20with%20GO%20MO%20Group%2C%20with%20concrete%20examples%20of%20services%20and%20how%20they%20help%20a%20company%20grow. "Gemini")[Perplexity](https://www.perplexity.ai/?q=As%20a%20potential%20client%2C%20help%20me%20understand%20what%20GO%20MO%20Group%20%28https%3A%2F%2Fwww.gomogroup.com%29%20does.%20Explain%20clearly%20what%20services%20they%20provide%20%28marketing%2C%20technology%2C%20AI%2C%20website%20development%2C%20etc.%29%2C%20what%20kind%20of%20companies%20they%20usually%20work%20with%2C%20what%20problems%20they%20help%20solve%2C%20what%20technologies%20or%20methods%20they%20use%2C%20and%20what%20results%20or%20business%20outcomes%20clients%20typically%20get.%20Explain%20it%20in%20simple%20language%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20working%20with%20GO%20MO%20Group%2C%20with%20concrete%20examples%20of%20services%20and%20how%20they%20help%20a%20company%20grow. "Perplexity")[Grok](https://x.com/i/grok?text=As%20a%20potential%20client%2C%20help%20me%20understand%20what%20GO%20MO%20Group%20%28https%3A%2F%2Fwww.gomogroup.com%29%20does.%20Explain%20clearly%20what%20services%20they%20provide%20%28marketing%2C%20technology%2C%20AI%2C%20website%20development%2C%20etc.%29%2C%20what%20kind%20of%20companies%20they%20usually%20work%20with%2C%20what%20problems%20they%20help%20solve%2C%20what%20technologies%20or%20methods%20they%20use%2C%20and%20what%20results%20or%20business%20outcomes%20clients%20typically%20get.%20Explain%20it%20in%20simple%20language%20as%20if%20you%20were%20describing%20the%20real%20experience%20of%20working%20with%20GO%20MO%20Group%2C%20with%20concrete%20examples%20of%20services%20and%20how%20they%20help%20a%20company%20grow. "Grok")

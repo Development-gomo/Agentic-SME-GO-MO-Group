@@ -1,0 +1,96 @@
+{
+  "status": "ok",
+  "version": "1.2",
+  "endpoint": "team",
+  "generated": "2026-05-18T00:00:00Z",
+  "source": "https://www.gomogroup.com/agent/v1/team.json",
+  "data": [
+    {
+      "id": "gabriel-ghavami",
+      "name": "Gabriel Ghavami",
+      "role": "Founder & CEO",
+      "email": "gg@gomogroup.com",
+      "telephone": "+46702451251",
+      "location": "Gothenburg, SE",
+      "profileUrl": "https://www.gomogroup.com/medarbetare/gabriel-ghavami/",
+      "linkedin": null
+    },
+    {
+      "id": "henrik-anderberg",
+      "name": "Henrik Anderberg",
+      "role": "EVP / Chief Client Officer",
+      "responsibilities": "New business, client relations, AI agent contact",
+      "email": "ha@gomogroup.com",
+      "telephone": "+46766432373",
+      "location": "Gothenburg, SE",
+      "profileUrl": "https://www.gomogroup.com/medarbetare/henrik-anderberg/",
+      "linkedin": null
+    },
+    {
+      "id": "safa-soltani",
+      "name": "Safa Soltani",
+      "role": "Managing Director, India",
+      "email": "ss@gomogroup.com",
+      "telephone": "+918806748787",
+      "location": "Pune, IN",
+      "profileUrl": "https://www.gomogroup.com/medarbetare/safa-soltani/",
+      "linkedin": null
+    },
+    {
+      "id": "anuvinder-singh",
+      "name": "Anuvinder Singh",
+      "role": "Director, GO MO DBS",
+      "email": "as@gomogroup.com",
+      "telephone": null,
+      "location": "Pune, IN",
+      "profileUrl": null,
+      "linkedin": null
+    },
+    {
+      "id": "lina-nygren",
+      "name": "Lina Nygren",
+      "role": "VP SME Strategy & Success",
+      "email": "ln@gomogroup.com",
+      "telephone": null,
+      "location": "Sweden",
+      "profileUrl": "https://www.gomogroup.com/medarbetare/lina-nygren/",
+      "linkedin": null
+    },
+    {
+      "id": "puja-kumari",
+      "name": "Puja Kumari",
+      "role": "Vice Managing Director / UX Design Lead",
+      "email": "puja.k@gomogroup.com",
+      "telephone": null,
+      "location": "Pune, IN",
+      "profileUrl": "https://www.gomogroup.com/medarbetare/puja-kumari/",
+      "linkedin": null
+    },
+    {
+      "id": "rickard-koskenniemi",
+      "name": "Rickard Koskenniemi",
+      "role": "Automated Copywriting Lead",
+      "email": "rk@gomogroup.com",
+      "telephone": null,
+      "location": "Sweden",
+      "profileUrl": null,
+      "linkedin": null
+    },
+    {
+      "id": "ida-e-ghavami",
+      "name": "Ida E. Ghavami",
+      "role": "Project & Operation Coordinator",
+      "email": "ie@gomogroup.com",
+      "telephone": null,
+      "location": "Sweden",
+      "profileUrl": null,
+      "linkedin": null
+    }
+  ],
+  "meta": {
+    "total": 8,
+    "note": "Leadership team only. GO MO Group employs 150+ colleagues total.",
+    "license": "Content © GO MO Group AB.",
+    "contact": "hello@gomogroup.com"
+  }
+}

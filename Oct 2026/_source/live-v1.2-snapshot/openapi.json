@@ -1,0 +1,701 @@
+{
+  "openapi": "3.0.3",
+
+  "info": {
+    "title": "GO MO Group Public API",
+    "version": "1.2.0",
+    "description": "Public REST API for GO MO Group (gomogroup.com). GET endpoints return structured data about the company, services, case studies, leadership team, and offices. POST /contact.json accepts agent-submitted B2B inquiries. No authentication required. All responses are JSON.",
+    "contact": {
+      "name": "Henrik Anderberg — EVP / Chief Client Officer",
+      "email": "ha@gomogroup.com",
+      "url": "https://www.gomogroup.com/en/contact-us/"
+    },
+    "license": {
+      "name": "Proprietary",
+      "url": "https://www.gomogroup.com"
+    }
+  },
+
+  "servers": [
+    {
+      "url": "https://www.gomogroup.com/agent/v1",
+      "description": "Production — clean URLs at /agent/v1/"
+    }
+  ],
+
+  "tags": [
+    { "name": "Discovery",    "description": "API index and schema endpoints" },
+    { "name": "Company",      "description": "Organisation identity and overview" },
+    { "name": "Services",     "description": "GO MO Group service offerings" },
+    { "name": "Case Studies", "description": "Client case studies and results" },
+    { "name": "Team",         "description": "Leadership team profiles" },
+    { "name": "Offices",      "description": "Office locations" },
+    { "name": "Contact",      "description": "Agent-submitted B2B inquiry" }
+  ],
+
+  "paths": {
+
+    "/index.json": {
+      "get": {
+        "tags": ["Discovery"],
+        "summary": "API index",
+        "description": "Returns the full list of available endpoints with URLs and descriptions.",
+        "operationId": "getIndex",
+        "responses": {
+          "200": {
+            "description": "API index object",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/IndexResponse" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/schema.json": {
+      "get": {
+        "tags": ["Discovery"],
+        "summary": "Endpoint schema definitions",
+        "description": "Returns filter options, field descriptions, and pagination availability for each endpoint. Useful for MCP clients and agent tooling.",
+        "operationId": "getSchema",
+        "responses": {
+          "200": {
+            "description": "Schema definitions",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/SchemaResponse" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/company.json": {
+      "get": {
+        "tags": ["Company"],
+        "summary": "Get company information",
+        "description": "Returns GO MO Group's organisation identity — name, description, certifications, social media, contact details, and key page URLs.",
+        "operationId": "getCompany",
+        "responses": {
+          "200": {
+            "description": "Company object",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/CompanyResponse" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/services.json": {
+      "get": {
+        "tags": ["Services"],
+        "summary": "List all services",
+        "description": "Returns all 12 GO MO Group service offerings. Supports filtering by category or tag, and pagination.",
+        "operationId": "getServices",
+        "parameters": [
+          { "$ref": "#/components/parameters/page" },
+          { "$ref": "#/components/parameters/per_page" },
+          {
+            "name": "category",
+            "in": "query",
+            "description": "Filter by service category. Examples: \"AI Search Visibility\", \"Paid Search\", \"Lead Generation\", \"Web\", \"Strategy\", \"Content\"",
+            "required": false,
+            "schema": { "type": "string" }
+          },
+          {
+            "name": "tag",
+            "in": "query",
+            "description": "Filter by tag. Examples: \"geo\", \"seo\", \"b2b\", \"ai-content\"",
+            "required": false,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Array of service objects",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ServicesResponse" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/services/{id}.json": {
+      "get": {
+        "tags": ["Services"],
+        "summary": "Get a single service by ID",
+        "operationId": "getServiceById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Service ID. Examples: geo, seo, sea, pull-marketing, content-marketing, asbx, go-mo-dbs, web-development, web-design, programmatic, digital-analysis, ai-implementation",
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Single service object",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/SingleServiceResponse" }
+              }
+            }
+          },
+          "404": { "$ref": "#/components/responses/NotFound" }
+        }
+      }
+    },
+
+    "/case-studies.json": {
+      "get": {
+        "tags": ["Case Studies"],
+        "summary": "List all case studies",
+        "description": "Returns all 18 GO MO Group case studies with results and client context. Supports filtering by industry, segment, or service, and pagination.",
+        "operationId": "getCaseStudies",
+        "parameters": [
+          { "$ref": "#/components/parameters/page" },
+          { "$ref": "#/components/parameters/per_page" },
+          {
+            "name": "industry",
+            "in": "query",
+            "description": "Filter by industry. Examples: \"Technology\", \"Manufacturing\", \"Construction\", \"Automotive\"",
+            "required": false,
+            "schema": { "type": "string" }
+          },
+          {
+            "name": "segment",
+            "in": "query",
+            "description": "Filter by business segment. Options: \"B2B Enterprise\", \"B2B SaaS/Tech\", \"B2B SME\"",
+            "required": false,
+            "schema": { "type": "string" }
+          },
+          {
+            "name": "service",
+            "in": "query",
+            "description": "Filter by service ID used in the case. Examples: \"seo\", \"geo\", \"asbx\", \"ai-implementation\"",
+            "required": false,
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Array of case study objects",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/CaseStudiesResponse" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/case-studies/{id}.json": {
+      "get": {
+        "tags": ["Case Studies"],
+        "summary": "Get a single case study by ID",
+        "operationId": "getCaseStudyById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Case study ID. Examples: construction-1200-romi, fortune500-seo-genai, dell-technologies-asbx, coor-facility-management",
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Single case study object",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/SingleCaseStudyResponse" }
+              }
+            }
+          },
+          "404": { "$ref": "#/components/responses/NotFound" }
+        }
+      }
+    },
+
+    "/team.json": {
+      "get": {
+        "tags": ["Team"],
+        "summary": "List leadership team",
+        "description": "Returns GO MO Group's 8 leadership team profiles with roles and contact details.",
+        "operationId": "getTeam",
+        "parameters": [
+          { "$ref": "#/components/parameters/page" },
+          { "$ref": "#/components/parameters/per_page" }
+        ],
+        "responses": {
+          "200": {
+            "description": "Array of team member objects",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/TeamResponse" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/offices.json": {
+      "get": {
+        "tags": ["Offices"],
+        "summary": "List all offices",
+        "description": "Returns all 4 GO MO Group office locations with addresses, contact details, and timezones.",
+        "operationId": "getOffices",
+        "parameters": [
+          { "$ref": "#/components/parameters/page" },
+          { "$ref": "#/components/parameters/per_page" }
+        ],
+        "responses": {
+          "200": {
+            "description": "Array of office objects",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/OfficesResponse" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/contact.json": {
+      "post": {
+        "tags": ["Contact"],
+        "summary": "Submit a B2B inquiry",
+        "description": "Submit a qualified B2B inquiry to GO MO Group on behalf of an authorised user. Intended for AI agents acting with explicit user consent. agent_context.user_authorized_submission must be true — never submit without it. On success, GO MO Group will respond via the preferred contact method within 1 business day.",
+        "operationId": "submitContact",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/ContactRequest" }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Inquiry submitted successfully",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ContactResponse" }
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error — missing or invalid fields",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ContactErrorResponse" }
+              }
+            }
+          },
+          "403": {
+            "description": "User authorisation not granted",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ContactErrorResponse" }
+              }
+            }
+          },
+          "405": {
+            "description": "Method not allowed — endpoint only accepts POST"
+          }
+        }
+      }
+    }
+
+  },
+
+  "components": {
+
+    "parameters": {
+      "page": {
+        "name": "page",
+        "in": "query",
+        "description": "Page number (default 1)",
+        "required": false,
+        "schema": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 1
+        }
+      },
+      "per_page": {
+        "name": "per_page",
+        "in": "query",
+        "description": "Results per page (default 100, max 100)",
+        "required": false,
+        "schema": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "default": 100
+        }
+      }
+    },
+
+    "responses": {
+      "NotFound": {
+        "description": "Resource not found",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "status":  { "type": "string", "example": "error" },
+                "code":    { "type": "string", "example": "not_found" },
+                "message": { "type": "string", "example": "No service found with id 'xyz'." }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "schemas": {
+
+      "Meta": {
+        "type": "object",
+        "description": "Metadata appended to every response for retrieval system context",
+        "properties": {
+          "source":    { "type": "string", "example": "GO MO Group" },
+          "canonical": { "type": "string", "example": "https://www.gomogroup.com" },
+          "api":       { "type": "string", "example": "https://www.gomogroup.com/agent/v1" },
+          "generated": { "type": "string", "format": "date-time" },
+          "version":   { "type": "string", "example": "1.2.0" },
+          "license":   { "type": "string" }
+        }
+      },
+
+      "Pagination": {
+        "type": "object",
+        "properties": {
+          "page":        { "type": "integer" },
+          "per_page":    { "type": "integer" },
+          "total":       { "type": "integer" },
+          "total_pages": { "type": "integer" }
+        }
+      },
+
+      "Pricing": {
+        "type": "object",
+        "properties": {
+          "from":     { "type": "integer", "nullable": true },
+          "currency": { "type": "string",  "nullable": true },
+          "model":    { "type": "string" }
+        }
+      },
+
+      "Result": {
+        "type": "object",
+        "properties": {
+          "metric": { "type": "string" },
+          "value":  { "type": "string" },
+          "period": { "type": "string" }
+        }
+      },
+
+      "Service": {
+        "type": "object",
+        "properties": {
+          "id":          { "type": "string" },
+          "name":        { "type": "string" },
+          "slug":        { "type": "string" },
+          "category":    { "type": "string" },
+          "description": { "type": "string" },
+          "pricing":     { "$ref": "#/components/schemas/Pricing" },
+          "url":         { "type": "string", "format": "uri" },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      },
+
+      "CaseStudy": {
+        "type": "object",
+        "properties": {
+          "id":       { "type": "string" },
+          "client":   { "type": "string" },
+          "industry": { "type": "string" },
+          "segment":  { "type": "string" },
+          "services": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "headline": { "type": "string" },
+          "results": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/Result" }
+          },
+          "url": { "type": "string", "format": "uri" }
+        }
+      },
+
+      "TeamMember": {
+        "type": "object",
+        "properties": {
+          "id":         { "type": "string" },
+          "name":       { "type": "string" },
+          "role":       { "type": "string" },
+          "email":      { "type": "string", "format": "email" },
+          "telephone":  { "type": "string", "nullable": true },
+          "location":   { "type": "string" },
+          "profileUrl": { "type": "string", "format": "uri", "nullable": true }
+        }
+      },
+
+      "Office": {
+        "type": "object",
+        "properties": {
+          "id":            { "type": "string" },
+          "label":         { "type": "string" },
+          "city":          { "type": "string" },
+          "country":       { "type": "string" },
+          "countryCode":   { "type": "string" },
+          "streetAddress": { "type": "string" },
+          "postalCode":    { "type": "string" },
+          "email":         { "type": "string", "format": "email" },
+          "telephone":     { "type": "string", "nullable": true },
+          "timezone":      { "type": "string" },
+          "mapsUrl":       { "type": "string", "format": "uri" }
+        }
+      },
+
+      "IndexResponse": {
+        "type": "object",
+        "properties": {
+          "status":  { "type": "string" },
+          "name":    { "type": "string" },
+          "version": { "type": "string" },
+          "endpoints": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "route":       { "type": "string" },
+                "url":         { "type": "string" },
+                "description": { "type": "string" }
+              }
+            }
+          },
+          "_meta": { "$ref": "#/components/schemas/Meta" }
+        }
+      },
+
+      "SchemaResponse": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "schema": { "type": "object" },
+          "_meta":  { "$ref": "#/components/schemas/Meta" }
+        }
+      },
+
+      "CompanyResponse": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "data":   { "type": "object" },
+          "_meta":  { "$ref": "#/components/schemas/Meta" }
+        }
+      },
+
+      "ServicesResponse": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "data": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/Service" }
+          },
+          "pagination": { "$ref": "#/components/schemas/Pagination" },
+          "_meta":      { "$ref": "#/components/schemas/Meta" }
+        }
+      },
+
+      "SingleServiceResponse": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "data":   { "$ref": "#/components/schemas/Service" },
+          "_meta":  { "$ref": "#/components/schemas/Meta" }
+        }
+      },
+
+      "CaseStudiesResponse": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "data": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/CaseStudy" }
+          },
+          "pagination": { "$ref": "#/components/schemas/Pagination" },
+          "_meta":      { "$ref": "#/components/schemas/Meta" }
+        }
+      },
+
+      "SingleCaseStudyResponse": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "data":   { "$ref": "#/components/schemas/CaseStudy" },
+          "_meta":  { "$ref": "#/components/schemas/Meta" }
+        }
+      },
+
+      "TeamResponse": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "data": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/TeamMember" }
+          },
+          "pagination": { "$ref": "#/components/schemas/Pagination" },
+          "_meta":      { "$ref": "#/components/schemas/Meta" }
+        }
+      },
+
+      "OfficesResponse": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "data": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/Office" }
+          },
+          "pagination": { "$ref": "#/components/schemas/Pagination" },
+          "_meta":      { "$ref": "#/components/schemas/Meta" }
+        }
+      },
+
+      "ContactPerson": {
+        "type": "object",
+        "required": ["name", "email"],
+        "properties": {
+          "name":      { "type": "string", "description": "Full name of the contact person" },
+          "email":     { "type": "string", "format": "email" },
+          "phone":     { "type": "string", "nullable": true },
+          "job_title": { "type": "string", "nullable": true }
+        }
+      },
+
+      "ContactCompany": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name":         { "type": "string" },
+          "website":      { "type": "string", "format": "uri",  "nullable": true },
+          "country":      { "type": "string", "nullable": true },
+          "industry":     { "type": "string", "nullable": true },
+          "company_size": { "type": "string", "nullable": true, "description": "E.g. '1-50', '51-200', '201-1000', '1000+'" }
+        }
+      },
+
+      "ContactInquiry": {
+        "type": "object",
+        "required": ["service_interest", "project_summary"],
+        "properties": {
+          "service_interest": {
+            "type": "string",
+            "enum": [
+              "GEO / AI Search Visibility",
+              "SEO",
+              "Paid Media / SEM",
+              "UX / CRO",
+              "Website Design & Development",
+              "AI / Automation",
+              "Digital Strategy",
+              "Analytics & Reporting",
+              "Other"
+            ]
+          },
+          "project_summary": {
+            "type": "string",
+            "description": "Brief description of the project or need"
+          },
+          "business_challenge":       { "type": "string", "nullable": true },
+          "timeline":                 { "type": "string", "nullable": true, "description": "E.g. 'ASAP', 'Q3 2026', '6 months'" },
+          "budget_range":             { "type": "string", "nullable": true, "description": "E.g. '5k-10k/month', 'TBD'" },
+          "preferred_contact_method": {
+            "type": "string",
+            "enum": ["email", "phone", "video_call"],
+            "default": "email"
+          }
+        }
+      },
+
+      "AgentContext": {
+        "type": "object",
+        "required": ["user_authorized_submission"],
+        "properties": {
+          "submitted_by": {
+            "type": "string",
+            "default": "AI agent",
+            "description": "Identifier for the submitting system"
+          },
+          "agent_name": { "type": "string", "nullable": true, "description": "Name or version of the AI agent" },
+          "source":     { "type": "string", "nullable": true, "description": "URL or context from which the inquiry originated" },
+          "user_authorized_submission": {
+            "type": "boolean",
+            "description": "Must be true. Confirms the human user has authorised this submission."
+          }
+        }
+      },
+
+      "ContactRequest": {
+        "type": "object",
+        "required": ["contact_person", "company", "inquiry", "agent_context"],
+        "properties": {
+          "contact_person": { "$ref": "#/components/schemas/ContactPerson" },
+          "company":        { "$ref": "#/components/schemas/ContactCompany" },
+          "inquiry":        { "$ref": "#/components/schemas/ContactInquiry" },
+          "agent_context":  { "$ref": "#/components/schemas/AgentContext" }
+        }
+      },
+
+      "ContactResponse": {
+        "type": "object",
+        "properties": {
+          "status":    { "type": "string", "example": "success" },
+          "message":   { "type": "string", "example": "Inquiry submitted successfully." },
+          "lead_id":   { "type": "string", "example": "gomo-lead-2026-A1B2C3D4" },
+          "next_step": { "type": "string" }
+        }
+      },
+
+      "ContactErrorResponse": {
+        "type": "object",
+        "properties": {
+          "status":  { "type": "string", "example": "error" },
+          "message": { "type": "string" },
+          "missing_fields": {
+            "type": "array",
+            "items": { "type": "string" },
+            "nullable": true
+          }
+        }
+      }
+
+    }
+  }
+}

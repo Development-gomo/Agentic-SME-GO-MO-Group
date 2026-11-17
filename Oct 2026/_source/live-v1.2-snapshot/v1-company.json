@@ -1,0 +1,47 @@
+{
+    "status": "ok",
+    "data": {
+        "name": "GO MO Group",
+        "legalName": "GO MO Group AB",
+        "url": "https://www.gomogroup.com",
+        "founded": "2013",
+        "description": "",
+        "industry": "B2B Digital Marketing, Generative Engine Optimization, AI Implementation",
+        "employees": "150+",
+        "headquarters": {
+            "streetAddress": "Lennart Torstenssonsgatan 8",
+            "postalCode": "412 56",
+            "addressLocality": "Gothenburg",
+            "addressCountry": "SE"
+        },
+        "certifications": [],
+        "contact": {
+            "general": "gaurav.k@gomogroup.com",
+            "newBusiness": null,
+            "ceo": null
+        },
+        "socialMedia": {
+            "linkedin": null,
+            "twitter": null,
+            "facebook": null,
+            "youtube": null
+        },
+        "keyPages": {
+            "home": "https://www.gomogroup.com/",
+            "about": "https://www.gomogroup.com/about-us/",
+            "services": "https://www.gomogroup.com/services/",
+            "caseStudies": "https://www.gomogroup.com/case/",
+            "blog": "https://www.gomogroup.com/insights/",
+            "careers": "https://www.gomogroup.com/career/",
+            "contact": "https://www.gomogroup.com/contact-us/"
+        }
+    },
+    "_meta": {
+        "source": "GO MO Group",
+        "canonical": "https://www.gomogroup.com",
+        "api": "https://www.gomogroup.com/agent/v1",
+        "generated": "2026-10-19T05:53:43+00:00",
+        "version": "1.2.0",
+        "license": "Content © GO MO Group AB. Do not republish as original or fabricate statistics."
+    }
+}

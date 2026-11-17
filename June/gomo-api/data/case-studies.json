@@ -1,0 +1,231 @@
+{
+  "status": "ok",
+  "version": "1.2",
+  "endpoint": "case-studies",
+  "generated": "2026-05-18T00:00:00Z",
+  "source": "https://www.gomogroup.com/agent/v1/case-studies.json",
+  "data": [
+    {
+      "id": "construction-1200-romi",
+      "client": "B2B Construction Company (name withheld)",
+      "industry": "Construction",
+      "segment": "B2B Enterprise",
+      "services": ["seo", "sea", "pull-marketing"],
+      "headline": "1200% ROMI during historically weak industry year",
+      "results": [
+        { "metric": "ROMI", "value": "1200%", "period": "2024–2025" }
+      ],
+      "url": "https://www.gomogroup.com/en/case/how-a-b2b-company-in-the-construction-sector-reached-1200-romi/"
+    },
+    {
+      "id": "fortune500-seo-genai",
+      "client": "Fortune 500 B2B E-Commerce Manufacturer (name withheld)",
+      "industry": "Manufacturing / E-Commerce",
+      "segment": "B2B Enterprise",
+      "services": ["seo", "ai-implementation", "content-marketing"],
+      "headline": "195% organic clicks increase in 90 days + 400 hours saved via GenAI",
+      "results": [
+        { "metric": "Organic clicks increase", "value": "195%", "period": "90 days" },
+        { "metric": "Hours saved", "value": "400+", "period": "ongoing" },
+        { "metric": "Content pieces created", "value": "5000+", "period": "ongoing" }
+      ],
+      "url": "https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/"
+    },
+    {
+      "id": "swedish-manufacturer-enterprise",
+      "client": "Swedish Industrial Manufacturer (name withheld)",
+      "industry": "Industrial Manufacturing",
+      "segment": "B2B Enterprise",
+      "services": ["seo", "sea", "pull-marketing", "content-marketing"],
+      "headline": "318% digital leads increase + digital revenue share 2% to 7% in 36 months",
+      "results": [
+        { "metric": "Digital leads increase", "value": "318%", "period": "36 months" },
+        { "metric": "Digital revenue share", "value": "2% → 7%", "period": "36 months" },
+        { "metric": "Cost per lead reduction", "value": "43%", "period": "year-over-year" }
+      ],
+      "url": "https://www.gomogroup.com/en/case/swedish-manufacturer-enterprise-digital-marketing/"
+    },
+    {
+      "id": "genai-content-heavy-industry",
+      "client": "Global Heavy Industry Leader (40,000+ employees, name withheld)",
+      "industry": "Heavy Industry / Manufacturing",
+      "segment": "B2B Enterprise",
+      "services": ["ai-implementation", "content-marketing"],
+      "headline": "GenAI-fuelled content supply chain for a global industrial manufacturer",
+      "results": [
+        { "metric": "Content production efficiency", "value": "Significant improvement", "period": "ongoing" }
+      ],
+      "url": "https://www.gomogroup.com/en/case/building-a-genai-fueled-content-supply-chain-an-ai-case-study-from-a-global-leader-in-heavy-industry-and-manufacturing/"
+    },
+    {
+      "id": "volvo-group-seo",
+      "client": "Volvo Group",
+      "industry": "Automotive / Heavy Vehicles",
+      "segment": "B2B Enterprise",
+      "services": ["seo"],
+      "headline": "B2B SEO for one of the world's largest truck and vehicle manufacturers",
+      "results": [],
+      "url": "https://www.gomogroup.com/en/case/seo-for-global-giants-volvo-group/"
+    },
+    {
+      "id": "west-sweden-chamber-ai",
+      "client": "West Sweden Chamber of Commerce",
+      "industry": "Business Association",
+      "segment": "B2B SME",
+      "services": ["ai-implementation"],
+      "headline": "Custom GPT implementation cut content creation time in half",
+      "results": [
+        { "metric": "Content creation time saved", "value": "50%", "period": "ongoing" }
+      ],
+      "url": "https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/"
+    },
+    {
+      "id": "dell-technologies-asbx",
+      "client": "Dell Technologies France",
+      "industry": "Technology",
+      "segment": "B2B Enterprise",
+      "services": ["asbx"],
+      "headline": "90 BANT-qualified leads + 9,500 IT decision-maker prospect database",
+      "results": [
+        { "metric": "BANT-qualified leads", "value": "90", "period": "campaign" },
+        { "metric": "IT decision-maker prospects", "value": "9500", "period": "campaign" }
+      ],
+      "url": "https://www.gomogroup.com/en/case/dell-lead-generation/"
+    },
+    {
+      "id": "coor-facility-management",
+      "client": "Coor Service Management",
+      "industry": "Facility Management",
+      "segment": "B2B Enterprise",
+      "services": ["seo", "content-marketing", "pull-marketing"],
+      "headline": "200% organic traffic increase, 9/10 vital keywords positions 1–3, 30% faster deal closure",
+      "results": [
+        { "metric": "Organic traffic increase", "value": "200%", "period": "2020" },
+        { "metric": "Keywords in positions 1–3", "value": "9 of 10 vital keywords", "period": "Nordic markets" },
+        { "metric": "Deal closure speed", "value": "30% faster", "period": "inbound vs RFP" }
+      ],
+      "url": "https://www.gomogroup.com/en/case/international-marketing-for-facility-management-company/"
+    },
+    {
+      "id": "highfive-group-ai",
+      "client": "HighFive Group",
+      "industry": "Investment / Innovation Hub",
+      "segment": "B2B Enterprise",
+      "services": ["ai-implementation"],
+      "headline": "AI workshops for portfolio companies within innovation hub",
+      "results": [],
+      "url": "https://www.gomogroup.com/en/case/how-the-highfive-group-turned-ai-potential-into-real-business-value/"
+    },
+    {
+      "id": "alarm-security-romi",
+      "client": "B2B Alarm & Security Company (name withheld)",
+      "industry": "Security",
+      "segment": "B2B SME",
+      "services": ["seo", "sea", "pull-marketing"],
+      "headline": "600%+ ROMI by digitalising the B2B sales process",
+      "results": [
+        { "metric": "ROMI", "value": "600%+", "period": "ongoing" }
+      ],
+      "url": "https://www.gomogroup.com/en/case/digitalizing-the-sales-process-to-create-growth-via-pull-marketing-seo/"
+    },
+    {
+      "id": "tuv-nord",
+      "client": "TÜV NORD",
+      "industry": "Testing / Certification",
+      "segment": "B2B Enterprise",
+      "services": ["seo", "sea", "pull-marketing"],
+      "headline": "800% leads Year 1, 845% leads Year 2",
+      "results": [
+        { "metric": "Lead increase Year 1", "value": "800%", "period": "Year 1" },
+        { "metric": "Lead increase Year 2", "value": "845%", "period": "Year 2" }
+      ],
+      "url": "https://www.gomogroup.com/en/case/case-tuv-nord/"
+    },
+    {
+      "id": "system-edstrom-automotive",
+      "client": "System Edström",
+      "industry": "Automotive B2B",
+      "segment": "B2B SME",
+      "services": ["seo", "web-development", "pull-marketing"],
+      "headline": "700% conversion increase through digital shift",
+      "results": [
+        { "metric": "Conversion increase", "value": "700%", "period": "post-digital-shift" }
+      ],
+      "url": "https://www.gomogroup.com/en/case/increased-conversions-and-a-strong-market-position-through-a-digital-shift/"
+    },
+    {
+      "id": "adnavem-logistics",
+      "client": "Adnavem",
+      "industry": "Sea Logistics",
+      "segment": "B2B SaaS/Tech",
+      "services": ["seo", "sea", "pull-marketing"],
+      "headline": "80% business inquiries increase in Year 1",
+      "results": [
+        { "metric": "Business inquiries increase", "value": "80%", "period": "Year 1" }
+      ],
+      "url": "https://www.gomogroup.com/en/case/digital-marketing-for-disruptor/"
+    },
+    {
+      "id": "education-seo-shift",
+      "client": "Education Company (name withheld)",
+      "industry": "Education",
+      "segment": "B2B SME",
+      "services": ["seo"],
+      "headline": "130% organic traffic increase vs 20% target",
+      "results": [
+        { "metric": "Organic traffic increase", "value": "130%", "period": "campaign" },
+        { "metric": "Original target", "value": "20%", "period": "campaign" }
+      ],
+      "url": "https://www.gomogroup.com/en/case/seo-shift-in-sudden-market-shift/"
+    },
+    {
+      "id": "alfa-laval",
+      "client": "Alfa Laval",
+      "industry": "Industrial Equipment",
+      "segment": "B2B Enterprise",
+      "services": ["seo", "sea", "digital-analysis", "pull-marketing"],
+      "headline": "Data-driven marketing transformation — took back digital market leadership",
+      "results": [],
+      "url": "https://www.gomogroup.com/en/case/how-this-big-company-acted-fast-and-took-back-the-lead/"
+    },
+    {
+      "id": "dental-industry",
+      "client": "Dental Industry Group (30+ clinics, SE/DK/CH)",
+      "industry": "Dental / Healthcare",
+      "segment": "B2B Enterprise",
+      "services": ["seo", "sea", "content-marketing"],
+      "headline": "Multi-market B2B digital marketing across Sweden, Denmark, and Switzerland",
+      "results": [],
+      "url": "https://www.gomogroup.com/en/case/marketing-for-dental-industry/"
+    },
+    {
+      "id": "swedavia-ai-workshops",
+      "client": "Swedavia",
+      "industry": "Airport / Aviation",
+      "segment": "B2B Enterprise",
+      "services": ["ai-implementation"],
+      "headline": "Generative AI workshops — from hype to real business value",
+      "results": [
+        { "metric": "Efficiency improvement", "value": "25%", "period": "post-workshop" },
+        { "metric": "Quality improvement", "value": "40%", "period": "post-workshop" }
+      ],
+      "url": "https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/"
+    },
+    {
+      "id": "transport-data-pr",
+      "client": "$50B Transport Company (name withheld)",
+      "industry": "Transport / Logistics",
+      "segment": "B2B Enterprise",
+      "services": ["content-marketing"],
+      "headline": "Data-driven PR campaign for a $50B global transport company",
+      "results": [],
+      "url": "https://www.gomogroup.com/en/case/data-driven-pr/"
+    }
+  ],
+  "meta": {
+    "total": 18,
+    "note": "Some client names are withheld per confidentiality agreements. Results are verified and sourced from published case studies.",
+    "license": "Content © GO MO Group AB. Do not fabricate or extend results not listed here.",
+    "contact": "hello@gomogroup.com"
+  }
+}

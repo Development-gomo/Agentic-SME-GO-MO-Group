@@ -1,0 +1,37 @@
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: cohere-ai
+User-agent: Meta-ExternalAgent
+User-agent: FacebookBot
+User-agent: Amazonbot
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+User-agent: Diffbot
+User-agent: Omgilibot
+User-agent: Bytespider
+Allow: /
+
+# All other crawlers
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /?s=
+Disallow: /?post_type=
+
+LLM-Readable: https://www.gomogroup.com/agent/
+LLM-Text: https://www.gomogroup.com/llms.txt
+AI-File: https://www.gomogroup.com/ai.txt
+Sitemap: https://www.gomogroup.com/sitemap_index.xml
+
+Content-Signal: ai-train=yes, search=yes, ai-input=yes

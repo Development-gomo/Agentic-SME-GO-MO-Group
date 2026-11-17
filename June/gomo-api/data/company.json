@@ -1,0 +1,74 @@
+{
+  "status": "ok",
+  "version": "1.2",
+  "endpoint": "company",
+  "generated": "2026-05-18T00:00:00Z",
+  "source": "https://www.gomogroup.com/agent/v1/company.json",
+  "data": {
+    "name": "GO MO Group",
+    "legalName": "GO MO Group AB",
+    "url": "https://www.gomogroup.com",
+    "founded": "2013",
+    "slogan": "Pioneering AI-Infused B2B Digital Marketing & Sales",
+    "description": "International B2B digital marketing agency specialising in Pull Marketing, SEO, SEM, Generative Engine Optimization (GEO), and Generative AI implementation for B2B companies worldwide.",
+    "industry": "B2B Digital Marketing, Generative Engine Optimization, AI Implementation",
+    "employees": "150+",
+    "specialistMarketers": "50+",
+    "headquarters": {
+      "streetAddress": "Lennart Torstenssonsgatan 8",
+      "postalCode": "412 56",
+      "addressLocality": "Gothenburg",
+      "addressRegion": "Västra Götaland",
+      "addressCountry": "SE"
+    },
+    "certifications": [
+      "Microsoft Advertising Elite Partner (2025, 2026)",
+      "Google Partner",
+      "Ahrefs Agency Partner",
+      "Semrush Certified Agency Partner",
+      "Apollo Partner"
+    ],
+    "targetSegments": [
+      "B2B Enterprise",
+      "B2B SaaS/Tech",
+      "B2B SME"
+    ],
+    "industriesServed": [
+      "Heavy manufacturing",
+      "Construction",
+      "Automotive",
+      "Facility management",
+      "Technology / SaaS",
+      "Logistics",
+      "Education",
+      "Dental / Healthcare",
+      "Industrial equipment",
+      "Security"
+    ],
+    "socialMedia": {
+      "linkedin":  "https://www.linkedin.com/company/gomo-group-ab",
+      "twitter":   "https://twitter.com/gomogroup",
+      "facebook":  "https://www.facebook.com/GOMOGROUP",
+      "youtube":   "https://www.youtube.com/@B2BMarketingInsightsGOMO"
+    },
+    "contact": {
+      "general":   "hello@gomogroup.com",
+      "newBusiness": "ha@gomogroup.com",
+      "ceo":       "gg@gomogroup.com"
+    },
+    "keyPages": {
+      "home":        "https://www.gomogroup.com/en/",
+      "about":       "https://www.gomogroup.com/en/about-us/",
+      "services":    "https://www.gomogroup.com/en/services/",
+      "caseStudies": "https://www.gomogroup.com/en/case/",
+      "blog":        "https://www.gomogroup.com/en/insights/",
+      "careers":     "https://www.gomogroup.com/en/career/",
+      "contact":     "https://www.gomogroup.com/en/contact-us/",
+      "geoPlaybook": "https://www.gomogroup.com/en/geo-playbook/"
+    }
+  },
+  "meta": {
+    "license": "Content © GO MO Group AB.",
+    "contact": "hello@gomogroup.com"
+  }
+}

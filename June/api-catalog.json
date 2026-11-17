@@ -1,0 +1,286 @@
+{
+  "name": "GO MO Group — API & Machine-Readable Endpoint Catalog",
+  "description": "Machine-readable catalog of all structured resources, discovery files, agent-accessible pages, and REST API endpoints published by GO MO Group (gomogroup.com). Includes a functional read-only REST API at /agent/v1/ serving JSON responses for company, services, case studies, team, and offices. The 'apis' array follows the APIs.json 0.16 specification (apisjson.org). Intended for AI agents, LLMs, crawlers, and automated systems.",
+  "url": "https://www.gomogroup.com/api-catalog.json",
+  "created": "2026-05-18",
+  "modified": "2026-06-03",
+  "specificationVersion": "0.16",
+  "tags": [
+    "b2b-marketing",
+    "geo",
+    "seo",
+    "generative-engine-optimization",
+    "ai-agent",
+    "llm",
+    "machine-readable",
+    "digital-marketing",
+    "sweden"
+  ],
+
+  "apis": [
+
+    {
+      "name": "Agent Layer — Machine-Readable Site Representation",
+      "description": "Primary machine-readable endpoint for AI agents and LLMs. Semantic HTML5 page containing the complete representation of gomogroup.com: organisation data, all services, 18+ case studies, 8 leadership profiles, FAQ, offices, careers, and a full page index. Includes a 24-node JSON-LD @graph schema (Organization, WebPage, FAQPage, Person×8, Service×12, ItemList).",
+      "baseURL": "https://www.gomogroup.com/agent/",
+      "humanURL": "https://www.gomogroup.com/agent/",
+      "X-format": "text/html",
+      "X-contentType": "semantic-html",
+      "X-purpose": "primary-llm-endpoint",
+      "properties": [
+        {
+          "type": "X-schema-org",
+          "description": "24-node JSON-LD @graph embedded in page — Organization, WebPage, FAQPage, Person, Service, ItemList",
+          "url": "https://www.gomogroup.com/agent/"
+        },
+        {
+          "type": "X-documentation",
+          "description": "Human-readable version of the same content",
+          "url": "https://www.gomogroup.com/en/"
+        }
+      ],
+      "tags": ["llm", "agent", "json-ld", "schema-org", "html", "primary"]
+    },
+
+    {
+      "name": "LLMs.txt — Plain Text LLM Discovery File",
+      "description": "Plain text file following the llms.txt standard (Jeremy Howard / Answer.AI). Contains a concise, structured summary of GO MO Group: company overview, all services with descriptions and pricing, solutions by segment, key results/proof points, office addresses, full leadership roster with contact details, key page URLs, case study URLs, blog post index, social media links, and Swedish hreflang alternates.",
+      "baseURL": "https://www.gomogroup.com/llms.txt",
+      "humanURL": "https://www.gomogroup.com/llms.txt",
+      "X-format": "text/plain",
+      "X-contentType": "llms-txt",
+      "X-purpose": "llm-discovery",
+      "properties": [
+        {
+          "type": "X-standard",
+          "description": "Follows llms.txt specification — llmstxt.org",
+          "url": "https://llmstxt.org"
+        }
+      ],
+      "tags": ["llm", "plain-text", "discovery", "llms-txt"]
+    },
+
+    {
+      "name": "AI.txt — AI Agent Permissions File",
+      "description": "Structured permissions file declaring what AI agents and LLMs are authorised to do with gomogroup.com content. Grants Allow-Indexing, Allow-Summarization, Allow-Citation, Allow-Training, and Allow-Retrieval. Includes preferred citation format, canonical machine-readable sources, contact for AI queries, key facts (services, results), and disallowed uses.",
+      "baseURL": "https://www.gomogroup.com/ai.txt",
+      "humanURL": "https://www.gomogroup.com/ai.txt",
+      "X-format": "text/plain",
+      "X-contentType": "ai-txt",
+      "X-purpose": "agent-permissions",
+      "properties": [
+        {
+          "type": "X-permissions",
+          "description": "Allow-Indexing: yes | Allow-Summarization: yes | Allow-Citation: yes | Allow-Training: yes | Allow-Retrieval: yes"
+        },
+        {
+          "type": "X-standard",
+          "description": "Modelled on robots.txt conventions — ai-txt.org",
+          "url": "https://ai-txt.org"
+        }
+      ],
+      "tags": ["permissions", "ai-policy", "indexing", "training", "retrieval"]
+    },
+
+    {
+      "name": "API Catalog — This File",
+      "description": "Self-referential entry. Machine-readable JSON catalog of all GO MO Group endpoints following the APIs.json 0.16 specification. Intended as a discovery document for AI agents, crawlers, and automated systems.",
+      "baseURL": "https://www.gomogroup.com/api-catalog.json",
+      "humanURL": "https://www.gomogroup.com/api-catalog.json",
+      "X-format": "application/json",
+      "X-contentType": "apis-json",
+      "X-purpose": "endpoint-discovery",
+      "properties": [
+        {
+          "type": "X-standard",
+          "description": "APIs.json 0.16 specification",
+          "url": "https://apisjson.org"
+        }
+      ],
+      "tags": ["catalog", "apis-json", "discovery", "self-referential"]
+    },
+
+    {
+      "name": "GO MO Group Public REST API",
+      "description": "REST API serving clean URLs at /agent/v1/. GET endpoints return structured JSON for company, services, case studies, team, and offices. POST /contact.json accepts agent-submitted B2B inquiries with explicit user consent (user_authorized_submission: true required). No authentication required. Powered by a WordPress plugin using rewrite rules and template_redirect — no /wp-json/ prefix.",
+      "baseURL": "https://www.gomogroup.com/agent/v1",
+      "humanURL": "https://www.gomogroup.com/agent/v1/",
+      "X-format": "application/json",
+      "X-contentType": "rest-api",
+      "X-purpose": "programmatic-data-access",
+      "properties": [
+        { "type": "X-endpoint", "route": "/agent/v1/index.json",              "description": "API index and endpoint directory" },
+        { "type": "X-endpoint", "route": "/agent/v1/schema.json",            "description": "Endpoint schema and filter definitions" },
+        { "type": "X-endpoint", "route": "/agent/v1/company.json",           "description": "Company identity, certifications, contact" },
+        { "type": "X-endpoint", "route": "/agent/v1/services.json",          "description": "12 services — filter by ?category= or ?tag=" },
+        { "type": "X-endpoint", "route": "/agent/v1/case-studies.json",      "description": "18 case studies — filter by ?industry=, ?segment=, ?service=" },
+        { "type": "X-endpoint", "route": "/agent/v1/team.json",              "description": "Leadership team profiles" },
+        { "type": "X-endpoint", "route": "/agent/v1/offices.json",           "description": "Office locations with addresses" },
+        { "type": "X-endpoint", "route": "/agent/v1/contact.json",          "method": "POST", "description": "Submit a qualified B2B inquiry — requires agent_context.user_authorized_submission: true" },
+        { "type": "X-openapi",  "url": "https://www.gomogroup.com/openapi.json" }
+      ],
+      "tags": ["rest-api", "json", "public", "read-only", "programmatic", "agent-actionable"]
+    },
+
+    {
+      "name": "MCP Server — Agent-Actionable Tool Interface",
+      "description": "Model Context Protocol (MCP) server exposing GO MO Group data and actions as callable tools for AI agents and LLM applications. Uses Streamable HTTP transport. Wraps the /agent/v1/ REST API. Tools: get_company, list_services, get_service, list_case_studies, get_case_study, list_team, list_offices, submit_contact_inquiry (requires user consent).",
+      "baseURL": "https://www.gomogroup.com/mcp",
+      "humanURL": "https://www.gomogroup.com/mcp",
+      "X-format": "application/json",
+      "X-contentType": "mcp-server",
+      "X-transport": "Streamable HTTP (MCP spec)",
+      "X-purpose": "agent-tool-interface",
+      "properties": [
+        { "type": "X-mcp-tool", "name": "get_company",             "description": "Returns company identity, certifications, and contact details" },
+        { "type": "X-mcp-tool", "name": "list_services",           "description": "Lists all services — filter by category or tag" },
+        { "type": "X-mcp-tool", "name": "get_service",             "description": "Returns a single service by ID" },
+        { "type": "X-mcp-tool", "name": "list_case_studies",       "description": "Lists case studies — filter by industry, segment, or service" },
+        { "type": "X-mcp-tool", "name": "get_case_study",          "description": "Returns a single case study by ID" },
+        { "type": "X-mcp-tool", "name": "list_team",               "description": "Returns leadership team profiles" },
+        { "type": "X-mcp-tool", "name": "list_offices",            "description": "Returns office locations with addresses" },
+        { "type": "X-mcp-tool", "name": "submit_contact_inquiry",  "description": "Submits a B2B inquiry — requires user_authorized_submission: true" }
+      ],
+      "tags": ["mcp", "agent-tools", "ai-agent", "tool-calling", "agent-actionable"]
+    },
+
+    {
+      "name": "XML Sitemap",
+      "description": "Standard XML sitemap listing all crawlable pages on gomogroup.com. Covers English and Swedish pages, services, case studies, insights, careers, and team profiles.",
+      "baseURL": "https://www.gomogroup.com/sitemap.xml",
+      "humanURL": "https://www.gomogroup.com/sitemap.xml",
+      "X-format": "application/xml",
+      "X-contentType": "sitemap-xml",
+      "X-purpose": "crawl-discovery",
+      "properties": [
+        {
+          "type": "X-standard",
+          "description": "sitemaps.org protocol 0.9"
+        }
+      ],
+      "tags": ["sitemap", "xml", "crawl", "seo"]
+    },
+
+    {
+      "name": "Robots.txt — Crawler Permissions",
+      "description": "Standard robots.txt with an extended AI crawler allowlist. Explicitly permits GPTBot, ChatGPT-User, ClaudeBot, anthropic-ai, PerplexityBot, Google-Extended, Applebot-Extended, Googlebot-Extended, CCBot, GoogleOther, cohere-ai, Omgilibot, FacebookBot, Diffbot, and Bytespider. References LLM-Readable, LLM-Text, and Sitemap discovery directives.",
+      "baseURL": "https://www.gomogroup.com/robots.txt",
+      "humanURL": "https://www.gomogroup.com/robots.txt",
+      "X-format": "text/plain",
+      "X-contentType": "robots-txt",
+      "X-purpose": "crawler-permissions",
+      "properties": [
+        {
+          "type": "X-ai-crawlers-allowed",
+          "description": "GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Applebot-Extended, Googlebot-Extended, CCBot, GoogleOther, cohere-ai, Omgilibot, FacebookBot, Diffbot, Bytespider, ChatGPT-User, anthropic-ai"
+        }
+      ],
+      "tags": ["robots-txt", "crawler", "permissions", "ai-crawlers"]
+    },
+
+    {
+      "name": "Contact & New Business Inquiry",
+      "description": "Human-facing contact endpoint for new business inquiries, partnership requests, and AI-related queries. Primary contact: Henrik Anderberg (EVP / Chief Client Officer). For AI/agent-specific queries use Contact-Email listed in ai.txt.",
+      "baseURL": "https://www.gomogroup.com/en/contact-us/",
+      "humanURL": "https://www.gomogroup.com/en/contact-us/",
+      "X-format": "text/html",
+      "X-contentType": "contact-page",
+      "X-purpose": "human-contact",
+      "properties": [
+        {
+          "type": "X-contact-primary",
+          "description": "Henrik Anderberg — EVP / Chief Client Officer",
+          "email": "ha@gomogroup.com",
+          "telephone": "+46766432373"
+        },
+        {
+          "type": "X-contact-ceo",
+          "description": "Gabriel Ghavami — Founder & CEO",
+          "email": "gg@gomogroup.com",
+          "telephone": "+46702451251"
+        },
+        {
+          "type": "X-contact-general",
+          "email": "hello@gomogroup.com"
+        }
+      ],
+      "tags": ["contact", "new-business", "inquiry"]
+    },
+
+    {
+      "name": "GEO Playbook — Free Download",
+      "description": "Free Generative Engine Optimization playbook available at /geo-playbook/. Downloadable resource explaining GO MO Group's GEO methodology for ensuring brands appear in Google AI Overviews, ChatGPT, Gemini, and Perplexity responses.",
+      "baseURL": "https://www.gomogroup.com/en/geo-playbook/",
+      "humanURL": "https://www.gomogroup.com/en/geo-playbook/",
+      "X-format": "text/html",
+      "X-contentType": "landing-page",
+      "X-purpose": "content-download",
+      "properties": [
+        {
+          "type": "X-resource-type",
+          "description": "Free downloadable GEO methodology guide"
+        },
+        {
+          "type": "X-topic",
+          "description": "Generative Engine Optimization (GEO) — AI search visibility strategy"
+        }
+      ],
+      "tags": ["geo", "playbook", "download", "free", "ai-search"]
+    }
+
+  ],
+
+  "maintainers": [
+    {
+      "FN": "Henrik Anderberg",
+      "role": "EVP / Chief Client Officer",
+      "email": "ha@gomogroup.com",
+      "telephone": "+46766432373",
+      "X-linkedin": "https://www.linkedin.com/company/gomo-group-ab"
+    },
+    {
+      "FN": "Gabriel Ghavami",
+      "role": "Founder & CEO",
+      "email": "gg@gomogroup.com",
+      "telephone": "+46702451251"
+    }
+  ],
+
+  "X-organization": {
+    "name": "GO MO Group",
+    "legalName": "GO MO Group AB",
+    "url": "https://www.gomogroup.com",
+    "founded": "2013",
+    "employees": "150+",
+    "headquarters": {
+      "streetAddress": "Lennart Torstenssonsgatan 8",
+      "postalCode": "412 56",
+      "addressLocality": "Gothenburg",
+      "addressCountry": "SE"
+    },
+    "offices": ["Gothenburg, SE", "Stockholm, SE", "London, UK", "Pune, IN"],
+    "industry": "B2B Digital Marketing, Generative Engine Optimization, AI Implementation",
+    "certifications": [
+      "Microsoft Advertising Elite Partner (2025, 2026)",
+      "Google Partner",
+      "Ahrefs Agency Partner",
+      "Semrush Certified Agency Partner",
+      "Apollo Partner"
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/company/gomo-group-ab",
+      "https://twitter.com/gomogroup",
+      "https://www.facebook.com/GOMOGROUP",
+      "https://www.youtube.com/@B2BMarketingInsightsGOMO"
+    ]
+  },
+
+  "X-discovery": {
+    "llm-page":  "https://www.gomogroup.com/agent/",
+    "llms-txt":  "https://www.gomogroup.com/llms.txt",
+    "ai-txt":    "https://www.gomogroup.com/ai.txt",
+    "sitemap":   "https://www.gomogroup.com/sitemap.xml",
+    "robots":    "https://www.gomogroup.com/robots.txt",
+    "catalog":   "https://www.gomogroup.com/api-catalog.json"
+  }
+}

@@ -1,0 +1,1590 @@
+{
+  "company": {
+    "name": "GO MO Group",
+    "legalName": "GO MO Group AB",
+    "founded": "2013",
+    "founded_note": "Site states \"SEO agency since 2013\" (main navigation, all pages). Ida E. Ghavami's profile mentions joining at inception in 2012 — unresolved; 2013 kept as published.",
+    "description": "GO MO Group is an international B2B agency specializing in digital marketing, communication and Generative AI, headquartered in Gothenburg, Sweden. The agency calls its approach Pull Marketing and delivers SEO, Generative Engine Optimization (GEO), agentic web, SEA, website design and development, and ASBX outbound lead generation for three B2B segments: Enterprise, SME, and SaaS & Tech. Part of its production is based in Pune, India, under Swedish management on site, which the company describes as its main competitive advantage: scalable execution of sharp strategies. GO MO Group is part of Collaboration Art, a house of brands for Europe's leading performance agencies.",
+    "description_sv": "GO MO Group är en internationell digital marknadsföringsbyrå som hjälper ledande B2B-företag ställa om för att mer effektivt nå ut till sin målgrupp. Kunderna kommer till GO MO för datadriven rådgivning och implementering för att lösa komplexa utmaningar inom digital marknadsföring och generativ AI.",
+    "tagline": "Pioneering AI-Infused B2B Digital Marketing & Sales",
+    "tagline_sv": "Strategisk AI-driven B2B digital marknadsföring",
+    "employees": "150+",
+    "employees_note": "Swedish about page: GO MO Group has about 70 employees, and together with GO MO DBS 150+ colleagues across offices in Europe and India. The job ads say 'a family of over 150 employees' and also 'Our team in India has an employee strength of over 30 resources'.",
+    "specialists": null,
+    "projects": "100+",
+    "projects_note": "EN pages: 'We bring experience from over 100 successful client projects' (home and solution pages). The Swedish pages say insights come from 'hundratals pågående kunduppdrag'.",
+    "headquarters": "Lennart Torstenssonsgatan 8, 412 56 Göteborg, Sweden",
+    "parent": "Collaboration Art",
+    "parent_note": "GO MO Group was acquired by Collaboration Art in 2021 (job ads). The CEO's profile refers to 'Investment AB Spiltan's Collaboration Art'. The job ads give these Collaboration Art figures: $30M revenue, +300 employees, 7 agencies, 3 countries.",
+    "certifications": [
+      "Microsoft Advertising Elite Partner 2025",
+      "Microsoft Advertising Elite Partner 2026",
+      "Google Partner",
+      "Semrush Enterprise Partner",
+      "Semrush Enterprise AIO Partner (the Nordics' first)",
+      "Ahrefs agency partner",
+      "Apollo Partner"
+    ],
+    "partners": [
+      "Semrush",
+      "Google",
+      "Microsoft Advertising",
+      "Ahrefs",
+      "Apollo",
+      "Välkommen Handelskraft"
+    ],
+    "clients_named": [
+      "Volvo Group",
+      "Dell Technologies",
+      "TÜV NORD Scandinavia",
+      "Alfa Laval",
+      "Munters",
+      "Net Insight",
+      "Adnavem",
+      "Coor",
+      "System Edström",
+      "Swedavia",
+      "West Sweden Chamber of Commerce (Västsvenska Handelskammaren)",
+      "HighFive Group",
+      "Digiexam",
+      "RO-Gruppen",
+      "FKAB Marine Design",
+      "Academedia",
+      "One Partner Group",
+      "Balder"
+    ],
+    "clients_named_note": "Sources: case study pages (/en/case/...), testimonial logos (Volvo, Munters, Net Insight), the client logo strip on /en/services/b2b-youtube-marketing/ (Volvo, Digiexam, Academedia, One Partner Group, Balder), and the FKAB insight on the Swedish home page. SKF, Balder, Volvo Group and Google appeared on event panels; SKF is not listed as a client.",
+    "differentiators": [
+      "Part of production runs in Pune, India, under Swedish management on site. This gives access to a large talent pool and lets the agency scale production quickly ('scalable execution of sharp strategies').",
+      "Describes itself as the Nordics' first Semrush Enterprise AIO Partner, with access to 213M+ tracked LLM prompts for GEO audits and benchmarking.",
+      "10+ years of search (SEO) expertise; 'all-in on GEO' since ChatGPT launched in 2022.",
+      "Each client gets its own 360 team of specialists (designer, website developer, copywriter, strategist).",
+      "Focuses only on B2B, with dedicated offerings for three ICPs: Enterprise, SME and SaaS & Tech.",
+      "Every client relationship starts with a workshop and a comprehensive digital review, so strategy is based on data rather than opinion."
+    ],
+    "values": [
+      "Passion",
+      "Integrity",
+      "Cooperation",
+      "Progress"
+    ],
+    "values_sv": [
+      "Passion",
+      "Integritet",
+      "Samarbete",
+      "Framsteg"
+    ],
+    "stats": [
+      {
+        "value": "150+",
+        "label": "colleagues in the group (GO MO Group with GO MO DBS) across offices in Europe and India",
+        "source_url": "https://www.gomogroup.com/om-oss/"
+      },
+      {
+        "value": "ca 70",
+        "label": "employees at GO MO Group (excluding GO MO DBS)",
+        "source_url": "https://www.gomogroup.com/om-oss/"
+      },
+      {
+        "value": "100+",
+        "label": "successful client projects",
+        "source_url": "https://www.gomogroup.com/en/"
+      },
+      {
+        "value": "10+ years",
+        "label": "of search expertise",
+        "source_url": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/"
+      },
+      {
+        "value": "213M+",
+        "label": "LLM prompts tracked via Semrush Enterprise AIO data",
+        "source_url": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/"
+      },
+      {
+        "value": "195%",
+        "label": "increase in organic clicks over 90 days for a global B2B e-commerce client (SEO automation and Gen AI case; 400+ hours saved)",
+        "source_url": "https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/"
+      },
+      {
+        "value": "36%",
+        "label": "increase in non-branded organic traffic (Volvo Group case)",
+        "source_url": "https://www.gomogroup.com/en/case/seo-for-global-giants-volvo-group/"
+      },
+      {
+        "value": "140",
+        "label": "employees took part in Gen AI training for RO-Gruppen in Gothenburg, Borås and Stockholm, and digitally (shown as '140 %' on the home page)",
+        "source_url": "https://www.gomogroup.com/en/"
+      },
+      {
+        "value": "25% / 40%",
+        "label": "efficiency increase / result-quality improvement promised by the Generative AI offering",
+        "source_url": "https://www.gomogroup.com/en/"
+      },
+      {
+        "value": "1,000",
+        "label": "key prospects reachable annually with the SaaS/Tech segmented strategy ('up to')",
+        "source_url": "https://www.gomogroup.com/en/"
+      },
+      {
+        "value": "$30M / 300+ / 7 / 3",
+        "label": "Collaboration Art group: revenue / employees / agencies / countries",
+        "source_url": "https://www.gomogroup.com/en/career/sr-seo-analyst/"
+      }
+    ],
+    "contact": {
+      "general_email": "hello@gomogroup.com",
+      "general_email_note": "Only shown on the Swedish cookie page (/cookies-regler/) next to the Gothenburg address. The site lists no general phone number.",
+      "phone": null,
+      "finance_email": "finance@gomogroup.com",
+      "gdpr_email": "gdpr@gomogroup.com",
+      "new_business": {
+        "name": "Henrik Anderberg",
+        "title": "EVP / Vice VD",
+        "email": "ha@gomogroup.com",
+        "phone": "+46766432373"
+      },
+      "recruitment": [
+        {
+          "label": "Gothenburg recruitment queries",
+          "name": "Henrik Anderberg",
+          "email": "ha@gomogroup.com",
+          "phone": "+46766432373"
+        },
+        {
+          "label": "Pune HR & recruitment",
+          "name": "Avichal Singh",
+          "email": "avichal.s@gomogroup.com",
+          "phone": null
+        }
+      ]
+    },
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/gomo-group-ab",
+      "youtube": "https://www.youtube.com/@B2BMarketingInsightsGOMO",
+      "x": null,
+      "facebook": "https://www.facebook.com/GOMOGROUP/",
+      "facebook_india": "https://www.facebook.com/GOMOGroupIndia/",
+      "instagram": null
+    },
+    "key_pages": {
+      "home_en": "https://www.gomogroup.com/en/",
+      "home_sv": "https://www.gomogroup.com/",
+      "about_en": "https://www.gomogroup.com/en/about-us/",
+      "about_sv": "https://www.gomogroup.com/om-oss/",
+      "contact_en": "https://www.gomogroup.com/en/contact-us/",
+      "contact_sv": "https://www.gomogroup.com/kontakta-oss/",
+      "careers_en": "https://www.gomogroup.com/en/career/",
+      "careers_sv": "https://www.gomogroup.com/karriar/",
+      "insights_en": "https://www.gomogroup.com/en/insights/",
+      "insights_sv": "https://www.gomogroup.com/insikter/",
+      "cases_en": "https://www.gomogroup.com/en/case/",
+      "cases_sv": "https://www.gomogroup.com/case/",
+      "events_en": "https://www.gomogroup.com/en/events/",
+      "events_sv": "https://www.gomogroup.com/events/",
+      "geo_playbook_en": "https://www.gomogroup.com/en/geo-playbook/",
+      "geo_playbook_sv": "https://www.gomogroup.com/geo-playbook/",
+      "privacy_en": "https://www.gomogroup.com/en/privacy-policy/",
+      "privacy_sv": "https://www.gomogroup.com/gdpr/",
+      "cookies_en": "https://www.gomogroup.com/en/cookie-policy/",
+      "cookies_sv": "https://www.gomogroup.com/cookies-regler/",
+      "code_of_conduct_en": "https://www.gomogroup.com/en/code-of-conduct/",
+      "agent": "https://www.gomogroup.com/agent/",
+      "career_form_en": "https://www.gomogroup.com/en/career-form/",
+      "career_form_sv": "https://www.gomogroup.com/karriar-form/"
+    }
+  },
+  "offices": [
+    {
+      "id": "gothenburg",
+      "label": "Headquarters",
+      "city": "Gothenburg",
+      "country": "Sweden",
+      "countryCode": "SE",
+      "streetAddress": "Lennart Torstenssonsgatan 8",
+      "postalCode": "412 56",
+      "addressRegion": null,
+      "email": "hello@gomogroup.com",
+      "telephone": null,
+      "timezone": "Europe/Stockholm",
+      "mapsUrl": "https://share.google/4tOJokfvr4BHQ52ie",
+      "shown_on": [
+        "en",
+        "sv"
+      ]
+    },
+    {
+      "id": "stockholm",
+      "label": "Office",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "countryCode": "SE",
+      "streetAddress": "Upplandsgatan 7",
+      "postalCode": "111 23",
+      "addressRegion": null,
+      "email": "hello@gomogroup.com",
+      "telephone": null,
+      "timezone": "Europe/Stockholm",
+      "mapsUrl": "https://maps.app.goo.gl/Htdrys9wEw1PFt2B7",
+      "shown_on": [
+        "sv"
+      ]
+    },
+    {
+      "id": "london",
+      "label": "Office",
+      "city": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "streetAddress": "60 St Martins Lane, Covent Garden",
+      "postalCode": "WC2N 4JS",
+      "addressRegion": null,
+      "email": "hello@gomogroup.com",
+      "telephone": null,
+      "timezone": "Europe/London",
+      "mapsUrl": "https://maps.app.goo.gl/wEFJB9m3DZbQJzM56",
+      "shown_on": [
+        "en"
+      ]
+    },
+    {
+      "id": "pune",
+      "label": "Office",
+      "city": "Pune",
+      "country": "India",
+      "countryCode": "IN",
+      "streetAddress": "WeWork, Fourth Floor, Raheja Woods, Kalyani Nagar",
+      "postalCode": "411006",
+      "addressRegion": "Maharashtra",
+      "email": "hello@gomogroup.com",
+      "telephone": null,
+      "timezone": "Asia/Kolkata",
+      "mapsUrl": "https://share.google/BI21uHD9GcJNLu85R",
+      "shown_on": [
+        "en",
+        "sv"
+      ]
+    }
+  ],
+  "team": [
+    {
+      "id": "gabriel-ghavami",
+      "name": "Gabriel Ghavami",
+      "role": "Founder & CEO",
+      "role_sv": "VD & grundare",
+      "bio": "Founder and CEO of GO MO Group, based in Gothenburg and a board member of Collaboration Art. Born in Tehran and raised in Gothenburg, he holds a business degree in marketing from Hawaii Pacific University and has fifteen years of experience in free enterprise in NYC, Copenhagen and Gothenburg/Stockholm. Event pages also list him as CCO at Collaboration Art.",
+      "email": "gg@gomogroup.com",
+      "telephone": "+46(0) 702 451 251",
+      "telephone_e164": "+46702451251",
+      "linkedin": "https://www.linkedin.com/in/gabriel-g-ghavami-17b84657/",
+      "location": "Gothenburg, Sweden",
+      "url": "https://www.gomogroup.com/en/team/gabriel-ghavami/",
+      "url_sv": "https://www.gomogroup.com/medarbetare/gabriel-ghavami/",
+      "languages": null,
+      "leadership": true,
+      "source_url": "https://www.gomogroup.com/en/team/gabriel-ghavami/"
+    },
+    {
+      "id": "henrik-anderberg",
+      "name": "Henrik Anderberg",
+      "role": "EVP / Vice VD",
+      "role_sv": "EVP / Vice VD",
+      "bio": "EVP of GO MO Group and a partner at Collaboration Art, working mainly from the Gothenburg office and leading the enterprise segment. He joined in 2017 after first working with GO MO as a client, moving from Client Success Manager to Head of Client Success. He holds BSc degrees in Mechanical Engineering (Chalmers) and Business Administration (Gothenburg School of Business) and has lectured on Generative AI since 2023.",
+      "email": "ha@gomogroup.com",
+      "telephone": "+46766432373",
+      "telephone_e164": "+46766432373",
+      "linkedin": "https://www.linkedin.com/in/henrikanderberg/",
+      "location": "Gothenburg, Sweden",
+      "url": "https://www.gomogroup.com/en/team/henrik-anderberg/",
+      "url_sv": "https://www.gomogroup.com/medarbetare/henrik-anderberg/",
+      "languages": null,
+      "leadership": true,
+      "source_url": "https://www.gomogroup.com/en/team/henrik-anderberg/"
+    },
+    {
+      "id": "safa-soltani",
+      "name": "Safa Soltani",
+      "role": "Managing Director",
+      "role_sv": "Managing Director",
+      "bio": "Managing Director of GO MO Group in India, based at the Pune office since 2013. Her role links the Swedish and Indian offices. She holds an MSc in International Business and Management from the University of Manchester and a BSc in Business Administration from California State University, Long Beach.",
+      "email": "ss@gomogroup.com",
+      "telephone": "+918806748787",
+      "telephone_e164": "+918806748787",
+      "linkedin": "https://www.linkedin.com/in/safasoltani/",
+      "location": "Pune, India",
+      "url": "https://www.gomogroup.com/en/team/safa-soltani/",
+      "url_sv": "https://www.gomogroup.com/medarbetare/safa-soltani/",
+      "languages": null,
+      "leadership": true,
+      "source_url": "https://www.gomogroup.com/en/team/safa-soltani/"
+    },
+    {
+      "id": "anuvinder-singh",
+      "name": "Anuvinder Singh",
+      "role": "Director",
+      "role_sv": "Director",
+      "bio": "Director and Partner at GO MO Group DBS and head of GO MO's Online Acceleration department. Expert in demand generation, email automation and content syndication, with over 12 years of experience. He is also an angel investor.",
+      "email": "as@gomogroup.com",
+      "telephone": "+13219997374",
+      "telephone_e164": "+13219997374",
+      "linkedin": "https://www.linkedin.com/in/anuvinders/",
+      "location": null,
+      "url": "https://www.gomogroup.com/en/team/anuvinder-singh/",
+      "url_sv": "https://www.gomogroup.com/medarbetare/anuvinder-singh/",
+      "languages": null,
+      "leadership": true,
+      "source_url": "https://www.gomogroup.com/en/team/anuvinder-singh/"
+    },
+    {
+      "id": "puja-kumari",
+      "name": "Puja Kumari",
+      "role": "Vice Managing Director",
+      "role_sv": "Vice Managing Director",
+      "bio": "Leads the Design and Development departments from the Pune office, and her profile also describes her as GO MO's User Experience Manager. She joined GO MO Group in 2016 and holds a bachelor's degree in journalism and mass communication from Guru Gobind Singh Indraprastha University, Delhi.",
+      "email": "puja.k@gomogroup.com",
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": "https://www.linkedin.com/in/meetpuja/",
+      "location": "Pune, India",
+      "url": "https://www.gomogroup.com/en/team/puja-kumari/",
+      "url_sv": "https://www.gomogroup.com/medarbetare/puja-kumari/",
+      "languages": null,
+      "leadership": true,
+      "source_url": "https://www.gomogroup.com/en/team/puja-kumari/"
+    },
+    {
+      "id": "lina-nygren",
+      "name": "Lina Nygren",
+      "role": "Vice President SME Strategy & Success",
+      "role_sv": "Vice President SME Strategy & Success",
+      "bio": "Joined GO MO Group in 2021 and has moved from trainee to Vice President of SME Strategy and Success. She leads the SME segment much like an agency manager and also works on external education and project management in generative AI. She holds a BSc in International Business and an MSc in Growth Management from the University of Gothenburg School of Business, Economics and Law.",
+      "email": "ln@gomogroup.com",
+      "telephone": "+46732600819",
+      "telephone_e164": "+46732600819",
+      "linkedin": "https://www.linkedin.com/in/lina-nygren-38912b135",
+      "location": "Gothenburg, Sweden",
+      "url": "https://www.gomogroup.com/en/team/lina-nygren/",
+      "url_sv": "https://www.gomogroup.com/medarbetare/lina-nygren/",
+      "languages": null,
+      "leadership": true,
+      "source_url": "https://www.gomogroup.com/en/team/lina-nygren/"
+    },
+    {
+      "id": "rickard-koskenniemi",
+      "name": "Rickard Koskenniemi",
+      "role": "Automated Copywriting Lead",
+      "role_sv": "Automated Copywriting Lead",
+      "bio": "Leads the copywriting division from the Gothenburg office, using LLMs in content creation. He joined GO MO Group in 2018 as an intern, became a full-time copywriter and later Automated Copywriting Lead. He writes SEO content for B2B organizations.",
+      "email": "rk@gomogroup.com",
+      "telephone": "+46764032919",
+      "telephone_e164": "+46764032919",
+      "linkedin": "https://www.linkedin.com/in/rickard-koskenniemi/",
+      "location": "Gothenburg, Sweden",
+      "url": "https://www.gomogroup.com/en/team/rickard-koskenniemi/",
+      "url_sv": "https://www.gomogroup.com/medarbetare/rickard-koskenniemi/",
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/en/team/rickard-koskenniemi/"
+    },
+    {
+      "id": "ida-e-ghavami",
+      "name": "Ida E. Ghavami",
+      "role": "Projects & Operations Coordinator",
+      "role_sv": "Projects & Operations Coordinator",
+      "bio": "Has been with GO MO Group since its start in 2012 as one of the 'first five' employees. As Projects & Operations Coordinator at the Gothenburg office she manages project timelines, operations, office logistics and team coordination. She has an undergraduate degree in business and administration.",
+      "email": "ie@gomogroup.com",
+      "telephone": "+46702082808",
+      "telephone_e164": "+46702082808",
+      "linkedin": "https://www.linkedin.com/in/ida-eriksson-ghavami-12711551/",
+      "location": "Gothenburg, Sweden",
+      "url": "https://www.gomogroup.com/en/team/ida-e-ghavami/",
+      "url_sv": "https://www.gomogroup.com/medarbetare/ida-e-ghavami/",
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/en/team/ida-e-ghavami/"
+    },
+    {
+      "id": "naghme-mehrooz",
+      "name": "Naghme Mehrooz",
+      "role": "Digital Marketing Analyst and Project Coordinator",
+      "role_sv": "Digital Marketing Analyst and Project Coordinator",
+      "bio": null,
+      "email": "nm@gomogroup.com",
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": "https://www.linkedin.com/in/naghme-mehrooz/",
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/en/contact-us/"
+    },
+    {
+      "id": "isabelle-coquet",
+      "name": "Isabelle Coquet",
+      "role": "Commercial Strategy Lead",
+      "role_sv": "Commercial Strategy Lead",
+      "bio": null,
+      "email": "isabelle@gomogroup.com",
+      "telephone": "+31639074168",
+      "telephone_e164": "+31639074168",
+      "linkedin": "https://www.linkedin.com/in/isabelle-coquet-1a3b541/",
+      "location": null,
+      "url": "https://www.gomogroup.com/en/team/isabelle-coquet/",
+      "url_sv": "https://www.gomogroup.com/medarbetare/isabelle-coquet/",
+      "languages": [
+        "en",
+        "sv"
+      ],
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/en/contact-us/",
+      "profile_note": "Profile pages are published but set to noindex and contain no bio; details from the contact page.",
+      "dateModified": "2026-06-05"
+    },
+    {
+      "id": "oliver-strang-paschetto",
+      "name": "Oliver Sträng Paschetto",
+      "role": "Commercial Strategy Lead",
+      "role_sv": "Commercial Strategy Lead",
+      "bio": null,
+      "email": "oliver@gomogroup.com",
+      "telephone": "+4676-6188107",
+      "telephone_e164": "+46766188107",
+      "linkedin": "https://www.linkedin.com/in/oliver-str%C3%A4ng-paschetto-194911ba/",
+      "location": null,
+      "url": "https://www.gomogroup.com/en/team/oliver-strang-paschetto/",
+      "url_sv": "https://www.gomogroup.com/medarbetare/oliver-strang-paschetto/",
+      "languages": [
+        "en",
+        "sv"
+      ],
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/en/contact-us/",
+      "profile_note": "Profile pages are published but set to noindex and contain no bio; details from the contact page.",
+      "dateModified": "2026-06-05"
+    },
+    {
+      "id": "joshua-amirose",
+      "name": "Joshua Amirose",
+      "role": "Copywriter",
+      "role_sv": null,
+      "bio": null,
+      "email": "ja@gomogroup.com",
+      "telephone": "+46723291231",
+      "telephone_e164": "+46723291231",
+      "linkedin": "https://www.linkedin.com/in/joshua-amirose/",
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/en/contact-us/"
+    },
+    {
+      "id": "avichal-singh",
+      "name": "Avichal Singh",
+      "role": "Head of Paid Marketing",
+      "role_sv": "Head of Paid Marketing",
+      "bio": "Also the contact for Pune HR & recruitment on the careers page.",
+      "email": "avichal.s@gomogroup.com",
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": "Pune, India",
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/en/career/"
+    },
+    {
+      "id": "anna-hakansson",
+      "name": "Anna Håkansson",
+      "role": "Accounting Officer & Financial Manager",
+      "role_sv": "Accounting Officer & Financial Manager",
+      "bio": "Contact for invoice questions.",
+      "email": "finance@gomogroup.com",
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/en/contact-us/"
+    },
+    {
+      "id": "priya-bhoi",
+      "name": "Priya Bhoi",
+      "role": "Design Strategist",
+      "role_sv": "Design Strategist",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "gaurav-khetan",
+      "name": "Gaurav Khetan",
+      "role": "Head of Development",
+      "role_sv": "Head of Development",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "veeraj-dattatray-jadhav",
+      "name": "Veeraj Dattatray Jadhav",
+      "role": "Full Stack Developer",
+      "role_sv": "Full Stack Developer",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "prasad-gokhale",
+      "name": "Prasad Gokhale",
+      "role": "Full Stack Developer",
+      "role_sv": "Full Stack Developer",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "shashank-ambagade",
+      "name": "Shashank Ambagade",
+      "role": "Full Stack Developer",
+      "role_sv": "Full Stack Developer",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "jonathan-pinto",
+      "name": "Jonathan Pinto",
+      "role": "Specialist - Digital Marketing",
+      "role_sv": "Specialist - Digital Marketing",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "vishal-kawade",
+      "name": "Vishal Kawade",
+      "role": "Technical Specialist",
+      "role_sv": "Technical Specialist",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "bezaleel-mathai",
+      "name": "Bezaleel Mathai",
+      "role": "Specialist - Digital Marketing",
+      "role_sv": "Specialist - Digital Marketing",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "s-vishnu-vardhan-adithya",
+      "name": "S Vishnu Vardhan Adithya",
+      "role": "Segment Lead - Digital Marketing",
+      "role_sv": "Segment Lead - Digital Marketing",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "mridul-malhotra",
+      "name": "Mridul Malhotra",
+      "role": "Specialist - Digital Marketing",
+      "role_sv": "Specialist - Digital Marketing",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "jigar-kantilal-dhulla",
+      "name": "Jigar Kantilal Dhulla",
+      "role": "Sr. Software Engineer",
+      "role_sv": "Sr. Software Engineer",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "meenal-yelsangikar",
+      "name": "Meenal Yelsangikar",
+      "role": "UI Designer",
+      "role_sv": "UI Designer",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "sanghapriya-waghmare",
+      "name": "Sanghapriya Waghmare",
+      "role": "Sr. Analyst - Paid Marketing",
+      "role_sv": "Sr. Analyst - Paid Marketing",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "aditi-rawal",
+      "name": "Aditi Rawal",
+      "role": "Sr. SEO Analyst",
+      "role_sv": "Sr. SEO Analyst",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "roshni-bhuta",
+      "name": "Roshni Bhuta",
+      "role": "Sr. SEO Analyst",
+      "role_sv": "Sr. SEO Analyst",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "pratik-chiwarkar",
+      "name": "Pratik Chiwarkar",
+      "role": "Sr. WordPress Developer",
+      "role_sv": "Sr. WordPress Developer",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "muthu-durga",
+      "name": "Muthu Durga",
+      "role": "Sr. SEO Analyst",
+      "role_sv": "Sr. SEO Analyst",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "krantiraj-mohanrao-patil",
+      "name": "Krantiraj Mohanrao Patil",
+      "role": "Sr. Paid Marketing Analyst",
+      "role_sv": "Sr. Paid Marketing Analyst",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "tanya-ann",
+      "name": "Tanya Ann",
+      "role": "UI/UX Designer",
+      "role_sv": "UI/UX Designer",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "sohom-niyogi",
+      "name": "Sohom Niyogi",
+      "role": "Sr. Paid Marketing Analyst",
+      "role_sv": "Sr. Paid Marketing Analyst",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    },
+    {
+      "id": "aasim-sayyad",
+      "name": "Aasim Sayyad",
+      "role": "Sr. SEO Analyst",
+      "role_sv": "Sr. SEO Analyst",
+      "bio": null,
+      "email": null,
+      "telephone": null,
+      "telephone_e164": null,
+      "linkedin": null,
+      "location": null,
+      "url": null,
+      "url_sv": null,
+      "languages": null,
+      "leadership": false,
+      "source_url": "https://www.gomogroup.com/om-oss/"
+    }
+  ],
+  "events": [
+    {
+      "id": "b2b-marketing-seminar-for-future-of-search",
+      "title": "How do you get your brand loved by AI and Agents?",
+      "title_sv": null,
+      "startDate": "2026-04-07T07:30:00+02:00",
+      "endDate": "2026-04-07T11:00:00+02:00",
+      "location": "Göteborg, Sweden (venue not stated)",
+      "format": "in-person",
+      "language": "en",
+      "description": "Breakfast seminar on how AI search and LLMs are changing B2B discovery, and what brands must do to be visible and recommended by AI and agents (GEO/AEO/AIO). It covered the move from SEO to GEO and what to measure, a GEO playbook, a roundtable, and optional mini-audit walkthroughs. Henrik Anderberg was the speaker.",
+      "status": "past",
+      "url": "https://www.gomogroup.com/en/event/b2b-marketing-seminar-for-future-of-search/",
+      "url_sv": "https://www.gomogroup.com/event/b2b-marketing-seminar-for-future-of-search/",
+      "registration_url": null,
+      "speakers": [
+        "Henrik Anderberg (GO MO Group)"
+      ],
+      "price": "Free (seat requests reviewed)"
+    },
+    {
+      "id": "b2b-geo-seminar-may-2026",
+      "title": "How to get your brand loved by AI and Agents? GEO in practice",
+      "title_sv": null,
+      "startDate": "2026-05-06T07:30:00+02:00",
+      "endDate": "2026-05-06T11:00:00+02:00",
+      "location": null,
+      "format": "in-person",
+      "language": "en",
+      "description": "Exclusive breakfast seminar, co-hosted with Semrush, introducing GEO and how to make a brand visible and recommended by AI and agents. Speakers were Henrik Anderberg, Gabriel Ghavami and Semrush's Gerald Murphy, followed by a panel with SKF, Balder and Volvo Group.",
+      "status": "past",
+      "url": "https://www.gomogroup.com/en/event/b2b-geo-seminar-may-2026/",
+      "url_sv": null,
+      "registration_url": null,
+      "speakers": [
+        "Henrik Anderberg (GO MO Group)",
+        "Gabriel Ghavami (GO MO Group)",
+        "Gerald Murphy (Semrush)"
+      ],
+      "price": "Free (seat requests reviewed)"
+    },
+    {
+      "id": "b2b-geo-seminar-june-2026",
+      "title": "How to get your brand selected by AI and Agents? GEO in practice.",
+      "title_sv": null,
+      "startDate": "2026-06-10T08:15:00+02:00",
+      "endDate": null,
+      "location": "Stockholm, Sweden (venue not stated)",
+      "format": "in-person",
+      "language": "en",
+      "description": "Exclusive B2B GEO seminar in Stockholm, co-hosted with Semrush, on making a brand visible and selected by AI search and agents. Speakers were Henrik Anderberg, Gabriel Ghavami and Gerald Murphy (Semrush), with a panel featuring Balder, Google and Volvo Group. The page said the event was full, with a waitlist.",
+      "status": "past",
+      "url": "https://www.gomogroup.com/en/event/b2b-geo-seminar-june-2026/",
+      "url_sv": "https://www.gomogroup.com/event/b2b-geo-seminar-june-2026/",
+      "registration_url": null,
+      "speakers": [
+        "Henrik Anderberg (GO MO Group)",
+        "Gabriel Ghavami (GO MO Group)",
+        "Gerald Murphy (Semrush)"
+      ],
+      "price": "Free (event full; waitlist)"
+    }
+  ],
+  "careers": [
+    {
+      "id": "sr-paid-marketing-analyst",
+      "title": "Sr. Paid Marketing Analyst",
+      "title_sv": null,
+      "location": "Pune, India",
+      "employmentType": null,
+      "posted": "August 2026",
+      "summary": "Senior paid media role running and optimizing Google Ads, Meta, LinkedIn and Microsoft Ads campaigns for B2B clients, with strategy, budget forecasting and client reporting. Requires 2-3 years of paid ads experience (2+ hands-on with Google Ads) and use of AI tools; candidates must live in or relocate to Pune.",
+      "url": "https://www.gomogroup.com/en/career/sr-paid-marketing-analyst/",
+      "url_sv": null,
+      "apply_url": "https://www.gomogroup.com/en/career-form/?job=sr-paid-marketing-analyst",
+      "apply_url_sv": "https://www.gomogroup.com/karriar-form/"
+    },
+    {
+      "id": "jr-recruitment-specialist",
+      "title": "Jr. Recruitment Specialist",
+      "title_sv": null,
+      "location": "Pune, India",
+      "employmentType": null,
+      "posted": "August 2026",
+      "summary": "Junior recruitment role covering candidate sourcing, screening calls, interview coordination and HR and onboarding support. Requires 0-1 year of recruitment experience; candidates must live in or relocate to Pune.",
+      "url": "https://www.gomogroup.com/en/career/jr-recruitment-specialist/",
+      "url_sv": null,
+      "apply_url": "https://www.gomogroup.com/en/career-form/?job=jr-recruitment-specialist",
+      "apply_url_sv": "https://www.gomogroup.com/karriar-form/"
+    },
+    {
+      "id": "sr-seo-analyst",
+      "title": "Sr. SEO Analyst",
+      "title_sv": null,
+      "location": "Pune, India",
+      "employmentType": null,
+      "posted": "August 2025",
+      "summary": "Senior SEO role covering keyword research, website diagnosis, strategy and performance reporting for Fortune B2B and international clients, working with the team in Sweden. Requires at least 1.5 years of hands-on SEO experience; candidates must live in or relocate to Pune.",
+      "url": "https://www.gomogroup.com/en/career/sr-seo-analyst/",
+      "url_sv": null,
+      "apply_url": "https://www.gomogroup.com/en/career-form/?job=sr-seo-analyst",
+      "apply_url_sv": "https://www.gomogroup.com/karriar-form/"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the agentic web?",
+      "a": "The agentic web is the machine-facing layer of a website. It presents the same business information as structured, readable data so AI assistants and agentic browsers can retrieve it, cite it and act on it without parsing a page built for human eyes.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/agentic-web/"
+    },
+    {
+      "q": "How is this different from SEO or GEO?",
+      "a": "SEO and GEO influence whether you are found and recommended. The agentic web decides what an agent can actually read and do once it arrives. They are complementary: visibility brings the agent, the agentic layer serves it.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/agentic-web/"
+    },
+    {
+      "q": "Do we need to rebuild our website?",
+      "a": "No. The agentic layer is added alongside your existing site. Your human website stays exactly as it is; we build a parallel machine-readable layer on the same domain.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/agentic-web/"
+    },
+    {
+      "q": "How long does an agentic web build take?",
+      "a": "A standard build runs about three weeks from audit to verified deployment. Larger sites with multiple markets or product catalogues take longer, mostly in data mapping.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/agentic-web/"
+    },
+    {
+      "q": "Why does it need monthly upkeep?",
+      "a": "Your website keeps changing, new crawlers and browser agents keep arriving, and the specifications themselves are still moving. Without upkeep the layer drifts out of sync and agents answer from stale data.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/agentic-web/"
+    },
+    {
+      "q": "How do you measure whether it worked?",
+      "a": "Four measures: the Lighthouse agentic browsing category, how well leading models describe your business when asked, agent and crawler traffic in your logs, and citation appearances in AI answers.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/agentic-web/"
+    },
+    {
+      "q": "What’s the difference between YouTube ads and a YouTube marketing strategy?",
+      "a": "YouTube ads generate views while your budget is active — when it stops, visibility stops. A YouTube marketing strategy builds organic discovery through search-optimised content, channel architecture, and playlist structure. The goal is content that compounds in value over time — reaching buyers through YouTube Search, Suggested Videos, and AI platforms without ongoing media spend per view. Both have a role, but most B2B companies are 100% dependent on paid. We change that ratio.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/b2b-youtube-marketing/"
+    },
+    {
+      "q": "Do we need to create a lot of new videos to see results?",
+      "a": "Not necessarily — and often not at all in Month 1. The highest-impact improvements almost always come from optimising what already exists: rewriting metadata, adding chapter structure, adjusting visibility settings, reorganising channel architecture, and building playlists. Most companies have a video library that significantly underperforms its potential. We unlock that first, then build a content strategy around proven demand.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/b2b-youtube-marketing/"
+    },
+    {
+      "q": "Is YouTube actually relevant for B2B companies in industrial or technical sectors?",
+      "a": "Especially so. Technical buyers actively use YouTube to understand how products work, compare specifications, and validate decisions before involving procurement. Categories like industrial equipment, construction machinery, logistics software, enterprise technology, and professional services all have genuine search demand on YouTube. The opportunity is large precisely because most B2B companies in these sectors have not yet invested in organic YouTube strategy — which means first movers will compound their advantage.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/b2b-youtube-marketing/"
+    },
+    {
+      "q": "What is the difference between SEO and GEO?",
+      "a": "SEO (Search Engine Optimization) focuses on ranking in traditional search engines like Google — getting your page to appear at the top of a results page. GEO (Generative Engine Optimization) focuses on getting your brand cited and recommended within AI-generated answers from tools like ChatGPT, Perplexity, and Google AI Overviews. The key difference: in SEO you earn a position in a list. In GEO you earn a mention within a conversational answer. The signals that drive each are related but distinct — GEO places greater weight on entity authority, citation across trusted sources, and content that answers questions comprehensively.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/"
+    },
+    {
+      "q": "What is Generative Engine Optimization?",
+      "a": "Generative Engine Optimization (GEO) is the practice of structuring your brand’s digital presence so that AI language models and search engines — like ChatGPT, Perplexity, Gemini, and Google’s AI Overviews — are more likely to reference, cite, and recommend your brand when users ask relevant questions. It involves optimizing content for how LLMs crawl and process information, building entity authority across the web, and ensuring your brand is clearly associated with the topics and problems your customers are asking AI about.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/"
+    },
+    {
+      "q": "Is GEO replacing SEO?",
+      "a": "Not replacing — but fundamentally reshaping. Traditional SEO remains important, especially for transactional queries and local search. But the share of research and discovery happening through AI search is growing rapidly, particularly in B2B contexts where buyers use tools like ChatGPT to evaluate vendors before ever visiting a website. The smartest approach is to treat GEO and SEO as complementary disciplines. Many of the foundations — strong content, authoritative backlinks, technical health — benefit both. GEO adds a new layer: entity building, AI citation optimization, and prompt-level visibility tracking.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/"
+    },
+    {
+      "q": "What does the SEMrush Enterprise AIO partnership mean for me as a client?",
+      "a": "As the Nordics’ first SEMrush Enterprise AIO Partner, GO MO has access to the largest LLM prompt tracking database available — 213M+ real prompts monitored globally across ChatGPT, Perplexity, Gemini, Copilot, and Meta AI. This means every audit and strategy we deliver is grounded in actual data about how AI engines are answering questions in your industry. Most agencies offering GEO services are working from hypothesis. We’re working from measurement. Your visibility benchmark, competitor gaps, and content priorities are all backed by real AI search data that other Nordic agencies simply don’t have access to.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/"
+    },
+    {
+      "q": "What is the Mini GEO Audit and what do I get?",
+      "a": "The Mini GEO Audit is a free, no-commitment snapshot of your brand’s current AI search visibility. We check how your brand appears — or doesn’t — across ChatGPT and Perplexity for your core topic areas, and deliver a 1-page summary within 48 hours. It’s the fastest way to understand your starting point before committing to a full GEO strategy. There’s no pitch, no obligation — just a clear picture of where you stand today. Request your free Mini Audit here.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/"
+    },
+    {
+      "q": "Are these designs fully AI-generated?",
+      "a": "Not entirely. We use Generative AI to speed up and scale the creative process, but visual is reviewed, refined, and finalized by our experts to ensure quality and brand alignment.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/website-design/"
+    },
+    {
+      "q": "How does AI improve the design process?",
+      "a": "AI helps us explore more concepts faster, automate repetitive tasks, and speed up production. This means quicker turnarounds, more creative options, and efficient scaling—while human designers focus on strategy, UX, and storytelling.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/website-design/"
+    },
+    {
+      "q": "Will the designs match our brand guidelines?",
+      "a": "Yes. Brand alignment is central to our process. We train prompts, workflows, and design decisions around your brand guidelines, and our designers ensure every output feels cohesive, intentional, and on-brand.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/website-design/"
+    },
+    {
+      "q": "Can I request revisions or changes?",
+      "a": "Yes, absolutely. We include revision rounds as part of our process to ensure the final output meets your expectations. Because our workflow is AI-assisted, iterations are faster and more efficient—while our designers ensure every change maintains quality, clarity, and brand consistency.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/website-design/"
+    },
+    {
+      "q": "Are these websites fully custom-built?",
+      "a": "Yes, we build custom websites tailored to your specific needs and business goals. From design to functionality, everything is developed to ensure a unique and high-performing website that aligns with your brand.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/website-development/"
+    },
+    {
+      "q": "How long does it take to launch a website?",
+      "a": "The typical development timeline is about 2 months from design approval to launch. More complex projects, like e-commerce or SaaS sites, may require additional time for development and integration.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/website-development/"
+    },
+    {
+      "q": "What kind of businesses do you work with?",
+      "a": "We work with a wide range of businesses, from startups to established companies, across industries such as SaaS, e-commerce, B2B, and corporate sectors. No matter your business type, we can create a custom solution that works for you.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/website-development/"
+    },
+    {
+      "q": "Can I request revisions or changes?",
+      "a": "Yes, revisions and changes can be requested during the development process. We ensure your website meets your expectations and offer post-launch support for any further adjustments or updates.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/services/website-development/"
+    },
+    {
+      "q": "What is enterprise SEO and how does it differ from traditional SEO?",
+      "a": "Enterprise SEO focuses on large-scale strategies tailored for complex B2B organizations. It involves optimizing high-volume websites, managing multi-regional content, and aligning SEO with sales and marketing objectives across departments and markets. Ai and automation therefor plays a critical role where you need to strike balance between high quality and automation.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/solution/segment-b2b-enterprise/"
+    },
+    {
+      "q": "How does GO MO Group help B2B enterprises improve SEO performance?",
+      "a": "GO MO delivers a data-driven SEO approach that combines long-term organic visibility with paid media strategies. Our enterprise solutions include technical SEO, keyword strategy, scalable content creation, and full-funnel performance analytics. All fueled by generative ai.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/solution/segment-b2b-enterprise/"
+    },
+    {
+      "q": "How is AI influencing SEO strategies for enterprise-level companies?",
+      "a": "AI is reshaping search behaviors and rankings. We help B2B enterprises adapt to this change. Example tasks include integrating structured content, smart schema, and AI-aligned content frameworks—positioning your brand for both today’s and tomorrow’s search engines.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/solution/segment-b2b-enterprise/"
+    },
+    {
+      "q": "How can SEO and GEO support growth for B2B SaaS companies?",
+      "a": "SEO and Generative Engine Optimization (GEO) help B2B SaaS companies increase visibility across platforms like Google, Bing, Youtube, ChatGPT and Perplexity. These strategies attract the right decision-makers and shorten sales cycles through optimized, AI-aligned content, strong overall website performance.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/solution/segment-b2b-saas-tech/"
+    },
+    {
+      "q": "What makes GO MO’s approach to SaaS digital marketing effective?",
+      "a": "We combine scalable SEO, high-converting UX, segmented messaging, and CRM-powered lead gen tailored to SaaS needs. Our India-based delivery model enables fast, data-driven execution with minimal risk and high impact. Shortly put: a team of specialist acting as your 360-degree interim marketing department, specialized on SaaS-companies.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/solution/segment-b2b-saas-tech/"
+    },
+    {
+      "q": "Why is segmented outreach important for SaaS marketing?",
+      "a": "SaaS clients needs to grow quicker than the marketing itself, therefore they need to be very aggresive. SaaS buyers have unique needs based on industry, role, and growth stage. We build campaigns with platform-specific messaging for Google, LinkedIn, and email—ensuring relevance, increasing conversion, and improving ROI.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/solution/segment-b2b-saas-tech/"
+    },
+    {
+      "q": "How can SEO help small and medium-sized B2B companies grow online?",
+      "a": "SEO enhances visibility on search engines like Google and Bing, helping SMEs attract relevant leads at the right time. It’s especially valuable for B2B SMEs looking to increase their market share by getting the bitter part of the digital landscape. Good leads, at a time when they are ready to buy.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/solution/segment-sme/"
+    },
+    {
+      "q": "What marketing strategies work best for B2B SMEs with limited in-house resources?",
+      "a": "For SMEs, a mix of pull-marketing (SEO and inbound), push-marketing (targeted outreach), and AI-enhanced lead generation offers high ROI. GO MO Group acts as your interim marketing partner, providing scalable, low-risk solutions tailored to your goals.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/solution/segment-sme/"
+    },
+    {
+      "q": "How does GO MO Group tailor digital strategies specifically for SME businesses?",
+      "a": "We provide end-to-end digital services—from SEO and paid campaigns to UX/UI design and CRM-driven lead gen—adapted to the unique challenges and budgets of SMEs. Our India-based delivery model ensures speed, flexibility, and cost efficiency.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/solution/segment-sme/"
+    },
+    {
+      "q": "What is Generative Engine Optimization (GEO)?",
+      "a": "Generative Engine Optimization (GEO) is the practice of optimizing your brand’s digital presence so it appears in responses generated by LLMs and AI systems such as ChatGPT, Gemini, and Perplexity. GEO focuses on making your content extractable, trustworthy, and widely validated so AI systems can confidently reference and recommend it when answering user questions.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/geo-playbook/"
+    },
+    {
+      "q": "How is GEO different from traditional SEO?",
+      "a": "SEO focuses on helping websites rank in search engine results pages. GEO builds on that foundation by ensuring your content can also be understood, synthesized, and cited by AI systems that generate answers directly for users. In practice, GEO expands optimization beyond search engines to include AI models, AI search tools, and emerging agent-driven discovery systems.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/geo-playbook/"
+    },
+    {
+      "q": "Does GEO replace SEO?",
+      "a": "No. SEO remains the first step to building digital visibility. Search engines are still a primary source of information for both users and AI systems. GEO builds on strong SEO foundations by making your content easier for AI systems to interpret, extract, and reference in generated answers. Organizations with strong SEO often have a significant advantage when expanding into GEO.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/geo-playbook/"
+    },
+    {
+      "q": "Is GEO relevant for B2B companies?",
+      "a": "Yes — in many cases even more than B2C. In B2B environments, users often rely on AI tools to research solutions, validate vendors, and understand complex topics before speaking with a sales team. Even when purchases happen through resellers, partners, or procurement processes, AI-driven research increasingly influences which brands make the shortlist.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/geo-playbook/"
+    },
+    {
+      "q": "Who is this playbook for?",
+      "a": "Marketing leaders, SEO teams, and B2B brands that want to understand how AI search is reshaping organic discovery — and how to ensure their brand appears when users rely on AI tools to research and evaluate solutions.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/geo-playbook/"
+    },
+    {
+      "q": "Who is this event for?",
+      "a": "The session is designed primarily for marketing and communications leaders at large companies — CMOs, Digital Directors, Heads of Growth, and similar roles. That said, we also welcome senior marketers from mid-sized companies and portfolio operations leads at investment groups. If you’re responsible for how your brand shows up to customers, this is relevant.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/event/b2b-geo-seminar-may-2026/"
+    },
+    {
+      "q": "What can I practically take with me?",
+      "a": "You’ll leave with a clear understanding of how AI platforms currently evaluate and recommend brands, and a concrete framework for what to prioritise. Every attendee also receives a personalized AI Brand Visibility Snapshot within two weeks – a custom analysis of how AI sees your brand across your most important commercial queries.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/event/b2b-geo-seminar-may-2026/"
+    },
+    {
+      "q": "Can I bring a colleague?",
+      "a": "Absolutely – we encourage it. Having multiple perspectives in the room makes the conversation richer. Each person needs to submit their own seat request so we can ensure a relevant audience",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/event/b2b-geo-seminar-may-2026/"
+    },
+    {
+      "q": "Is the event free of charge?",
+      "a": "Yes, there’s no cost to attend. Since we’re keeping the session small and focused, we review all seat requests to make sure the room is composed of marketing and communications professionals who’ll get the most out of it.",
+      "lang": "en",
+      "source_url": "https://www.gomogroup.com/en/event/b2b-geo-seminar-may-2026/"
+    },
+    {
+      "q": "Hur får jag mitt företag citerat av ChatGPT, Gemini och Perplexity?",
+      "a": "För att bli citerad av ChatGPT, Gemini och Perplexity behöver ditt företag information som AI-assistenter kan läsa och lita på. Det gör du genom att lägga till ett agentiskt webblager på din webbplats, ett maskinläsbart lager där dina fakta finns som strukturerad data. Lagret innehåller bland annat: - en llms.txt som visar AI-assistenterna var de viktigaste svaren om ditt företag finns - strukturerad data (schema.org) om ditt företag, dina tjänster och dina produkter - en agentsida som samlar det viktigaste på ett ställe Ingen kan garantera att en AI-modell citerar dig. Men med ett agentiskt webblager hämtar AI-assistenterna dina uppgifter direkt från din webbplats, och vi följer upp vad modellerna faktiskt säger om dig.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/agentic-web/"
+    },
+    {
+      "q": "Vad är den agentiska webben, och varför spelar den roll för B2B-företag?",
+      "a": "Den agentiska webben är ett maskininriktat lager på din webbplats, byggt för AI-assistenter och agentiska webbläsare. Där finns samma information om ditt företag som på resten av webbplatsen, fast som strukturerad data som AI kan läsa, citera och agera utifrån. Den agentiska webben spelar roll för B2B-företag eftersom allt mer av researchen kring leverantörer sker via AI-assistenter. En AI-assistent läser bara en handfull källor och skriver ett enda svar. Med ett maskinläsbart lager på din webbplats ökar chansen att ditt företag blir en av de källorna.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/agentic-web/"
+    },
+    {
+      "q": "Hur skiljer sig agentisk webb från SEO och GEO?",
+      "a": "SEO och GEO avgör om ditt företag hittas och rekommenderas. Agentisk webb avgör vad en AI-agent faktiskt kan läsa och göra när den väl har kommit till din webbplats. Det ena ersätter inte det andra. Synligheten tar agenten till dig, och det agentiska lagret ger den det den behöver.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/agentic-web/"
+    },
+    {
+      "q": "Behöver jag bygga om min webbplats för agentisk webb?",
+      "a": "Nej. Det agentiska lagret läggs till bredvid din befintliga webbplats. För dina besökare ser allt ut och fungerar precis som i dag. Vi bygger det maskinläsbara lagret parallellt, på samma domän.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/agentic-web/"
+    },
+    {
+      "q": "Hur lång tid tar det att bygga ett agentiskt lager?",
+      "a": "Ett standardbygge av det agentiska lagret tar ungefär tre veckor, från audit till verifierad driftsättning. Större webbplatser med flera marknader eller produktkataloger tar längre tid. Oftast är det datamappningen som kräver mer arbete.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/agentic-web/"
+    },
+    {
+      "q": "Varför behöver det agentiska lagret synkas varje månad?",
+      "a": "Det agentiska lagret behöver synkas löpande eftersom din webbplats förändras hela tiden. Nya crawlers och webbläsaragenter dyker upp, och specifikationerna utvecklas fortfarande. Utan underhåll glider lagret ur synk, och agenterna svarar utifrån inaktuell information.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/agentic-web/"
+    },
+    {
+      "q": "Hur mäter man om agentisk webb fungerar?",
+      "a": "Vi mäter effekten av det agentiska lagret med fyra mått: - kategorin för agentisk browsing i Lighthouse - hur väl ledande AI-modeller beskriver ditt företag när de får frågor om det - trafik från agenter och crawlers i dina serverloggar - hur ofta ditt företag citeras i AI-genererade svar",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/agentic-web/"
+    },
+    {
+      "q": "Vad är skillnaden mellan YouTube Ads och en långsiktig YouTube-strategi?",
+      "a": "YouTube Ads genererar synlighet så länge ni betalar för den. När budgeten tar slut försvinner också räckvidden. En YouTube-strategi bygger istället långsiktig organisk synlighet genom sökoptimerat innehåll, rätt kanalstruktur och innehåll som fortsätter att upptäckas över tid. Båda fyller en viktig funktion. Paid skapar snabb räckvidd, medan organisk synlighet bygger ett varaktigt inflöde av potentiella kunder. Vi hjälper er att kombinera båda, så att ni inte är beroende av annonser för att bli upptäckta.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/b2b-youtube-marketing/"
+    },
+    {
+      "q": "Behöver vi producera mycket nytt innehåll för att se resultat?",
+      "a": "Nej, inte nödvändigtvis. I många fall kommer de första resultaten från att optimera det innehåll som redan finns. Genom förbättrad metadata, kanalstruktur, playlists och sökoptimering går det ofta att öka synligheten utan att producera en enda ny video. Först när den befintliga potentialen är utnyttjad bygger vi vidare med en innehållsstrategi baserad på faktisk efterfrågan och relevanta sökbeteenden. Målet är inte att producera fler videor. Målet är att skapa fler affärsresultat.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/b2b-youtube-marketing/"
+    },
+    {
+      "q": "Är YouTube verkligen relevant för B2B-företag inom industri och teknik?",
+      "a": "Ja, definitivt. Tekniska köpare använder YouTube för att förstå lösningar, jämföra alternativ och utvärdera leverantörer långt innan de kontaktar säljorganisationen. Det gäller allt från industriutrustning och logistiksystem till enterprise-mjukvara och professionella tjänster. Samtidigt är konkurrensen fortfarande relativt låg inom många B2B-kategorier. Det ger företag som investerar i organisk synlighet idag möjlighet att bygga ett försprång som blir svårt att ta igen över tid.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/b2b-youtube-marketing/"
+    },
+    {
+      "q": "Vad är skillnaden mellan SEO och GEO?",
+      "a": "SEO handlar om att optimera innehåll och webbplatser för att ranka i traditionella sökmotorer som Google. GEO bygger vidare på den grunden genom att även anpassa innehållet för AI-drivna sökupplevelser och språkmodeller. Medan SEO främst fokuserar på keywords, teknisk optimering och ranking, handlar GEO om att göra innehållet begripligt, relevant och tillräckligt trovärdigt för att AI-system ska kunna tolka, sammanfatta och rekommendera det i genererade svar.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/generative-engine-optimization-geo/"
+    },
+    {
+      "q": "Vad är Generative Engine Optimization (GEO)?",
+      "a": "Generative Engine Optimization (GEO) är en strategi för att optimera innehåll och digital närvaro för AI-drivna sökmotorer och språkmodeller som ChatGPT, Gemini och Google AI Overviews. Målet är inte bara att synas — utan att bli förstådd, refererad till och rekommenderad av AI-system när användare söker information, jämför lösningar eller utvärderar leverantörer. GEO kompletterar traditionell SEO genom att fokusera på struktur, kontext, trovärdighet och innehåll som AI enkelt kan tolka och använda i sina svar.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/generative-engine-optimization-geo/"
+    },
+    {
+      "q": "Ersätter GEO traditionell SEO?",
+      "a": "Nej. GEO ersätter inte SEO — det bygger vidare på den. SEO är fortfarande grunden för digital synlighet och hjälper sökmotorer att förstå, indexera och ranka innehåll. GEO adderar ytterligare ett lager genom att optimera innehållet för hur AI-system hämtar, tolkar och presenterar information i AI-genererade svar. Företag med en stark SEO-grund har därför ofta ett tydligt försprång när de börjar arbeta strategiskt med GEO och AI-driven synlighet.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/generative-engine-optimization-geo/"
+    },
+    {
+      "q": "Är designen helt AI-genererad?",
+      "a": "Inte helt. Vi använder generativ AI för att snabba upp processen, men allt material granskas, bearbetas och färdigställs av våra designers för att säkerställa kvalitet och att det följer ert varumärke.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/webbdesign/"
+    },
+    {
+      "q": "Hur förbättrar AI designprocessen?",
+      "a": "AI hjälper oss att ta fram fler idéer snabbare, automatisera repetitiva moment och korta ledtider. Det ger fler kreativa alternativ och ett mer effektivt arbetssätt, samtidigt som våra designers fokuserar på strategi, UX och helhet.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/webbdesign/"
+    },
+    {
+      "q": "Kommer designen följa våra varumärkesriktlinjer?",
+      "a": "Ja. Vi utgår alltid från era varumärkesriktlinjer i både arbetssätt och designbeslut. Våra designers ser till att allt hänger ihop och känns genomtänkt, konsekvent och i linje med ert varumärke.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/webbdesign/"
+    },
+    {
+      "q": "Kan vi be om ändringar?",
+      "a": "Självklart. Vi jobbar med tydliga feedbackrundor och gör justeringar tills allt sitter som det ska. Tack vare vårt arbetssätt kan vi göra ändringar snabbt, utan att tumma på kvaliteten.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/webbdesign/"
+    },
+    {
+      "q": "Är dessa webbplatser helt skräddarsydda?",
+      "a": "Ja, vi bygger skräddarsydda webbplatser utifrån dina specifika behov och affärsmål. Från design till funktionalitet utvecklas allt för att skapa en unik och högpresterande lösning som stärker ditt varumärke.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/webbutveckling/"
+    },
+    {
+      "q": "Hur lång tid tar det att lansera en webbplats?",
+      "a": "Den typiska utvecklingstiden är cirka 2 månader från godkänd design till lansering. Mer komplexa projekt, som e-handel eller SaaS-lösningar, kan kräva extra tid för utveckling och integration.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/webbutveckling/"
+    },
+    {
+      "q": "Vilka typer av företag arbetar ni med?",
+      "a": "Vi arbetar med en bredd av företag – från startups till etablerade bolag – inom områden som SaaS, e-handel, B2B och större organisationer. Oavsett verksamhet tar vi fram en skräddarsydd lösning som passar dina behov.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/webbutveckling/"
+    },
+    {
+      "q": "Kan jag be om ändringar eller justeringar?",
+      "a": "Ja, du kan göra ändringar under hela utvecklingsprocessen. Vi säkerställer att slutresultatet motsvarar dina förväntningar och erbjuder även support efter lansering för vidare justeringar och uppdateringar.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/vara-tjanster/webbutveckling/"
+    },
+    {
+      "q": "Vad innebär SEO och GEO för stora B2B-företag?",
+      "a": "SEO (sökmotoroptimering) hjälper företag att öka synligheten i organiska sökresultat, medan GEO (generative experience optimization) fokuserar på att synas i AI-genererade svar som i ChatGPT, Microsoft Copilot, Perplexity och Claude. Tillsammans ger dessa metoder B2B-företag en konkurrensfördel i ett digitalt landskap som snabbt förändras.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/solution/segment-b2b-enterprises/"
+    },
+    {
+      "q": "Hur hjälper GO MO Group B2B-företag att lyckas digitalt globalt?",
+      "a": "Vi erbjuder exekvering boostad av ai inom både SEO, GEO, SEM, och ASBX som bygger digital närvaro globalt. Med team i Norden och Indien levererar vi snabba, skalbara lösningar med låg risk och hög avkastning på er investering. För större koncerner är utbildning och inspiration en central del av erbjudandet!",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/solution/segment-b2b-enterprises/"
+    },
+    {
+      "q": "Varför är pull-marketing och CXO viktiga för B2B-marknadsföring?",
+      "a": "Pull-marketing attraherar rätt kunder vid rätt tidpunkt genom SEO och relevant innehåll. Kombinerat med kundupplevelseoptimering (CXO) ger det bättre engagemang, konvertering och långsiktig kundlojalitet – avgörande i komplexa B2B-affärer.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/solution/segment-b2b-enterprises/"
+    },
+    {
+      "q": "Hur hjälper GO MO Group B2B SaaS-bolag att generera fler leads digitalt?",
+      "a": "Vi kombinerar SEO, GEO, betald annonsering, UX-design och webbutveckling för att förbättra synligheten online och attrahera kvalificerade leads. Genom segmenterad outreach och AI-förstärkt innehåll når vi rätt målgrupper med rätt budskap. Ett team redo för att accelerera er affär på nya marknader.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/solution/segment-b2b-saas-tech/"
+    },
+    {
+      "q": "Vad är Generative Engine Optimization (GEO) och varför är det viktigt för techbolag?",
+      "a": "GEO innebär att optimera innehåll för att synas i AI-genererade svar från verktyg som Google SGE, ChatGPT, Microsoft Copilot och Perplexity. För SaaS-företag är det en nyckelstrategi för att ligga steget före i hur moderna köpare söker information.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/solution/segment-b2b-saas-tech/"
+    },
+    {
+      "q": "Varför är en vertikal SaaS-strategi viktig inom digital marknadsföring?",
+      "a": "En vertikal SaaS-strategi gör det möjligt att nå specifika branscher med skräddarsydd kommunikation. Det ökar konverteringsgraden och kundnöjdheten i en konkurrensutsatt marknad. Grunden handlar om att förstå sin ICP och bygga strategin därifrån.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/solution/segment-b2b-saas-tech/"
+    },
+    {
+      "q": "Hur hjälper GO MO Group traditionella B2B SME-företag att lyckas digitalt?",
+      "a": "Vi fungerar som en förlängning av ert marknadsföringsteam, med fokus på leadgenerering, hemside-design och utveckling, SEO/GEO och innehållsstrategi. Våra lösningar är anpassade för små och medelstora bolag med begränsade digitala resurser, särskilt inom industri och tillverkning.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/solution/segment-sme/"
+    },
+    {
+      "q": "Vilka digitala strategier passar bäst för SME-bolag med liten intern marknadsföring?",
+      "a": "En kombination av inbound marketing (SEO, innehåll) och push-marketing (Google Ads, LinkedIn, e-post) är särskilt effektivt för att kombinera kort- och långsiktiga resultat. Vi hjälper er att nå beslutsfattare med rätt budskap vid rätt tidpunkt.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/solution/segment-sme/"
+    },
+    {
+      "q": "Hur kan generativ AI förbättra marknadsföringen för SME-företag?",
+      "a": "Genom att använda generativ AI kan ni snabbt analysera data och automatisera innehållsproduktion. Det ger konkurrensfördelar, ökar synlighet och förbättrar effektiviteten i er marknadsföring—utan att kräva stora interna resurser.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/solution/segment-sme/"
+    },
+    {
+      "q": "Vad är Generative Engine Optimization (GEO)?",
+      "a": "Generative Engine Optimization (GEO) handlar om att optimera ett varumärkes digitala närvaro så att det syns i svar som genereras av AI-system och språkmodeller som ChatGPT, Gemini och Perplexity. GEO fokuserar på att göra innehåll lätt att förstå, trovärdigt och väl validerat — så att AI-system tryggt kan referera till och rekommendera ert varumärke när användare söker information.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/geo-playbook/"
+    },
+    {
+      "q": "Hur skiljer sig GEO från traditionell SEO?",
+      "a": "SEO fokuserar på att hjälpa webbplatser ranka i sökmotorer. GEO bygger vidare på det genom att säkerställa att innehållet även kan förstås, sammanfattas och citeras av AI-system som genererar svar direkt till användaren. I praktiken breddar GEO optimeringen från traditionella sökmotorer till AI-modeller, AI-sökverktyg och framtida agentdrivna discovery-system.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/geo-playbook/"
+    },
+    {
+      "q": "Ersätter GEO traditionell SEO?",
+      "a": "Nej. SEO är fortfarande grunden för digital synlighet. Sökmotorer är fortsatt en central informationskälla — både för användare och AI-system. GEO bygger vidare på stark SEO genom att göra innehållet enklare för AI att tolka, extrahera och referera till i genererade svar. Företag med en stark SEO-grund har ofta ett tydligt försprång när de börjar arbeta med GEO.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/geo-playbook/"
+    },
+    {
+      "q": "Är GEO relevant för B2B-bolag?",
+      "a": "Ja — i många fall ännu mer än för B2C. I B2B-processer använder köpare i allt större utsträckning AI för att undersöka lösningar, validera leverantörer och förstå komplexa områden innan de kontaktar säljteam. Även när affärer sker via partners, återförsäljare eller upphandlingar påverkar AI-driven research i allt högre grad vilka varumärken som hamnar på shortlisten.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/geo-playbook/"
+    },
+    {
+      "q": "Vem är playbooken för?",
+      "a": "Marknadschefer, SEO-team och B2B-varumärken som vill förstå hur AI-sök förändrar organisk synlighet — och hur man säkerställer att varumärket syns när användare använder AI för att undersöka och utvärdera lösningar.",
+      "lang": "sv",
+      "source_url": "https://www.gomogroup.com/geo-playbook/"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "The GO MO team is dual minded in the sense that they are able to strike the right balance between strategic thinking and delivering actionable results.",
+      "author": "Jens Gustavsson",
+      "role": "SVP Corporate Communication",
+      "company": "Volvo Group",
+      "source_url": "https://www.gomogroup.com/en/services/pull-marketing/"
+    },
+    {
+      "quote": "GO MO Group has aided us in gaining market insights in this new application area, helping us understand customer information-seeking behavior. This has transformed Munters approach to communication.",
+      "author": "Anja Simonsson",
+      "role": "Vice President Marketing",
+      "company": "Munters",
+      "source_url": "https://www.gomogroup.com/en/services/pull-marketing/"
+    },
+    {
+      "quote": "Marketing has gone from coloring books and balloons and fluffiness to data-driven sales. The most important task is actually help drive sales, I highly endorse GO MO Group for delivering on just that.",
+      "author": "Yaya Selva",
+      "role": "Global Marketing Director",
+      "company": "Net Insight",
+      "source_url": "https://www.gomogroup.com/en/services/pull-marketing/"
+    },
+    {
+      "quote": "When presented with specific and unique problems, the GO MO team can certainly be depended on to accurately interpret, present, and implement solutions. Their professional team would always be highly recommended.",
+      "author": "Kris Granger",
+      "role": "Digital Marketing Manager",
+      "company": "Volvo Group",
+      "source_url": "https://www.gomogroup.com/en/case/seo-automation-gen-ai-b2b-ecommerce/"
+    },
+    {
+      "quote": "Lead Generations services offered by GO MO are excellent. Anuvinder and his team have done a great job delivering lead gen projects for our team through 2019. The GO MO team is very professional and always offers creative solutions. Keep up the great work!",
+      "author": "Matt Smith",
+      "role": "Chief Commercial Officer",
+      "company": null,
+      "source_url": "https://www.gomogroup.com/en/services/demand-generation/"
+    },
+    {
+      "quote": "GO MO DBS excels at combining visionary strategy with practical execution, achieving the perfect blend of innovative thinking and tangible outcomes.",
+      "author": "Shashank Salunke",
+      "role": "ABM & Digital Transformation Marketing Leader",
+      "company": null,
+      "source_url": "https://www.gomogroup.com/en/services/demand-generation/"
+    },
+    {
+      "quote": "Gabriel has definitely convinced me of the power of data-driven decisions and the importance of keeping up to speed on how to rank well in Google. Gabriel and the central team … gives GO MO Group a unique position to deliver world-class pull marketing.",
+      "author": "Martin Palmqvist",
+      "role": "Digital Communications Manager",
+      "company": "Volvo Group",
+      "source_url": "https://www.gomogroup.com/en/case/seo-for-global-giants-volvo-group/"
+    },
+    {
+      "quote": "Together with Henrik Anderberg and GO MO, TÜV NORD Scandinavia AB has developed a marketing and sales strategy for our operations. … The chosen digital market orientation has shown good impact, one of them is becoming a strengthened brand, and has led to many business opportunities.",
+      "author": "Anders Egerbo",
+      "role": "VD för TÜV NORD 2001 – 2018",
+      "company": "TÜV NORD Scandinavia AB",
+      "source_url": "https://www.gomogroup.com/en/case/case-tuv-nord/"
+    },
+    {
+      "quote": "GO MO Group has helped us with our market insights in this relatively new application area and it has been of great value to us to know how customers seek information. It has changed the way we look at customers and our communication with them.",
+      "author": "Anja Simonsson",
+      "role": "VP Communications, Marine Division",
+      "company": "Alfa Laval",
+      "source_url": "https://www.gomogroup.com/en/case/how-this-big-company-acted-fast-and-took-back-the-lead/"
+    },
+    {
+      "quote": "We needed a partner with a local presence that could scale up the collaboration to keep pace with our growth and the maturing market. In addition to good results, I appreciated our weekly meetings and reports that gave us insight into, and the chance to impact, our marketing.",
+      "author": "Victor Salomonsson",
+      "role": "Digital Growth Specialist",
+      "company": "Adnavem",
+      "source_url": "https://www.gomogroup.com/en/case/digital-marketing-for-disruptor/"
+    },
+    {
+      "quote": "We needed to develop our business digitally but we didn’t really know-how. This is where GO MO Group and Henrik helped us in a fantastic way during the journey both as a partner and as an advisor. Their assistance has led to a constant flow of leads …",
+      "author": null,
+      "role": null,
+      "company": "Alarm and home security company (client not named)",
+      "source_url": "https://www.gomogroup.com/en/case/digitalizing-the-sales-process-to-create-growth-via-pull-marketing-seo/"
+    },
+    {
+      "quote": "This was not a training session. It was a starting point. Now we know what to focus on and how to get there.",
+      "author": null,
+      "role": null,
+      "company": "HighFive Group",
+      "source_url": "https://www.gomogroup.com/en/case/how-the-highfive-group-turned-ai-potential-into-real-business-value/"
+    },
+    {
+      "quote": "We save time, we improve quality – and we sound like ourselves. That’s exactly what we wanted.",
+      "author": null,
+      "role": null,
+      "company": "West Sweden Chamber of Commerce",
+      "source_url": "https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/"
+    },
+    {
+      "quote": "A real aha moment.",
+      "author": "Participant",
+      "role": "Gen AI workshop participant",
+      "company": "Swedavia",
+      "source_url": "https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/"
+    }
+  ],
+  "awards_partner_badges": [
+    {
+      "name": "Microsoft Advertising Elite Partner 2025",
+      "type": "partner_badge",
+      "url": null,
+      "source_url": "https://www.gomogroup.com/en/"
+    },
+    {
+      "name": "Microsoft Advertising Elite Partner 2026",
+      "type": "partner_badge",
+      "url": null,
+      "source_url": "https://www.gomogroup.com/en/"
+    },
+    {
+      "name": "Semrush Enterprise Partner",
+      "type": "partner_badge",
+      "url": "https://agencies.semrush.com/go-mo-group/",
+      "source_url": "https://www.gomogroup.com/en/"
+    },
+    {
+      "name": "The Nordics' first Semrush Enterprise AIO Partner",
+      "type": "partner_status",
+      "url": null,
+      "source_url": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/"
+    },
+    {
+      "name": "Google Partner",
+      "type": "partner_badge",
+      "url": "https://www.google.com/partners/agency?id=4938729115",
+      "source_url": "https://www.gomogroup.com/en/"
+    },
+    {
+      "name": "Ahrefs (agency directory, Sweden)",
+      "type": "partner_badge",
+      "url": "https://ahrefs.com/agencies/sweden",
+      "source_url": "https://www.gomogroup.com/en/"
+    },
+    {
+      "name": "Apollo Partner",
+      "type": "partner_badge",
+      "url": "https://get.apollo.io/9nkzrhydzp2t",
+      "source_url": "https://www.gomogroup.com/en/"
+    },
+    {
+      "name": "Välkommen Handelskraft partnership",
+      "type": "partnership",
+      "url": null,
+      "source_url": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/"
+    }
+  ],
+  "_meta": {
+    "generated": "2026-10-19",
+    "source": "Fresh scrape of gomogroup.com (_source/md). Facts are taken from live pages only.",
+    "notes": [
+      "The Ahrefs badge has no partner-tier wording on the site, and 'award-winning' in the job ads names no specific award.",
+      "There is no English about page: /en/about-us/ 301-redirects to a team profile, so about_en is null.",
+      "Team entries with bio null come from the contact pages or the Swedish about page's colleague grid. Their profile pages were not in the scrape, or no profile exists."
+    ]
+  }
+}

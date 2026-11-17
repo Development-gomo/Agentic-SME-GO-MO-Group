@@ -1,0 +1,183 @@
+{
+  "status": "ok",
+  "version": "1.2",
+  "endpoint": "services",
+  "generated": "2026-05-18T00:00:00Z",
+  "source": "https://www.gomogroup.com/agent/v1/services.json",
+  "data": [
+    {
+      "id": "geo",
+      "name": "Generative Engine Optimization (GEO)",
+      "slug": "generative-engine-optimization-geo",
+      "category": "AI Search Visibility",
+      "description": "AI search visibility strategy ensuring brands appear in Google AI Overviews, ChatGPT, Gemini, and Perplexity responses. Includes structured data implementation, agent-layer architecture, llms.txt setup, content structuring for LLM retrieval, and ongoing GEO performance measurement.",
+      "pricing": {
+        "from": 27500,
+        "currency": "SEK",
+        "model": "monthly retainer"
+      },
+      "url": "https://www.gomogroup.com/en/services/generative-engine-optimization-geo/",
+      "tags": ["geo", "ai-search", "llm", "chatgpt", "gemini", "perplexity", "google-ai-overviews"]
+    },
+    {
+      "id": "seo",
+      "name": "SEO — Search Engine Optimization",
+      "slug": "seo-search-engine-optimization",
+      "category": "Organic Search",
+      "description": "B2B SEO agency since 2013. Data-driven strategy for decision-maker visibility. Covers technical SEO, on-page optimisation, link building, keyword strategy, and content for complex B2B industries. Proven result: 195% organic clicks increase in 90 days for a Fortune 500 manufacturer.",
+      "pricing": {
+        "from": null,
+        "currency": null,
+        "model": "monthly retainer — contact for pricing"
+      },
+      "url": "https://www.gomogroup.com/en/services/seo-search-engine-optimization/",
+      "tags": ["seo", "organic-search", "b2b", "technical-seo", "content"]
+    },
+    {
+      "id": "sea",
+      "name": "SEA — Search Engine Advertising",
+      "slug": "sea-search-engine-advertising",
+      "category": "Paid Search",
+      "description": "Google Ads and Bing Ads campaign management with intent-based targeting and AI-automated bid optimisation. Covers search, display, shopping, Performance Max, and remarketing. Managed by Microsoft Advertising Elite Partners.",
+      "pricing": {
+        "from": null,
+        "currency": null,
+        "model": "percentage of ad spend + management fee — contact for pricing"
+      },
+      "url": "https://www.gomogroup.com/en/services/sea-search-engine-advertising/",
+      "tags": ["sea", "google-ads", "bing-ads", "paid-search", "ppc", "microsoft-advertising"]
+    },
+    {
+      "id": "pull-marketing",
+      "name": "Pull Marketing",
+      "slug": "pull-marketing",
+      "category": "B2B Marketing Strategy",
+      "description": "Foundational B2B marketing methodology capitalising on the 94% of B2B buying processes that begin online. Aligns SEO, SEM, content, and data to attract decision-makers at the moment of intent rather than interrupting them.",
+      "pricing": {
+        "from": null,
+        "currency": null,
+        "model": "monthly retainer — contact for pricing"
+      },
+      "url": "https://www.gomogroup.com/en/services/pull-marketing/",
+      "tags": ["pull-marketing", "b2b", "inbound", "demand-generation", "strategy"]
+    },
+    {
+      "id": "content-marketing",
+      "name": "Content Marketing",
+      "slug": "content-marketing",
+      "category": "Content",
+      "description": "Complex B2B industry content creation — AI-enhanced with 30–40% input reduction and increased output volume. Covers blog posts, white papers, case studies, landing pages, and automated content pipelines using GenAI tools.",
+      "pricing": {
+        "from": null,
+        "currency": null,
+        "model": "monthly retainer — contact for pricing"
+      },
+      "url": "https://www.gomogroup.com/en/services/content-marketing/",
+      "tags": ["content-marketing", "b2b-content", "ai-content", "copywriting", "genai"]
+    },
+    {
+      "id": "asbx",
+      "name": "ASBX — B2B Outbound Lead Generation",
+      "slug": "asbx-b2b-outbound-lead-generation",
+      "category": "Lead Generation",
+      "description": "Account and Segment-Based Experience delivering BANT-qualified leads. Combines ICP targeting, data enrichment, multi-channel outreach, and SDR sequences. Generated 90 BANT-qualified leads and 9,500 IT decision-maker prospects for Dell Technologies France.",
+      "pricing": {
+        "from": null,
+        "currency": null,
+        "model": "performance-based + retainer — contact for pricing"
+      },
+      "url": "https://www.gomogroup.com/en/services/asbx-b2b-outbound-lead-generation/",
+      "tags": ["lead-generation", "asbx", "bant", "outbound", "account-based", "b2b-sales"]
+    },
+    {
+      "id": "go-mo-dbs",
+      "name": "B2B Lead Generation — GO MO DBS",
+      "slug": "go-mo-dbs",
+      "category": "Lead Generation",
+      "description": "Data and intelligence-driven B2B lead generation service. Builds and enriches prospect databases, qualifies leads, and delivers actionable sales pipelines for B2B companies targeting specific industries or geographies.",
+      "pricing": {
+        "from": null,
+        "currency": null,
+        "model": "contact for pricing"
+      },
+      "url": "https://www.gomogroup.com/en/",
+      "tags": ["lead-generation", "data", "b2b", "prospecting", "database"]
+    },
+    {
+      "id": "web-development",
+      "name": "Website Development",
+      "slug": "website-development",
+      "category": "Web",
+      "description": "Full-stack B2B website development. Technology stack: WordPress, Next.js, headless CMS, Lovable, Python/FastAPI, Azure. Focus on performance, SEO-readiness, and conversion optimisation for B2B audiences.",
+      "pricing": {
+        "from": null,
+        "currency": null,
+        "model": "project-based — contact for pricing"
+      },
+      "url": "https://www.gomogroup.com/en/services/website-development/",
+      "tags": ["web-development", "wordpress", "nextjs", "headless-cms", "python", "azure"]
+    },
+    {
+      "id": "web-design",
+      "name": "Website Design — UX/UI",
+      "slug": "website-design",
+      "category": "Web",
+      "description": "UX/UI design for B2B conversion optimisation. User research, wireframing, prototyping, and visual design for industrial and tech B2B companies. Led by a dedicated UX Design Lead based in Pune, India.",
+      "pricing": {
+        "from": null,
+        "currency": null,
+        "model": "project-based — contact for pricing"
+      },
+      "url": "https://www.gomogroup.com/en/services/website-design/",
+      "tags": ["ux", "ui", "web-design", "b2b", "conversion-optimisation"]
+    },
+    {
+      "id": "programmatic",
+      "name": "Programmatic Advertising",
+      "slug": "programmatic-advertising",
+      "category": "Paid Media",
+      "description": "Real-time bidding (RTB) via DSP/SSP with B2B decision-maker targeting. Covers display, native, video, and connected TV. Uses first-party and third-party intent data to reach industrial and enterprise buyers at scale.",
+      "pricing": {
+        "from": null,
+        "currency": null,
+        "model": "percentage of ad spend — contact for pricing"
+      },
+      "url": "https://www.gomogroup.com/en/services/programmatic-advertising/",
+      "tags": ["programmatic", "rtb", "dsp", "display", "b2b-targeting"]
+    },
+    {
+      "id": "digital-analysis",
+      "name": "Digital Analysis & Strategy Proposal",
+      "slug": "digital-analysis-strategy-proposal",
+      "category": "Strategy",
+      "description": "Five-step data-first methodology: digital audit → competitive analysis → channel prioritisation → roadmap → ongoing optimisation. Delivered as a standalone strategy engagement or as a precursor to full-service retainer.",
+      "pricing": {
+        "from": null,
+        "currency": null,
+        "model": "fixed-fee project — contact for pricing"
+      },
+      "url": "https://www.gomogroup.com/en/services/digital-analysis-strategy-proposal/",
+      "tags": ["strategy", "audit", "digital-analysis", "competitive-analysis", "roadmap"]
+    },
+    {
+      "id": "ai-implementation",
+      "name": "Generative AI Implementation",
+      "slug": "generative-ai-implementation",
+      "category": "AI",
+      "description": "Structured AI implementation from inspirational sessions to full pilot projects. Includes workshops, internal training, custom GPT/agent builds, AI workflow integration, and governance frameworks. Delivered outcomes: 25% efficiency improvement and 40% quality improvement for clients.",
+      "pricing": {
+        "from": null,
+        "currency": null,
+        "model": "workshop / project-based — contact for pricing"
+      },
+      "url": "https://www.gomogroup.com/en/solution/generative-ai-offering/",
+      "tags": ["generative-ai", "ai-implementation", "workshops", "custom-gpt", "ai-strategy"]
+    }
+  ],
+  "meta": {
+    "total": 12,
+    "license": "Content © GO MO Group AB.",
+    "contact": "hello@gomogroup.com",
+    "pricingNote": "Prices shown in SEK where available. Contact hello@gomogroup.com for a tailored proposal."
+  }
+}
