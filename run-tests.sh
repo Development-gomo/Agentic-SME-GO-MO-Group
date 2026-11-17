@@ -7,6 +7,7 @@ run() { echo; echo "═══ $1"; shift; "$@" || status=1; }
 run "Plugin router"     php tests/php/router_test.php
 run "Sync merge"        php tests/php/sync_merge_test.php
 run "Snapshot publication" php tests/php/snapshot_test.php
+run "Sync page index"   php tests/php/sync_pages_test.php
 run "Generated outputs" python3 tests/test_outputs.py
 run "MCP fallback regression" node --test --test-timeout=60000 gomo-mcp/tests/read-cache.test.mjs gomo-mcp/tests/mcp-offline.test.mjs
 run "ARD schema"        node --test --test-timeout=60000 tests/ard_schema.test.mjs

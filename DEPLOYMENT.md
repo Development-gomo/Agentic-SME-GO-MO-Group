@@ -17,9 +17,9 @@ See `CHANGELOG.md` for every page added, updated or removed, and `SITE-FINDINGS.
 | `llms.txt` | `/llms.txt` | 349 Markdown links, no bare URLs. Lists every EN and SV insight. |
 | `ai.txt` | `/ai.txt` | Permissions, canonical sources (now including `ARD:`), language rules and the consent rule. |
 | `api-catalog.json` | `/api-catalog.json` | APIs.json 0.16, including the ARD manifest entry. |
-| `ard.json` | `/.well-known/ard.json` | **New.** ARD v0.91 manifest with two entries: the MCP server (inline server card, 12 tools) and the REST API (OpenAPI). Served by the plugin. |
+| `ard.json` | `/.well-known/ard.json` | **New.** ARD v0.91 manifest with two entries: the MCP server (inline server card, 12 tools) and the REST API (OpenAPI). **On SiteGround, upload it by hand** to `public_html/.well-known/ard.json` (see step 1). |
 | `robots-addition.txt` | paste into the live `robots.txt` | AI crawler allowlist, `Sitemap:`, the new `Agentmap:` directive, and `Content-Signal`. |
-| `gomo-api/` | `wp-content/plugins/gomo-api/` | WordPress plugin v1.4.0. Serves `/agent/v1/*`, `/openapi.json`, `/.well-known/ard.json` and, optionally, `/agent/`, `/llms.txt`, `/ai.txt` and `/api-catalog.json`. |
+| `gomo-api/` | `wp-content/plugins/gomo-api/` | WordPress plugin v1.4.1. Serves `/agent/v1/*`, `/openapi.json`, `/.well-known/ard.json` and, optionally, `/agent/`, `/llms.txt`, `/ai.txt` and `/api-catalog.json`. |
 | `gomo-mcp/` | Render service at `https://agent-mcp.gomogroup.com/mcp` | MCP server v1.4.0 with 12 tools. Bundled read snapshots keep reads working when the WordPress origin is blocked. |
 | `tests/`, `run-tests.sh` | not deployed | Plugin router and contact, sync merge, snapshot publication, generated outputs (including ARD conformance) and MCP protocol. Run `./run-tests.sh` before every deploy. |
 | `_source/` | not deployed | Crawl data (`pages.json`, `md/`), curated JSON, `build.py`, `build_dataset.py` and `build_insights.py`, which regenerate every file above. |
@@ -38,6 +38,21 @@ See `CHANGELOG.md` for every page added, updated or removed, and `SITE-FINDINGS.
 - **Language pairs follow the site's hreflang tags.** WPML now outputs them on 324 pages.
 - **Insights carry an `author`** where the page marks one up.
 
+## Upgrading a live v1.4.0 plugin to v1.4.1
+
+v1.4.1 only changes the plugin's sync code. The data files, the discovery files, `ard.json` and the MCP server are unchanged.
+
+1. Back up `wp-content/plugins/gomo-api/`, including `snapshots/`.
+2. Upload the two changed files over the live ones: `gomo-api/gomo-api.php` and `gomo-api/includes/class-sync.php`.
+3. **Delete `gomo-api/snapshots/current.json`.** The snapshot published by the v1.4.0 sync contains the faulty page index. Without the pointer, the site serves the clean bundled November data, and the next sync starts from that clean index.
+4. Purge the SiteGround and CDN caches, then confirm `/agent/v1/pages.json` lists 327 URLs and includes `/en/`.
+5. **Tools → GO MO Agent API → Sync now.** Read the report:
+   - "left out" lists every URL sync excluded, with the reason;
+   - "removed from the index" lists pages that no longer exist;
+   - "NEEDS REVIEW" lists new URLs it couldn't check live.
+   The page index should stay at about 327 URLs, keep `/en/` and the `/en/event/…` pages, and contain no `/page-404/` or `/en/home/`.
+6. Purge the caches again. The MCP server picks up the new data within 5 minutes.
+
 ## Deployment checklist
 
 ### 0. Before you start
@@ -46,14 +61,16 @@ See `CHANGELOG.md` for every page added, updated or removed, and `SITE-FINDINGS.
 
 ### 1. WordPress plugin
 - [ ] Back up the entire current `wp-content/plugins/gomo-api/` folder, including `snapshots/`. Then replace it with this `gomo-api/` folder.
-- [ ] **Remove the active snapshot pointer `gomo-api/snapshots/current.json`** so the new bundled files become the baseline. Otherwise the v1.3.0 snapshot stays active and `/.well-known/ard.json` returns 404.
+- [ ] **Remove the active snapshot pointer `gomo-api/snapshots/current.json`** so the new bundled files become the baseline. Otherwise the v1.3.0 snapshot stays active.
 - [ ] Make sure nothing physical sits at the plugin's URLs. Physical files take precedence over rewrite rules. Check for:
   - `/agent/index.json`;
   - root copies of `llms.txt`, `ai.txt`, `api-catalog.json` and `openapi.json`;
-  - any physical `/agent/index.html`;
-  - any `/.well-known/ard.json`.
+  - any physical `/agent/index.html`.
+
+  (`/.well-known/ard.json` is the exception: on SiteGround it must be a physical file, see below.)
 - [ ] The plugin serves `/agent/` from `agent-page.html` by default. To keep a WordPress page at `/agent/` instead, untick the setting under **Tools → GO MO Agent API**.
-- [ ] **Settings → Permalinks → Save.** Without this, `/.well-known/ard.json` and every other plugin route returns 404.
+- [ ] **Upload `ard.json` to `public_html/.well-known/ard.json`.** SiteGround's nginx serves everything under `/.well-known/` straight from disk, so those requests never reach WordPress and the plugin's own `/.well-known/ard.json` route cannot answer there. Sync never updates this copy, so upload the package's `ard.json` again with every release. Static files on SiteGround get no `Access-Control-Allow-Origin` header; Lighthouse and server-side agents don't need it.
+- [ ] **Settings → Permalinks → Save.** Without this, every plugin route returns 404.
 - [ ] **Tools → GO MO Agent API → Sync now.** Check the report for "NEEDS CURATION", and confirm it ends with **Published complete snapshot**. A `FAILED` report means the previous publication is still active; fix the reported error before retrying.
 - [ ] Exclude the machine-readable routes from host page caching (including `/.well-known/ard.json`), then purge CDN and page caches. The plugin sends `max-age=0, must-revalidate`.
 - [ ] Verify:

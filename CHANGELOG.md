@@ -1,5 +1,21 @@
 # Changelog: GO MO Group Agentic Web Package
 
+## v1.4.1 (plugin patch, 2026-11-17)
+
+The first live "Sync now" on 2026-11-17 rebuilt the page index from raw WordPress permalinks. It added 7 URLs that redirect elsewhere, both `page-404` pages and `/en/home/`, and it dropped `/en/` and the three English event pages (333 URLs instead of 327). It also added 3 redirecting posts to `insights.json`. Only the WordPress plugin changes; the package data, discovery files and MCP server are unchanged.
+
+**Fixes in `gomo-api/includes/class-sync.php`**
+- **Real public URLs.** Posts use WPML's language-correct permalink (English events become `/en/event/…`, not `/event/…`), and a front page maps to its language root (`/`, `/en/`).
+- **Non-public posts are left out:** enabled Redirection-plugin sources (exact and regex rules), Yoast Premium redirects, Yoast canonicals that point elsewhere, and 404 template pages. This applies to the page index and to insights, events and careers.
+- **New URLs are checked live.** A URL that isn't already in the published index is only added if it answers 200 itself, which catches server-level redirects that WordPress can't see. If the check can't run (loopback blocked, bot protection), the URL is added and listed under NEEDS REVIEW.
+- **The published index is never dropped wholesale.** Rows WordPress doesn't produce this time (language roots, curated noindex profiles, pages whose permalink differs from the live URL) are kept while they still resolve to a published post. Deleted pages and rows that became redirects are removed and named in the report.
+- **One row per URL.** When two posts claim the same URL, the one whose language matches the path wins.
+- **The sync report lists every URL left out, with the reason,** plus rows kept, removed and needing review.
+
+**Tests:** new `tests/php/sync_pages_test.php` (16 checks) reproduces every failure above, including bad rows left behind by the faulty sync. 14 of its checks fail on the v1.4.0 sync code and all 16 pass on the fix. It's added to `run-tests.sh`.
+
+**Docs:** `DEPLOYMENT.md` now says to upload `ard.json` by hand to `public_html/.well-known/` on SiteGround, which serves that folder without WordPress, and to re-upload it with every release.
+
 ## v1.4.0 (agentic-web-2026-11)
 
 Built from a Firecrawl crawl of www.gomogroup.com on **2026-11-17**.

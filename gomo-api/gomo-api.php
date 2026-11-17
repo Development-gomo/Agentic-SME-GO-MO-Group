@@ -2,7 +2,7 @@
 /**
  * Plugin Name: GO MO Agent API
  * Description: Machine-readable agent layer for gomogroup.com — clean JSON endpoints at /agent/v1/, the OpenAPI spec at /openapi.json, the /agent/ page and the llms.txt / ai.txt / api-catalog.json discovery files (served with correct charset) and the Agentic Resource Discovery manifest at /.well-known/ard.json. Bilingual (EN + SV).
- * Version: 1.4.0
+ * Version: 1.4.1
  * Author: GO MO Group
  * Requires PHP: 7.4
  * License: Proprietary
@@ -14,7 +14,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('GOMO_API_VERSION', '1.4.0');
+define('GOMO_API_VERSION', '1.4.1');
 define('GOMO_API_DIR', plugin_dir_path(__FILE__));
 define('GOMO_API_BASE', 'https://www.gomogroup.com/agent/v1');
 define('GOMO_LEAD_EMAIL', 'ha@gomogroup.com');
