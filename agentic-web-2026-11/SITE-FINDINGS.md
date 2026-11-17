@@ -14,9 +14,11 @@ Items marked *(re-checked)* were confirmed again in the 2026-11-17 crawl. Items 
 
 ## Needs a decision from GO MO
 1. **Atlas Copco is named in the main menu.** Both languages now say "Atlas Copco" in the Case mega-menu, and the Swedish case page names the client. The English case page still anonymises it ("Swedish manufacturing giant"). The package keeps the client anonymised. Confirm whether the client may be named, and make the site consistent.
-2. **Founding year.** The site's own Organization structured data says `foundingDate: 2014`. Ida E. Ghavami's profile says GO MO started in 2012, and earlier site copy said "SEO agency since 2013". The package uses 2013.
 
 ## New in this crawl
+- **Founding year conflicts with the confirmed year.** GO MO has confirmed 2013 (2026-11-17), and the package publishes 2013. Two places on the site disagree and should be corrected:
+  - the Organization structured data says `foundingDate: 2014`;
+  - Ida E. Ghavami's profile says GO MO started in 2012.
 - **The English event pages declare Swedish canonicals.** All three `/en/event/…` pages set `<link rel="canonical">` to the Swedish `/event/…` path. One of those Swedish paths, `/event/b2b-geo-seminar-may-2026/`, 301-redirects back to the English page, so the canonical goes in a loop. Each event page should be canonical to itself. The package keeps the English URLs.
 - **The site's Organization structured data is out of date.** The custom Organization block on every page says:
   - "a team of 50+ specialists" (the about page says about 70 employees, 150+ with GO MO DBS);

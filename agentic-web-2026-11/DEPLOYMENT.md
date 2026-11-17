@@ -41,7 +41,7 @@ See `CHANGELOG.md` for every page added, updated or removed, and `SITE-FINDINGS.
 ## Deployment checklist
 
 ### 0. Before you start
-- [ ] **Confirm the founding year.** The package publishes 2013. The site's own structured data says 2014, and one profile says 2012 (see `SITE-FINDINGS.md`). If 2013 is wrong, change `founded` in `_source/curated/company.json`, run `python3 build.py` and `./run-tests.sh`, and deploy the regenerated files.
+- [x] **Founding year confirmed as 2013** (GO MO Group, 2026-11-17). The package publishes 2013. The site's own structured data (2014) and one profile (2012) still need correcting in WordPress; see `SITE-FINDINGS.md`.
 - [ ] Run `./run-tests.sh` (after `npm ci` in `gomo-mcp/`). Every suite must pass.
 
 ### 1. WordPress plugin

@@ -168,7 +168,8 @@ None of the v1.3.0 URLs now redirect. Known redirecting URLs stay out of the ind
 - **"Sync now" dropped author titles from the agent page (medium).** The PHP renderer now outputs `authorRole` ("Author title"), with a post-sync assertion.
 - **MCP rate limiting behind Render's proxy.** The server trusted only loopback proxies, so on Render every client shared one rate-limit bucket and WordPress saw the proxy's IP. A new `TRUST_PROXY` setting (set `1` on Render) fixes this, and `true` is refused because it lets clients forge addresses. Smoke tests confirm separate buckets per client.
 - **ARD validation now runs the official schema.** `tests/ard_schema.test.mjs` validates both copies of `ard.json` against the vendored ARD v0.91 entry schema with Ajv, plus the Lighthouse best-practice checks. Ajv is now an explicit dev dependency of `gomo-mcp`.
-- `DEPLOYMENT.md` adds pre-deploy steps (confirm the founding year, run the suite) and host checks: snapshot publication, duplicate-suppressed contact test, upstream (not challenge) data in `/health`, and per-client rate-limit buckets.
+- Founding year confirmed by GO MO as 2013 (2026-11-17) and recorded in the company data's `founded_note`.
+- `DEPLOYMENT.md` adds pre-deploy steps (founding year, now confirmed; run the suite) and host checks: snapshot publication, duplicate-suppressed contact test, upstream (not challenge) data in `/health`, and per-client rate-limit buckets.
 
 ### Package changes
 
