@@ -1,18 +1,8 @@
-URL: https://www.gomogroup.com/en/case/how-segmented-b2b-outreach-generated-15-sales-qualified-leads/
-LANG: en
-TYPE: case
-TITLE: How segmented B2B outreach generated 15 Sales Qualified Leads
-DESC: B2B lead generation case: segmented outreach to ~900 decision-makers at a Swedish commercial property firm delivered an 18% reply rate and 15 SQLs.
-PUBLISHED: 2026-10-01
-MODIFIED: 2026-10-07
-AUTHOR: None
-ALT: {'lang': 'sv', 'url': 'https://www.gomogroup.com/case/sa-gav-en-segmenterad-b2b-kampanj-15-kvalificerade-leads/'}
----
 B2B Lead Generation \| Reading time: 5 minutes \| September 28, 2026
 
 # How segmented B2B outreach generated  15 Sales Qualified Leads
 
-Between October and December 2025, a commercial property company used a B2B lead generation campaign to create direct demand for available premises. GO MO built the campaign around the reasons different companies and decision-makers consider moving.
+Between October and December 2025, a commercial property company used segmented B2B outreach to create direct demand for available premises. GO MO built the campaign around the reasons different companies and decision-makers consider moving.
 
 _The client is a commercial property company in western Sweden with a property portfolio valued at over SEK 20 billion. The company’s name is withheld to protect client confidentiality._
 
@@ -385,6 +375,33 @@ As well as opening sales conversations, the campaign showed where market fit is 
 
 →**Testing:** The CEO subject-line test identified the direction to use in future outreach.
 
+FAQ
+
+## Segmented B2B outreach: frequently asked questions
+
+### What is a good reply rate for a cold email campaign?
+
+The average B2B cold email reply rate is about 3.4% ( [Instantly’s 2025 data](https://instantly.ai/cold-email-benchmark-report-2026)). The top 25% of campaigns get above 5.5%, and the top 10% get above 10%. In general, 5–10% counts as good and anything over 10% as excellent.
+
+Three things separate the best campaigns from the rest:
+
+- **Follow-ups:** 42% of replies come after the first email. Sequences with several touches reply at about twice the rate of single sends ( [Woodpecker](https://woodpecker.co/blog/cold-email-statistics/)).
+- **Segmentation:** Large generic lists of 500 or more contacts average about 2% (Woodpecker).
+- **Relevance:** Personalisation that goes beyond the first name and company name roughly doubles the reply rate (Woodpecker).
+
+In our commercial property campaign, segmented B2B outreach to about 900 decision-makers got an 18% reply rate across three emails, well above the reported average. The niche Foodtech segment reached 30%. The 18% counts human replies only; automatic out-of-office replies are excluded.
+
+### How many times should you follow up a cold email?
+
+Most B2B campaigns do best with 2–4 follow-ups after the first email, so 3–5 emails in total. [Belkins](https://belkins.io/blog/sales-follow-up-statistics) analysed 7.5 million outreach emails sent in 2025. Step 3 alone produced 35.6% of the meetings booked by email. After step 5, the extra replies drop off sharply.
+
+Follow-ups matter because many prospects don’t reply to the first email:
+
+- 42–59% of all replies come from follow-ups, not the first email (Instantly, Belkins).
+- Sequences with several follow-ups get about twice the reply rate of single emails, around 8% against 4% (Woodpecker).
+
+Each follow-up should add something new, not just bump the thread. In our commercial property campaign we sent three emails. The first was a pitch tailored to each segment, the second added context and visuals, and the third was a short note leaving the door open for companies planning to move later. Replies kept coming after the second and third emails, which matters for offers with long decision cycles like office space.
+
 About the author
 
 ![Naghme Mehrooz](https://www.gomogroup.com/wp-content/uploads/2026/06/naghme-mehrooz-profile-image.webp)
@@ -395,21 +412,21 @@ Naghme MehroozDigital Marketing Analyst and Project CoordinatorNaghme is a Digit
 
 See how a B2B lead generation campaign can combine audience strategy, segmented messaging and outreach around your go-to-market priorities.
 
-[Explore B2B Lead Generation](https://www.gomogroup.com/en/contact-us/)
+[Explore B2B Lead Generation](https://www.gomogroup.com/en/services/asbx-b2b-outbound-lead-generation/)
 
 ### Let’s discuss your future.
 
 Hi, my name is  and I represent , where my title is . You can contact me at . I am contacting you regarding .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
 
 Contact us, and we’ll get back to you with our expertise and support!
 
@@ -417,11 +434,11 @@ Contact us, and we’ll get back to you with our expertise and support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/case/how-segmented-b2b-outreach-generated-15-sales-qualified-leads/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/en/case/how-segmented-b2b-outreach-generated-15-sales-qualified-leads/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/case/how-segmented-b2b-outreach-generated-15-sales-qualified-leads/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/en/case/how-segmented-b2b-outreach-generated-15-sales-qualified-leads/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Privacy Policy](https://www.gomogroup.com/en/privacy-policy/) [Cookie Policy](https://www.gomogroup.com/en/cookie-policy/) [AI Agent Information](https://www.gomogroup.com/agent/)
 

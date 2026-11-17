@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/en/contact-us/
-LANG: en
-TYPE: page
-TITLE: Contact Us: Business Inquiries and Career
-DESC: Contact details to GO MO Group. You can also fill in our contact form and the right person will get back to you. Thank you for your interest.
-PUBLISHED: 2024-02-15
-MODIFIED: 2024-05-27
-AUTHOR: None
-ALT: {'lang': 'sv', 'url': 'https://www.gomogroup.com/kontakta-oss/'}
----
 # Traditional Expertise,  Future-Oriented    Marketers
 
 Every successful customer relationship with us begins with a cup of coffee or a digital meeting. When we jointly decide to move forward, we organize a workshop attended by key people from your team.
@@ -83,10 +73,6 @@ Our doors are always open! Contact us directly or use the form here to tell us w
 
 [![Phone](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/phone.png)](tel:+46764032919 "Phone")[![Email](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:rk@gomogroup.com "Email")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/in/rickard-koskenniemi/ "Linkedin profile")[Read more about Rickard Koskenniemi](https://www.gomogroup.com/en/team/rickard-koskenniemi/)
 
-[![](https://www.gomogroup.com/wp-content/uploads/2026/06/joshua-amirose-profile-image.jpg)](https://www.gomogroup.com/en/team/joshua-amirose/) [Joshua Amirose](https://www.gomogroup.com/en/team/joshua-amirose/)Copywriter
-
-[![Phone](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/phone.png)](tel:+46723291231 "Phone")[![Email](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:ja@gomogroup.com "Email")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/in/joshua-amirose/ "Linkedin profile")[Read more about Joshua Amirose](https://www.gomogroup.com/en/team/joshua-amirose/)
-
 [![](https://www.gomogroup.com/wp-content/uploads/2026/06/isabelle-coquet-profile-image.webp)](https://www.gomogroup.com/en/team/isabelle-coquet/) [Isabelle Coquet](https://www.gomogroup.com/en/team/isabelle-coquet/)Commercial Strategy Lead
 
 [![Phone](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/phone.png)](tel:+31639074168 "Phone")[![Email](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:isabelle@gomogroup.com "Email")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/in/isabelle-coquet-1a3b541/ "Linkedin profile")[Read more about Isabelle Coquet](https://www.gomogroup.com/en/team/isabelle-coquet/)
@@ -94,6 +80,10 @@ Our doors are always open! Contact us directly or use the form here to tell us w
 [![](https://www.gomogroup.com/wp-content/uploads/2026/06/oliver-strang-paschetto-profile-image.webp)](https://www.gomogroup.com/en/team/oliver-strang-paschetto/) [Oliver Sträng Paschetto](https://www.gomogroup.com/en/team/oliver-strang-paschetto/)Commercial Strategy Lead
 
 [![Phone](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/phone.png)](tel:+4676-6188107 "Phone")[![Email](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:oliver@gomogroup.com "Email")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/in/oliver-str%C3%A4ng-paschetto-194911ba/ "Linkedin profile")[Read more about Oliver Sträng Paschetto](https://www.gomogroup.com/en/team/oliver-strang-paschetto/)
+
+[![](https://www.gomogroup.com/wp-content/uploads/2026/11/oliver-wilkenson-image.webp)](https://www.gomogroup.com/en/team/oliver-wilkenson/) [Oliver Wilkenson](https://www.gomogroup.com/en/team/oliver-wilkenson/)Digital Creator
+
+[![Phone](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/phone.png)](tel:+46723633556 "Phone")[![Email](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:oliver.w@gomogroup.com "Email")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](http://www.linkedin.com/in/oliver-wilkenson-b0b74a274 "Linkedin profile")[Read more about Oliver Wilkenson](https://www.gomogroup.com/en/team/oliver-wilkenson/)
 
 ## Passion. Integrity. Cooperation. Progress.
 

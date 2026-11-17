@@ -1,5 +1,3 @@
-URL: https://www.gomogroup.com/en/event/b2b-geo-seminar-may-2026/
----
 Exclusive Event
 
 # How to get your brand loved by AI and Agents? GEO in practice

@@ -1,5 +1,3 @@
-URL: https://www.gomogroup.com/en/about-us/
----
 # Tradition Experts,  Future-Forward   Digital Marketers
 
 Design from scratch, redesign, or product improvement. We’re here to take work off your shoulders with our expertise across many industries.
@@ -138,23 +136,11 @@ We foster a corporate culture that encourages collaboration and ambition. When c
 
 ![](https://www.gomogroup.com/wp-content/uploads/2026/06/jigar-dhulla-profile-image.jpg)Jigar Kantilal DhullaSr. Software Engineer
 
-![](https://www.gomogroup.com/wp-content/uploads/2026/06/joshua-amirose-profile-image.jpg)
-
-![](https://www.gomogroup.com/wp-content/uploads/2026/06/joshua-amirose-profile-image.jpg)Joshua AmiroseCopywriter
-
 ![](https://www.gomogroup.com/wp-content/uploads/2026/06/meenal-yelsangikar-profile-image.jpg)
 
 ![](https://www.gomogroup.com/wp-content/uploads/2026/06/meenal-yelsangikar-profile-image.jpg)Meenal YelsangikarUI Designer
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
-
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Sanghapriya WaghmareSr. Analyst - Paid Marketing
-
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
-
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Aditi RawalSr. SEO Analyst
-
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/isabelle-coquet-profile-image.webp)
 
 ![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Isabelle CoquetCommercial Strategy Lead
 
@@ -173,6 +159,10 @@ We foster a corporate culture that encourages collaboration and ambition. When c
 ![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
 
 ![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)Oliver Sträng PaschettoCommercial Strategy Lead
+
+![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201457'%3E%3C/svg%3E)
+
+![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201457'%3E%3C/svg%3E)Oliver WilkensonDigital Creator
 
 ![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
 
@@ -234,6 +224,11 @@ Industry-specific insights make a difference. We bring experience from over succ
 
 [Read More](https://www.gomogroup.com/en/insights/)
 
+[How to win organically on LinkedIn, according to LinkedIn\\
+On LinkedIn, B2B engagement is earned by people and proof. The company page comes second. LinkedIn has changed how its algorithm decides what shows up in the feed. We went through what LinkedIn itself has published in 2026, from engineering posts to marketing guides and buyer research, and turned it into a short guide. The \[…\]](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
+
+[Read More](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
+
 [ChatGPT Ads vs Google Ads: what we’ve learned so far\\
 Last updated: 15 October 2026. We update the data as the pilots continue – more to come. In August, ChatGPT Ads opened to advertisers in 31 European markets, Sweden and Germany among them. For B2B marketing leaders the question came quickly: is this a new search channel, and does it deserve a budget of its \[…\]](https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/)
 
@@ -253,11 +248,6 @@ For the first time, Google has released a dedicated resource on optimising conte
 The next trillion users of the internet aren’t human. Most B2B companies are invisible to them. The majority of your website’s visitors can’t see it 57.8% of all HTTP requests to web content are now automated. For the first time in the thirty-year history of the commercial internet, machines outnumber humans as the primary audience \[…\]](https://www.gomogroup.com/en/insight/closing-the-b2b-commerce-discovery-gap/)
 
 [Read More](https://www.gomogroup.com/en/insight/closing-the-b2b-commerce-discovery-gap/)
-
-[The Complete Glossary of 75 GEO, AEO & AI Search Terms You Must Know in 2026\\
-75 terms. Every AI search discipline. One reference to bookmark. Why the Language of Search Just Changed — And What You Need to Know The vocabulary of search has undergone its most dramatic transformation in two decades. Terms that didn’t exist 3 years ago — GEO, AEO, LLM-O, AI Overviews, RAG, zero-click — are now \[…\]](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
-
-[Read More](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
 
 ### Let’s discuss your future.
 

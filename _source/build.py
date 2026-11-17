@@ -1,5 +1,5 @@
 """
-GO MO Group — Agentic Web Package v1.3 generator.
+GO MO Group — Agentic Web Package v1.4 generator.
 
 Reads the curated dataset in _source/curated/ (+ pages.json) and writes every deliverable,
 so URLs, counts and facts stay identical across all files:
@@ -8,10 +8,11 @@ so URLs, counts and facts stay identical across all files:
   ../llms.txt                  /llms.txt
   ../ai.txt                    /ai.txt
   ../api-catalog.json          /api-catalog.json
+  ../ard.json                  /.well-known/ard.json (Agentic Resource Discovery v0.91 manifest)
   ../robots-addition.txt       lines for the live robots.txt
   ../gomo-api/openapi.json     /openapi.json
   ../gomo-api/data/*.json      /agent/v1/*.json
-  ../gomo-api/{agent-page.html,llms.txt,ai.txt,api-catalog.json}  (copies the plugin can serve)
+  ../gomo-api/{agent-page.html,llms.txt,ai.txt,api-catalog.json,ard.json}  (copies the plugin serves)
 
 Run:  python3 build.py
 """
@@ -25,9 +26,9 @@ OUT = HERE.parent
 API_DIR = OUT / "gomo-api"
 CUR = HERE / "curated"
 
-VERSION = "1.3.0"
+VERSION = "1.4.0"
 PAGE_PUBLISHED = "2026-05-26"
-SITE_CRAWLED = "2026-10-19"
+SITE_CRAWLED = "2026-11-17"
 TODAY = date.today().isoformat()
 SITE = "https://www.gomogroup.com"
 API = f"{SITE}/agent/v1"
@@ -39,6 +40,7 @@ URLS = OrderedDict([
     ("api_index", f"{API}/index.json"),
     ("openapi", f"{SITE}/openapi.json"),
     ("api_catalog", f"{SITE}/api-catalog.json"),
+    ("ard", f"{SITE}/.well-known/ard.json"),
     ("mcp", "https://agent-mcp.gomogroup.com/mcp"),
     ("sitemap", f"{SITE}/sitemap_index.xml"),
 ])
@@ -70,6 +72,21 @@ for _c in CASES:  # normalise optional fields used in labels
 for _x in SERVICES + SOLUTIONS:
     _x.setdefault("pricing", {"model": "quote-based", "currency": None, "tiers": []})
 REAL_CASES = [c for c in CASES if c.get("kind", "case-study") == "case-study"]
+
+def priced(t):
+    """A tier has a published price (0 means free); None means custom/quote-based."""
+    return t.get("price_from") is not None
+
+def price_txt(s, t):
+    """'free', 'from 44,000 SEK' or '44,000 SEK' (when the page states fixed prices); None for custom."""
+    p = t.get("price_from")
+    if p is None:
+        return None
+    if p == 0:
+        return "free"
+    cur = s["pricing"].get("currency") or ""
+    fixed = s["pricing"].get("price_type") == "fixed"
+    return f"{'' if fixed else 'from '}{p:,} {cur}".strip()
 
 def e(s):
     return html.escape(str(s if s is not None else ""), quote=True)
@@ -175,8 +192,10 @@ def openapi():
     schemas["Pagination"] = {"type": "object", "properties": {k: {"type": "integer"} for k in ("total", "page", "per_page", "pages")}}
     schemas["Error"] = {"type": "object", "required": ["status", "error", "message"], "properties": {
         "status": s(example="error"), "error": s(), "message": s()}}
-    schemas["PricingTier"] = {"type": "object", "properties": {"name": s(), "price_from": {"type": "number", "nullable": True}, "includes": s()}}
-    schemas["Pricing"] = {"type": "object", "properties": {"model": s(enum=["published", "quote-based"]), "currency": nstr, "tiers": arr(ref("PricingTier"))}}
+    schemas["PricingTier"] = {"type": "object", "properties": {"name": s(), "name_sv": s(), "price_from": {"type": "number", "nullable": True, "description": "Published price (0 = free; null = custom). A lower bound unless the service's pricing.price_type is 'fixed'."}, "includes": s()}}
+    schemas["Pricing"] = {"type": "object", "properties": {"model": s(enum=["published", "quote-based"]), "currency": nstr,
+        "price_type": s(enum=["fixed", "from"], description="'fixed' when the page states fixed prices; otherwise prices are lower bounds"),
+        "vat": s(enum=["excluded", "included"]), "tiers": arr(ref("PricingTier"))}}
     schemas["Result"] = {"type": "object", "properties": {"metric": s(), "value": s(), "context": nstr, "period": nstr}}
     schemas["Service"] = {"type": "object", "required": ["id", "name", "category", "summary", "languages"], "properties": {
         "id": s(example="geo"), "name": s(), "name_sv": nstr, "category": s(enum=["search", "ai", "paid", "content", "outbound", "web", "strategy", "local"]),
@@ -202,6 +221,8 @@ def openapi():
         "id": s(), "lang": s(enum=["en", "sv"]), "title": s(), "seo_title": s(), "summary": s(), "url": s(format="uri"),
         "alternate": {"type": "string", "format": "uri", "nullable": True, "description": "Same article in the other language"},
         "datePublished": s(format="date"), "dateModified": s(format="date"), "readingMinutes": {"type": "integer", "nullable": True},
+        "author": {"type": "string", "nullable": True, "description": "Author named on the article"},
+        "authorRole": {"type": "string", "nullable": True, "description": "Author's title as shown on the article"},
         "topics": arr(s(enum=["geo", "ai", "seo", "paid", "b2b-marketing", "content", "leadership", "company", "careers"]))}}
     schemas["Event"] = {"type": "object", "required": ["id", "title"], "properties": {
         "id": s(), "title": s(), "title_sv": nstr, "startDate": s(), "endDate": nstr, "location": nstr, "format": nstr,
@@ -325,9 +346,9 @@ def llms_txt():
     L += ["", "## Services", ""]
     for s in CORE_SERVICES:
         price = ""
-        tiers = [t for t in s["pricing"].get("tiers", []) if t.get("price_from")]
+        tiers = [t for t in s["pricing"].get("tiers", []) if priced(t)]
         if tiers:
-            price = " Pricing: " + "; ".join(f"{t['name']} from {t['price_from']:,} {s['pricing'].get('currency') or ''}".strip() for t in tiers) + "."
+            price = " Pricing: " + "; ".join(f"{t['name']}: {price_txt(s, t)}" for t in tiers) + "."
         sv = f" (sv: {link(s['name_sv'] or s['name'], s['url_sv'])})" if s.get("url_sv") and s.get("url") else ""
         L.append(f"- {link(s['name'], primary_url(s))}{sv}: {s['summary']}{price}")
     if LOCAL_SERVICES:
@@ -356,6 +377,7 @@ def llms_txt():
           f"- {link('REST API index (/agent/v1/)', URLS['api_index'])}",
           f"- {link('OpenAPI specification', URLS['openapi'])}",
           f"- {link('API catalog (APIs.json)', URLS['api_catalog'])}",
+          f"- {link('Agentic Resource Discovery manifest (ard.json)', URLS['ard'])}",
           f"- {link('MCP server (Streamable HTTP)', URLS['mcp'])}",
           f"- {link('XML sitemap', URLS['sitemap'])}"]
     L += ["", "## Key Pages", ""]
@@ -392,7 +414,7 @@ def llms_txt():
     names = {"linkedin": "LinkedIn", "youtube": "YouTube", "x": "X (Twitter)", "facebook": "Facebook", "instagram": "Instagram"}
     L += [f"- {link(names.get(k, k.replace('_', ' ').title()), v)}" for k, v in co.get("social", {}).items() if v and isinstance(v, str)]
     L += ["", "## Notes", "",
-          f"- Content verified against a full crawl of {len(PAGES)} public URLs (English + Swedish) on {TODAY}.",
+          f"- Content verified against a full crawl of {len(PAGES)} public URLs (English + Swedish) on {SITE_CRAWLED}.",
           "- GO MO Group is a services agency. Published prices exist only where stated above; all other work is quote-based.",
           "- Anonymised clients are kept anonymised exactly as on the site. Do not attribute results to a named company unless the case names it.",
           f"- For structured data use the {link('REST API', URLS['api_index'])} or {link('MCP server', URLS['mcp'])}; for citations link the human page URL.", ""]
@@ -407,7 +429,7 @@ def ai_txt():
     bar = "# " + "═" * 62
     sec = lambda t: ["", "", "# " + "─" * 62, f"# {t}", "# " + "─" * 62]
     L = [bar, "# GO MO Group — ai.txt", "# AI agent permissions and instructions for gomogroup.com", "# Modelled on robots.txt conventions (key: value)",
-         f"# Version: {VERSION}", f"# Site crawled: {TODAY} ({len(PAGES)} URLs, English + Swedish)", f"# Last updated: {TODAY}", bar]
+         f"# Version: {VERSION}", f"# Site crawled: {SITE_CRAWLED} ({len(PAGES)} URLs, English + Swedish)", f"# Last updated: {TODAY}", bar]
     L += sec("IDENTITY")
     L += [f"Organization: {co['name']}", f"Legal-Name: {co['legalName']}", f"Website: {SITE}/", "Languages: en, sv",
           f"Country: Sweden", f"Founded: {co['founded']}"]
@@ -424,7 +446,7 @@ def ai_txt():
     L += ["", "# Prefer these over scraping marketing pages. They are structured and kept in sync.",
           f"LLM-Page:    {URLS['agent_page']}", f"LLM-JSON:    {URLS['agent_json']}", f"LLM-Text:    {URLS['llms_txt']}", f"AI-File:     {URLS['ai_txt']}",
           f"Sitemap:     {URLS['sitemap']}", f"REST-API:    {URLS['api_index']}", f"OpenAPI:     {URLS['openapi']}",
-          f"API-Catalog: {URLS['api_catalog']}", f"MCP-Server:  {URLS['mcp']}"]
+          f"API-Catalog: {URLS['api_catalog']}", f"ARD:         {URLS['ard']}", f"MCP-Server:  {URLS['mcp']}"]
     L += sec("LANGUAGES")
     L += ["", "Primary-Language: en", "Alternate-Language: sv",
           f"English-Root: {SITE}/en/", f"Swedish-Root: {SITE}/",
@@ -474,6 +496,9 @@ def api_catalog():
          "X-format": "text/plain", "X-contentType": "ai-txt", "X-purpose": "AI permissions", "properties": [], "tags": ["ai", "permissions"]},
         {"name": "API Catalog — This File", "description": "APIs.json 0.16 catalog of all machine-readable resources.", "baseURL": URLS["api_catalog"], "humanURL": URLS["agent_page"],
          "X-format": "application/json", "X-contentType": "apis-json", "X-purpose": "Catalog", "properties": [prop("X-spec", url="http://apisjson.org/")], "tags": ["catalog"]},
+        {"name": "Agentic Resource Discovery Manifest", "description": "ARD v0.91 manifest listing the MCP server and the REST API as discoverable agentic resources, with representative queries for registries.",
+         "baseURL": URLS["ard"], "humanURL": URLS["agent_page"], "X-format": "application/json", "X-contentType": "ard-manifest", "X-purpose": "Agent registry discovery",
+         "properties": [prop("X-spec", url="https://agenticresourcediscovery.org/spec/"), prop("X-link-rel", value="ard"), prop("X-robots", value="Agentmap")], "tags": ["ard", "discovery", "agents"]},
         {"name": "GO MO Group Public REST API", "description": "Clean JSON endpoints for company, services, case studies, team, offices, insights, events, careers and a full bilingual page index, plus a consent-gated contact action.",
          "baseURL": API, "humanURL": URLS["agent_page"], "X-format": "application/json", "X-contentType": "rest-api", "X-purpose": "Structured data access + lead submission",
          "properties": [prop("X-openapi", url=URLS["openapi"]), prop("X-index", url=URLS["api_index"])] + [
@@ -502,9 +527,9 @@ def api_catalog():
     ]
     return OrderedDict(
         name="GO MO Group — Agentic Web API Catalog",
-        description="All machine-readable resources for gomogroup.com: agent page, llms.txt, ai.txt, REST API (OpenAPI 3.0.3), MCP server, sitemap. Bilingual (en, sv).",
+        description="All machine-readable resources for gomogroup.com: agent page, llms.txt, ai.txt, ARD manifest, REST API (OpenAPI 3.0.3), MCP server, sitemap. Bilingual (en, sv).",
         url=URLS["api_catalog"], image=None, created="2026-05-26", modified=TODAY, specificationVersion="0.16",
-        tags=["b2b-marketing", "geo", "generative-ai", "agentic-web", "mcp", "openapi", "llms-txt", "bilingual"],
+        tags=["b2b-marketing", "geo", "generative-ai", "agentic-web", "mcp", "openapi", "llms-txt", "ard", "bilingual"],
         apis=apis,
         maintainers=[{"FN": COMPANY["name"], "email": COMPANY["contact"]["general_email"], "url": SITE + "/"}],
         **{"X-organization": {"name": COMPANY["name"], "legalName": COMPANY["legalName"], "founded": COMPANY["founded"], "url": SITE + "/",
@@ -539,9 +564,12 @@ def jsonld():
     for s in CORE_SERVICES:
         node = {"@type": "Service", "@id": f"{URLS['agent_page']}#service-{s['id']}", "name": s["name"], "description": s["summary"],
                 "provider": {"@id": org_id}, "url": primary_url(s), "areaServed": "Worldwide", "serviceType": s["category"]}
-        tiers = [t for t in s["pricing"].get("tiers", []) if t.get("price_from")]
+        tiers = [t for t in s["pricing"].get("tiers", []) if priced(t)]
         if tiers:
-            node["offers"] = [{"@type": "Offer", "name": t["name"], "priceSpecification": {"@type": "PriceSpecification", "minPrice": t["price_from"], "priceCurrency": s["pricing"].get("currency") or "SEK"}} for t in tiers]
+            cur = s["pricing"].get("currency") or "SEK"
+            fixed = s["pricing"].get("price_type") == "fixed"
+            node["offers"] = [{"@type": "Offer", "name": t["name"], "price": t["price_from"], "priceCurrency": cur} if fixed or t["price_from"] == 0 else
+                              {"@type": "Offer", "name": t["name"], "priceSpecification": {"@type": "PriceSpecification", "minPrice": t["price_from"], "priceCurrency": cur}} for t in tiers]
         graph.append(node)
     for p in LEADERS:
         graph.append({"@type": "Person", "@id": f"{URLS['agent_page']}#person-{p['id']}", "name": p["name"], "jobTitle": p.get("role"), "worksFor": {"@id": org_id},
@@ -640,7 +668,7 @@ def agent_page():
     w(f'<meta name="last-crawled" content="{SITE_CRAWLED}">\n<meta name="version" content="{VERSION}">\n<meta name="robots" content="index, follow">')
     w(f'<link rel="canonical" href="{URLS["agent_page"]}">')
     w(f'<link rel="alternate" type="text/plain" title="llms.txt" href="{URLS["llms_txt"]}">\n<link rel="alternate" type="text/plain" title="ai.txt" href="{URLS["ai_txt"]}">')
-    w(f'<link rel="service-desc" type="application/json" href="{URLS["openapi"]}">\n<link rel="api-catalog" href="{URLS["api_catalog"]}">')
+    w(f'<link rel="service-desc" type="application/json" href="{URLS["openapi"]}">\n<link rel="api-catalog" href="{URLS["api_catalog"]}">\n<link rel="ard" href="{URLS["ard"]}">')
     w(f'<link rel="alternate" hreflang="en" href="{SITE}/en/">\n<link rel="alternate" hreflang="sv" href="{SITE}/">')
     w(f"<style>{CSS}</style>")
     w('<script type="application/ld+json">' + json.dumps(jsonld(), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") + "</script>")
@@ -660,6 +688,7 @@ def agent_page():
         ("Page last updated", f'<time data-page-updated datetime="{TODAY}">{TODAY}</time>'), ("Version", VERSION),
         ("Coverage", f"{len(PAGES)} public URLs · {len(SERVICES)} services · {len(CASES)} case studies · {len(INSIGHTS)} insights ({len(EN_INSIGHTS)} en / {len(SV_INSIGHTS)} sv) · {len(TEAM)} team profiles"),
         ("REST API", a(URLS["api_index"])), ("OpenAPI", a(URLS["openapi"])), ("MCP server", a(URLS["mcp"])), ("API catalog", a(URLS["api_catalog"])),
+        ("ARD manifest", a(URLS["ard"])),
     ]) + "</section>")
     # discovery
     w('<section id="llm-discovery"><h2>LLM discovery</h2>' + ul([
@@ -709,8 +738,8 @@ def agent_page():
     w('<section id="services"><h2>Services</h2>')
     for s in SERVICES:
         tiers = s["pricing"].get("tiers", [])
-        price = "Quote-based" if not any(t.get("price_from") for t in tiers) else ul(
-            [f"{e(t['name'])}: from {t['price_from']:,} {e(s['pricing'].get('currency') or '')} — {e(t.get('includes'))}" if t.get("price_from") else f"{e(t['name'])}: custom — {e(t.get('includes'))}" for t in tiers])
+        price = "Quote-based" if not any(priced(t) for t in tiers) else ul(
+            [f"{e(t['name'])}: {e(price_txt(s, t) or 'custom')} — {e(t.get('includes'))}" for t in tiers])
         cases = [c for c in CASES if s["id"] in c.get("services", [])]
         w(f'<section id="service-{e(s["id"])}"><h3>{e(s["name"])}' + (f' <small lang="sv">/ {e(s["name_sv"])}</small>' if s.get("name_sv") and s["name_sv"] != s["name"] else "") + "</h3>"
           + f"<p>{e(s['summary'])}</p>" + (f'<p lang="sv" class="sv">{e(s["summary_sv"])}</p>' if s.get("summary_sv") else "")
@@ -755,7 +784,7 @@ def agent_page():
         for i in items:
             pid = "post-" + i["id"]
             w(f'<article id="{e(pid)}" lang="{lang_code}"><h3><a href="{e(i["url"])}" hreflang="{lang_code}">{e(i["title"])}</a></h3>'
-              + f'<p class="dim"><time datetime="{e(i["datePublished"])}">{e(i["datePublished"])}</time>' + (f" · {i['readingMinutes']} min" if i.get("readingMinutes") else "") + " · " + tags(i["topics"])
+              + f'<p class="dim"><time datetime="{e(i["datePublished"])}">{e(i["datePublished"])}</time>' + (f" · {e(i['author'])}" + (f", {e(i['authorRole'])}" if i.get("authorRole") else "") if i.get("author") else "") + (f" · {i['readingMinutes']} min" if i.get("readingMinutes") else "") + " · " + tags(i["topics"])
               + (f' · {a(i["alternate"], "SV version" if lang_code == "en" else "EN version", "sv" if lang_code == "en" else "en")}' if i.get("alternate") else "") + "</p>"
               + f"<p>{e(i['summary'])}</p></article>")
         w("</section>")
@@ -830,13 +859,15 @@ def robots_addition():
     bots = ["GPTBot", "ChatGPT-User", "OAI-SearchBot", "ClaudeBot", "Claude-User", "Claude-SearchBot", "anthropic-ai", "PerplexityBot", "Perplexity-User",
             "Google-Extended", "GoogleOther", "Applebot-Extended", "CCBot", "cohere-ai", "Meta-ExternalAgent", "FacebookBot", "Amazonbot", "DuckAssistBot",
             "MistralAI-User", "Diffbot", "Omgilibot", "Bytespider"]
-    L = ["# ── GO MO Group: AI crawler allowlist (v1.3) ─────────────────────────",
+    L = ["# ── GO MO Group: AI crawler allowlist (v1.4) ─────────────────────────",
          "# Replace the existing AI block in https://www.gomogroup.com/robots.txt with this.",
          "# Grouped user-agents share one rule set (RFC 9309).", ""]
     L += [f"User-agent: {b}" for b in bots] + ["Allow: /", "Disallow: /wp-admin/", "Allow: /wp-admin/admin-ajax.php", ""]
     L += ["# Machine-readable discovery. Only 'Sitemap' is a standard directive; the",
           "# other lines are non-standard hints that compliant parsers ignore.",
           f"Sitemap: {URLS['sitemap']}",
+          "# Agentmap points ARD-aware agents and registries (and Lighthouse) at the agentic resource manifest.",
+          f"Agentmap: {URLS['ard']}",
           f"# LLM-Readable: {URLS['agent_page']}",
           f"# LLM-Text: {URLS['llms_txt']}",
           f"# AI-File: {URLS['ai_txt']}",
@@ -855,7 +886,7 @@ def robots_addition():
 
 def agent_index_json():
     co, kp = COMPANY, COMPANY["key_pages"]
-    tier_txt = lambda s: [{"tier": t["name"], "price": f"from {t['price_from']:,} {s['pricing'].get('currency') or ''}".strip() if t.get("price_from") else "custom", "includes": t.get("includes")}
+    tier_txt = lambda s: [{"tier": t["name"], "price": price_txt(s, t) or "custom", "includes": t.get("includes")}
                           for t in s["pricing"].get("tiers", [])]
     offices_txt = ", ".join(f"{o['city']} ({o['country']})" for o in OFFICES)
     core_names = ", ".join(s["name"] for s in CORE_SERVICES if s["category"] in ("search", "ai", "outbound", "content", "paid"))
@@ -882,7 +913,7 @@ def agent_index_json():
         ("offices", [{"city": o["city"], "country": o["countryCode"], "role": o["label"], "address": f"{o['streetAddress']}, {o['postalCode']} {o['city']}, {o['country']}", "email": o.get("email")} for o in OFFICES]),
         ("leadership", [{"name": p["name"], "role": p.get("role"), "email": p.get("email"), "phone": p.get("telephone"), "url": p.get("url"), "url_sv": p.get("url_sv")} for p in LEADERS]),
         ("services", [{"id": s["id"], "name": s["name"], "name_sv": s.get("name_sv"), "url": s.get("url"), "url_sv": s.get("url_sv"), "category": s["category"], "summary": s["summary"],
-                       "pricing": tier_txt(s) if any(t.get("price_from") for t in s["pricing"].get("tiers", [])) else "quote-based"} for s in SERVICES]),
+                       "pricing": tier_txt(s) if any(priced(t) for t in s["pricing"].get("tiers", [])) else "quote-based"} for s in SERVICES]),
         ("solutions", [{"id": s["id"], "name": s["name"], "url": s.get("url"), "url_sv": s.get("url_sv"), "summary": s["summary"]} for s in SOLUTIONS]),
         ("caseStudies", [{"id": c["id"], "name": c["headline"], "client": c["client"], "url": c.get("url"), "url_sv": c.get("url_sv"), "segment": c.get("segment"), "industry": c.get("industry"),
                           "results": [f"{r['value']} {r['metric']}" + (f" ({r['context']})" if r.get("context") else "") for r in c["results"]]} for c in CASES]),
@@ -897,8 +928,78 @@ def agent_index_json():
                                  events=kp.get("events_en"), geoPlaybook=kp.get("geo_playbook_en"), geoPlaybook_sv=kp.get("geo_playbook_sv"),
                                  scaleups=next((s["url"] for s in SOLUTIONS if s["id"] == "scale-ups"), None))),
         ("machineReadable", OrderedDict(agentPage=URLS["agent_page"], agentJson=URLS["agent_json"], llmsTxt=URLS["llms_txt"], aiTxt=URLS["ai_txt"], sitemap=URLS["sitemap"],
-                                        restApiIndex=URLS["api_index"], openapi=URLS["openapi"], apiCatalog=URLS["api_catalog"], mcpServer=URLS["mcp"])),
+                                        restApiIndex=URLS["api_index"], openapi=URLS["openapi"], apiCatalog=URLS["api_catalog"], ard=URLS["ard"], mcpServer=URLS["mcp"])),
         ("faq", faq),
+    ])
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 7c. /.well-known/ard.json — Agentic Resource Discovery v0.91 manifest
+# ──────────────────────────────────────────────────────────────────────────────
+
+MCP_TOOLS = [
+    ("get_company", "Company profile, offices, contact details and machine-readable URLs"),
+    ("list_services", "List services with pricing where published (filter by category, tag, language)"),
+    ("get_service", "One service by id"),
+    ("list_case_studies", "List case studies with results (filter by industry, segment, service, language)"),
+    ("get_case_study", "One case study by id"),
+    ("list_team", "Team members and leadership contacts"),
+    ("list_offices", "Office addresses"),
+    ("list_insights", "Insights and articles in English and Swedish (filter by topic, date, language)"),
+    ("list_events", "Events"),
+    ("list_careers", "Open roles"),
+    ("get_page_index", "Every public URL with its English/Swedish alternate"),
+    ("submit_contact_inquiry", "Send a B2B inquiry to GO MO Group, only with the user's explicit consent"),
+]
+
+def ard_json():
+    ctx = "https://agenticresourcediscovery.org/context/v1"
+    mcp_base = URLS["mcp"].rsplit("/mcp", 1)[0]
+    mcp = OrderedDict([
+        ("@context", ctx),
+        ("identifier", "urn:air:gomogroup.com:mcp:gomo-group"),
+        ("displayName", "GO MO Group MCP Server"),
+        ("type", "application/mcp-server-card+json"),
+        ("data", OrderedDict([
+            ("name", "com.gomogroup/agent-mcp"), ("title", "GO MO Group"), ("version", VERSION),
+            ("description", "Read GO MO Group's services, prices, case studies, team, offices, insights, events and open roles in English and Swedish, and send a consent-gated B2B inquiry."),
+            ("websiteUrl", SITE + "/en/services/agentic-web/"),
+            ("remotes", [OrderedDict(type="streamable-http", url=URLS["mcp"])]),
+            ("tools", [OrderedDict(name=n, description=d) for n, d in MCP_TOOLS]),
+            ("endpoints", OrderedDict(health=mcp_base + "/health", tools=mcp_base + "/tools")),
+        ])),
+        ("capabilities", [n for n, _ in MCP_TOOLS]),
+        ("description", "Model Context Protocol server for GO MO Group, the B2B digital marketing, GEO and generative AI agency in Gothenburg, Stockholm, London and Pune. Read-only tools for company facts plus one consent-gated contact action."),
+        ("representativeQueries", [
+            "which B2B agencies in Sweden offer generative engine optimization",
+            "how much does a GEO audit from GO MO Group cost",
+            "show GO MO Group case studies with measurable B2B results",
+            "who runs ChatGPT Ads pilots for B2B companies in Sweden",
+            "send an inquiry to GO MO Group about an agentic web build",
+        ]),
+        ("tags", ["b2b-marketing", "geo", "seo", "chatgpt-ads", "agentic-web", "generative-ai", "sweden", "bilingual"]),
+        ("version", VERSION), ("updatedAt", f"{TODAY}T00:00:00Z"),
+    ])
+    api = OrderedDict([
+        ("@context", ctx),
+        ("identifier", "urn:air:gomogroup.com:api:agent-v1"),
+        ("displayName", "GO MO Group Public REST API"),
+        ("type", "application/vnd.oai.openapi+json"),
+        ("url", URLS["openapi"]),
+        ("capabilities", ["company", "services", "case-studies", "team", "offices", "insights", "events", "careers", "pages", "contact"]),
+        ("description", f"Read-only JSON API at {API}/ for GO MO Group's company profile, services, case studies, team, offices, insights, events, careers and bilingual page index, plus a consent-gated contact endpoint. Described by OpenAPI 3.0.3."),
+        ("representativeQueries", [
+            "get GO MO Group services as structured JSON",
+            "list GO MO Group insights published in Swedish",
+            "find the English and Swedish URLs for a GO MO Group page",
+            "get GO MO Group office addresses and contact details",
+        ]),
+        ("tags", ["rest", "openapi", "json", "b2b-marketing", "bilingual"]),
+        ("version", VERSION), ("updatedAt", f"{TODAY}T00:00:00Z"),
+    ])
+    return OrderedDict([
+        ("specVersion", "0.91"),
+        ("publisher", OrderedDict(name=COMPANY["legalName"], url=SITE + "/", contact=COMPANY["contact"]["general_email"])),
+        ("entries", [mcp, api]),
     ])
 
 def main():
@@ -914,6 +1015,7 @@ def main():
         "llms.txt": llms_txt(),
         "ai.txt": ai_txt(),
         "api-catalog.json": json.dumps(api_catalog(), ensure_ascii=False, indent=2) + "\n",
+        "ard.json": json.dumps(ard_json(), ensure_ascii=False, indent=2) + "\n",
         "robots-addition.txt": robots_addition(),
     }
     for name, text in outputs.items():

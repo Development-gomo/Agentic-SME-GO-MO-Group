@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/gdpr/
-LANG: sv
-TYPE: legal
-TITLE: Integritetspolicy
-DESC: Läs hur vi följer GDPR-lagstiftningen och hur vi hanterar cookies.
-PUBLISHED: 2023-12-22
-MODIFIED: 2025-04-08
-AUTHOR: None
-ALT: None
----
 # Regler om skydd vid behandling av personuppgifter
 
 ![](https://www.gomogroup.com/wp-content/uploads/2024/02/GDPR.jpg.webp)

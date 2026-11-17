@@ -42,7 +42,7 @@ function wp_mail($to, $sub, $msg, $h) {
 }
 
 // Emulates the database advisory lock and durable row across independent PHP workers.
-// Production SQL must also be checked against the staging MySQL/MariaDB server.
+// The production database must support GET_LOCK / RELEASE_LOCK on the primary connection (see DEPLOYMENT.md).
 class ContactTestDB {
     public $options = 'wp_options';
     public $last_error = '';

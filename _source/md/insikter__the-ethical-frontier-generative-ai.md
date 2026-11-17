@@ -1,103 +1,124 @@
-URL: https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/
-LANG: sv
-TYPE: insight
-TITLE: AI och etik: Att forma framtidens affärer
-DESC: Insikter från GO MO:s The Conference of the Future. Fördjupa dig i hur generativ AI förändrar branscher med ansvar.
-PUBLISHED: 2023-11-09
-MODIFIED: 2026-02-20
-AUTHOR: None
-ALT: None
----
 [Tillbaka](https://www.gomogroup.com/insights/)
 
-[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/ "Share on facebook")[![twitter](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/twitter.png)](https://twitter.com/intent/tweet?text=The%20Ethical%20Frontier:%20Shaping%20the%20Future%20with%20Generative%20AI&url=https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/ "Share on twitter")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/ "Share on linkedin")[![print](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/# "Print this document")[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/ "Share with email")
+[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/ "Share on facebook")[![twitter](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/twitter.png)](https://twitter.com/intent/tweet?text=AI%20och%20etik:%20att%20forma%20framtidens%20aff%C3%A4rer&url=https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/ "Share on twitter")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/ "Share on linkedin")[![print](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/print.png)](https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/# "Print this document")[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/ "Share with email")
 
 Nyheter, Pull marketing \| LÄSTID: 5 MINUTER \| 9 november 2023
 
-# The Ethical Frontier: Shaping the Future with Generative AI
+# AI och etik: att forma framtidens affärer
 
 Loading the [Elevenlabs Text to Speech](https://elevenlabs.io/text-to-speech) AudioNative Player...
 
 ![](https://www.gomogroup.com/wp-content/uploads/2023/11/Screenshot-2023-11-09-at-11.11.11.png)
 
-> A Vision for Integrating Generative AI Ethics into the Core of Business and Society
+_Uppdaterad 9 november 2026_
 
-Generative AI has emerged not just as an engine of creativity but as the catalyst for an unprecedented surge in innovation, akin to a new Industrial Revolution. According to McKinsey “The State of AI in 2023” report published august 2023, organizations are rapidly deploying generative AI tools, forecasting significant effects on their industries and workforces. As we stand at the dawn of this transformative era, our actions will set the course for generations. With such immense power at our disposal, we must shoulder an even greater mantle of responsibility.
+> En vision för hur etiken kring generativ AI kan bli en del av kärnan i affärer och samhälle
 
-## Generative AI: A New Epoch of Innovation
+Generativ AI har blivit mer än ett kreativt verktyg. Den driver en innovationsvåg som har jämförts med en ny industriell revolution. Enligt McKinseys rapport ”The State of AI in 2023”, publicerad i augusti 2023, tog organisationer snabbt in verktyg för generativ AI och räknade med stora effekter på både sina branscher och sina medarbetare. De val vi gör nu sätter riktningen för lång tid framåt. Med så stor kraft följer ett lika stort ansvar, och därför är AI och etik något varje företag som använder tekniken behöver ta ställning till.
 
-This is not the AI of bygone days. Generative AI doesn’t just simulate—it innovates, crafting from the digital ether with an almost alchemistic ability. As highlighted in the aforementioned report, generative AI is becoming a cornerstone in the evolution of various sectors. As it redefines the parameters of creation, we’re faced with the monumental task of guiding this force with a moral compass, ensuring it serves the greater good and not just the few.
+## Vad betyder AI och etik för företag?
 
-## Charting an Ethical Course
+AI och etik handlar om att använda AI på ett sätt som är transparent, rättvist och säkert, med människor som tar ansvar för resultatet. För ett företag betyder det tydliga regler för hur AI får användas, vilka data som får matas in och vem som granskar det AI:n producerar.
 
-The imperative is clear: we must steer generative AI towards a horizon that uplifts and unites. The GO MO Group’s annual summit in Pune is our beacon in this quest. Here, the finest minds converge to weave ethical consideration into the very fabric of AI’s progress. This year, we were honored to host Indian CEOs and Managing Directors from multinational titans such as Alfa Laval, IKEA, Sandvik, and other stalwarts of the Indo-Swedish industrial community. Their participation is a testament to the summit’s importance and the collective commitment to the ethical deployment of generative AI.
+Etisk AI, eller ansvarsfull AI, brukar beskrivas med fem principer:
 
-Echoing the findings of the 2023 report, our dialogue is underscored by a shared vision of industry-wide effects and the evolution of workforces reshaped by generative AI. Together with these leaders, we are sculpting a future that acknowledges the depth of generative AI’s impact on global business and workforce dynamics.
+- **Transparens:** det ska framgå när AI används och hur den påverkar ett beslut eller en text.
+- **Rättvisa:** resultaten granskas så att AI:n inte förstärker snedvridningar i de data den bygger på.
+- **Integritet och säkerhet:** personuppgifter och affärshemligheter skyddas, även när de används i AI-verktyg.
+- **Ansvar:** en person eller funktion ansvarar för hur AI används och för det den producerar.
+- **Mänsklig tillsyn:** människor granskar, och kan stoppa eller ändra, det AI:n föreslår.
 
-![Abstract digital concept with glowing blue and red network connections superimposed over out-of-focus programming code, symbolizing complex data processing or advanced networking technology.](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20446'%3E%3C/svg%3E)
+I praktiken blir AI-etik konkret först i en AI-policy som medarbetarna faktiskt använder. På GO MO Group ger vi [stöd med AI-strategi och policy](https://www.gomogroup.com/solution/generativ-ai-erbjudande/), och i vår översikt om [generativ AI för företag](https://www.gomogroup.com/insikter/generativ-ai-en-omvandlande-kraft-i-affarsvarlden/) går vi igenom hur tekniken används i verksamheten.
 
-## Constructing an Ethical Blueprint for Generative AI
+## Vad kräver AI-förordningen av företag i dag?
 
-Embarking on the generative AI journey is a delicate dance of innovation and vigilance. The Pune summit anchors us, ensuring that as we sail these new waters, we do so with a compass that points steadfastly towards ethical shores. The standards we establish and the choices we make will be the pillars upon which generative AI will stand and be scrutinized by our descendants. “The State of AI in 2023” report asserts, the industry’s trajectory is poised for a paradigm shift, one that the GO MO Group is committed to leading with unwavering ethical standards.
+EU:s AI-förordning, EU AI Act, införs stegvis. För de flesta företag som använder AI gäller i dag tre saker: vissa användningar är förbjudna, personalen ska få stöd att bygga AI-kunnighet och människor ska få veta när de möter AI eller AI-genererat innehåll.
 
-## Conclusion:
+- **Sedan 2 februari 2025** är vissa AI-användningar förbjudna, till exempel social poängsättning av människor, känsloigenkänning på arbetsplatser och i skolor och manipulation som utnyttjar människors sårbarhet. Från samma datum gäller kravet på AI-kunnighet hos personal som använder AI.
+- **Sedan 27 juli 2026** gäller ändringsförordningen (EU) 2026/1744, den så kallade Digital Omnibus om AI. Den mildrade kravet på AI-kunnighet: företag ska nu vidta åtgärder för att stödja personalens AI-kunnighet, i stället för att säkerställa en viss nivå.
+- **Sedan 2 augusti 2026** gäller transparensreglerna i artikel 50. Människor ska få veta när de interagerar med ett AI-system, AI-genererat innehåll ska märkas och deepfakes ska redovisas som sådana.
+- **Från 2 december 2027** gäller reglerna för fristående högrisksystem, till exempel AI som används vid rekrytering eller kreditprövning. För AI som ingår i produkter som redan är reglerade, som maskiner och medicinteknik, gäller reglerna från 2 augusti 2028.
 
-Embarking on the generative AI journey is a delicate dance of innovation and vigilance. The Pune summit anchors us, ensuring that as we sail these new waters, we do so with a compass that points steadfastly towards ethical shores. The standards we establish and the choices we make will be the pillars upon which generative AI will stand and be scrutinized by our descendants. As the “The State of AI in 2023” report asserts, the industry’s trajectory is poised for a paradigm shift, one that the GO MO Group is committed to leading with unwavering ethical standards.
+Ett första steg är därför att veta var AI används i verksamheten, vem som använder den och hur personalen utbildas. En dokumenterad [utbildning i ansvarsfull AI-användning](https://www.gomogroup.com/case/generativ-ai-fran-hype-till-faktisk-affarsnytta/) kan vara en av åtgärderna för att stödja AI-kunnigheten.
 
-## Author Bio
+## Generativ AI: en ny era av innovation
 
-I, [Gabriel Ghavami](https://www.gomogroup.com/en/team/gabriel-ghavami/), CEO of GO MO Group, has co-authored this piece with the assistance of ChatGPT-4, showcasing the intersection of human insight and AI intelligence. My background in Marketing and Finance and my global outlook positions me at the vanguard of incorporating generative AI into the business sphere. As an advocate for ethical AI, I am dedicated to guiding technological progress with a strong moral compass, ensuring that generative AI not only propels us forward but also sets a precedent for responsible innovation.
+Generativ AI skapar nytt innehåll i stället för att bara analysera det som redan finns, och därför blir de etiska frågorna större. Det här är inte den AI vi kände tidigare. Enligt McKinseys rapport från 2023 håller tekniken på att bli en hörnsten i flera branschers utveckling. När den förändrar hur saker skapas står vi inför en stor uppgift: att styra den med en moralisk kompass, så att den gynnar många och inte bara ett fåtal.
 
-![Group photo of seven attendees seated in front of a large screen displaying 'The Conference Of The Future' with individual speaker profiles from companies like IKEA and SANDVIK.](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201050%20700'%3E%3C/svg%3E)
+## En etisk kurs för generativ AI
+
+Att staka ut en etisk kurs betyder att styra generativ AI mot användningar som lyfter och förenar, och det kräver samtal mellan dem som använder tekniken. GO MO Groups årliga konferens i Pune är ett av våra sätt att driva det samtalet. Där samlas ledare för att göra etiska hänsyn till en del av AI:ns utveckling. Vid konferensen 2023 hade vi äran att ta emot indiska vd:ar och företagsledare från multinationella bolag som Alfa Laval, IKEA och Sandvik, tillsammans med andra företag i det indisk-svenska industrinätverket. Deras deltagande visade konferensens betydelse och ett gemensamt åtagande för en etisk användning av generativ AI.
+
+I linje med McKinseys rapport från 2023 kretsade samtalen kring hur generativ AI påverkar hela branscher och förändrar arbetslivet. Tillsammans med de här ledarna formar vi en framtid som tar hänsyn till hur djupt generativ AI påverkar globala affärer och sättet vi arbetar på.
+
+![Abstract digital concept with glowing blue and red network connections superimposed over out-of-focus programming code, symbolizing complex data processing or advanced networking technology.](https://www.gomogroup.com/wp-content/uploads/2023/11/Conference-AI-ethics-code--1200x446.jpg)
+
+## Slutsats
+
+Generativ AI kräver både innovation och vaksamhet, och de standarder vi sätter i dag avgör hur tekniken bedöms i framtiden. Konferensen i Pune 2023 hjälpte oss att hålla kursen mot ett etiskt förhållningssätt. Enligt McKinseys rapport ”The State of AI in 2023” står branschen inför ett paradigmskifte, och GO MO Group vill leda det med tydliga etiska principer.
+
+## Om författaren
+
+[Gabriel Ghavami](https://www.gomogroup.com/en/team/gabriel-ghavami/) är vd för GO MO Group och skrev den ursprungliga versionen av artikeln i november 2023 med hjälp av ChatGPT-4. Han har bakgrund inom marknadsföring och finans, ett globalt perspektiv och har tidigt arbetat med generativ AI i affärslivet. Som förespråkare för etisk AI vill han att tekniken ska driva utvecklingen framåt och samtidigt bli ett föredöme för ansvarsfull innovation.
+
+Artikeln uppdaterades i november 2026 med avsnitten om vad AI och etik betyder för företag och vad AI-förordningen kräver.
+
+![Group photo of seven attendees seated in front of a large screen displaying 'The Conference Of The Future' with individual speaker profiles from companies like IKEA and SANDVIK.](https://www.gomogroup.com/wp-content/uploads/2023/11/DSC07288-1050x700.jpg)
+
+### Källor
+
+- McKinsey & Company, [”The state of AI in 2023: Generative AI’s breakout year”](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-in-2023-generative-ais-breakout-year), augusti 2023
+- [Förordning (EU) 2024/1689 om artificiell intelligens (AI-förordningen)](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)
+- Förordning (EU) 2026/1744 om ändring av AI-förordningen (Digital Omnibus om AI), i kraft sedan 27 juli 2026
 
 ## Meet the marketer
 
 Upptäck personerna bakom vår framgång i ”Meet the Marketer” – en videoserie där vi intervjuar våra egna talangfulla medarbetare. Lär känna teamet som driver vår innovation och kreativitet på GO MO Group.
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerHenrik Anderberg![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/henrik-video-thumbnail.webp)Meet the MarketerHenrik Anderberg![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerPuja Kumari![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/puja-video-thumbnail.webp)Meet the MarketerPuja Kumari![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLina Nygren![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/lina-video-thumbnail.png.webp)Meet the MarketerLina Nygren![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerVishnu Adithya![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/vishnu-video-thumbnail.webp)Meet the MarketerVishnu Adithya![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLisa & Rickard![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/Rick-and-Lisa.jpg.webp)Meet the MarketerLisa & Rickard![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerJan Thesleff![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/jan-thesleff-video-thumbnail.webp)Meet the MarketerJan Thesleff![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerCecilia Oskarsson![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/cecilia-oskarsson-video-thumbnail.webp)Meet the MarketerCecilia Oskarsson![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerSunil Muralidharan![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/sunil-muralidharan-video-thumbnail.webp)Meet the MarketerSunil Muralidharan![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
 
 ## Relaterade insikter
 
 Våra insikter om Pull-marknadsföring kommer från hundratals pågående kunduppdrag. Läs om de trenderna inom digital marknadsföring och vilka slutsatser vi kunnat dra från tidigare projekt.
 
-[Varför B2B digital commerce behöver utvecklas både tekniskt och emotionellt\\
-För ett par veckor sedan höll vi på GO MO Group ett frukostseminarium i Göteborg tillsammans med Marknadsföreningen i Sverige (MiS). Temat var vad som händer med människan, varumärket och CXO när AI ritar om köpresan. Vår Gabriel Ghavami var huvudtalare, och efter hans föredrag fortsatte samtalet i en panel med representanter från Kantar, SKF, \[…\]](https://www.gomogroup.com/insikter/varfor-b2b-digital-commerce-behover-utvecklas-bade-tekniskt-och-emotionellt/)
+[Era köpare frågar AI. Finns ert varumärke med i svaret?\\
+Vid två event i våras samlade vi B2B-marknadsledare i Göteborg och Stockholm för att ställa de frågor som branschen helst går runt. Det de berättade för oss, live, anonymt och i realtid, är mer brådskande än de flesta företag vill erkänna.](https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/)
 
-[Läs mer](https://www.gomogroup.com/insikter/varfor-b2b-digital-commerce-behover-utvecklas-bade-tekniskt-och-emotionellt/)
+[Läs mer](https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/)
 
-[Ett fundamentalt skifte i B2B-köpresan: När maskinerna besöker före människorna\\
-Internets nästa biljon användare är inte människor. De är språkmodeller och agenter. En strukturell förskjutning — och varför människan i B2B är viktigare än någonsin För första gången på det kommersiella internets trettioåriga historia utgör maskiner majoriteten av publiken. I decennier vilade internets affärsmodell på ett outtalat kontrakt: webbplatsägare lät sökmotorer crawla deras innehåll, och \[…\]](https://www.gomogroup.com/insikter/ai-agenter-och-b2b-kopresan-ett-fundamentalt-skifte/)
+[LinkedIn-algoritmen 2026: så når ni ut organiskt, enligt LinkedIn själva\\
+På LinkedIn är det människor och konkreta exempel som skapar engagemang i B2B. Företagssidan har en mer stödjande roll. LinkedIn har ändrat hur algoritmen avgör vad som syns i flödet. Vi har gått igenom det LinkedIn självt har publicerat under 2026, från tekniska blogginlägg till marknadsguider och köparforskning, och gjort en kort guide av det. \[…\]](https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/)
 
-[Läs mer](https://www.gomogroup.com/insikter/ai-agenter-och-b2b-kopresan-ett-fundamentalt-skifte/)
+[Läs mer](https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/)
 
-[Den kompletta ordlistan för GEO, AEO och AI-sök: 75 termer du måste kunna 2026\\
-Uppdaterad 30e september 2026 75 termer. Varje disciplin inom AI-sök. En referens att spara. Varför språket inom sök har förändrats — och vad du behöver veta Ordförrådet inom sök har genomgått sin mest dramatiska omvandling på två decennier. Begrepp som inte fanns för tre år sedan — GEO, AEO, LLMO, AI Overviews, RAG, zero-click — \[…\]](https://www.gomogroup.com/insikter/geo-ai-sok-ordlista/)
+[ChatGPT Ads vs Google Ads: tidiga B2B-resultat \| GO MO Group\\
+Senast uppdaterad: 19 oktober 2026. Vi fyller på med ny data allteftersom piloterna fortsätter. I augusti öppnade ChatGPT Ads för annonsörer på 31 europeiska marknader, däribland Sverige och Tyskland. Många marknadschefer i B2B ställde sig genast samma fråga: är det här en ny sökkanal, och är den värd en egen budget? Sedan dess har vi \[…\]](https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/)
 
-[Läs mer](https://www.gomogroup.com/insikter/geo-ai-sok-ordlista/)
+[Läs mer](https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/)
 
-[Från Uddevalla till globala marknader\\
-Så påbörjade FKAB Marine Design sin AI-drivna tillväxtresa Hur kan ett svenskt fartygsdesignföretag från Uddevalla expandera globalt och effektivisera sina sälj- och marknadsföringsaktiviteter? För FKAB Marine Design blev svaret en kombination av strategi, data och AI. Tillsammans med GO MO Group inledde företaget en AI-driven transformation med målet att skapa en mer träffsäker marknadsstrategi och \[…\]](https://www.gomogroup.com/insikter/fkab-mot-en-global-expansion-med-gen-ai-go-mo-group-insikter/)
+[Konverterar besökare från ChatGPT och andra AI-assistenter bättre?\\
+GO MO analyserade GA4-data från 60+ webbplatser. AI-besökare konverterade nästan dubbelt så ofta som andra besökare, med stora skillnader mellan branscher. Se vad ni bör kontrollera och ändra.](https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/)
 
-[Läs mer](https://www.gomogroup.com/insikter/fkab-mot-en-global-expansion-med-gen-ai-go-mo-group-insikter/)
+[Läs mer](https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/)
 
-[Välkommen till den agentiska eran: När din nästa kund kan vara en AI\\
-AI-agenter har förändrat kundresan. Här är varför B2B-företag måste ligga steget före redan nu Tiderna har förändrats. Agentisk sök är här för att stanna Under de senaste månaderna har vi på GO MO Group följt ett av de mest betydande skiftena inom digital strategi sedan Googles genombrott: framväxten av AI-agenter som autonoma beslutsfattare, köpare och \[…\]](https://www.gomogroup.com/insikter/valkommen-till-den-agentiska-eran-nar-din-nasta-kund-kan-vara-en-ai/)
+[Google har publicerat sin officiella guide för AI-sökoptimering. Här är vad den faktiskt säger.\\
+Har du lagt tid och budget på llms.txt-filer, uppstyckat innehåll eller texter omskrivna ”för AI”? Då är det här värt att läsa. För första gången har Google publicerat en officiell guide för hur du syns i AI Overviews och AI Mode – och den slår hål på flera av de GEO-knep som marknadsförs flitigt i \[…\]](https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/)
 
-[Läs mer](https://www.gomogroup.com/insikter/valkommen-till-den-agentiska-eran-nar-din-nasta-kund-kan-vara-en-ai/)
+[Läs mer](https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/)
 
 ### Låt oss diskutera framtiden.
 
@@ -106,14 +127,14 @@ Hej mitt namn är  och jag representerar , där jag arbetar som .
 Du kan kontakta mig på . Jag vill komma i kontakt med er gällande .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)StockholmUpplandsgatan 7 \\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)StockholmUpplandsgatan 7 \\
 \\
 111 23 Stockholm](https://maps.app.goo.gl/Htdrys9wEw1PFt2B7)
 
@@ -123,15 +144,15 @@ Kontakta oss, så återkommer vi med vår expertis och support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Integritetspolicy](https://www.gomogroup.com/gdpr/) [Cookies & Regler](https://www.gomogroup.com/cookies-regler/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: Generativ AI: En omvandlande kraft i affärsvärlden och dess framtidLink to: Generativ AI: En omvandlande kraft i affärsvärlden och dess framtidGenerativ AI: En omvandlande kraft i affärsvärlden och dess framtid![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)](https://www.gomogroup.com/insikter/generativ-ai-en-omvandlande-kraft-i-affarsvarlden/ "Link to: Generativ AI: En omvandlande kraft i affärsvärlden och dess framtid") [Link to: B2B-försäljning är tråkig – hög tid för moderniseringLink to: B2B-försäljning är tråkig – hög tid för modernisering![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)B2B-försäljning är tråkig – hög tid för modernisering](https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/ "Link to: B2B-försäljning är tråkig – hög tid för modernisering")
+[Link to: Generativ AI: En omvandlande kraft i affärsvärlden och dess framtidLink to: Generativ AI: En omvandlande kraft i affärsvärlden och dess framtidGenerativ AI: En omvandlande kraft i affärsvärlden och dess framtid![](https://www.gomogroup.com/wp-content/uploads/2024/04/DALL%C2%B7E-2023-11-27-14.52.29-A-futuristic-office-scene-featuring-a-Middle-Eastern-man-with-a-beard-viewed-from-behind-at-an-angle-focusing-on-his-interaction-with-a-highly-advanc-1-80x80.png.webp)](https://www.gomogroup.com/insikter/generativ-ai-en-omvandlande-kraft-i-affarsvarlden/ "Link to: Generativ AI: En omvandlande kraft i affärsvärlden och dess framtid") [Link to: B2B-försäljning är tråkig – hög tid för moderniseringLink to: B2B-försäljning är tråkig – hög tid för modernisering![](https://www.gomogroup.com/wp-content/uploads/2023/03/Gabriel-Ghavami-digital-marketing-future-80x80.jpg.webp)B2B-försäljning är tråkig – hög tid för modernisering](https://www.gomogroup.com/insikter/b2b-forsaljning-ar-trakig-hog-tid-for-modernisering/ "Link to: B2B-försäljning är tråkig – hög tid för modernisering")
 
  [Scroll to top](https://www.gomogroup.com/insikter/the-ethical-frontier-generative-ai/#top "Scroll to top")
 

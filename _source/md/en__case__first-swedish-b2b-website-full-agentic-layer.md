@@ -1,5 +1,3 @@
-URL: https://www.gomogroup.com/en/case/first-swedish-b2b-website-full-agentic-layer/
----
 Agentic Web \| Reading time: 5 minutes \| October 2026
 
 # The first Swedish B2B website with a  full agentic layer
@@ -267,7 +265,7 @@ No new process for sales
 
 Agent leads land in the same WooCommerce and form views the team already uses, marked as agent-submitted.
 
-Example: an agent sends a quote request
+Example: an agent sends a quote request↻ Replay
 
 Can you request a quote for this product for our team?
 
@@ -435,7 +433,7 @@ Contact us, and we’ll get back to you with our expertise and support!
 
 [Privacy Policy](https://www.gomogroup.com/en/privacy-policy/) [Cookie Policy](https://www.gomogroup.com/en/cookie-policy/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: A MedTech company needed to fill the room. We did it with the right people.Link to: A MedTech company needed to fill the room. We did it with the right people.![](https://www.gomogroup.com/wp-content/uploads/2016/01/Digital-online-marketing-80x80.jpg.webp)A MedTech company needed to fill the room. We did it with the right people.](https://www.gomogroup.com/en/case/medtech-webinar-b2b-event-marketing/ "Link to: A MedTech company needed to fill the room. We did it with the right people.")
+[Link to: From invisible to AI agents to built for themLink to: From invisible to AI agents to built for themFrom invisible to AI agents to built for them![](https://www.gomogroup.com/wp-content/uploads/2026/11/multilingual-translation-agency-workspace-80x80.webp)](https://www.gomogroup.com/en/case/translation-agency-agentic-web-layer/ "Link to: From invisible to AI agents to built for them") [Link to: A MedTech company needed to fill the room. We did it with the right people.Link to: A MedTech company needed to fill the room. We did it with the right people.![](https://www.gomogroup.com/wp-content/uploads/2016/01/Digital-online-marketing-80x80.jpg.webp)A MedTech company needed to fill the room. We did it with the right people.](https://www.gomogroup.com/en/case/medtech-webinar-b2b-event-marketing/ "Link to: A MedTech company needed to fill the room. We did it with the right people.")
 
  [Scroll to top](https://www.gomogroup.com/en/case/first-swedish-b2b-website-full-agentic-layer/#top "Scroll to top")
 

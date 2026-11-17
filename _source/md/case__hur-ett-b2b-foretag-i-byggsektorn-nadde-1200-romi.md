@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/case/hur-ett-b2b-foretag-i-byggsektorn-nadde-1200-romi/
-LANG: sv
-TYPE: case
-TITLE: Hur ett B2B-företag i byggsektorn nådde 1200% ROMI
-DESC: Ta del av hur en ledande B2B‑e‑handelsaktör i byggsektorn nådde 1200% ROMI under ett av branschens tuffaste år – med performance marketing, SEO, AI-sök och optimerade konverteringsflöden.
-PUBLISHED: 2026-01-07
-MODIFIED: 2026-10-01
-AUTHOR: None
-ALT: None
----
 # Hur ett B2B-företag i byggsektorn nådde 1200% ROMI, trots ett historiskt svagt år för branschen
 
 Case study \| SME
@@ -50,7 +40,7 @@ Digitala kanaler genererade totalt 12x mer än de resurser som investerades. Det
 
 **Varje investerad krona gav över 12 kronor tillbaka – och det under ett år då stora delar av branschen visade en markant försäljningsnedgång.**
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201850%201322'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/02/b2b-construction-and-marketing-case-chart-swedish.png.webp)
 
 ## För att sammanfatta
 
@@ -60,7 +50,7 @@ När byggsektorn mötte sitt svagaste år på länge visade kunden att rätt dig
 
 Kontakta mig
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20222%20300'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/05/sam-image-222x300.jpg.webp)
 
 Sam ToosiClient Success ManagerJag började på GO MO Group 2023 efter att ha tagit en civilekonomexamen, med över fyra års erfarenhet inom försäljning av sällanköpsvaror i bagaget. På GO MO Group har min roll utvecklats med fokus på partnerskap inom bygg- och SaaS-sektorerna. Genom min insyn i olika organisationer har jag identifierat ett betydande gap mellan försäljning och marknadsföring. Min approach är därför att hjälpa mina kunder att utveckla strategier som bygger broar mellan dessa områden genom att förstå deras unika perspektiv och skapa en gemensam riktning för framgång.
 
@@ -90,15 +80,15 @@ Kontakta oss, så återkommer vi med vår expertis och support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/case/hur-ett-b2b-foretag-i-byggsektorn-nadde-1200-romi/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/case/hur-ett-b2b-foretag-i-byggsektorn-nadde-1200-romi/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/case/hur-ett-b2b-foretag-i-byggsektorn-nadde-1200-romi/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/case/hur-ett-b2b-foretag-i-byggsektorn-nadde-1200-romi/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
 ![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Integritetspolicy](https://www.gomogroup.com/gdpr/) [Cookies & Regler](https://www.gomogroup.com/cookies-regler/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: Hur HighFive gruppen tog kontroll över sin AI-potentialLink to: Hur HighFive gruppen tog kontroll över sin AI-potentialHur HighFive gruppen tog kontroll över sin AI-potential![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)](https://www.gomogroup.com/case/hur-highfive-gruppen-tog-kontroll-over-sin-ai-potential/ "Link to: Hur HighFive gruppen tog kontroll över sin AI-potential") [Link to: Generativ AI – från hype till faktisk affärsnyttaLink to: Generativ AI – från hype till faktisk affärsnytta![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)Generativ AI – från hype till faktisk affärsnytta](https://www.gomogroup.com/case/generativ-ai-fran-hype-till-faktisk-affarsnytta/ "Link to: Generativ AI – från hype till faktisk affärsnytta")
+[Link to: Hur HighFive gruppen tog kontroll över sin AI-potentialLink to: Hur HighFive gruppen tog kontroll över sin AI-potentialHur HighFive gruppen tog kontroll över sin AI-potential![](https://www.gomogroup.com/wp-content/uploads/2025/07/Innovation-hub-HighFive-t-80x80.jpg.webp)](https://www.gomogroup.com/case/hur-highfive-gruppen-tog-kontroll-over-sin-ai-potential/ "Link to: Hur HighFive gruppen tog kontroll över sin AI-potential") [Link to: Västsvenska Handelskammaren – Från spretig textproduktion till AI-styrd precisionLink to: Västsvenska Handelskammaren – Från spretig textproduktion till AI-styrd precision![](https://www.gomogroup.com/wp-content/uploads/2025/07/AI-driven-precision-80x80.jpg.webp)Västsvenska Handelskammaren – Från spretig textproduktion till AI-styrd...](https://www.gomogroup.com/case/vastsvenska-handelskammaren-fran-spretig-textproduktion-till-ai-styrd-precision/ "Link to: Västsvenska Handelskammaren – Från spretig textproduktion till AI-styrd precision")
 
  [Scroll to top](https://www.gomogroup.com/case/hur-ett-b2b-foretag-i-byggsektorn-nadde-1200-romi/#top "Scroll to top")
 

@@ -1,5 +1,5 @@
 /**
- * GO MO Group MCP server (v1.3.0)
+ * GO MO Group MCP server (v1.4.0)
  *
  * Exposes the public gomogroup.com agent API (https://www.gomogroup.com/agent/v1/)
  * as Model Context Protocol tools over Streamable HTTP, in stateless mode
@@ -14,7 +14,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import { z } from "zod";
 import { ReadCache, fetchJson } from "./read-cache.js";
-const VERSION = "1.3.0";
+const VERSION = "1.4.0";
 const API_BASE = process.env.GOMO_API_BASE ?? "https://www.gomogroup.com/agent/v1";
 const PORT = parseInt(process.env.PORT ?? "3000", 10);
 const API_TIMEOUT = parseInt(process.env.API_TIMEOUT_MS ?? "10000", 10);
@@ -37,6 +37,7 @@ const readCache = new ReadCache({
     maxAgeMs: positiveMs("MCP_CACHE_MAX_AGE_MS", 7 * 86400000),
     volatileMaxAgeMs: positiveMs("MCP_CACHE_VOLATILE_MAX_AGE_MS", 48 * 3600000),
 });
+readCache.startBackgroundRefresh();
 const apiGet = (path, params = {}) => readCache.get(path, params);
 function ok(data) {
     return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
@@ -203,8 +204,13 @@ function buildServer(clientIp) {
 }
 // ── HTTP app ─────────────────────────────────────────────────────────────────
 const app = express();
-// Behind Nginx on the same host: take the client IP from X-Forwarded-For only when the hop is local.
-app.set("trust proxy", "loopback");
+// Which proxies may set X-Forwarded-For. Default "loopback" suits Nginx on the same host. On Render set
+// TRUST_PROXY=1 (its load balancer is one hop); otherwise every client shares one rate-limit bucket and
+// WordPress sees the proxy's IP. Never use "true": it lets clients forge their address.
+const TRUST_PROXY = process.env.TRUST_PROXY ?? "loopback";
+if (TRUST_PROXY.trim().toLowerCase() === "true")
+    throw new Error("TRUST_PROXY=true is unsafe; use a hop count or address list");
+app.set("trust proxy", /^\d+$/.test(TRUST_PROXY.trim()) ? Number(TRUST_PROXY) : TRUST_PROXY);
 app.use(express.json({ limit: "32kb" }));
 // Applied to the MCP endpoint only — app.use("/mcp") would also throttle /mcp/health and /mcp/tools.
 const limiter = rateLimit({ windowMs: 60 * 1000, max: 100, standardHeaders: true, legacyHeaders: false });
@@ -215,6 +221,8 @@ app.get(["/health", "/mcp/health"], health);
 app.get(["/tools", "/mcp/tools"], tools);
 app.get(["/ready", "/mcp/ready"], (_req, res) => {
     const state = readCache.status();
+    if (!state.ready)
+        void readCache.refreshAll(); // a failing probe also nudges recovery (throttled)
     res.status(state.ready ? 200 : 503).json(state);
 });
 app.all("/mcp", limiter, async (req, res) => {

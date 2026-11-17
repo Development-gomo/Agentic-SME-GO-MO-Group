@@ -134,6 +134,23 @@ export class ReadCache {
     return work;
   }
 
+  /** Refresh every collection (each still honours its own refresh/retry throttle). */
+  refreshAll(): Promise<void> {
+    return Promise.all(COLLECTIONS.map(name => this.refresh(name))).then(() => undefined);
+  }
+
+  /**
+   * Keep collections fresh without depending on tool traffic: refresh once now, then on a timer.
+   * Without this, an instance whose bundled snapshots have expired stays not-ready forever when a
+   * readiness probe withholds the traffic that would otherwise trigger a refresh.
+   */
+  startBackgroundRefresh(intervalMs = Math.min(this.config.refreshMs ?? 300000, this.config.retryMs ?? 60000)): () => void {
+    void this.refreshAll();
+    const timer = setInterval(() => { void this.refreshAll(); }, intervalMs);
+    timer.unref?.();
+    return () => clearInterval(timer);
+  }
+
   async get(path: string, params: Record<string, string | undefined> = {}): Promise<unknown> {
     const match = /^([a-z-]+)(?:\/([a-z0-9-]+))?\.json$/.exec(path);
     if (!match || !COLLECTIONS.includes(match[1] as Collection)) throw new Error("Unknown read endpoint");

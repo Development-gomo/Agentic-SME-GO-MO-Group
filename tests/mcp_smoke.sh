@@ -21,4 +21,13 @@ codes=$(for i in $(seq 110); do curl -s -o /dev/null -w '%{http_code}\n' "localh
 [ "$codes" = "200 " ]; check "health is not rate-limited ($codes)" $?
 codes=$(for i in $(seq 105); do curl -s -o /dev/null -w '%{http_code}\n' -X POST "localhost:$MCP_PORT/mcp" -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}'; done | grep -c 429)
 [ "$codes" -ge 1 ]; check "/mcp rate-limited after 100/min" $?
+# Proxy trust: with TRUST_PROXY=1 (Render), clients behind the proxy get separate rate-limit buckets.
+PROXY_PORT=3919
+GOMO_API_BASE=http://localhost:$DATA_PORT PORT=$PROXY_PORT TRUST_PROXY=1 node "$R/gomo-mcp/dist/index.js" >/dev/null 2>&1 & PROXY_PID=$!
+trap 'kill $DATA_PID $MCP_PID $PROXY_PID 2>/dev/null' EXIT
+for _ in $(seq 50); do curl -s "localhost:$PROXY_PORT/mcp/health" >/dev/null && break; sleep 0.2; done
+remaining() { curl -s -o /dev/null -D - -X POST "localhost:$PROXY_PORT/mcp" -H "X-Forwarded-For: $1" -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | tr -d '\r' | awk -F': ' 'tolower($1)=="ratelimit-remaining"{print $2}'; }
+a1=$(remaining 203.0.113.10); a2=$(remaining 203.0.113.10); b1=$(remaining 198.51.100.20)
+[ "$a1" = "99" ] && [ "$a2" = "98" ] && [ "$b1" = "99" ]; check "TRUST_PROXY=1 gives each client its own bucket ($a1/$a2/$b1)" $?
+TRUST_PROXY=true PORT=3920 node "$R/gomo-mcp/dist/index.js" >/dev/null 2>&1; [ $? -ne 0 ]; check "TRUST_PROXY=true is refused" $?
 exit $fail

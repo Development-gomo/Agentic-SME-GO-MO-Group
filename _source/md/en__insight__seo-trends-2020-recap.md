@@ -1,16 +1,6 @@
-URL: https://www.gomogroup.com/en/insight/seo-trends-2020-recap/
-LANG: en
-TYPE: insight
-TITLE: SEO Trends: the largest SEO changes of 2020
-DESC: SEO is constantly changing, and marketers need to stay updated on and adapt to these changes. Visit our web to read about the changes from 2020.
-PUBLISHED: 2021-01-11
-MODIFIED: 2024-05-09
-AUTHOR: None
-ALT: None
----
 [BACK](https://www.gomogroup.com/en/insights/)
 
-[![facebook](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/en/insight/seo-trends-2020-recap/ "Share on facebook")[![twitter](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://twitter.com/intent/tweet?text=SEO%20Trends:%202020%20Recap&url=https://www.gomogroup.com/en/insight/seo-trends-2020-recap/ "Share on twitter")[![linkedin](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/en/insight/seo-trends-2020-recap/ "Share on linkedin")[![print](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.gomogroup.com/en/insight/seo-trends-2020-recap/# "Print this document")[![facebook](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/en/insight/seo-trends-2020-recap/ "Share with email")
+[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/en/insight/seo-trends-2020-recap/ "Share on facebook")[![twitter](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/twitter.png)](https://twitter.com/intent/tweet?text=SEO%20Trends:%202020%20Recap&url=https://www.gomogroup.com/en/insight/seo-trends-2020-recap/ "Share on twitter")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/en/insight/seo-trends-2020-recap/ "Share on linkedin")[![print](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/print.png)](https://www.gomogroup.com/en/insight/seo-trends-2020-recap/# "Print this document")[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/en/insight/seo-trends-2020-recap/ "Share with email")
 
 News \| READING TIME: 6 MINUTES \| January 11, 2021
 
@@ -44,7 +34,7 @@ Google launched a new [removals tool](https://webmasters.googleblog.com/2020/01/
 2. Shows you which content is not in Google because it is “outdated content”.
 3. Shows you which of your URLs were filtered by Google’s Safe Search adult filter.
 
-![Interface for Google Search Console Removals Tool](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20426'%3E%3C/svg%3E)
+![Interface for Google Search Console Removals Tool](https://www.gomogroup.com/wp-content/uploads/2021/12/GSC-removals.png.webp)
 
 **REF:** [_Google Webmasters_](https://support.google.com/webmasters/answer/9689846?hl=en)
 
@@ -72,7 +62,7 @@ Before this update, clicking a featured snippet merely took the user to the rank
 
 There’s no markup needed by webmasters to enable a featured snippet. However, pages with snippets may disrupt implemented conversion optimizing elements by sending visitors past ads and/or calls to action, taking them directly to the relevant content. From an SEO perspective, measures should be taken to check pages that rank with a featured snippet and modify the calls to action appropriately.
 
-![Example of a featured snippet in Google search](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20271'%3E%3C/svg%3E)
+![Example of a featured snippet in Google search](https://www.gomogroup.com/wp-content/uploads/2021/12/featured-snippets-1-1024x271-1.png)
 
 **REF:** [_Danny Sullivan on Twitter_](https://twitter.com/dannysullivan/status/1268192477011341312)
 
@@ -80,7 +70,7 @@ There’s no markup needed by webmasters to enable a featured snippet. However, 
 
 Google announced that product results on the Google Shopping tab in the U.S. will consist primarily of free listings, helping shoppers choose the products and sellers that will serve them best, from the widest variety of options. Earlier, this tab worked as a SEA advertising space, wherein e-commerce retailers paid per click. Product ads will now appear separately at the top of the page, where they’re marked like Google’s other ad units. Early figures showed a stark increase in user engagement, and it will be interesting to see if and when free product listings are enabled in other markets as well.
 
-![Example of product listing in Google search](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20680%20511'%3E%3C/svg%3E)
+![Example of product listing in Google search](https://www.gomogroup.com/wp-content/uploads/2021/12/F1Ksjn1LgF1jGRRHU_1mbpmYvHzrYSm7mLjUXAZvfIPX05GNOZcGvEmxJ22cRZYiH-f2lbesrmMhmLgJwYqIQDiKr3oDDN4nyjmai1SiF601EN5_NTAme7EsiwctalEnK6fIxoB-.png.webp)
 
 **REF:** [_Google Shopping_](https://www.blog.google/products/shopping/bringing-free-retail-listings-google-search/)
 
@@ -122,7 +112,7 @@ Microsoft’s _Clarity_ is a new free analytics tool that provides website usage
 
 Clarity records information about websites’ visitors, and their behavior. It summarizes that information in dashboards and allows webmasters to explore and highlight interesting segments and behaviors. It provides basic information on sessions, interactions, and engagement, and breaks users down by device type, country, and other dimensions. For all of these views, you can explore heat maps and session recordings. These records might help you to better understand your users and their problems. You might be able to use that insight to improve your website.
 
-![Example of Microsoft Clarity user interface](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20626%20392'%3E%3C/svg%3E)
+![Example of Microsoft Clarity user interface](https://www.gomogroup.com/wp-content/uploads/2021/12/IdZtBd7jnrk0N1OYGXkI_P9Ku1DXL83d4JTA4fE2VkPVD0-zh8Bpv3iiG8OgbPNtUUTswDg83p9aUvllobr_2OxosgWVJ8_jkXgFqJtTw2cu5cduexFuxQTofwoVVVRxcoD34BaE.png.webp)
 
 **REF:** [_Bing Webmaster_](https://blogs.bing.com/webmaster/october-2020/Microsoft-Clarity-is-now-Generally-Available)
 
@@ -142,7 +132,7 @@ The “new analytics” provides customer-centric measurements, instead of measu
 
 About the author
 
-![Reza Ghazizadeh](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E)
+![Reza Ghazizadeh](https://www.gomogroup.com/wp-content/uploads/2024/05/reza-author-image-300x300.jpg.webp)
 
 Reza GhazizadehClient Success ManagerReza is a Client Success Manager and co-founder of GO MO Group. He has a total of 17 years of experience in digital marketing, IT, and complex digital business development. Works with large and small customers in B2B and B2C where leads complex IT development projects as a specialist in SEO & Google Ads (Ads, Remarketing & Display).
 
@@ -150,25 +140,30 @@ Reza GhazizadehClient Success ManagerReza is a Client Success Manager and co-fou
 
 Discover the people behind our success in “Meet the Marketer” – a video series where we interview our own talented employees. Get to know the team that drives our innovation and creativity at GO MO Group.
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerHenrik Anderberg![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/henrik-video-thumbnail.webp)Meet the MarketerHenrik Anderberg![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerPuja Kumari![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/puja-video-thumbnail.webp)Meet the MarketerPuja Kumari![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLina Nygren![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/lina-video-thumbnail.png.webp)Meet the MarketerLina Nygren![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerVishnu Adithya![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/vishnu-video-thumbnail.webp)Meet the MarketerVishnu Adithya![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLisa & Rickard![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/Rick-and-Lisa.jpg.webp)Meet the MarketerLisa & Rickard![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerJan Thesleff![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/jan-thesleff-video-thumbnail.webp)Meet the MarketerJan Thesleff![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerCecilia Oskarsson![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/cecilia-oskarsson-video-thumbnail.webp)Meet the MarketerCecilia Oskarsson![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerSunil Muralidharan![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/sunil-muralidharan-video-thumbnail.webp)Meet the MarketerSunil Muralidharan![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
 
 ## Related insights
 
 Industry-specific insights make a difference. We bring experience from over successful 100 client projects to each new case to develop and implement optimal digital marketing strategies for all of our clients.
+
+[How to win organically on LinkedIn, according to LinkedIn\\
+On LinkedIn, B2B engagement is earned by people and proof. The company page comes second. LinkedIn has changed how its algorithm decides what shows up in the feed. We went through what LinkedIn itself has published in 2026, from engineering posts to marketing guides and buyer research, and turned it into a short guide. The \[…\]](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
+
+[Read More](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
 
 [ChatGPT Ads vs Google Ads: what we’ve learned so far\\
 Last updated: 15 October 2026. We update the data as the pilots continue – more to come. In August, ChatGPT Ads opened to advertisers in 31 European markets, Sweden and Germany among them. For B2B marketing leaders the question came quickly: is this a new search channel, and does it deserve a budget of its \[…\]](https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/)
@@ -190,24 +185,19 @@ The next trillion users of the internet aren’t human. Most B2B companies are i
 
 [Read More](https://www.gomogroup.com/en/insight/closing-the-b2b-commerce-discovery-gap/)
 
-[The Complete Glossary of 75 GEO, AEO & AI Search Terms You Must Know in 2026\\
-75 terms. Every AI search discipline. One reference to bookmark. Why the Language of Search Just Changed — And What You Need to Know The vocabulary of search has undergone its most dramatic transformation in two decades. Terms that didn’t exist 3 years ago — GEO, AEO, LLM-O, AI Overviews, RAG, zero-click — are now \[…\]](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
-
-[Read More](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
-
 ### Let’s discuss your future.
 
 Hi, my name is  and I represent , where my title is . You can contact me at . I am contacting you regarding .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
 
 Contact us, and we’ll get back to you with our expertise and support!
 
@@ -215,15 +205,15 @@ Contact us, and we’ll get back to you with our expertise and support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/insight/seo-trends-2020-recap/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/en/insight/seo-trends-2020-recap/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/insight/seo-trends-2020-recap/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/en/insight/seo-trends-2020-recap/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Privacy Policy](https://www.gomogroup.com/en/privacy-policy/) [Cookie Policy](https://www.gomogroup.com/en/cookie-policy/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: Centralized B2B SEO Facilitates Economies of ScaleLink to: Centralized B2B SEO Facilitates Economies of ScaleCentralized B2B SEO Facilitates Economies of Scale![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)](https://www.gomogroup.com/en/insight/how-centralized-b2b-seo-facilitates-economies-of-scale/ "Link to: Centralized B2B SEO Facilitates Economies of Scale") [Link to: Covid-19 Marketing & the post-pandemic G-forcesLink to: Covid-19 Marketing & the post-pandemic G-forces![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)Covid-19 Marketing & the post-pandemic G-forces](https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/ "Link to: Covid-19 Marketing & the post-pandemic G-forces")
+[Link to: Centralized B2B SEO Facilitates Economies of ScaleLink to: Centralized B2B SEO Facilitates Economies of ScaleCentralized B2B SEO Facilitates Economies of Scale![](https://www.gomogroup.com/wp-content/uploads/2021/01/Clique-meeting-80x80.png.webp)](https://www.gomogroup.com/en/insight/how-centralized-b2b-seo-facilitates-economies-of-scale/ "Link to: Centralized B2B SEO Facilitates Economies of Scale") [Link to: Covid-19 Marketing & the post-pandemic G-forcesLink to: Covid-19 Marketing & the post-pandemic G-forces![](https://www.gomogroup.com/wp-content/uploads/2021/01/Connected-featured-80x80.png.webp)Covid-19 Marketing & the post-pandemic G-forces](https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/ "Link to: Covid-19 Marketing & the post-pandemic G-forces")
 
  [Scroll to top](https://www.gomogroup.com/en/insight/seo-trends-2020-recap/#top "Scroll to top")
 

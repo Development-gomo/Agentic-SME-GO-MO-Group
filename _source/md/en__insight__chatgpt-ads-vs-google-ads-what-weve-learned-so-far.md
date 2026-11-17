@@ -1,16 +1,6 @@
-URL: https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/
-LANG: en
-TYPE: insight
-TITLE: ChatGPT Ads vs Google Ads: Early B2B Results
-DESC: ChatGPT Ads reach more buyers earlier at a CPC close to Google's, with less visibility and control. What our B2B pilots against Google Ads show so far.
-PUBLISHED: 2026-10-15
-MODIFIED: 2026-10-16
-AUTHOR: None
-ALT: None
----
 [BACK](https://www.gomogroup.com/en/insights/)
 
-[![facebook](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/ "Share on facebook")[![twitter](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://twitter.com/intent/tweet?text=ChatGPT%20Ads%20vs%20Google%20Ads:%20what%20we%E2%80%99ve%20learned%20so%20far&url=https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/ "Share on twitter")[![linkedin](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/ "Share on linkedin")[![print](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/# "Print this document")[![facebook](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/ "Share with email")
+[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/ "Share on facebook")[![twitter](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/twitter.png)](https://twitter.com/intent/tweet?text=ChatGPT%20Ads%20vs%20Google%20Ads:%20what%20we%E2%80%99ve%20learned%20so%20far&url=https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/ "Share on twitter")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/ "Share on linkedin")[![print](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/print.png)](https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/# "Print this document")[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/ "Share with email")
 
 Generative AI \| READING TIME: 5 MINUTES \| October 15, 2026
 
@@ -18,7 +8,7 @@ Generative AI \| READING TIME: 5 MINUTES \| October 15, 2026
 
 _Last updated: 15 October 2026. We update the data as the pilots continue - more to come._
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201080'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/10/chatgpt-ads-vs-google-ads-image-1.webp)
 
 In August, ChatGPT Ads opened to advertisers in 31 European markets, Sweden and Germany among them. For B2B marketing leaders the question came quickly: is this a new search channel, and does it deserve a budget of its own?
 
@@ -46,7 +36,7 @@ Lesson 02
 
 Across our two pilots, we ran ChatGPT Ads and Google Ads on the same topics from mid-September to early October. The figures below combine both pilots and are rounded.
 
-| Metric (both pilots, rounded) | ChatGPT Ads | Google Ads |
+| Metric | ChatGPT | Google |
 | --- | --- | --- |
 | Impressions | ~500,000 | ~130,000 |
 | Clicks | ~4,100 | ~8,400 |
@@ -83,7 +73,7 @@ Lesson 04
 
 ## 4\. Test the platform guidance
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%20717'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/10/chatgpt-ads-vs-google-ads-image-2.webp)
 
 ChatGPT Ads uses context hints to describe the conversations where an ad may be relevant. We tested the same themes in two formats: lists of keywords and topics, and full conversational statements. OpenAI's guidance recommends clear, descriptive phrases over short keywords. In our test, the keyword and topic hints led on click-through rate, CPC, impressions and clicks.
 
@@ -159,7 +149,7 @@ We set up pilots that give B2B teams a readable answer: clean tracking, a fair c
 
 About the author
 
-![Henrik Anderberg](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E)
+![Henrik Anderberg](https://www.gomogroup.com/wp-content/uploads/2021/12/henrik-anderberg-author-image-300x300.webp)
 
 Henrik AnderbergExecutive Vice President & Vice vdChangemaker with extensive experience from global B2B organizations. EVP / Vice vd at GO MO Group and Partner at Collaboration Art, with a strong focus on B2B Commercial Excellence, digital marketing, sales strategy, and Generative AI. Works closely with leading Nordic industrial companies and ambitious SaaS clients to drive sustainable growth, high ROMI, and long-term business transformation.
 
@@ -167,25 +157,30 @@ Henrik AnderbergExecutive Vice President & Vice vdChangemaker with extensive exp
 
 Discover the people behind our success in “Meet the Marketer” – a video series where we interview our own talented employees. Get to know the team that drives our innovation and creativity at GO MO Group.
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerHenrik Anderberg![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/henrik-video-thumbnail.webp)Meet the MarketerHenrik Anderberg![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerPuja Kumari![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/puja-video-thumbnail.webp)Meet the MarketerPuja Kumari![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLina Nygren![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/lina-video-thumbnail.png.webp)Meet the MarketerLina Nygren![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerVishnu Adithya![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/vishnu-video-thumbnail.webp)Meet the MarketerVishnu Adithya![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLisa & Rickard![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/Rick-and-Lisa.jpg.webp)Meet the MarketerLisa & Rickard![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerJan Thesleff![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/jan-thesleff-video-thumbnail.webp)Meet the MarketerJan Thesleff![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerCecilia Oskarsson![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/cecilia-oskarsson-video-thumbnail.webp)Meet the MarketerCecilia Oskarsson![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerSunil Muralidharan![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/sunil-muralidharan-video-thumbnail.webp)Meet the MarketerSunil Muralidharan![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
 
 ## Related insights
 
 Industry-specific insights make a difference. We bring experience from over successful 100 client projects to each new case to develop and implement optimal digital marketing strategies for all of our clients.
+
+[How to win organically on LinkedIn, according to LinkedIn\\
+On LinkedIn, B2B engagement is earned by people and proof. The company page comes second. LinkedIn has changed how its algorithm decides what shows up in the feed. We went through what LinkedIn itself has published in 2026, from engineering posts to marketing guides and buyer research, and turned it into a short guide. The \[…\]](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
+
+[Read More](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
 
 [Do visitors from ChatGPT and other AI assistants convert better?\\
 GO MO analysed GA4 data from 60+ websites. AI assistant visitors converted at nearly twice the rate of other visitors, with big differences by industry. See what to check and change.](https://www.gomogroup.com/en/insight/do-visitors-from-chatgpt-and-other-ai-assistants-convert-better/)
@@ -207,24 +202,19 @@ The next trillion users of the internet aren’t human. Most B2B companies are i
 
 [Read More](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
 
-[Your website is getting AI traffic. You just can’t see it yet.\\
-ChatGPT, Perplexity, Gemini, and Claude are sending users to your site right now. Most analytics setups are completely blind to it. Here’s what it looks like, and how to fix it in under 15 minutes. AI assistants are quietly sending users to your website right now, and most analytics setups are completely blind to it. \[…\]](https://www.gomogroup.com/en/insight/your-website-is-getting-ai-traffic-you-just-cant-see-it-yet/)
-
-[Read More](https://www.gomogroup.com/en/insight/your-website-is-getting-ai-traffic-you-just-cant-see-it-yet/)
-
 ### Let’s discuss your future.
 
 Hi, my name is  and I represent , where my title is . You can contact me at . I am contacting you regarding .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
 
 Contact us, and we’ll get back to you with our expertise and support!
 
@@ -232,15 +222,15 @@ Contact us, and we’ll get back to you with our expertise and support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Privacy Policy](https://www.gomogroup.com/en/privacy-policy/) [Cookie Policy](https://www.gomogroup.com/en/cookie-policy/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: Do visitors from ChatGPT and other AI assistants convert better?Link to: Do visitors from ChatGPT and other AI assistants convert better?![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)Do visitors from ChatGPT and other AI assistants convert better?](https://www.gomogroup.com/en/insight/do-visitors-from-chatgpt-and-other-ai-assistants-convert-better/ "Link to: Do visitors from ChatGPT and other AI assistants convert better?")
+[Link to: How to win organically on LinkedIn, according to LinkedInLink to: How to win organically on LinkedIn, according to LinkedInHow to win organically on LinkedIn, according to LinkedIn![](https://www.gomogroup.com/wp-content/uploads/2026/10/linkedin-organic-featured-image-80x80.webp)](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/ "Link to: How to win organically on LinkedIn, according to LinkedIn") [Link to: Do visitors from ChatGPT and other AI assistants convert better?Link to: Do visitors from ChatGPT and other AI assistants convert better?![](https://www.gomogroup.com/wp-content/uploads/2026/10/ai-visitors-convert-better-image-80x80.webp)Do visitors from ChatGPT and other AI assistants convert better?](https://www.gomogroup.com/en/insight/do-visitors-from-chatgpt-and-other-ai-assistants-convert-better/ "Link to: Do visitors from ChatGPT and other AI assistants convert better?")
 
  [Scroll to top](https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/#top "Scroll to top")
 

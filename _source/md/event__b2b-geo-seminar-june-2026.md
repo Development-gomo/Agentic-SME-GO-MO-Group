@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/event/b2b-geo-seminar-june-2026/
-LANG: sv
-TYPE: event
-TITLE: GEO Seminar: Brand Selected by AI & Agents | June 10, 2026
-DESC: Exclusive B2B seminar in Stockholm: Learn GEO strategies to make your brand visible and selected by AI search & agents. Features Google, SEMrush & Volvo Group panel. Join June 10.
-PUBLISHED: 2026-05-12
-MODIFIED: 2026-06-11
-AUTHOR: None
-ALT: None
----
 Exclusive Event \| STHLM
 
 # How to get your brand selected by AI and Agents? GEO in practice.

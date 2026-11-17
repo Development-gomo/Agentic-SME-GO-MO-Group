@@ -1,16 +1,6 @@
-URL: https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/
-LANG: en
-TYPE: insight
-TITLE: B2B Marketing in the times of COVID-19 by Gabriel Ghavami
-DESC: "GO MO Group has introduced a B2B marketing plan to tackle the on-going pandemic situation in their latest blog. Visit our website for more information av Gabriel Ghavami"
-PUBLISHED: 2021-01-14
-MODIFIED: 2024-05-09
-AUTHOR: None
-ALT: None
----
 [BACK](https://www.gomogroup.com/en/insights/)
 
-[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/ "Share on facebook")[![twitter](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/twitter.png)](https://twitter.com/intent/tweet?text=Covid-19%20Marketing%20&%20the%20post-pandemic%20G-forces&url=https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/ "Share on twitter")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/ "Share on linkedin")[![print](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/# "Print this document")[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/ "Share with email")
+[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/ "Share on facebook")[![twitter](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/twitter.png)](https://twitter.com/intent/tweet?text=Covid-19%20Marketing%20&%20the%20post-pandemic%20G-forces&url=https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/ "Share on twitter")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/ "Share on linkedin")[![print](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/print.png)](https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/# "Print this document")[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/ "Share with email")
 
 Pull marketing \| READING TIME: 4 MINUTES \| January 14, 2021
 
@@ -28,7 +18,7 @@ In a ”normal” recession, the smart move is to spend through it. But note we�
 
 One must be humble of the fact that the landscape in B2B was savage even prior to the Pandemic, where the complexity in B2B buying continued to increase as B2B buyers were spending more time researching and buying online. The “new” normal post the Pandemic will force digitalization and changes in favor of digital communication.
 
-![Company Earnings Graph | GO MO Group](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201536%20904'%3E%3C/svg%3E)
+![Company Earnings Graph | GO MO Group](https://www.gomogroup.com/wp-content/uploads/2021/12/Winners-accelerate-in-the-turns-1536x904-1.png)
 
 Winners accelerate in the turns
 
@@ -66,7 +56,7 @@ With the conviction of a bright future with a ”new” normal as standard.
 
 About the author
 
-![Gabriel Ghavami](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E)
+![Gabriel Ghavami](https://www.gomogroup.com/wp-content/uploads/2026/06/gg-author-image-300x300.webp)
 
 Gabriel GhavamiFounder & CEO, GO MO GroupI, Gabriel Ghavami, Founder & CEO of GO MO Group and CCO of Collaboration Art — a committed advocate for generative AI and its potential to renew traditional B2B industries. With solid experience in sales, marketing, and growth strategies, I am passionately dedicated to exploring and implementing Gen AI technologies that promote efficiency and sustainable growth. Driven by a vision where technology and human values interact to carefully open up new advancements and opportunities within the industry—I believe that human emotions and ethics combined with machine speed can make our decisions smarter and kinder.
 
@@ -74,25 +64,30 @@ Gabriel GhavamiFounder & CEO, GO MO GroupI, Gabriel Ghavami, Founder & CEO of GO
 
 Discover the people behind our success in “Meet the Marketer” – a video series where we interview our own talented employees. Get to know the team that drives our innovation and creativity at GO MO Group.
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerHenrik Anderberg![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/henrik-video-thumbnail.webp)Meet the MarketerHenrik Anderberg![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerPuja Kumari![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/puja-video-thumbnail.webp)Meet the MarketerPuja Kumari![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLina Nygren![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/lina-video-thumbnail.png.webp)Meet the MarketerLina Nygren![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerVishnu Adithya![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/vishnu-video-thumbnail.webp)Meet the MarketerVishnu Adithya![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLisa & Rickard![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/Rick-and-Lisa.jpg.webp)Meet the MarketerLisa & Rickard![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerJan Thesleff![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/jan-thesleff-video-thumbnail.webp)Meet the MarketerJan Thesleff![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerCecilia Oskarsson![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/cecilia-oskarsson-video-thumbnail.webp)Meet the MarketerCecilia Oskarsson![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerSunil Muralidharan![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/sunil-muralidharan-video-thumbnail.webp)Meet the MarketerSunil Muralidharan![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
 
 ## Related insights
 
 Industry-specific insights make a difference. We bring experience from over successful 100 client projects to each new case to develop and implement optimal digital marketing strategies for all of our clients.
+
+[How to win organically on LinkedIn, according to LinkedIn\\
+On LinkedIn, B2B engagement is earned by people and proof. The company page comes second. LinkedIn has changed how its algorithm decides what shows up in the feed. We went through what LinkedIn itself has published in 2026, from engineering posts to marketing guides and buyer research, and turned it into a short guide. The \[…\]](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
+
+[Read More](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
 
 [ChatGPT Ads vs Google Ads: what we’ve learned so far\\
 Last updated: 15 October 2026. We update the data as the pilots continue – more to come. In August, ChatGPT Ads opened to advertisers in 31 European markets, Sweden and Germany among them. For B2B marketing leaders the question came quickly: is this a new search channel, and does it deserve a budget of its \[…\]](https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/)
@@ -114,24 +109,19 @@ The next trillion users of the internet aren’t human. Most B2B companies are i
 
 [Read More](https://www.gomogroup.com/en/insight/closing-the-b2b-commerce-discovery-gap/)
 
-[The Complete Glossary of 75 GEO, AEO & AI Search Terms You Must Know in 2026\\
-75 terms. Every AI search discipline. One reference to bookmark. Why the Language of Search Just Changed — And What You Need to Know The vocabulary of search has undergone its most dramatic transformation in two decades. Terms that didn’t exist 3 years ago — GEO, AEO, LLM-O, AI Overviews, RAG, zero-click — are now \[…\]](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
-
-[Read More](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
-
 ### Let’s discuss your future.
 
 Hi, my name is  and I represent , where my title is . You can contact me at . I am contacting you regarding .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
 
 Contact us, and we’ll get back to you with our expertise and support!
 
@@ -139,15 +129,15 @@ Contact us, and we’ll get back to you with our expertise and support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Privacy Policy](https://www.gomogroup.com/en/privacy-policy/) [Cookie Policy](https://www.gomogroup.com/en/cookie-policy/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: SEO Trends: 2020 RecapLink to: SEO Trends: 2020 RecapSEO Trends: 2020 Recap![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)](https://www.gomogroup.com/en/insight/seo-trends-2020-recap/ "Link to: SEO Trends: 2020 Recap") [Link to: B2B SEO for the Global Leader VolvoLink to: B2B SEO for the Global Leader Volvo![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)B2B SEO for the Global Leader Volvo](https://www.gomogroup.com/en/insight/seo-for-global-giants-volvo-group/ "Link to: B2B SEO for the Global Leader Volvo")
+[Link to: SEO Trends: 2020 RecapLink to: SEO Trends: 2020 RecapSEO Trends: 2020 Recap![](https://www.gomogroup.com/wp-content/uploads/2021/01/110-80x80.jpg.webp)](https://www.gomogroup.com/en/insight/seo-trends-2020-recap/ "Link to: SEO Trends: 2020 Recap") [Link to: B2B SEO for the Global Leader VolvoLink to: B2B SEO for the Global Leader Volvo![](https://www.gomogroup.com/wp-content/uploads/2020/04/B2B-SEO-for-Volvo-featured-80x80.jpeg.webp)B2B SEO for the Global Leader Volvo](https://www.gomogroup.com/en/insight/seo-for-global-giants-volvo-group/ "Link to: B2B SEO for the Global Leader Volvo")
 
  [Scroll to top](https://www.gomogroup.com/en/insight/b2b-marketing-amidst-covid-19/#top "Scroll to top")
 

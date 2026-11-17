@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/
-LANG: en
-TYPE: case
-TITLE: Streamline with AI workshops
-DESC: Read how our tailored AI workshops and training sessions help our clients understand and use generative AI effectively.
-PUBLISHED: 2025-07-31
-MODIFIED: 2025-09-01
-AUTHOR: None
-ALT: {'lang': 'sv', 'url': 'https://www.gomogroup.com/case/generativ-ai-fran-hype-till-faktisk-affarsnytta/'}
----
 # Generative AI: From Hype to Real Business Value
 
 CASE STUDY \| Generative AI
@@ -24,7 +14,7 @@ _“We saw how to reduce admin time and got tools we could use right after the s
 
 _“A real aha moment.” – Participant, Swedavia_
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202048%201365'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2025/07/Gen-AI-lecture-Lina.jpeg.webp)
 
 ### Tangible outcomes. Not just insights.
 
@@ -51,7 +41,7 @@ With the right prompts and process, you go from blank page to polished result in
 
 Whether you’re facing a big shift or want to level up one specific team, we create training that sticks. Our focus: helping people work smarter, together, with clarity. Not just one-off inspiration but knowledge that moves both individuals and companies forward.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202560%201920'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2025/07/IMG_3603-preview-1-scaled.jpg.webp)
 
 ## We’re not here to talk improvements. We’re here to deliver real results.
 
@@ -73,14 +63,14 @@ Want to know what this could look like for your team? **Let’s talk.**
 Hi, my name is  and I represent , where my title is . You can contact me at . I am contacting you regarding .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
 
 Contact us, and we’ll get back to you with our expertise and support!
 
@@ -88,15 +78,15 @@ Contact us, and we’ll get back to you with our expertise and support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Privacy Policy](https://www.gomogroup.com/en/privacy-policy/) [Cookie Policy](https://www.gomogroup.com/en/cookie-policy/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: How a B2B company in the construction sector reached 1200% ROMILink to: How a B2B company in the construction sector reached 1200% ROMIHow a B2B company in the construction sector reached 1200% ROMI![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)](https://www.gomogroup.com/en/case/how-a-b2b-company-in-the-construction-sector-reached-1200-romi/ "Link to: How a B2B company in the construction sector reached 1200% ROMI") [Link to: The West Sweden Chamber of Commerce – From scattered content creation to AI-driven precisionLink to: The West Sweden Chamber of Commerce – From scattered content creation to AI-driven precision![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)The West Sweden Chamber of Commerce – From scattered content creation...](https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/ "Link to: The West Sweden Chamber of Commerce – From scattered content creation to AI-driven precision")
+[Link to: How a B2B company in the construction sector reached 1200% ROMILink to: How a B2B company in the construction sector reached 1200% ROMIHow a B2B company in the construction sector reached 1200% ROMI![](https://www.gomogroup.com/wp-content/uploads/2026/01/bgfix-banner-80x80.webp)](https://www.gomogroup.com/en/case/how-a-b2b-company-in-the-construction-sector-reached-1200-romi/ "Link to: How a B2B company in the construction sector reached 1200% ROMI") [Link to: The West Sweden Chamber of Commerce – From scattered content creation to AI-driven precisionLink to: The West Sweden Chamber of Commerce – From scattered content creation to AI-driven precision![](https://www.gomogroup.com/wp-content/uploads/2025/07/AI-driven-precision-80x80.jpg.webp)The West Sweden Chamber of Commerce – From scattered content creation...](https://www.gomogroup.com/en/case/the-west-sweden-chamber-of-commerce-from-scattered-content-creation-to-ai-driven-precision/ "Link to: The West Sweden Chamber of Commerce – From scattered content creation to AI-driven precision")
 
  [Scroll to top](https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/#top "Scroll to top")
 

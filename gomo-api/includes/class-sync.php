@@ -2,7 +2,7 @@
 /**
  * GO MO Agent API — admin sync tool (Tools → GO MO Agent API).
  *
- * v1.3 design rule: the sync NEVER overwrites curated data.
+ * Design rule (since v1.3): the sync NEVER overwrites curated data.
  *   - company / services / case-studies / team / offices are curated files (data/*.json).
  *     The sync only refreshes their dateModified values and reports WordPress posts that
  *     are missing from them, so a human can curate the entry. (v1.2 rebuilt these from raw
@@ -110,7 +110,7 @@ final class GOMO_API_Sync
         echo '</form>';
 
         echo '<h2>Endpoints</h2><ul>';
-        foreach (['https://www.gomogroup.com/agent/', GOMO_API_BASE . '/index.json', 'https://www.gomogroup.com/openapi.json', 'https://www.gomogroup.com/llms.txt', 'https://www.gomogroup.com/ai.txt', 'https://www.gomogroup.com/api-catalog.json', 'https://agent-mcp.gomogroup.com/health'] as $u) {
+        foreach (['https://www.gomogroup.com/agent/', GOMO_API_BASE . '/index.json', 'https://www.gomogroup.com/openapi.json', 'https://www.gomogroup.com/llms.txt', 'https://www.gomogroup.com/ai.txt', 'https://www.gomogroup.com/api-catalog.json', 'https://www.gomogroup.com/.well-known/ard.json', 'https://agent-mcp.gomogroup.com/health'] as $u) {
             echo '<li><a href="' . esc_url($u) . '" target="_blank">' . esc_html($u) . '</a></li>';
         }
         echo '</ul><p><strong>After updating the plugin:</strong> Settings → Permalinks → Save.</p></div>';
@@ -156,7 +156,7 @@ final class GOMO_API_Sync
             $this->pending = [];
             $root = GOMO_API_Snapshot::root();
             foreach (array_merge(array_map(static fn($e) => "data/$e.json", array_merge(self::CURATED, self::DERIVED)),
-                ['agent-page.html', 'agent-index.json', 'llms.txt', 'ai.txt', 'api-catalog.json', 'openapi.json']) as $file) {
+                ['agent-page.html', 'agent-index.json', 'llms.txt', 'ai.txt', 'api-catalog.json', 'ard.json', 'openapi.json']) as $file) {
                 $contents = @file_get_contents($root . $file);
                 if ($contents === false) { throw new RuntimeException('Missing snapshot input: ' . $file); }
                 if (substr($file, -5) === '.json' && !is_array(json_decode($contents, true))) {
@@ -181,7 +181,7 @@ final class GOMO_API_Sync
     {
         $log = ['Sync ' . gmdate('c')];
 
-        $insights = $this->collect('insight');
+        $insights = $this->keep_page_fields($this->collect('insight'));
         $this->write_json('insights', $insights);
         $log[] = sprintf('insights: %d articles (%d en, %d sv)', count($insights), $this->count_lang($insights, 'en'), $this->count_lang($insights, 'sv'));
 
@@ -317,13 +317,34 @@ final class GOMO_API_Sync
                 'dateModified'  => get_post_modified_time('Y-m-d', true, $p),
             ];
             if ($kind === 'insight') {
-                $item['author'] = get_the_author_meta('display_name', (int) $p->post_author) ?: null;
                 $item['topics'] = $this->topics($p);
             }
             $items[] = $item;
         }
         usort($items, static fn($a, $b) => strcmp($b['datePublished'], $a['datePublished']));
         return $items;
+    }
+
+    /**
+     * The article byline ("About the author" box), the author's title and the reading time come from the
+     * page template, not from post_author (the uploader). Keep exactly what was published for articles that
+     * still exist, including an intentionally absent byline. New articles get no author until curated.
+     */
+    private function keep_page_fields(array $fresh): array
+    {
+        $prev = [];
+        foreach ($this->read('insights')['data'] ?? [] as $old) {
+            if (!empty($old['url'])) { $prev[untrailingslashit($old['url'])] = $old; }
+        }
+        foreach ($fresh as &$item) {
+            $old = $prev[untrailingslashit($item['url'])] ?? null;
+            if (!$old) { continue; }
+            foreach (['author', 'authorRole', 'readingMinutes'] as $field) {
+                if (array_key_exists($field, $old)) { $item[$field] = $old[$field]; }
+            }
+        }
+        unset($item);
+        return $fresh;
     }
 
     /**

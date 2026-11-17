@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/en/career/
-LANG: en
-TYPE: page
-TITLE: Digital marketing job vacancies in Pune
-DESC: Looking for digital marketing job vacancies in Pune? GO MO Group has got you covered! Visit our website to have a look at the current openings in our company.
-PUBLISHED: 2024-02-16
-MODIFIED: 2024-05-27
-AUTHOR: None
-ALT: {'lang': 'sv', 'url': 'https://www.gomogroup.com/karriar/'}
----
 # Career at   GO MO Group
 
 Thank you for your interest in us. GO MO Group is a fast-growing company characterized by a high level of ambition. The backbone of our offering is our colleagues’ specialist competence, but we also recruit strategists without “classic” marketer backgrounds. Welcome to get in touch, take the next step in your career with us.
@@ -34,19 +24,19 @@ We know that a range of perspectives and experiences give the best results. Belo
 
 **\- Simon Sinek**
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/henrik-anderberg-profile-image.webp)
 
 GOTHENBURG RECRUITMENT QUERIESHenrik AnderbergEVP / Vice VD
 
-[![Phone](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)+46766432373](tel:+46766432373 "Phone") [![Email](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)ha@gomogroup.com](mailto:ha@gomogroup.com "Email")
+[![Phone](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/phone.png)+46766432373](tel:+46766432373 "Phone") [![Email](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)ha@gomogroup.com](mailto:ha@gomogroup.com "Email")
 
 [Contact me](mailto:ha@gomogroup.com)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201350'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2026/06/avichal-singh-profile-image.jpg)
 
 PUNE HR & RECRUITMENTAvichal SinghHead of Paid Marketing
 
-[![Email](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)avichal.s@gomogroup.com](mailto:avichal.s@gomogroup.com "Email")
+[![Email](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)avichal.s@gomogroup.com](mailto:avichal.s@gomogroup.com "Email")
 
 [Contact me](mailto:avichal.s@gomogroup.com)
 
@@ -54,27 +44,32 @@ PUNE HR & RECRUITMENTAvichal SinghHead of Paid Marketing
 
 Discover the people behind our success in “Meet the Marketer” – a video series where we interview our own talented employees. Get to know the team that drives our innovation and creativity at GO MO Group.
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerHenrik Anderberg![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/henrik-video-thumbnail.webp)Meet the MarketerHenrik Anderberg![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerPuja Kumari![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/puja-video-thumbnail.webp)Meet the MarketerPuja Kumari![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLina Nygren![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/lina-video-thumbnail.png.webp)Meet the MarketerLina Nygren![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerVishnu Adithya![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/vishnu-video-thumbnail.webp)Meet the MarketerVishnu Adithya![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLisa & Rickard![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/Rick-and-Lisa.jpg.webp)Meet the MarketerLisa & Rickard![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerJan Thesleff![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/jan-thesleff-video-thumbnail.webp)Meet the MarketerJan Thesleff![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerCecilia Oskarsson![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/cecilia-oskarsson-video-thumbnail.webp)Meet the MarketerCecilia Oskarsson![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerSunil Muralidharan![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/sunil-muralidharan-video-thumbnail.webp)Meet the MarketerSunil Muralidharan![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
 
 ## Insights
 
 Are you interested to know more about what we do? Read our insights and news to get a look into our latest thoughts on digital marketing.
 
 [Read More](https://www.gomogroup.com/en/insights/)
+
+[How to win organically on LinkedIn, according to LinkedIn\\
+On LinkedIn, B2B engagement is earned by people and proof. The company page comes second. LinkedIn has changed how its algorithm decides what shows up in the feed. We went through what LinkedIn itself has published in 2026, from engineering posts to marketing guides and buyer research, and turned it into a short guide. The \[…\]](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
+
+[Read More](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
 
 [ChatGPT Ads vs Google Ads: what we’ve learned so far\\
 Last updated: 15 October 2026. We update the data as the pilots continue – more to come. In August, ChatGPT Ads opened to advertisers in 31 European markets, Sweden and Germany among them. For B2B marketing leaders the question came quickly: is this a new search channel, and does it deserve a budget of its \[…\]](https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/)
@@ -96,24 +91,19 @@ The next trillion users of the internet aren’t human. Most B2B companies are i
 
 [Read More](https://www.gomogroup.com/en/insight/closing-the-b2b-commerce-discovery-gap/)
 
-[The Complete Glossary of 75 GEO, AEO & AI Search Terms You Must Know in 2026\\
-75 terms. Every AI search discipline. One reference to bookmark. Why the Language of Search Just Changed — And What You Need to Know The vocabulary of search has undergone its most dramatic transformation in two decades. Terms that didn’t exist 3 years ago — GEO, AEO, LLM-O, AI Overviews, RAG, zero-click — are now \[…\]](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
-
-[Read More](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
-
 ### Let’s discuss your future.
 
 Hi, my name is  and I represent , where my title is . You can contact me at . I am contacting you regarding .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)London60 St Martins Lane, Covent Garden, London, WC2N 4JS](https://maps.app.goo.gl/wEFJB9m3DZbQJzM56)
 
 Contact us, and we’ll get back to you with our expertise and support!
 
@@ -121,9 +111,9 @@ Contact us, and we’ll get back to you with our expertise and support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/career/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/en/career/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/career/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/en/career/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
 ![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 

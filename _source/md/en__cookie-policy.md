@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/en/cookie-policy/
-LANG: en
-TYPE: legal
-TITLE: Cookie Policy
-DESC: Explore our cookie policy and learn how we use cookies to make sure our website works.
-PUBLISHED: 2024-02-17
-MODIFIED: 2025-07-14
-AUTHOR: None
-ALT: {'lang': 'sv', 'url': 'https://www.gomogroup.com/cookies-regler/'}
----
 # Cookies
 
 ![](https://www.gomogroup.com/wp-content/uploads/2024/02/Cookie_GoMo.jpg.webp)

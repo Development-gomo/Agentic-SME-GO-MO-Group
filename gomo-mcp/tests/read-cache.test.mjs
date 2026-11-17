@@ -6,7 +6,9 @@ import { ReadCache, fetchJson, validateSnapshot } from "../dist/read-cache.js";
 
 const dataDir = new URL("../data/", import.meta.url);
 const sample = name => JSON.parse(readFileSync(new URL(`${name}.json`, dataDir), "utf8"));
-const NOW = Date.parse("2026-10-20T10:00:00Z");
+// Clock relative to the bundled snapshots, so the suite stays valid after every rebuild.
+const GENERATED = Date.parse(sample("company")._meta.generated);
+const NOW = GENERATED + 34 * 3600000;
 const tick = () => new Promise(resolve => setImmediate(resolve));
 const config = extra => ({ apiBase: "https://example.invalid/agent/v1/", dataDir, now: () => NOW, ...extra });
 
@@ -79,7 +81,7 @@ test("filters and aliases work on complete bundles without cross-query contamina
 });
 
 test("expired fallback is rejected, with shorter limits for careers and events", async () => {
-  const now = Date.parse("2026-10-22T00:00:01Z");
+  const now = GENERATED + 3 * 86400000 + 1000;
   const cache = new ReadCache(config({ now: () => now, fetcher: async () => { throw new Error("offline"); } }));
   await assert.rejects(cache.get("careers.json"), /no sufficiently recent/);
   await assert.rejects(cache.get("events.json"), /no sufficiently recent/);
@@ -141,4 +143,27 @@ test("fetch helper rejects HTML, malformed JSON, bad HTTP, slow bodies and overs
   server.closeAllConnections();
   await new Promise(resolve => server.close(resolve));
   await assert.rejects(fetchJson(base), /fetch failed/);
+});
+
+test("expired cold start becomes ready from background refresh without any tool call", async () => {
+  const now = GENERATED + 3 * 86400000 + 1000; // events and careers bundles are past their 48-hour limit
+  let calls = 0;
+  const cache = new ReadCache(config({ now: () => now, fetcher: async url => { calls++; return sample(url.split("/").pop().replace(".json", "")); } }));
+  assert.equal(cache.status().ready, false, "expired bundles start not ready");
+  const stop = cache.startBackgroundRefresh(1000);
+  try {
+    for (let i = 0; i < 50 && !cache.status().ready; i++) await tick();
+    assert.equal(cache.status().ready, true, "becomes ready with no get() calls");
+    assert(calls >= 9, "every collection was refreshed");
+  } finally { stop(); }
+});
+
+test("background refresh keeps failing upstream throttled and never fakes readiness", async () => {
+  const now = GENERATED + 3 * 86400000 + 1000;
+  let calls = 0;
+  const cache = new ReadCache(config({ now: () => now, retryMs: 60000, fetcher: async () => { calls++; throw new Error("HTML challenge"); } }));
+  await cache.refreshAll();
+  await cache.refreshAll();
+  assert.equal(calls, 9, "second pass within the retry window makes no new requests");
+  assert.equal(cache.status().ready, false);
 });

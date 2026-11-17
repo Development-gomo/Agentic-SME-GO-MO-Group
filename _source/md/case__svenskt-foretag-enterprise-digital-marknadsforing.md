@@ -1,5 +1,3 @@
-URL: https://www.gomogroup.com/case/svenskt-foretag-enterprise-digital-marknadsforing/
----
 Digital marknadsföring för svenska industriföretaget Atlas Copco
 
 # Så använde vi slutkundens sökbeteende för att öka den digitala intäktsandelen från 2% till 7%
@@ -127,7 +125,7 @@ Kontakta oss, så återkommer vi med vår expertis och support!
 
 [Integritetspolicy](https://www.gomogroup.com/gdpr/) [Cookies & Regler](https://www.gomogroup.com/cookies-regler/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: AI-genererade varumärkesfilmerLink to: AI-genererade varumärkesfilmerAI-genererade varumärkesfilmer![](https://www.gomogroup.com/wp-content/uploads/2025/11/Video_-80x80.png.webp)](https://www.gomogroup.com/case/ai-genererade-varumarkesfilmer/ "Link to: AI-genererade varumärkesfilmer") [Link to: Hur generativ AI och SEO-automation skalade e-handelsmarknadsföringLink to: Hur generativ AI och SEO-automation skalade e-handelsmarknadsföring![](https://www.gomogroup.com/wp-content/uploads/2025/07/8df29988-ee5c-4073-aa27-0184d5124ebd-scaled1-80x80.jpg.webp)Hur generativ AI och SEO-automation skalade e-handelsmarknadsföring](https://www.gomogroup.com/case/seo-automation-gen-ai-b2b-e-handel/ "Link to: Hur generativ AI och SEO-automation skalade e-handelsmarknadsföring")
+[Link to: AI-genererade varumärkesfilmerLink to: AI-genererade varumärkesfilmerAI-genererade varumärkesfilmer![](https://www.gomogroup.com/wp-content/uploads/2025/11/Video_-80x80.png.webp)](https://www.gomogroup.com/case/ai-genererade-varumarkesfilmer/ "Link to: AI-genererade varumärkesfilmer") [Link to: Hur generativ AI och SEO-automation gav 32 gånger fler organiska klick i B2B-e-handelLink to: Hur generativ AI och SEO-automation gav 32 gånger fler organiska klick i B2B-e-handel![](https://www.gomogroup.com/wp-content/uploads/2025/07/8df29988-ee5c-4073-aa27-0184d5124ebd-scaled1-80x80.jpg.webp)Hur generativ AI och SEO-automation gav 32 gånger fler organiska klick i B...](https://www.gomogroup.com/case/seo-automation-gen-ai-b2b-e-handel/ "Link to: Hur generativ AI och SEO-automation gav 32 gånger fler organiska klick i B2B-e-handel")
 
  [Scroll to top](https://www.gomogroup.com/case/svenskt-foretag-enterprise-digital-marknadsforing/#top "Scroll to top")
 

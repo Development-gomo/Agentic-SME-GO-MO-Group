@@ -1,13 +1,3 @@
-URL: https://www.gomogroup.com/case/datadriven-pr/
-LANG: sv
-TYPE: case
-TITLE: Datadriven PR för en global ledare inom transport
-DESC: Så identifierade vi nya möjligheter, optimerade investeringar och förbättrade varumärkets synlighet med datadriven PR – Läs mer.
-PUBLISHED: 2025-03-24
-MODIFIED: 2025-11-05
-AUTHOR: None
-ALT: None
----
 Datadriven PR och eventinvesteringar för börsnoterade företag
 
 # Datadriven PR – Bygg synlighet med en strategisk approach
@@ -24,19 +14,19 @@ Möjligheten vi såg:
 
 ### Leverabler
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20120'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/01/data-driven-pull-marketing-icon.jpg.webp)
 
 **Eventkalender**
 
 En samlad och strukturerad kalender med prioriterade event, inklusive viktiga detaljer såsom plats och efterfrågan.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%20124'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/01/scalability-icon.jpg.webp)
 
 **Djupgående analys**
 
 Jämförelse mellan olika event baserat på insikter om efterfrågan & trender online, vilka webbplatser som länkar till det, och sökningar på varumärken för respektive event.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%20120'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/01/b2b-marketing-icon.jpg.webp)
 
 **Utvärdering av rykte online**
 
@@ -58,7 +48,7 @@ Här skapar digitala verktyg nya möjligheter att arbeta datadrivet inom PR, med
 - Närvaro online
 - Varumärkesuppfattning
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%20960'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2025/01/Data-Driven-PR.png.webp)
 
 Resultatet?
 
@@ -72,7 +62,7 @@ Datadriven PR är inte bara någon form av lyx – det är en genomtänkt strate
 
 ## Kundomdömen
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%2059'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/05/1a-munterslogo-tagline-white-rgb2-300x59.png.webp)
 
 _“GO MO Group has aided us in gaining market insights in this new application area, helping us understand customer behavior. This has transformed Munters’ approach to communication.”_
 
@@ -80,7 +70,7 @@ _“GO MO Group has aided us in gaining market insights in this new application 
 
 Vice President Marketing at Munters
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%2062'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/01/volvo-logo.png.webp)
 
 _“The GO MO team is dual-minded in the sense that they are able to strike the right balance between strategic thinking and delivering actionable results.”_
 
@@ -88,7 +78,7 @@ _“The GO MO team is dual-minded in the sense that they are able to strike the 
 
 SVP Corporate Communication at Volvo Group
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%2062'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/01/volvo-logo.png.webp)
 
 _“When presented with specific and unique problems, the GO MO team can certainly be depended on to accurately interpret, present, and implement solutions. Their professional team would always be highly recommended.”_
 
@@ -103,14 +93,14 @@ Hej mitt namn är  och jag representerar , där jag arbetar som .
 Du kan kontakta mig på . Jag vill komma i kontakt med er gällande .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)StockholmUpplandsgatan 7 \\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)StockholmUpplandsgatan 7 \\
 \\
 111 23 Stockholm](https://maps.app.goo.gl/Htdrys9wEw1PFt2B7)
 
@@ -120,15 +110,15 @@ Kontakta oss, så återkommer vi med vår expertis och support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/case/datadriven-pr/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/case/datadriven-pr/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/case/datadriven-pr/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/case/datadriven-pr/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Integritetspolicy](https://www.gomogroup.com/gdpr/) [Cookies & Regler](https://www.gomogroup.com/cookies-regler/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: Case: VolvoLink to: Case: VolvoCase: Volvo![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)](https://www.gomogroup.com/case/b2b-seo-for-den-globala-ledaren-volvo/ "Link to: Case: Volvo") [Link to: Case: System EdströmLink to: Case: System Edström![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)Case: System Edström](https://www.gomogroup.com/case/tillverkningsbolag-okad-komplexitet-i-b2b-forsaljning/ "Link to: Case: System Edström")
+[Link to: Case: VolvoLink to: Case: VolvoCase: Volvo![](https://www.gomogroup.com/wp-content/uploads/2024/01/volvo-case-image-80x80.jpg.webp)](https://www.gomogroup.com/case/b2b-seo-for-den-globala-ledaren-volvo/ "Link to: Case: Volvo") [Link to: Case: System EdströmLink to: Case: System Edström![](https://www.gomogroup.com/wp-content/uploads/2024/02/System-case-image-80x80.jpg.webp)Case: System Edström](https://www.gomogroup.com/case/tillverkningsbolag-okad-komplexitet-i-b2b-forsaljning/ "Link to: Case: System Edström")
 
  [Scroll to top](https://www.gomogroup.com/case/datadriven-pr/#top "Scroll to top")
 

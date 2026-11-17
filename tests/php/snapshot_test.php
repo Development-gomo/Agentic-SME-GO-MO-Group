@@ -1,7 +1,7 @@
 <?php
 /** Integration-level sync tests with WordPress content fixtures; all writes use an isolated copy. */
 define('ABSPATH', '/');
-define('GOMO_API_VERSION', '1.3.0');
+define('GOMO_API_VERSION', '1.4.0');
 define('GOMO_API_BASE', 'https://www.gomogroup.com/agent/v1');
 $root = dirname(__DIR__, 2);
 $tmp = sys_get_temp_dir() . '/gomo-snapshot-' . getmypid();
@@ -63,6 +63,13 @@ function current_id() {
 }
 function artifact($name) { return file_get_contents(GOMO_API_DIR . 'snapshots/' . current_id() . '/' . $name); }
 
+// Bylines come from the page template: one article has a curated byline, one intentionally has none.
+$bundled = json_decode(file_get_contents("$tmp/data/insights.json"), true);
+$bundled['data'][] = ['id' => 'fixture-insights-1', 'lang' => 'en', 'title' => 'Fixture 1', 'url' => 'https://www.gomogroup.com/en/insights/fixture-insights-1/',
+    'author' => 'Jane Byline', 'authorRole' => 'Head of Fixtures', 'readingMinutes' => 7];
+$bundled['data'][] = ['id' => 'fixture-insights-3', 'lang' => 'en', 'title' => 'Fixture 3', 'url' => 'https://www.gomogroup.com/en/insights/fixture-insights-3/',
+    'author' => null, 'authorRole' => null, 'readingMinutes' => null];
+file_put_contents("$tmp/data/insights.json", json_encode($bundled));
 $original = hash_file('sha256', "$tmp/data/insights.json");
 $missing = true;
 $report = (new GOMO_API_Sync())->run();
@@ -83,7 +90,13 @@ check('sync updates both page dates while preserving publication and crawl prove
     substr_count($html, '<time data-page-updated datetime=') === 2
     && substr_count($html, '>' . gmdate('Y-m-d') . '</time>') >= 2
     && strpos($html, '<dt>Page published</dt><dd><time datetime="2026-05-26">2026-05-26</time>') !== false
-    && strpos($html, '<dt>Site crawled</dt><dd><time datetime="2026-10-19">2026-10-19</time>') !== false);
+    && strpos($html, '<dt>Site crawled</dt><dd><time datetime="2026-11-17">2026-11-17</time>') !== false);
+$byId = array_column($insights, null, 'id');
+check('sync keeps curated byline, title and reading time', ($byId['fixture-insights-1']['author'] ?? null) === 'Jane Byline'
+    && ($byId['fixture-insights-1']['authorRole'] ?? null) === 'Head of Fixtures' && ($byId['fixture-insights-1']['readingMinutes'] ?? null) === 7);
+check('sync never publishes the uploader as author', array_key_exists('author', $byId['fixture-insights-3'] ?? []) && $byId['fixture-insights-3']['author'] === null
+    && strpos(artifact('data/insights.json'), '"author":"Author"') === false);
+check('synced agent page renders the author title', strpos($html, '<dt>Author title</dt><dd>Head of Fixtures</dd>') !== false);
 check('all discovery summaries agree with synced data', count($insights) === 2 && $index['insights']['total'] === 2
     && count($index['events']) === 2 && count($index['openRoles']) === 2
     && strpos($html, 'fixture-insights-3') !== false && strpos($markdown, 'fixture-insights-3') !== false);
@@ -121,10 +134,10 @@ $lock = fopen("$tmp/.sync.lock", 'c'); flock($lock, LOCK_EX);
 check('overlapping sync rejected', strpos((new GOMO_API_Sync())->run(), 'FAILED:') === 0 && current_id() === $second);
 flock($lock, LOCK_UN); fclose($lock);
 
-// Incomplete/invalid staging never changes the pointer.
+// An incomplete or invalid prepared generation never changes the pointer.
 foreach ([['data/bad.json' => '{broken'], ['agent-page.html' => 'only one file']] as $files) {
     try { GOMO_API_Snapshot::publish($files); $caught = false; } catch (Throwable $e) { $caught = true; }
-    check('invalid/incomplete staged generation cannot activate', $caught && current_id() === $second);
+    check('invalid or incomplete prepared generation cannot activate', $caught && current_id() === $second);
 }
 // Portable write failure: attempt to write a file through a directory at the destination.
 mkdir("$tmp/write-target");
@@ -135,7 +148,7 @@ check('write errors throw rather than reporting success', $caught && current_id(
 // A reader repeatedly resolves the pointer while new complete generations are published.
 $files = [];
 foreach (glob("$tmp/snapshots/$second/data/*.json") as $path) { $files['data/' . basename($path)] = file_get_contents($path); }
-foreach (['agent-page.html', 'agent-index.json', 'llms.txt', 'ai.txt', 'api-catalog.json', 'openapi.json'] as $file) {
+foreach (['agent-page.html', 'agent-index.json', 'llms.txt', 'ai.txt', 'api-catalog.json', 'ard.json', 'openapi.json'] as $file) {
     $files[$file] = artifact($file);
 }
 $reader = <<<'PHP'

@@ -1,76 +1,111 @@
-URL: https://www.gomogroup.com/case/seo-automation-gen-ai-b2b-e-handel/
-LANG: sv
-TYPE: case
-TITLE: Hur Gen AI och SEO-automation skalade e-handelsmarknadsföring
-DESC: Upptäck hur Gen-AI-driven automatisering skalade SEO-verksamheten och sparade mer än 400 timmar, vilket ökade den organiska synligheten för över 5 000 produktsidor i B2B-e-handel.
-PUBLISHED: 2025-07-31
-MODIFIED: 2026-03-24
-AUTHOR: None
-ALT: None
----
 Digital marknadsföring och försäljning för e-handel inom Enterprise-segmentet.
 
-# Hur generativ AI och   SEO-automation  skalade marknadsföring för e-handel
+# Hur generativ AI och SEO-automation gav 32 gånger fler organiska klick i B2B-e-handel
 
 CASE \| Enterprise MARKNADSFÖRING \| Automation & Generativ AI
 
 ### Bakgrund om kund
 
-En Fortune 500-tillverkare av tung utrustning, med en årsomsättning över 10 miljarder euro och verksamhet i över 180 länder, stod inför utmaningen att snabbt skala upp sin B2B-e-handelsplattform. Företaget, som specialiserar sig på global försäljning av reservdelar, navigerade i en komplex struktur med både återförsäljare och helägda enheter.
+Kunden
+
+Tillverkare
+
+Fortune 500
+
+inom tung utrustning, säljer via återförsäljare
+
+Länder
+
+180+
+
+med verksamhet, och en ny B2B-marknadsplats
+
+Utgångsläge, december 2024
+
+Organiska klick
+
+250
+
+per månad till marknadsplatsen
+
+Genomsnittlig position
+
+15
+
+i Google, på sida 2
+
+Kunden är en Fortune 500-tillverkare av tung utrustning med verksamhet i över 180 länder, som har lanserat en ny B2B-marknadsplats för originalreservdelar. Företagets namn anges inte av sekretesskäl. Sedan december 2024 arbetar vi tillsammans med kundens marknadsteam för att göra teknisk produktdata till sökoptimerat innehåll på flera språk.
 
 Möjlighet
 
-### Öka den globala  organiska synligheten och möjliggör försäljning genom att använda generativ AI och automation för storskalig innehållsskapande och implementering på en B2B-e-handelsplattform
+### Fler kunder ska hitta rätt reservdel i sök och köpa digitalt.
+
+![Illustration av samma sökning före och efter: före syntes tillverkarens webbplats men inte marknadsplatsen, efter visas marknadsplatsen först med artikelnummer, pris och lagerstatus.](https://www.gomogroup.com/wp-content/uploads/2026/11/fore-efter-sokresultat-sv.webp)
 
 ### Leverabler
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20120'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/01/data-driven-pull-marketing-icon.jpg.webp)
 
-**Automationsstrategi**
+**Automationsstrategi och arbetsflöde**
 
-Omfattande strategi och handbok för automation inom enterprise e-handel.
+En repeterbar process för storskalig innehållsproduktion, från sökordsanalys till publicering, som rullas ut marknad för marknad.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%20124'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/01/scalability-icon.jpg.webp)
 
-**Skalbar teknik**
+**AI-pipeline för innehåll**
 
-Skapa återanvändbara skript i Google Apps Script och Python för kontinuerlig skalbarhet.
+Ett RAG-baserat flöde där generativ AI skriver innehåll utifrån kundens egen tekniska produktdata, med mänsklig granskning innan något publiceras.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20118%20120'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/01/b2b-marketing-icon.jpg.webp)
 
-**Sökordsanalys och innehållsgenerering**
+**Flerspråkigt innehåll i stor skala**
 
-Genomförde sökordsanalys och genererade SEO-innehåll, metatitlar och beskrivningar med hjälp av generativ AI för över 3 000 produkt- och kategorisidor.
+Produkttexter, metatitlar och metabeskrivningar för nästan 12 000 produkt- och kategorisidor på engelska, danska och polska.
+
+![](https://www.gomogroup.com/wp-content/uploads/2024/01/b2b-marketing-icon.jpg.webp)
+
+**Teknisk SEO**
+
+Löpande arbete med webbplatsens tekniska hälsa, som har minskat antalet tekniska fel från över 100 000 till cirka 13 000.
 
 ### Utmaningar
 
-- **Ingen historisk onlineförsäljningsdata**: Det fanns ingen tidigare data att basera strategier på.
-- **Ny e-handelsplattform**: Den nyligen utvecklade plattformen saknade integration av marknadsföring, SEO och GEO bästa praxis.
-- **Begränsningar i Salesforce-plattformen**: Företaget stötte på hinder relaterade till sin Salesforce e-handelsplattform och associerade konsultbegränsningar.
+- **Ingen historisk onlineförsäljningsdata**: Det fanns ingen tidigare data att basera strategin på. I december 2024 gav marknadsplatsen omkring 250 organiska klick i månaden, med en genomsnittlig position runt 15, dvs på andra sidan i Google.
+- **Ny e-handelsplattform**: Den nyutvecklade plattformen saknade inbyggd praxis för marknadsföring, SEO och GEO, och inga sidor var optimerade.
+- **Teknisk produktdata i stället för säljande text**: Underlaget bestod främst av artikelnummer och specifikationer, ofta bara tillgängliga på vissa språk.
+- **Begränsningar i Salesforce-plattformen**: Arbetet behövde fungera inom ramarna för kundens Salesforce-baserade e-handel och tillhörande konsultberoenden.
 
 ### Strategi
 
-Det är här generativ AI-driven automation förändrar den traditionella innehållsproduktionen och marknadsföringsarbetet. Genom strukturerade och skalbara processer möjliggör vår datadrivna metod effektiv sökordsanalys, träffsäker innehållsgenerering och snabb implementering – med tydlig effekt och mätbar avkastning på investeringen (ROI).
+Vi byggde ett innehållsflöde där generativ AI gör jobbet som tidigare krävde manuell skrivning sida för sida. Sökordsanalysen styr vad varje sida ska svara på, AI-pipelinen hämtar fakta ur kundens produktdata och genererar innehåll på rätt språk, och människor granskar resultatet innan det publiceras. Vi började med engelska för den globala marknaden och lade sedan till danska. Polska är genererat och i kvalitetsgranskning.
 
-![SEO Automation Workflow](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201440%20540'%3E%3C/svg%3E)
+Varje produktsida får tydligare signaler till Google och ett tydligare svar till kunden. Effekten syns direkt i sökresultatet: tidigare visades tillverkarens varumärke men inte marknadsplatsen. I dag visas marknadsplatsen direkt, med exakt artikelnummer, vilket ger kunden en kortare väg till köp.
 
-Resultatet?
+![SEO-automationsloop: sökordsanalys, val av sökord, promptutveckling, storskalig innehållsgenerering, kvalitetskontroll, granskning av lokala språkexperter, implementering, kvalitetssäkring och fördjupad optimering efter lansering, som upprepas för varje ny marknad.](https://www.gomogroup.com/wp-content/uploads/2026/11/seo-automation-loop-sv.webp)
 
-### Ökning av den totala organiska synligheten med 195 %  inom 120 dagar.
+Resultatet
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202148%20792'%3E%3C/svg%3E)
+### 32 gånger fler organiska klick på 21 månader
 
-**195%**
+![Stapeldiagram över organiska klick per månad, från 250 i december 2024 till cirka 8 100 i augusti 2026.](https://www.gomogroup.com/wp-content/uploads/2026/11/organiska-klick-dec2024-aug2026-cirka.webp)
 
-Ökning av organiska klick: En betydande ökning av organiska klick under en 90-dagarsperiod jämfört med föregående period.
+**32x**
 
-**400+**
+Fler organiska klick per månad: från 250 i december 2024 till cirka 8 100 i augusti 2026.
 
-Tidsbesparing: Över 400 timmar sparades genom automation och AI, vilket möjliggjorde för marknadsföringsteamet att fokusera på strategisk planering och optimering.
+**43x**
 
-**5000+**
+Fler organiska visningar per månad: från cirka 4 300 i december 2024 till cirka 185 000 i augusti 2026.
 
-Innehållsskapande: Skapade över 5 000 innehållsdelar, vilket möjliggjorde effektiv skapande och initial distribution av optimerat innehåll för att förbättra organisk SEO-prestanda.
+**7**
+
+Genomsnittlig position i Google, från 15 i december 2024. Från andra sidan till första sidan.
+
+### Nästa steg
+
+Arbetet fortsätter som en repeterbar tillväxtmotor i fyra steg. Vi expanderar till nya marknader, med Polen först och därefter Frankrike och Brasilien. Vi optimerar de mest värdefulla engelska och danska sidorna med riktade innehållsuppdateringar, internlänkning och konverteringsarbete. När marknaderna mognar bygger vi auktoritet och beredskap för AI-sök med strukturerad data, recensioner och kundcase. Sedan upprepas processen på nästa marknad.
+
+Innehållsflödet utvecklas också. Nästa version hämtar underlag från andra språk när det saknas på det aktuella, vilket ger över 1 500 ytterligare reservdelar ett faktiskt underlag att bygga innehåll på. Parallellt förbereder vi marknadsplatsen för AI-sök och agentisk handel, där AI-assistenter jämför reservdelar och slutför köp åt kunden.
 
 ## Vill du se fler resultatdrivna kundcase?
 
@@ -80,7 +115,7 @@ Utforska vårt detaljerade case om hur vi byggt en innehållskedja driven av gen
 
 ## Kunders omdöme
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%2059'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/05/1a-munterslogo-tagline-white-rgb2-300x59.png.webp)
 
 _“GO MO Group has aided us in gaining market insights in this new application area, helping us understand customer behavior. This has transformed Munters’ approach to communication.”_
 
@@ -88,7 +123,7 @@ _“GO MO Group has aided us in gaining market insights in this new application 
 
 Vice President Marketing at Munters
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%2062'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/01/volvo-logo.png.webp)
 
 _“The GO MO team is dual-minded in the sense that they are able to strike the right balance between strategic thinking and delivering actionable results.”_
 
@@ -96,7 +131,7 @@ _“The GO MO team is dual-minded in the sense that they are able to strike the 
 
 SVP Corporate Communication at Volvo Group
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%2062'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2024/01/volvo-logo.png.webp)
 
 _“When presented with specific and unique problems, the GO MO team can certainly be depended on to accurately interpret, present, and implement solutions. Their professional team would always be highly recommended.”_
 
@@ -111,14 +146,14 @@ Hej mitt namn är  och jag representerar , där jag arbetar som .
 Du kan kontakta mig på . Jag vill komma i kontakt med er gällande .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)StockholmUpplandsgatan 7 \\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)StockholmUpplandsgatan 7 \\
 \\
 111 23 Stockholm](https://maps.app.goo.gl/Htdrys9wEw1PFt2B7)
 
@@ -128,15 +163,15 @@ Kontakta oss, så återkommer vi med vår expertis och support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/case/seo-automation-gen-ai-b2b-e-handel/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/case/seo-automation-gen-ai-b2b-e-handel/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/case/seo-automation-gen-ai-b2b-e-handel/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/case/seo-automation-gen-ai-b2b-e-handel/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Integritetspolicy](https://www.gomogroup.com/gdpr/) [Cookies & Regler](https://www.gomogroup.com/cookies-regler/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: Case: Digital marknadsföring för en svensk tillverkareLink to: Case: Digital marknadsföring för en svensk tillverkareCase: Digital marknadsföring för en svensk tillverkare![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)](https://www.gomogroup.com/case/svenskt-foretag-enterprise-digital-marknadsforing/ "Link to: Case: Digital marknadsföring för en svensk tillverkare") [Link to: Case: VolvoLink to: Case: Volvo![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)Case: Volvo](https://www.gomogroup.com/case/b2b-seo-for-den-globala-ledaren-volvo/ "Link to: Case: Volvo")
+[Link to: Case: Digital marknadsföring för en svensk tillverkareLink to: Case: Digital marknadsföring för en svensk tillverkareCase: Digital marknadsföring för en svensk tillverkare![](https://www.gomogroup.com/wp-content/uploads/2025/02/enterprise-swedish-manufacturer-banner-80x80.jpg.webp)](https://www.gomogroup.com/case/svenskt-foretag-enterprise-digital-marknadsforing/ "Link to: Case: Digital marknadsföring för en svensk tillverkare") [Link to: Case: VolvoLink to: Case: Volvo![](https://www.gomogroup.com/wp-content/uploads/2024/01/volvo-case-image-80x80.jpg.webp)Case: Volvo](https://www.gomogroup.com/case/b2b-seo-for-den-globala-ledaren-volvo/ "Link to: Case: Volvo")
 
  [Scroll to top](https://www.gomogroup.com/case/seo-automation-gen-ai-b2b-e-handel/#top "Scroll to top")
 

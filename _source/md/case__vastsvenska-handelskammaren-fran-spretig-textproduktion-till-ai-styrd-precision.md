@@ -1,20 +1,18 @@
-URL: https://www.gomogroup.com/case/vastsvenska-handelskammaren-fran-spretig-textproduktion-till-ai-styrd-precision/
-LANG: sv
-TYPE: case
-TITLE: Mätbar och märkbar effekt av GPT
-DESC: Med GPT blev effekten mätbar och märkbar snabbare texter, högre kvalitet och rätt tonalitet.
-PUBLISHED: 2025-07-31
-MODIFIED: 2025-11-05
-AUTHOR: None
-ALT: None
----
-# Västsvenska Handelskammaren – Från spretig textproduktion till AI-styrd precision
+# Västsvenska Handelskammaren: från spretig textproduktion till AI-styrd precision med egen GPT
 
-CASE STUDY \| Generative AI
+Case \| Generativ AI
 
 Västsvenska Handelskammaren behövde en smartare väg från **idé till färdig text**. Internt lades mycket tid på att skriva om samma typ av innehåll samtidigt som kraven på contentproduktion ökade. Med GO MO Group **byggde de en skräddarsydd GPT** som styr hela processen: från content brief till färdigt publiceringsunderlag.
 
 _”Tiden per text minskade drastiskt – och teamet kan nu producera mer, snabbare och med trygghet i att det låter som dem.”_
+
+**Kund:** Västsvenska Handelskammaren
+
+**Utmaning:** Mycket tid lades på att skriva om samma typ av innehåll samtidigt som kraven på contentproduktion ökade.
+
+**Lösning:** En privat GPT med inbyggda instruktioner, anpassad efter Västsvenska Handelskammarens tonalitet, innehållstyper och strukturkrav.
+
+**Resultat:** Tiden från idé till publiceringsklar text har halverats, och tonen är konsekvent även när fler personer skriver.
 
 ### Kundens utmaning
 
@@ -28,7 +26,7 @@ GO MO:s team gick in tillsammans med kommunikationsansvarig och AI-pilotgruppen.
 
 Vi byggde en privat GPT med inbyggda instruktioner, anpassad efter Västsvenska Handelskammarens tonalitet, innehållstyper och strukturkrav.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201541%20958'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2025/06/c98bb8d7-d2fb-4dd5-903e-b7858b5dab22.png.webp)
 
 ### Så löste vi det
 
@@ -48,7 +46,7 @@ Modellen fick tydliga regler för struktur, källhänvisningar och tonalitet.
 
 Marknads- och policy­teamet gav feedback; vi finjusterade tills GPT:n levererade rätt på första försöket.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202560%201247'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2025/06/ChatGPT-VHK-Web-Content-Articles-SEO-GPT-06-27-2025_02_23_PM-scaled.png.webp)
 
 ### Effekten? Mätbar och märkbar
 
@@ -61,11 +59,13 @@ Samtidigt fick de gratis marknadsföring. ChatGPT-lösningen användes som exemp
 
 _“Vi sparar tid, vi höjer kvaliteten och vi låter som oss själva. Det var exakt det vi ville.”_
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201030%20429'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2025/07/4.45-2-1030x429.png.webp)
 
 ## Trött på AI-snack? Här är det riktiga resultatet.
 
 För många företag är AI fortfarande bara ett pilottest eller en idé. Västsvenska Handelskammaren gjorde det verkligt – på åtta veckor. Det visar vad som händer när teknik möter verkliga behov och rätt informationsunderlag.
+
+Projektet är ett exempel på hur vi arbetar med [pilotprojekt och implementering av generativ AI](https://www.gomogroup.com/solution/generativ-ai-erbjudande/). Står ni tidigare i resan kan [AI-workshops för ert team](https://www.gomogroup.com/case/generativ-ai-fran-hype-till-faktisk-affarsnytta/) vara en bra start, och i vår översikt finns [mer om generativ AI för företag](https://www.gomogroup.com/insikter/generativ-ai-en-omvandlande-kraft-i-affarsvarlden/).
 
 Vill du sluta gissa, spara tid och ändå låta som du? Det börjar med rätt AI – tränad på ditt innehåll, din röst och ditt sätt att arbeta.
 
@@ -76,14 +76,14 @@ Hej mitt namn är  och jag representerar , där jag arbetar som .
 Du kan kontakta mig på . Jag vill komma i kontakt med er gällande .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)StockholmUpplandsgatan 7 \\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)StockholmUpplandsgatan 7 \\
 \\
 111 23 Stockholm](https://maps.app.goo.gl/Htdrys9wEw1PFt2B7)
 
@@ -93,15 +93,15 @@ Kontakta oss, så återkommer vi med vår expertis och support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/case/vastsvenska-handelskammaren-fran-spretig-textproduktion-till-ai-styrd-precision/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/case/vastsvenska-handelskammaren-fran-spretig-textproduktion-till-ai-styrd-precision/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/case/vastsvenska-handelskammaren-fran-spretig-textproduktion-till-ai-styrd-precision/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/case/vastsvenska-handelskammaren-fran-spretig-textproduktion-till-ai-styrd-precision/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Integritetspolicy](https://www.gomogroup.com/gdpr/) [Cookies & Regler](https://www.gomogroup.com/cookies-regler/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: Generativ AI – från hype till faktisk affärsnyttaLink to: Generativ AI – från hype till faktisk affärsnyttaGenerativ AI – från hype till faktisk affärsnytta![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)](https://www.gomogroup.com/case/generativ-ai-fran-hype-till-faktisk-affarsnytta/ "Link to: Generativ AI – från hype till faktisk affärsnytta") [Link to: Från GenAI-idé till handling: ett AI case från en global ledare inom tung industri och tillverkningLink to: Från GenAI-idé till handling: ett AI case från en global ledare inom tung industri och tillverkning![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)Från GenAI-idé till handling: ett AI case från en global ledare inom tung...](https://www.gomogroup.com/case/fran-genai-ide-till-handling-ett-ai-case-fran-en-global-ledare-inom-tung-industri-och-tillverkning/ "Link to: Från GenAI-idé till handling: ett AI case från en global ledare inom tung industri och tillverkning")
+[Link to: Hur ett B2B-företag i byggsektorn nådde 1200% ROMILink to: Hur ett B2B-företag i byggsektorn nådde 1200% ROMIHur ett B2B-företag i byggsektorn nådde 1200% ROMI![](https://www.gomogroup.com/wp-content/uploads/2026/01/bgfix-banner-80x80.webp)](https://www.gomogroup.com/case/hur-ett-b2b-foretag-i-byggsektorn-nadde-1200-romi/ "Link to: Hur ett B2B-företag i byggsektorn nådde 1200% ROMI") [Link to: Från GenAI-idé till handling: ett AI case från en global ledare inom tung industri och tillverkningLink to: Från GenAI-idé till handling: ett AI case från en global ledare inom tung industri och tillverkning![](https://www.gomogroup.com/wp-content/uploads/2025/05/case-banner-80x80.jpg.webp)Från GenAI-idé till handling: ett AI case från en global ledare inom tung...](https://www.gomogroup.com/case/fran-genai-ide-till-handling-ett-ai-case-fran-en-global-ledare-inom-tung-industri-och-tillverkning/ "Link to: Från GenAI-idé till handling: ett AI case från en global ledare inom tung industri och tillverkning")
 
  [Scroll to top](https://www.gomogroup.com/case/vastsvenska-handelskammaren-fran-spretig-textproduktion-till-ai-styrd-precision/#top "Scroll to top")
 

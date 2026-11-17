@@ -1,16 +1,6 @@
-URL: https://www.gomogroup.com/en/insight/google-mum/
-LANG: en
-TYPE: insight
-TITLE: Preparing for Google's MUM Update
-DESC: MUM lets Google Search answer much more complex queries, and introduces more contextual results. Read what B2B businesses can do to adapt.
-PUBLISHED: 2022-01-31
-MODIFIED: 2024-06-14
-AUTHOR: None
-ALT: {'lang': 'sv', 'url': 'https://www.gomogroup.com/insikter/googles-mum-uppdatering/'}
----
 [BACK](https://www.gomogroup.com/en/insights/)
 
-[![facebook](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/en/insight/google-mum/ "Share on facebook")[![twitter](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://twitter.com/intent/tweet?text=Prepare%20for%20the%20next%20big%20update%20to%20search:%20MUM&url=https://www.gomogroup.com/en/insight/google-mum/ "Share on twitter")[![linkedin](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/en/insight/google-mum/ "Share on linkedin")[![print](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.gomogroup.com/en/insight/google-mum/# "Print this document")[![facebook](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/en/insight/google-mum/ "Share with email")
+[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/en/insight/google-mum/ "Share on facebook")[![twitter](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/twitter.png)](https://twitter.com/intent/tweet?text=Prepare%20for%20the%20next%20big%20update%20to%20search:%20MUM&url=https://www.gomogroup.com/en/insight/google-mum/ "Share on twitter")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/en/insight/google-mum/ "Share on linkedin")[![print](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/print.png)](https://www.gomogroup.com/en/insight/google-mum/# "Print this document")[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/en/insight/google-mum/ "Share with email")
 
 News, SEO \| READING TIME: 6 MINUTES \| January 31, 2022
 
@@ -18,7 +8,7 @@ News, SEO \| READING TIME: 6 MINUTES \| January 31, 2022
 
 Google has already started rolling out its next major update to Search. Announced in spring 2021, with basic features of the update rolling out the same year, MUM (Multimodal Unified Model) is a huge leap in the search engine’s ability to interpret and contextualize search queries.
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202240%201260'%3E%3C/svg%3E)
+![](https://www.gomogroup.com/wp-content/uploads/2022/04/Google-mum-image.jpg.webp)
 
 ## Adapting Your Digital Marketing to MUM
 
@@ -34,7 +24,7 @@ The technology runs on the latest findings in AI language processing and is repo
 
 Being armed with an unprecedented understanding of language, MUM will be able to take Google’s interpretation of user intent and the context of results further than before. The first step of MUM’s rollout has been to “zoom” in and out from a topic. This is seen in the suggestions to refine or broaden a search, where the search engine shows results based on the topic, rather than any keywords.
 
-![Improve Search Methods | GO MO Group](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E)
+![Improve Search Methods | GO MO Group](https://www.gomogroup.com/wp-content/uploads/2022/01/Goolge-MUM-zoom.png.webp)
 
 This contextual understanding also allows the search engine to process more complex queries. Whereas some complex questions can take eight “manual” searches, MUM could mean that users get all the relevant information from a single query. This means that your content that covers one aspect of a query could still be presented among the results even if not directly related to any of the words used in the search.
 
@@ -52,7 +42,7 @@ The deeper understanding of topics also allows Google to use data from sources i
 
 Perhaps the biggest update in MUM is the _multimodal_ capacities. While not part of the 2021 set of functionalities, MUM will allow users to use a combination of interfaces to get answers. For instance, multimodal search enables combined searches using image and text. Google’s example is to point the camera at a broken bike component and search “how to fix”, from which MUM would understand the context between the two inputs. In identifying the _intent_ (repair) and the _context_ (camera shows a bicycle’s _derailleur_) Google would know what results to show results from the combination.
 
-![Search on Mobile | GO MO Group](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20700'%3E%3C/svg%3E)
+![Search on Mobile | GO MO Group](https://www.gomogroup.com/wp-content/uploads/2022/01/Multimodal-search.png.webp)
 
 #### How should businesses adapt?
 
@@ -66,25 +56,30 @@ Whenever updates to the algorithm are announced (or predicted, for that matter) 
 
 Discover the people behind our success in “Meet the Marketer” – a video series where we interview our own talented employees. Get to know the team that drives our innovation and creativity at GO MO Group.
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerHenrik Anderberg![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/henrik-video-thumbnail.webp)Meet the MarketerHenrik Anderberg![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerPuja Kumari![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/puja-video-thumbnail.webp)Meet the MarketerPuja Kumari![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLina Nygren![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/lina-video-thumbnail.png.webp)Meet the MarketerLina Nygren![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerVishnu Adithya![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/vishnu-video-thumbnail.webp)Meet the MarketerVishnu Adithya![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLisa & Rickard![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/Rick-and-Lisa.jpg.webp)Meet the MarketerLisa & Rickard![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerJan Thesleff![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/jan-thesleff-video-thumbnail.webp)Meet the MarketerJan Thesleff![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerCecilia Oskarsson![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/cecilia-oskarsson-video-thumbnail.webp)Meet the MarketerCecilia Oskarsson![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerSunil Muralidharan![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/sunil-muralidharan-video-thumbnail.webp)Meet the MarketerSunil Muralidharan![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
 
 ## Related insights
 
 Industry-specific insights make a difference. We bring experience from over successful 100 client projects to each new case to develop and implement optimal digital marketing strategies for all of our clients.
+
+[How to win organically on LinkedIn, according to LinkedIn\\
+On LinkedIn, B2B engagement is earned by people and proof. The company page comes second. LinkedIn has changed how its algorithm decides what shows up in the feed. We went through what LinkedIn itself has published in 2026, from engineering posts to marketing guides and buyer research, and turned it into a short guide. The \[…\]](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
+
+[Read More](https://www.gomogroup.com/en/insight/how-to-win-organically-on-linkedin/)
 
 [ChatGPT Ads vs Google Ads: what we’ve learned so far\\
 Last updated: 15 October 2026. We update the data as the pilots continue – more to come. In August, ChatGPT Ads opened to advertisers in 31 European markets, Sweden and Germany among them. For B2B marketing leaders the question came quickly: is this a new search channel, and does it deserve a budget of its \[…\]](https://www.gomogroup.com/en/insight/chatgpt-ads-vs-google-ads-what-weve-learned-so-far/)
@@ -106,11 +101,6 @@ The next trillion users of the internet aren’t human. Most B2B companies are i
 
 [Read More](https://www.gomogroup.com/en/insight/closing-the-b2b-commerce-discovery-gap/)
 
-[The Complete Glossary of 75 GEO, AEO & AI Search Terms You Must Know in 2026\\
-75 terms. Every AI search discipline. One reference to bookmark. Why the Language of Search Just Changed — And What You Need to Know The vocabulary of search has undergone its most dramatic transformation in two decades. Terms that didn’t exist 3 years ago — GEO, AEO, LLM-O, AI Overviews, RAG, zero-click — are now \[…\]](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
-
-[Read More](https://www.gomogroup.com/en/insight/geo-ai-search-glossary/)
-
 ### Let’s discuss your future.
 
 Hi, my name is  and I represent , where my title is . You can contact me at . I am contacting you regarding .
@@ -131,15 +121,15 @@ Contact us, and we’ll get back to you with our expertise and support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/insight/google-mum/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/en/insight/google-mum/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/en/insight/google-mum/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/en/insight/google-mum/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
 ![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Privacy Policy](https://www.gomogroup.com/en/privacy-policy/) [Cookie Policy](https://www.gomogroup.com/en/cookie-policy/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: Utilizing Google’s Aggregated Data To Win – The Real Impact Of B2B SEOLink to: Utilizing Google’s Aggregated Data To Win – The Real Impact Of B2B SEOUtilizing Google’s Aggregated Data To Win – The Real Impact Of B2B SEO![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)](https://www.gomogroup.com/en/insight/utilizing-googles-data-to-win/ "Link to: Utilizing Google’s Aggregated Data To Win – The Real Impact Of B2B SEO") [Link to: The Cookieless Future of Programmatic and Display AdvertisingLink to: The Cookieless Future of Programmatic and Display Advertising![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)The Cookieless Future of Programmatic and Display Advertising](https://www.gomogroup.com/en/insight/the-cookieless-future/ "Link to: The Cookieless Future of Programmatic and Display Advertising")
+[Link to: Utilizing Google’s Aggregated Data To Win – The Real Impact Of B2B SEOLink to: Utilizing Google’s Aggregated Data To Win – The Real Impact Of B2B SEOUtilizing Google’s Aggregated Data To Win – The Real Impact Of B2B SEO![](https://www.gomogroup.com/wp-content/uploads/2024/04/114-1-80x80.jpg.webp)](https://www.gomogroup.com/en/insight/utilizing-googles-data-to-win/ "Link to: Utilizing Google’s Aggregated Data To Win – The Real Impact Of B2B SEO") [Link to: The Cookieless Future of Programmatic and Display AdvertisingLink to: The Cookieless Future of Programmatic and Display Advertising![](https://www.gomogroup.com/wp-content/uploads/2022/01/Cookieless-abstract-80x80.jpg.webp)The Cookieless Future of Programmatic and Display Advertising](https://www.gomogroup.com/en/insight/the-cookieless-future/ "Link to: The Cookieless Future of Programmatic and Display Advertising")
 
  [Scroll to top](https://www.gomogroup.com/en/insight/google-mum/#top "Scroll to top")
 

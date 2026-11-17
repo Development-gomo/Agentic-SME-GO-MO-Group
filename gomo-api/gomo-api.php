@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: GO MO Agent API
- * Description: Machine-readable agent layer for gomogroup.com — clean JSON endpoints at /agent/v1/, the OpenAPI spec at /openapi.json, the /agent/ page and the llms.txt / ai.txt / api-catalog.json discovery files (served with correct charset). Bilingual (EN + SV).
- * Version: 1.3.0
+ * Description: Machine-readable agent layer for gomogroup.com — clean JSON endpoints at /agent/v1/, the OpenAPI spec at /openapi.json, the /agent/ page and the llms.txt / ai.txt / api-catalog.json discovery files (served with correct charset) and the Agentic Resource Discovery manifest at /.well-known/ard.json. Bilingual (EN + SV).
+ * Version: 1.4.0
  * Author: GO MO Group
  * Requires PHP: 7.4
  * License: Proprietary
@@ -14,7 +14,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('GOMO_API_VERSION', '1.3.0');
+define('GOMO_API_VERSION', '1.4.0');
 define('GOMO_API_DIR', plugin_dir_path(__FILE__));
 define('GOMO_API_BASE', 'https://www.gomogroup.com/agent/v1');
 define('GOMO_LEAD_EMAIL', 'ha@gomogroup.com');
@@ -54,6 +54,7 @@ final class GOMO_Agent_API
         'llms_txt'    => ['llms.txt', 'text/plain; charset=utf-8'],
         'ai_txt'      => ['ai.txt', 'text/plain; charset=utf-8'],
         'api_catalog' => ['api-catalog.json', 'application/json; charset=utf-8'],
+        'ard'         => ['ard.json', 'application/json; charset=utf-8'],
         'openapi'     => ['openapi.json', 'application/json; charset=utf-8'],
         'agent_page'  => ['agent-page.html', 'text/html; charset=utf-8'],
         'agent_json'  => ['agent-index.json', 'application/json; charset=utf-8'],
@@ -67,6 +68,7 @@ final class GOMO_Agent_API
         add_action('template_redirect', [$self, 'route'], 0);
         add_filter('redirect_canonical', [$self, 'no_trailing_slash_redirect'], 10, 2);
         add_action('wp_head', [$self, 'discovery_links'], 1);
+        add_action('send_headers', [$self, 'discovery_header']);
         GOMO_API_Sync::init();
     }
 
@@ -78,6 +80,7 @@ final class GOMO_Agent_API
         add_rewrite_rule('^agent/v1/?$', 'index.php?gomo_endpoint=index', 'top');
         add_rewrite_rule('^openapi\.json$', 'index.php?gomo_static=openapi', 'top');
         add_rewrite_rule('^api-catalog\.json$', 'index.php?gomo_static=api_catalog', 'top');
+        add_rewrite_rule('^\.well-known/ard\.json$', 'index.php?gomo_static=ard', 'top');
         add_rewrite_rule('^llms\.txt$', 'index.php?gomo_static=llms_txt', 'top');
         add_rewrite_rule('^ai\.txt$', 'index.php?gomo_static=ai_txt', 'top');
         add_rewrite_rule('^agent/index\.json$', 'index.php?gomo_static=agent_json', 'top');
@@ -112,6 +115,15 @@ final class GOMO_Agent_API
         echo "<link rel=\"alternate\" type=\"application/json\" title=\"Agent JSON\" href=\"https://www.gomogroup.com/agent/index.json\">\n";
         echo "<link rel=\"service-desc\" type=\"application/json\" href=\"https://www.gomogroup.com/openapi.json\">\n";
         echo "<link rel=\"api-catalog\" href=\"https://www.gomogroup.com/api-catalog.json\">\n";
+        echo "<link rel=\"ard\" href=\"https://www.gomogroup.com/.well-known/ard.json\">\n";
+    }
+
+    /** HTTP Link header pointing ARD-aware agents at the agentic resource manifest. */
+    public function discovery_header(): void
+    {
+        if (!is_admin() && !headers_sent()) {
+            header('Link: <https://www.gomogroup.com/.well-known/ard.json>; rel="ard"', false);
+        }
     }
 
     // ── Router ───────────────────────────────────────────────────────────────
@@ -342,6 +354,7 @@ final class GOMO_Agent_API
                 'llms_txt'    => 'https://www.gomogroup.com/llms.txt',
                 'ai_txt'      => 'https://www.gomogroup.com/ai.txt',
                 'api_catalog' => 'https://www.gomogroup.com/api-catalog.json',
+                'ard'         => 'https://www.gomogroup.com/.well-known/ard.json',
                 'mcp_server'  => 'https://agent-mcp.gomogroup.com/mcp',
                 'sitemap'     => 'https://www.gomogroup.com/sitemap_index.xml',
             ],

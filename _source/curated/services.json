@@ -13,16 +13,17 @@
       "rest-api"
     ],
     "summary": "GO MO Group builds a machine-facing 'agentic web' layer on a company's existing domain so AI assistants and agentic browsers can read, cite and act on its business information. The layer has six components: an /agent page, llms.txt, schema.org structured data, a /.well-known API catalogue, a read-only public REST API and an MCP server. A standard build runs about three weeks (audit, build, deploy, verify) and is followed by optional monthly sync; the existing human website is not rebuilt.",
-    "summary_sv": "Den agentiska webben är det maskininriktade lagret av din webbplats – ditt företag som strukturerad data som AI-assistenter och agentiska webbläsare kan läsa, citera och agera utifrån. GO MO bygger lagret på er egen domän, bredvid den befintliga webbplatsen.",
+    "summary_sv": "Gör er webbplats läsbar, citerbar och användbar för AI-assistenter. GO MO Group bygger agentiska webblager med strukturerad data, API:er, llms.txt och MCP, på er egen domän och bredvid den befintliga webbplatsen.",
     "key_points": [
       "Six components: agent page (/agent), llms.txt, schema.org structured data, API catalogue (/.well-known), public read-only REST API (/api/v1) and MCP server (/mcp)",
-      "Four-step delivery in about three weeks: audit, build, deploy on the client's own domain (robots.txt and ai.txt permissions set), verify and keep in sync monthly",
+      "Four-step delivery in about three weeks: audit, build, deploy (content layer on the client's own domain with robots.txt and ai.txt permissions set; the MCP server on dedicated hosting linked from the site), verify and keep in sync monthly",
       "Measured three ways: Lighthouse/PageSpeed Insights 'Agentic Browsing' category (score out of 3), independent audits by Claude, ChatGPT, Gemini, Grok and Perplexity, and a live MCP test where an agent submits an enquiry with user consent",
       "First Swedish B2B build: Agentic Browsing 1/3 to 3/3, 5/5 AI platforms rated it agent-friendly, 2/2 agent-submitted leads delivered via MCP, 8+/10 average LLM answer rating",
       "Google's share of search fell to 75.5% (Statcounter, 2020 vs 2026)",
       "53% of web traffic is no longer human (Imperva Bad Bot Report, 2026)",
       "Almost no competitor in industrial B2B has a machine-readable layer today (GO MO Group, market review)",
-      "No website rebuild required: the layer is added alongside the existing site on the same domain"
+      "No website rebuild required: the layer is added alongside the existing site on the same domain",
+      "Verification uses one identical prompt to Claude, ChatGPT, Gemini, Grok and Perplexity: 'Go to yourdomain.com and tell me if the website is LLM/AI/Agent friendly'"
     ],
     "pricing": {
       "model": "quote-based",
@@ -46,7 +47,10 @@
       ]
     },
     "segments": [],
-    "related_cases": [],
+    "related_cases": [
+      "first-swedish-b2b-website-full-agentic-layer",
+      "translation-agency-agentic-web-layer"
+    ],
     "url": "https://www.gomogroup.com/en/services/agentic-web/",
     "url_sv": "https://www.gomogroup.com/vara-tjanster/agentic-web/",
     "languages": [
@@ -59,7 +63,7 @@
       "b2a",
       "agentic-optimization"
     ],
-    "dateModified": "2026-10-15"
+    "dateModified": "2026-11-02"
   },
   {
     "id": "asbx",
@@ -211,7 +215,7 @@
       "b2b-youtube-marketing",
       "youtube-marketing"
     ],
-    "dateModified": "2026-07-16"
+    "dateModified": "2026-11-02"
   },
   {
     "id": "content-marketing",
@@ -295,7 +299,7 @@
       "online-acceleration",
       "online-audience-acceleration"
     ],
-    "dateModified": "2026-06-03"
+    "dateModified": "2026-11-02"
   },
   {
     "id": "digital-analysis-strategy",
@@ -352,43 +356,52 @@
       "semrush-aio",
       "ai-overviews"
     ],
-    "summary": "GO MO Group's GEO service makes B2B brands visible, cited and recommended in AI-generated answers from ChatGPT, Perplexity, Gemini, Microsoft Copilot, Meta AI and Google AI Overviews. GO MO describes itself as the Nordics' first SEMrush Enterprise AIO Partner, using a 213M+ LLM prompt database for benchmarking and AI visibility measurement. Work combines a GEO audit, competitor benchmarking, education of internal teams and structured experiments, sold as published packages from audit through implementation to an enterprise retainer.",
-    "summary_sv": "GEO är strategin för företag som vill fortsätta vara relevanta när AI sammanfattar, rekommenderar och väljer vilka varumärken användare ser först. GO MO kombinerar ett datadrivet arbetssätt med ett experimentellt mindset, benchmarking och intern utbildning.",
+    "summary": "GO MO Group's GEO service gets B2B brands mentioned, cited and recommended in AI-generated answers from ChatGPT, Gemini, Perplexity, Microsoft Copilot, Claude and Google AI Overviews / AI Mode. GO MO is the Nordics' first Semrush Enterprise AIO partner and measures how often AI engines mention, cite and recommend a brand, closes the gaps against competitors and reports what it means for pipeline. Work starts with a free Mini GEO Audit and is sold as fixed-price packages from audit through implementation to an enterprise retainer.",
+    "summary_sv": "Få ert varumärke citerat i varje AI-svar era köpare läser. GO MO är Nordens första Semrush Enterprise AIO-partner: vi mäter hur ofta AI-motorer nämner, citerar och rekommenderar ert varumärke, sluter gapen mot konkurrenterna och visar vad det betyder för pipeline.",
     "key_points": [
-      "Nordics' first SEMrush Enterprise AIO Partner; 213M+ LLM prompts tracked globally across 5 AI engines",
-      "GEO Audit: AI visibility baseline across ChatGPT, Perplexity, Gemini, Copilot & Meta AI, citation analysis, competitor benchmarking, gap analysis, prioritised plan, executive presentation",
-      "Free Mini GEO Audit: 1-page summary of visibility in ChatGPT and Perplexity within 48 hours",
-      "63% of B2B buyers use AI tools like ChatGPT and Perplexity during research (as stated on page, no source given)",
-      "Organic traffic may fall by up to 50% according to some estimates (Swedish page)",
-      "Proven tactics listed include entity/brand profiles, reference content, schema markup, third-party mentions, review signals and Google Business Profile optimisation",
-      "Experiments include Markdown files for agentic crawling, AI-specific landing pages and agentic search optimisation",
-      "Free 12-page GEO Playbook available as a companion resource"
+      "Nordics' first Semrush Enterprise AIO partner; measurement built on a database of 213M+ real prompts across ChatGPT, Perplexity, Gemini, Copilot and Meta AI",
+      "Free Mini GEO Audit: Executive AI Score vs up to six competitors, visibility in Google AI Mode, AI Overviews, ChatGPT and Gemini, GEO readiness and AI agent readiness scores, and how AI frames the brand",
+      "Executive AI Score = 0.45 × visibility + 0.25 × mention share + 0.20 × audience reach + 0.10 × cited pages, normalised against the competitive set",
+      "GEO readiness scored on five dimensions: AI crawler access, structured data & entity, answer-ready content, authority & trust, technical foundations",
+      "Foundations for every engine (access, answer-first content, consistent entity) tuned per engine: Google AI Overviews/AI Mode, ChatGPT, Gemini, Perplexity, Copilot and Claude",
+      "Every audit ends with three options for leadership: first mover, follower or late majority",
+      "94% of business buyers use AI in their purchasing process (Forrester, Buyers' Journey Survey 2025)",
+      "Google users clicked a traditional result on 8% of visits with an AI summary vs 15% without (Pew Research Center, July 2025)",
+      "Adding statistics, quotations and cited sources increased visibility in generative engine responses by up to 40% (Aggarwal et al., ACM KDD 2024)",
+      "Success measured through AI referral traffic in GA4, branded search lift, self-reported attribution and CRM data, reported monthly",
+      "Free 12-page GEO Playbook, used by 200+ marketers across the Nordics"
     ],
     "pricing": {
       "model": "published",
       "currency": "SEK",
+      "vat": "excluded",
       "tiers": [
         {
-          "name": "Free Mini GEO Audit",
+          "name": "Mini GEO Audit",
+          "name_sv": "Mini GEO Audit",
           "price_from": 0,
-          "includes": "1-page AI-visibility snapshot (ChatGPT and Perplexity) within 48 hours"
+          "includes": "Free, presentation-ready audit: Executive AI Score vs competitors, visibility in AI Mode, AI Overviews, ChatGPT and Gemini, GEO readiness and AI agent readiness scores, how AI frames the brand"
         },
         {
           "name": "LLM Audit & Strategy",
+          "name_sv": "LLM-analys och strategi",
           "price_from": 23500,
-          "includes": "AI visibility baseline (5 engines), SEMrush AIO benchmarking, gap analysis, action plan, executive presentation, one 2h strategy session. Note: Swedish page lists 'GEO-analys & strategi' at 27,500 SEK (one market, one language, up to three workshops)"
+          "includes": "One-off project: AI visibility baseline across 5 engines, competitor benchmarking, gap analysis and prioritised action plan, executive presentation, 2-hour strategy session"
         },
         {
           "name": "Audit, Strategy & Implementation",
+          "name_sv": "Analys, strategi och implementering",
           "price_from": 44000,
-          "includes": "Everything in tier 1 plus ongoing SEMrush AIO monitoring, content creation, citation-building outreach, monthly reporting, dedicated GEO strategist (SV: up to two markets and two languages)"
+          "includes": "Recommended one-off project: everything in LLM Audit & Strategy plus content creation and optimisation, citation building on third-party sites, ongoing monitoring and monthly reporting, dedicated GEO strategist"
         },
         {
           "name": "Enterprise Content & GEO Retainer",
+          "name_sv": "Löpande avtal för innehåll och GEO",
           "price_from": null,
-          "includes": "Custom pricing: AI-powered content supply chain, multi-market and multi-language, dedicated team (SV equivalent: '360°-lösning' with a 12-month plan)"
+          "includes": "Custom pricing: AI content supply chain, multi-market and multi-language, full Semrush Enterprise AIO integration, dedicated team and quarterly reviews"
         }
-      ]
+      ],
+      "price_type": "fixed"
     },
     "segments": [
       "enterprise",
@@ -408,7 +421,7 @@
       "ai-search-optimization",
       "llm-optimization"
     ],
-    "dateModified": "2026-07-20"
+    "dateModified": "2026-10-28"
   },
   {
     "id": "programmatic-advertising",
@@ -536,6 +549,72 @@
       "google-ads"
     ],
     "dateModified": "2026-03-11"
+  },
+  {
+    "id": "chatgpt-ads",
+    "name": "ChatGPT Ads",
+    "name_sv": "ChatGPT Ads",
+    "category": "paid",
+    "tags": [
+      "chatgpt-ads",
+      "openai-ads",
+      "paid-ai",
+      "ppc",
+      "pilot"
+    ],
+    "summary": "GO MO Group runs ChatGPT Ads, OpenAI's sponsored cards shown below ChatGPT's answer when they fit the conversation, as a measured 30-day pilot that tracks visits, leads and sales. Ads Manager self-service is open to Swedish-billed entities. Campaigns are built on context hints rather than exact-match keywords, mapped to the needs customers describe to ChatGPT, and measured with the OpenAI Pixel, conversion events, UTM tagging, GA4 and CRM lead matching with weekly reporting. Ads place a brand below the answer from day one; GEO works on getting it named inside the answer.",
+    "summary_sv": "Placera ditt erbjudande direkt under ChatGPT:s svar. GO MO kör ChatGPT Ads som en mätbar pilot på 30 dagar och följer upp besök, leads och försäljning.",
+    "key_points": [
+      "Sponsored cards appear below ChatGPT's answer, labelled as sponsored; ads do not influence answers and advertisers never see users' conversations",
+      "Shown to eligible adult users on the Free and Go plans; Ads Manager self-service is open to Swedish-billed entities",
+      "Pilot in two phases, billed per valid click: Phase 1 (30 days) clicks campaign for traffic and a clean baseline; Phase 2 conversion-optimised once tracking is validated",
+      "Cost per click on GO MO's Swedish runs about 16–18 SEK (18.37 SEK on previous runs), roughly half OpenAI's guided 30–50 SEK",
+      "Live Swedish commercial-real-estate pilot, week one (15–21 September 2026): 18,915 impressions, 279 clicks, 1.48% CTR, ≈16 SEK average CPC, first lead in week one",
+      "Click-through by city in that pilot: Malmö 2.02%, Stockholm ≈1.2%, Göteborg ≈1.2%",
+      "Directional volume: ≈2,700 clicks for SEK 50,000 at that cost per click",
+      "Measurement: OpenAI Pixel and conversion events, UTM tagging on every ad, GA4, CRM lead matching, weekly performance report and optimisation plan"
+    ],
+    "pricing": {
+      "model": "published",
+      "currency": "SEK",
+      "vat": "excluded",
+      "tiers": [
+        {
+          "name": "Ad budget (media)",
+          "name_sv": "Annonsbudget",
+          "price_from": 50000,
+          "includes": "Typical 30-day ad spend paid directly to OpenAI from the client's own ad account, billed per valid click, sized to market and goals"
+        },
+        {
+          "name": "Setup and management",
+          "name_sv": "Uppsättning och förvaltning",
+          "price_from": 20000,
+          "includes": "GO MO fee: OpenAI Pixel, conversion events, UTMs and GA4, campaigns, ad creative and QA, weekly report and optimisation plan (up to 20 hours)"
+        },
+        {
+          "name": "30-day pilot (total)",
+          "name_sv": "Pilot på 30 dagar",
+          "price_from": 70000,
+          "includes": "Media budget plus GO MO setup and management, with a clear go/no-go on scaling"
+        }
+      ],
+      "price_type": "fixed"
+    },
+    "segments": [],
+    "related_cases": [],
+    "url": "https://www.gomogroup.com/en/services/chatgpt-ads/",
+    "url_sv": "https://www.gomogroup.com/vara-tjanster/chatgpt-ads/",
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "aliases": [
+      "chatgpt-ads",
+      "openai-ads",
+      "chatgpt-advertising",
+      "ads-in-chatgpt"
+    ],
+    "dateModified": "2026-10-27"
   },
   {
     "id": "seo",

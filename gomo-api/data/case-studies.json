@@ -57,8 +57,8 @@
         "seo-automation-gen-ai-b2b-e-handel"
       ],
       "client": "Fortune 500 heavy-equipment manufacturer",
-      "headline": "How Gen-AI & SEO Automation Scaled E-Commerce Marketing",
-      "headline_sv": "Hur Gen AI och SEO-automation skalade e-handelsmarknadsföring",
+      "headline": "How generative AI and SEO automation delivered 32 times more organic clicks in B2B e-commerce",
+      "headline_sv": "Hur generativ AI och SEO-automation gav 32 gånger fler organiska klick i B2B-e-handel",
       "industry": "manufacturing",
       "segment": "enterprise",
       "services": [
@@ -66,38 +66,38 @@
         "generative-ai",
         "content-marketing"
       ],
-      "challenge": "A Fortune 500 heavy-equipment manufacturer (€10B+ revenue, 180+ markets) was rapidly scaling a new Salesforce B2B e-commerce platform for spare parts, with no historical online sales data and a platform built without integrating marketing and the content supply chain.",
-      "solution": "GO MO delivered an enterprise e-commerce automation strategy and playbook, reusable Google Apps Script and Python scripts, and keyword research plus Gen AI-generated SEO content, meta titles and descriptions for 3,000+ product and category pages.",
-      "summary_sv": "Upptäck hur Gen-AI-driven automatisering skalade SEO-verksamheten och sparade mer än 400 timmar, vilket ökade den organiska synligheten för över 5 000 produktsidor i B2B-e-handel.",
+      "challenge": "A Fortune 500 manufacturer of heavy equipment, selling through dealers in more than 180 countries, launched a new Salesforce-based B2B marketplace for genuine spare parts. In December 2024 it had about 250 organic clicks a month at an average Google position of 15, no historical online sales data, no optimised pages and source material that was mostly part numbers and specifications, often in only some languages.",
+      "solution": "Since December 2024 GO MO has run a RAG-based content workflow: keyword research decides what each page must answer, generative AI writes from the client's own technical product data, and people review everything before publishing. Product copy, meta titles and descriptions now cover nearly 12,000 product and category pages in English and Danish (Polish in quality review), alongside ongoing technical SEO.",
+      "summary_sv": "Generativ AI och SEO-automation tog en tillverkares B2B-marknadsplats från 250 till cirka 8 100 organiska klick i månaden, med innehåll för nästan 12 000 sidor.",
       "results": [
         {
-          "metric": "Overall organic visibility",
-          "value": "+195%",
-          "context": "headline result",
-          "period": "within 120 days"
+          "metric": "Organic clicks per month",
+          "value": "32x",
+          "context": "from 250 (December 2024) to about 8,100 (August 2026)",
+          "period": "21 months"
         },
         {
-          "metric": "Organic clicks",
-          "value": "+195%",
-          "context": "compared to the previous period",
-          "period": "90-day period"
+          "metric": "Organic impressions per month",
+          "value": "43x",
+          "context": "from about 4,300 (December 2024) to about 185,000 (August 2026)",
+          "period": "21 months"
         },
         {
-          "metric": "Hours saved",
-          "value": "400+",
-          "context": "through automation and AI, refocused on strategic planning",
+          "metric": "Average Google position",
+          "value": "7",
+          "context": "up from 15 in December 2024, from page two to page one",
+          "period": "21 months"
+        },
+        {
+          "metric": "Product and category pages with AI-generated content",
+          "value": "~12,000",
+          "context": "English and Danish; Polish in quality review",
           "period": null
         },
         {
-          "metric": "Content pieces created",
-          "value": "5000+",
-          "context": "optimised content created and initially deployed",
-          "period": null
-        },
-        {
-          "metric": "Product and category pages covered",
-          "value": "3,000+",
-          "context": "Gen AI-generated SEO content, meta titles and descriptions",
+          "metric": "Technical SEO issues",
+          "value": "~13,000",
+          "context": "down from more than 100,000",
           "period": null
         }
       ],
@@ -109,7 +109,7 @@
         "sv"
       ],
       "datePublished": "2025-06-16",
-      "dateModified": "2026-03-24",
+      "dateModified": "2026-11-12",
       "kind": "case-study"
     },
     {
@@ -761,13 +761,12 @@
         "role": "Participant, Swedavia"
       },
       "url": "https://www.gomogroup.com/en/case/generative-ai-from-hype-to-real-business-value/",
-      "url_sv": "https://www.gomogroup.com/case/generativ-ai-fran-hype-till-faktisk-affarsnytta/",
+      "url_sv": null,
       "languages": [
-        "en",
-        "sv"
+        "en"
       ],
       "datePublished": "2025-07-31",
-      "dateModified": "2026-10-01",
+      "dateModified": "2025-09-01",
       "kind": "case-study"
     },
     {
@@ -809,7 +808,7 @@
       ],
       "client": "West Sweden Chamber of Commerce",
       "headline": "Streamlining Content Creation with AI",
-      "headline_sv": "Mätbar och märkbar effekt av GPT",
+      "headline_sv": "Västsvenska Handelskammaren: från spretig textproduktion till AI-styrd precision med egen GPT",
       "industry": "chamber of commerce",
       "segment": null,
       "services": [
@@ -818,7 +817,7 @@
       ],
       "challenge": "The Chamber spent too much time rewriting the same types of content while content demands rose, and struggled to keep one consistent voice across writers.",
       "solution": "GO MO mapped the writing process with the communications lead and AI pilot group, then built a private custom GPT with embedded instructions, tone guides, terminology lists and sample texts, iterating until it delivered right on the first try.",
-      "summary_sv": "Med GPT blev effekten mätbar och märkbar snabbare texter, högre kvalitet och rätt tonalitet.",
+      "summary_sv": "Med en egen GPT, byggd av GO MO Group, halverade Västsvenska Handelskammaren tiden från idé till publiceringsklar text.",
       "results": [
         {
           "metric": "Time from idea to publication-ready text",
@@ -845,7 +844,7 @@
         "sv"
       ],
       "datePublished": "2025-07-31",
-      "dateModified": "2025-11-05",
+      "dateModified": "2026-11-08",
       "kind": "case-study"
     },
     {
@@ -864,7 +863,7 @@
       ],
       "challenge": "A commercial property company (portfolio valued at over SEK 20 billion) needed to build awareness of and commercial interest in available space in a developing business district, where few companies are looking for new premises on any given day.",
       "solution": "GO MO mapped the ICP, sourced and verified prospects, split them into three segments (Foodtech, HR, CEO) with segment-specific value propositions, and ran a three-email sequence with A/B-tested subject lines and deliverability monitoring.",
-      "summary_sv": "B2B-leadsgenerering: segmenterad outreach till ~900 beslutsfattare åt ett fastighetsbolag gav 18 % svarsfrekvens och 15 kvalificerade leads.",
+      "summary_sv": "Case: en segmenterad B2B-kampanj till ~900 beslutsfattare åt ett fastighetsbolag i Västsverige gav 18 % svarsfrekvens och 15 kvalificerade leads.",
       "results": [
         {
           "metric": "Sales Qualified Leads",
@@ -911,15 +910,17 @@
         "sv"
       ],
       "datePublished": "2026-10-01",
-      "dateModified": "2026-10-07",
+      "dateModified": "2026-10-28",
       "kind": "case-study"
     },
     {
       "id": "medtech-webinar-b2b-event-marketing",
-      "aliases": [],
+      "aliases": [
+        "medtech-webbinarium-b2b-eventmarknadsforing"
+      ],
       "client": "Medical-technology manufacturer",
       "headline": "A MedTech company needed to fill the room. We did it with the right people.",
-      "headline_sv": null,
+      "headline_sv": "Så lockade ett medicinteknikföretag deltagare från cirka 115 organisationer till sitt webbinarium",
       "industry": "medtech",
       "segment": null,
       "services": [
@@ -930,7 +931,7 @@
       ],
       "challenge": "A medtech manufacturer launching a new platform needed a live 60-minute technical webinar filled with senior budget holders across two markets in four weeks, with one fixed date and a clinical audience that books ahead and cancels easily.",
       "solution": "GO MO narrowed a ~9,500-contact market to three audiences and gave each channel one job: paid social for reach, owned email and CRM for depth, and a ~2,100-person matched audience plus personalised outreach for precision, all pointing to one registration page with nine tracked sources.",
-      "summary_sv": null,
+      "summary_sv": "Så fyllde GO MO ett medtechwebbinarium med seniora beslutsfattare på fyra veckor: +36 % anmälningar mot målet, 44 % närvarograd, ~115 organisationer.",
       "results": [
         {
           "metric": "Registrations vs target",
@@ -989,20 +990,23 @@
       ],
       "quote": null,
       "url": "https://www.gomogroup.com/en/case/medtech-webinar-b2b-event-marketing/",
-      "url_sv": null,
+      "url_sv": "https://www.gomogroup.com/case/medtech-webbinarium-b2b-eventmarknadsforing/",
       "languages": [
-        "en"
+        "en",
+        "sv"
       ],
       "datePublished": "2026-10-13",
-      "dateModified": "2026-10-16",
+      "dateModified": "2026-11-03",
       "kind": "case-study"
     },
     {
       "id": "first-swedish-b2b-website-full-agentic-layer",
-      "aliases": [],
+      "aliases": [
+        "forsta-svenska-b2b-webbplatsen-med-agentiskt-lager"
+      ],
       "client": "Swedish B2B manufacturer of specialist technical equipment",
       "headline": "The first Swedish B2B website with a full agentic layer",
-      "headline_sv": null,
+      "headline_sv": "Den första svenska B2B-webbplatsen med ett komplett agentiskt lager",
       "industry": "manufacturing",
       "segment": null,
       "services": [
@@ -1011,7 +1015,7 @@
       ],
       "challenge": "A Swedish B2B manufacturer of specialist technical equipment sells via an RFQ cart on WordPress + WooCommerce with no public prices. AI agents had no structured way to read its catalogue and no safe way to send a lead; Google's Agentic Browsing audit passed 1 of 3 checks.",
       "solution": "GO MO built a three-layer agentic layer alongside the unchanged site — Read (llms.txt, /agent page, robots.txt, ai.txt, accessibility-tree fixes), Understand (schema.org, OpenAPI, read-only REST API) and Act (MCP server with a consent-captured submit_inquiry tool feeding the existing sales workflow).",
-      "summary_sv": null,
+      "summary_sv": "Så anpassade en svensk B2B-tillverkare sin webbplats för AI-agenter och möjliggjorde offertförfrågningar direkt via AI.",
       "results": [
         {
           "metric": "Google Agentic Browsing checks passed",
@@ -1040,12 +1044,69 @@
       ],
       "quote": null,
       "url": "https://www.gomogroup.com/en/case/first-swedish-b2b-website-full-agentic-layer/",
+      "url_sv": "https://www.gomogroup.com/case/forsta-svenska-b2b-webbplatsen-med-agentiskt-lager/",
+      "languages": [
+        "en",
+        "sv"
+      ],
+      "datePublished": "2026-10-15",
+      "dateModified": "2026-11-05",
+      "kind": "case-study"
+    },
+    {
+      "id": "translation-agency-agentic-web-layer",
+      "aliases": [],
+      "client": "Established Swedish language and translation services provider",
+      "headline": "From invisible to AI agents to built for them",
+      "headline_sv": null,
+      "industry": "language services",
+      "segment": "sme",
+      "services": [
+        "agentic-web"
+      ],
+      "challenge": "A Swedish translation agency with almost three decades of legal, technical and medical translation between Swedish and 30+ languages had a fast, well-organised website that scored 9.2/10 for human SEO but 5.0/10 for agent readiness in a July 2026 ChatGPT audit (LLM readability 8.5, AI discoverability 7.5, overall 7.8/10). Google's Agentic Browsing audit passed only 2 of 2 applicable checks, because without an llms.txt the third check did not run.",
+      "solution": "GO MO added a read-only agentic layer alongside the unchanged website in three parts: Read (llms.txt, llms-full.txt, ai.txt, robots.txt), Understand (JSON API, OpenAPI, API catalogue and an MCP server with 11 read-only tools) and Cite (an /agent page with citation and pricing rules). It went live on 28 July 2026, three weeks after the discovery audit.",
+      "summary_sv": null,
+      "results": [
+        {
+          "metric": "Google Agentic Browsing checks passed",
+          "value": "3/3",
+          "context": "up from 2 of 2 applicable",
+          "period": null
+        },
+        {
+          "metric": "AI platforms that independently confirmed the build",
+          "value": "5/5",
+          "context": "Claude, ChatGPT, Gemini, Grok and Perplexity",
+          "period": null
+        },
+        {
+          "metric": "Read-only MCP tools live",
+          "value": "11",
+          "context": "MCP server found by all five platforms",
+          "period": null
+        },
+        {
+          "metric": "Time from audit to live",
+          "value": "3 weeks",
+          "context": "live on 28 July 2026",
+          "period": null
+        },
+        {
+          "metric": "/agent page confirmed",
+          "value": "4 of 5 platforms",
+          "context": null,
+          "period": null
+        }
+      ],
+      "quote": null,
+      "url": "https://www.gomogroup.com/en/case/translation-agency-agentic-web-layer/",
       "url_sv": null,
       "languages": [
         "en"
       ],
-      "datePublished": "2026-10-15",
-      "dateModified": "2026-10-16",
+      "datePublished": "2026-11-03",
+      "dateModified": "2026-11-03",
       "kind": "case-study"
     },
     {
@@ -1359,7 +1420,7 @@
         "sv"
       ],
       "datePublished": "2020-03-27",
-      "dateModified": "2025-03-03",
+      "dateModified": "2026-11-02",
       "kind": "case-study"
     },
     {
@@ -1414,9 +1475,9 @@
     }
   ],
   "pagination": {
-    "total": 30,
+    "total": 31,
     "page": 1,
-    "per_page": 30,
+    "per_page": 31,
     "pages": 1
   },
   "_meta": {
@@ -1424,8 +1485,8 @@
     "endpoint": "case-studies",
     "canonical": "https://www.gomogroup.com",
     "api": "https://www.gomogroup.com/agent/v1",
-    "generated": "2026-10-19T00:00:00+00:00",
-    "version": "1.3.0",
+    "generated": "2026-11-17T00:00:00+00:00",
+    "version": "1.4.0",
     "languages": [
       "en",
       "sv"

@@ -1,0 +1,119 @@
+{
+    "status": "ok",
+    "name": "GO MO Group Public API",
+    "version": "1.3.0",
+    "description": "Public read API for GO MO Group (gomogroup.com), plus one consent-gated contact action. No authentication. Bilingual: English (en) and Swedish (sv) — use ?lang=en|sv|all.",
+    "languages": [
+        "en",
+        "sv"
+    ],
+    "endpoints": [
+        {
+            "route": "/index.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/index.json",
+            "description": "This index"
+        },
+        {
+            "route": "/schema.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/schema.json",
+            "description": "Endpoint schema and filter definitions"
+        },
+        {
+            "route": "/company.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/company.json",
+            "description": "Company identity and overview"
+        },
+        {
+            "route": "/services.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/services.json",
+            "description": "All services — filter by ?category=, ?tag=, ?lang="
+        },
+        {
+            "route": "/services/{id}.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/services/{id}.json",
+            "description": "Single service by ID"
+        },
+        {
+            "route": "/case-studies.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/case-studies.json",
+            "description": "Case studies — filter by ?industry=, ?segment=, ?service=, ?lang="
+        },
+        {
+            "route": "/case-studies/{id}.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/case-studies/{id}.json",
+            "description": "Single case study by ID"
+        },
+        {
+            "route": "/team.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/team.json",
+            "description": "Leadership and team"
+        },
+        {
+            "route": "/offices.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/offices.json",
+            "description": "Office locations"
+        },
+        {
+            "route": "/insights.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/insights.json",
+            "description": "Insight/blog articles (EN + SV) — filter by ?lang=, ?topic=, ?since=YYYY-MM-DD; paginate with ?page=&per_page="
+        },
+        {
+            "route": "/insights/{id}.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/insights/{id}.json",
+            "description": "Single insight article by ID"
+        },
+        {
+            "route": "/events.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/events.json",
+            "description": "Seminars and events"
+        },
+        {
+            "route": "/careers.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/careers.json",
+            "description": "Open roles"
+        },
+        {
+            "route": "/pages.json",
+            "method": "GET",
+            "url": "https://www.gomogroup.com/agent/v1/pages.json",
+            "description": "Every public URL with type, language and EN/SV alternate — filter by ?lang=, ?type="
+        },
+        {
+            "route": "/contact.json",
+            "method": "POST",
+            "url": "https://www.gomogroup.com/agent/v1/contact.json",
+            "description": "Submit a qualified B2B inquiry — requires agent_context.user_authorized_submission: true"
+        }
+    ],
+    "openapi": "https://www.gomogroup.com/openapi.json",
+    "discovery": {
+        "agent_page": "https://www.gomogroup.com/agent/",
+        "agent_json": "https://www.gomogroup.com/agent/index.json",
+        "llms_txt": "https://www.gomogroup.com/llms.txt",
+        "ai_txt": "https://www.gomogroup.com/ai.txt",
+        "api_catalog": "https://www.gomogroup.com/api-catalog.json",
+        "mcp_server": "https://agent-mcp.gomogroup.com/mcp",
+        "sitemap": "https://www.gomogroup.com/sitemap_index.xml"
+    },
+    "_meta": {
+        "source": "https://www.gomogroup.com/agent/v1/index.json",
+        "canonical": "https://www.gomogroup.com",
+        "api": "https://www.gomogroup.com/agent/v1",
+        "generated": "2026-11-17T12:31:54+00:00",
+        "version": "1.3.0"
+    }
+}

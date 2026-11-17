@@ -1,16 +1,6 @@
-URL: https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/
-LANG: sv
-TYPE: insight
-TITLE: Hur storbolaget blev snabbrörligt och datadrivet
-DESC: Nya regleringar inom sjöfarten kräver att fartyg renar barlastvatten för att undvika spridning av organismer från en miljö till en annan.
-PUBLISHED: 2018-01-22
-MODIFIED: 2026-02-20
-AUTHOR: None
-ALT: None
----
 [Tillbaka](https://www.gomogroup.com/insights/)
 
-[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/ "Share on facebook")[![twitter](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/twitter.png)](https://twitter.com/intent/tweet?text=Hur%20storbolaget%20blev%20snabbr%C3%B6rligt%20och%20tog%20tillbaka%20stafettpinnen&url=https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/ "Share on twitter")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/ "Share on linkedin")[![print](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20136%20136'%3E%3C/svg%3E)](https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/# "Print this document")[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/ "Share with email")
+[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/ "Share on facebook")[![twitter](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/twitter.png)](https://twitter.com/intent/tweet?text=Hur%20storbolaget%20blev%20snabbr%C3%B6rligt%20och%20tog%20tillbaka%20stafettpinnen&url=https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/ "Share on twitter")[![linkedin](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/linkedin.png)](https://www.linkedin.com/cws/share?url=https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/ "Share on linkedin")[![print](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/print.png)](https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/# "Print this document")[![facebook](https://www.gomogroup.com/wp-content/themes/enfold-child/images/social/mail.png)](mailto:?subject=Please%20read%20this%20artical&body=Check%20out%20the%20post%20https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/ "Share with email")
 
 Referenser & Case \| LÄSTID: 3 MINUTER \| 22 januari 2018
 
@@ -58,50 +48,50 @@ Vad som hos Alfa Laval började med en vilja att etablera sig på en ny marknad 
 
 Upptäck personerna bakom vår framgång i ”Meet the Marketer” – en videoserie där vi intervjuar våra egna talangfulla medarbetare. Lär känna teamet som driver vår innovation och kreativitet på GO MO Group.
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerHenrik Anderberg![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/henrik-video-thumbnail.webp)Meet the MarketerHenrik Anderberg![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=z49PhQrHJIM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerPuja Kumari![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/puja-video-thumbnail.webp)Meet the MarketerPuja Kumari![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=kFQYLWMFB-4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLina Nygren![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/01/lina-video-thumbnail.png.webp)Meet the MarketerLina Nygren![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=JCSsSXiPHK8?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerVishnu Adithya![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/vishnu-video-thumbnail.webp)Meet the MarketerVishnu Adithya![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=AveBOeTioJ4?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerLisa & Rickard![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2024/05/Rick-and-Lisa.jpg.webp)Meet the MarketerLisa & Rickard![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=MXHRGBv0VbM?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerJan Thesleff![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/jan-thesleff-video-thumbnail.webp)Meet the MarketerJan Thesleff![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=B6SNEP7FO2E?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerCecilia Oskarsson![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/cecilia-oskarsson-video-thumbnail.webp)Meet the MarketerCecilia Oskarsson![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=i6osw_9LY0o?iframe=true0)
 
-[![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20952%20416'%3E%3C/svg%3E)Meet the MarketerSunil Muralidharan![Play button](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2068%2068'%3E%3C/svg%3E)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
+[![](https://www.gomogroup.com/wp-content/uploads/2026/05/sunil-muralidharan-video-thumbnail.webp)Meet the MarketerSunil Muralidharan![Play button](https://www.gomogroup.com/wp-content/themes/enfold-child/images/play-video-icon.png)](https://www.youtube.com/watch?v=tiGmr8-ZF_0?iframe=true0)
 
 ## Relaterade insikter
 
 Våra insikter om Pull-marknadsföring kommer från hundratals pågående kunduppdrag. Läs om de trenderna inom digital marknadsföring och vilka slutsatser vi kunnat dra från tidigare projekt.
 
-[Varför B2B digital commerce behöver utvecklas både tekniskt och emotionellt\\
-För ett par veckor sedan höll vi på GO MO Group ett frukostseminarium i Göteborg tillsammans med Marknadsföreningen i Sverige (MiS). Temat var vad som händer med människan, varumärket och CXO när AI ritar om köpresan. Vår Gabriel Ghavami var huvudtalare, och efter hans föredrag fortsatte samtalet i en panel med representanter från Kantar, SKF, \[…\]](https://www.gomogroup.com/insikter/varfor-b2b-digital-commerce-behover-utvecklas-bade-tekniskt-och-emotionellt/)
+[Era köpare frågar AI. Finns ert varumärke med i svaret?\\
+Vid två event i våras samlade vi B2B-marknadsledare i Göteborg och Stockholm för att ställa de frågor som branschen helst går runt. Det de berättade för oss, live, anonymt och i realtid, är mer brådskande än de flesta företag vill erkänna.](https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/)
 
-[Läs mer](https://www.gomogroup.com/insikter/varfor-b2b-digital-commerce-behover-utvecklas-bade-tekniskt-och-emotionellt/)
+[Läs mer](https://www.gomogroup.com/insikter/era-kopare-fragar-ai-finns-ert-varumarke-med-i-svaret/)
 
-[Ett fundamentalt skifte i B2B-köpresan: När maskinerna besöker före människorna\\
-Internets nästa biljon användare är inte människor. De är språkmodeller och agenter. En strukturell förskjutning — och varför människan i B2B är viktigare än någonsin För första gången på det kommersiella internets trettioåriga historia utgör maskiner majoriteten av publiken. I decennier vilade internets affärsmodell på ett outtalat kontrakt: webbplatsägare lät sökmotorer crawla deras innehåll, och \[…\]](https://www.gomogroup.com/insikter/ai-agenter-och-b2b-kopresan-ett-fundamentalt-skifte/)
+[LinkedIn-algoritmen 2026: så når ni ut organiskt, enligt LinkedIn själva\\
+På LinkedIn är det människor och konkreta exempel som skapar engagemang i B2B. Företagssidan har en mer stödjande roll. LinkedIn har ändrat hur algoritmen avgör vad som syns i flödet. Vi har gått igenom det LinkedIn självt har publicerat under 2026, från tekniska blogginlägg till marknadsguider och köparforskning, och gjort en kort guide av det. \[…\]](https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/)
 
-[Läs mer](https://www.gomogroup.com/insikter/ai-agenter-och-b2b-kopresan-ett-fundamentalt-skifte/)
+[Läs mer](https://www.gomogroup.com/insikter/linkedin-algoritmen-2026-sa-nar-ni-ut-organiskt-enligt-linkedin-sjalva/)
 
-[Den kompletta ordlistan för GEO, AEO och AI-sök: 75 termer du måste kunna 2026\\
-Uppdaterad 30e september 2026 75 termer. Varje disciplin inom AI-sök. En referens att spara. Varför språket inom sök har förändrats — och vad du behöver veta Ordförrådet inom sök har genomgått sin mest dramatiska omvandling på två decennier. Begrepp som inte fanns för tre år sedan — GEO, AEO, LLMO, AI Overviews, RAG, zero-click — \[…\]](https://www.gomogroup.com/insikter/geo-ai-sok-ordlista/)
+[ChatGPT Ads vs Google Ads: tidiga B2B-resultat \| GO MO Group\\
+Senast uppdaterad: 19 oktober 2026. Vi fyller på med ny data allteftersom piloterna fortsätter. I augusti öppnade ChatGPT Ads för annonsörer på 31 europeiska marknader, däribland Sverige och Tyskland. Många marknadschefer i B2B ställde sig genast samma fråga: är det här en ny sökkanal, och är den värd en egen budget? Sedan dess har vi \[…\]](https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/)
 
-[Läs mer](https://www.gomogroup.com/insikter/geo-ai-sok-ordlista/)
+[Läs mer](https://www.gomogroup.com/insikter/chatgpt-ads-vs-google-ads-tidiga-b2b-resultat-go-mo-group/)
 
-[Från Uddevalla till globala marknader\\
-Så påbörjade FKAB Marine Design sin AI-drivna tillväxtresa Hur kan ett svenskt fartygsdesignföretag från Uddevalla expandera globalt och effektivisera sina sälj- och marknadsföringsaktiviteter? För FKAB Marine Design blev svaret en kombination av strategi, data och AI. Tillsammans med GO MO Group inledde företaget en AI-driven transformation med målet att skapa en mer träffsäker marknadsstrategi och \[…\]](https://www.gomogroup.com/insikter/fkab-mot-en-global-expansion-med-gen-ai-go-mo-group-insikter/)
+[Konverterar besökare från ChatGPT och andra AI-assistenter bättre?\\
+GO MO analyserade GA4-data från 60+ webbplatser. AI-besökare konverterade nästan dubbelt så ofta som andra besökare, med stora skillnader mellan branscher. Se vad ni bör kontrollera och ändra.](https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/)
 
-[Läs mer](https://www.gomogroup.com/insikter/fkab-mot-en-global-expansion-med-gen-ai-go-mo-group-insikter/)
+[Läs mer](https://www.gomogroup.com/insikter/konverterar-besokare-fran-chatgpt-och-andra-ai-assistenter-battre/)
 
-[Välkommen till den agentiska eran: När din nästa kund kan vara en AI\\
-AI-agenter har förändrat kundresan. Här är varför B2B-företag måste ligga steget före redan nu Tiderna har förändrats. Agentisk sök är här för att stanna Under de senaste månaderna har vi på GO MO Group följt ett av de mest betydande skiftena inom digital strategi sedan Googles genombrott: framväxten av AI-agenter som autonoma beslutsfattare, köpare och \[…\]](https://www.gomogroup.com/insikter/valkommen-till-den-agentiska-eran-nar-din-nasta-kund-kan-vara-en-ai/)
+[Google har publicerat sin officiella guide för AI-sökoptimering. Här är vad den faktiskt säger.\\
+Har du lagt tid och budget på llms.txt-filer, uppstyckat innehåll eller texter omskrivna ”för AI”? Då är det här värt att läsa. För första gången har Google publicerat en officiell guide för hur du syns i AI Overviews och AI Mode – och den slår hål på flera av de GEO-knep som marknadsförs flitigt i \[…\]](https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/)
 
-[Läs mer](https://www.gomogroup.com/insikter/valkommen-till-den-agentiska-eran-nar-din-nasta-kund-kan-vara-en-ai/)
+[Läs mer](https://www.gomogroup.com/insikter/google-guide-ai-sokoptimering/)
 
 ### Låt oss diskutera framtiden.
 
@@ -110,14 +100,14 @@ Hej mitt namn är  och jag representerar , där jag arbetar som .
 Du kan kontakta mig på . Jag vill komma i kontakt med er gällande .
 
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)GothenburgLennart Torstenssonsgatan 8\\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)GothenburgLennart Torstenssonsgatan 8\\
 \\
 \\
 412 56 Göteborg](https://share.google/4tOJokfvr4BHQ52ie)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)PuneWeWork, Fourth Floor, Raheja Woods, Kalyani Nagar, Pune, Maharashtra 411006](https://share.google/BI21uHD9GcJNLu85R)
 
-[![Clock icon](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2038%2038'%3E%3C/svg%3E)StockholmUpplandsgatan 7 \\
+[![Clock icon](https://www.gomogroup.com/wp-content/themes/enfold-child/images/clock-icon.svg)StockholmUpplandsgatan 7 \\
 \\
 111 23 Stockholm](https://maps.app.goo.gl/Htdrys9wEw1PFt2B7)
 
@@ -127,15 +117,15 @@ Kontakta oss, så återkommer vi med vår expertis och support!
 
 [Visit social media page](https://www.linkedin.com/company/gomo-group-ab)[Visit social media page](https://www.facebook.com/GOMOGROUP/)[Visit social media page](https://www.youtube.com/@B2BMarketingInsightsGOMO)
 
-[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/#)[![Microsoft Advertising Elite Partner 2026](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201390%20480'%3E%3C/svg%3E)](https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/#)
+[![Microsoft Advertising Elite Partner 2025](https://www.gomogroup.com/wp-content/uploads/2025/01/62949-Partner-Program-Badge-Updates-CY25-LP-C1_Elite.png.webp)](https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/#)[![Microsoft Advertising Elite Partner 2026](https://www.gomogroup.com/wp-content/uploads/2026/02/microsoft-elite-partner-2026.webp)](https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/#)
 
-[![Semrush Enterprise Partner](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20400'%3E%3C/svg%3E)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
+[![Semrush Enterprise Partner](https://www.gomogroup.com/wp-content/uploads/2026/04/semrush-enterprise-partner.png)](https://agencies.semrush.com/go-mo-group/)[![Google Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/google-partner-badge.svg)](https://www.google.com/partners/agency?id=4938729115)[![Ahrefs](https://www.gomogroup.com/wp-content/uploads/2026/01/ahrefs-logo.webp)](https://ahrefs.com/agencies/sweden)[![Apollo Partner](https://www.gomogroup.com/wp-content/uploads/2026/02/apollo-partner-logo.webp)](https://get.apollo.io/9nkzrhydzp2t)
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%200'%3E%3C/svg%3E)Copyright © 2026 GO MO Group
+![](https://www.gomogroup.com/wp-content/uploads/2023/12/go-mo-group-logo-white.png.webp)Copyright © 2026 GO MO Group
 
 [Integritetspolicy](https://www.gomogroup.com/gdpr/) [Cookies & Regler](https://www.gomogroup.com/cookies-regler/) [AI Agent Information](https://www.gomogroup.com/agent/)
 
-[Link to: Case: Lilla bolaget som vågade gå fullt digitalt och satsade på SEOLink to: Case: Lilla bolaget som vågade gå fullt digitalt och satsade på SEOCase: Lilla bolaget som vågade gå fullt digitalt och satsade på SEO![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)](https://www.gomogroup.com/insikter/foga-foretags-gar-digital/ "Link to: Case: Lilla bolaget som vågade gå fullt digitalt och satsade på SEO") [Link to: GDPR – vad är det och hur kan man förbereda sig?Link to: GDPR – vad är det och hur kan man förbereda sig?![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E)GDPR – vad är det och hur kan man förbereda sig?](https://www.gomogroup.com/insikter/gdpr-forberedelse/ "Link to: GDPR – vad är det och hur kan man förbereda sig?")
+[Link to: Case: Lilla bolaget som vågade gå fullt digitalt och satsade på SEOLink to: Case: Lilla bolaget som vågade gå fullt digitalt och satsade på SEOCase: Lilla bolaget som vågade gå fullt digitalt och satsade på SEO![](https://www.gomogroup.com/wp-content/uploads/2018/02/70-80x80.jpg.webp)](https://www.gomogroup.com/insikter/foga-foretags-gar-digital/ "Link to: Case: Lilla bolaget som vågade gå fullt digitalt och satsade på SEO") [Link to: GDPR – vad är det och hur kan man förbereda sig?Link to: GDPR – vad är det och hur kan man förbereda sig?![](https://www.gomogroup.com/wp-content/uploads/2017/11/73-80x80.jpg.webp)GDPR – vad är det och hur kan man förbereda sig?](https://www.gomogroup.com/insikter/gdpr-forberedelse/ "Link to: GDPR – vad är det och hur kan man förbereda sig?")
 
  [Scroll to top](https://www.gomogroup.com/insikter/storbolaget-tog-tillbaka-stafettpinnen/#top "Scroll to top")
 
